@@ -4,8 +4,8 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // import components
-import Root from "./components/Root";
-import CharacterDetails from "./components/CharacterDetails";
+import Root from "./pages/Root";
+import Character from "./pages/Character";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: ":name",
-        element: <CharacterDetails />,
+        element: <Character />,
       },
     ],
   },
