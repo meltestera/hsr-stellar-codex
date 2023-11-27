@@ -44,13 +44,13 @@ import CharacterIcon38 from "./characters/5stars/yanqing/Character_Yanqing_Icon.
 
 // character type icons
 
-import Fire from "./Class_Type_Fire.webp";
-import Ice from "./Class_Type_Ice.webp";
-import Imaginary from "./Class_Type_Imaginary.webp";
-import Lightning from "./Class_Type_Lightning.webp";
-import Physical from "./Class_Type_Physical.webp";
-import Quantum from "./Class_Type_Quantum.webp";
-import Wind from "./Class_Type_Wind.webp";
+import Fire from "./types/Class_Type_Fire.webp";
+import Ice from "./types/Class_Type_Ice.webp";
+import Imaginary from "./types/Class_Type_Imaginary.webp";
+import Lightning from "./types/Class_Type_Lightning.webp";
+import Physical from "./types/Class_Type_Physical.webp";
+import Quantum from "./types/Class_Type_Quantum.webp";
+import Wind from "./types/Class_Type_Wind.webp";
 
 export const characters = [
   {
