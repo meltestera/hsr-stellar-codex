@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Root from "./pages/Root";
-import Character from "./pages/Character";
+import CharacterDetails from "./pages/CharacterDetails";
 
 const Layout = () => {
   return (
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: ":name",
-        element: <Character />,
+        element: <CharacterDetails />,
       },
     ],
   },

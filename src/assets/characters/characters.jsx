@@ -1,58 +1,58 @@
 // 4-star character icons
 
-import CharacterIcon1 from "./characters/4stars/arlan/Character_Arlan_Icon.webp";
-import CharacterIcon2 from "./characters/4stars/asta/Character_Asta_Icon.webp";
-import CharacterIcon3 from "./characters/4stars/danheng/Character_Danheng_Icon.webp";
-import CharacterIcon4 from "./characters/4stars/guinaifen/Character_Guinaifen_Icon.webp";
-import CharacterIcon5 from "./characters/4stars/herta/Character_Herta_Icon.webp";
-import CharacterIcon6 from "./characters/4stars/hook/Character_Hook_Icon.webp";
-import CharacterIcon7 from "./characters/4stars/luka/Character_Luka_Icon.webp";
-import CharacterIcon8 from "./characters/4stars/lynx/Character_Lynx_Icon.webp";
-import CharacterIcon9 from "./characters/4stars/march7th/Character_March_7th_Icon.webp";
-import CharacterIcon10 from "./characters/4stars/natasha/Character_Natasha_Icon.webp";
-import CharacterIcon11 from "./characters/4stars/pela/Character_Pela_Icon.webp";
-import CharacterIcon12 from "./characters/4stars/qingque/Character_Qingque_Icon.webp";
-import CharacterIcon13 from "./characters/4stars/sampo/Character_Sampo_Icon.webp";
-import CharacterIcon14 from "./characters/4stars/serval/Character_Serval_Icon.webp";
-import CharacterIcon15 from "./characters/4stars/sushang/Character_Sushang_Icon.webp";
-import CharacterIcon16 from "./characters/4stars/tingyun/Character_Tingyun_Icon.webp";
-import CharacterIcon17 from "./characters/4stars/yukong/Character_Yukong_Icon.webp";
+import CharacterIcon1 from "./4stars/arlan/Character_Arlan_Icon.webp";
+import CharacterIcon2 from "./4stars/asta/Character_Asta_Icon.webp";
+import CharacterIcon3 from "./4stars/danheng/Character_Dan_Heng_Icon.webp";
+import CharacterIcon4 from "./4stars/guinaifen/Character_Guinaifen_Icon.webp";
+import CharacterIcon5 from "./4stars/herta/Character_Herta_Icon.webp";
+import CharacterIcon6 from "./4stars/hook/Character_Hook_Icon.webp";
+import CharacterIcon7 from "./4stars/luka/Character_Luka_Icon.webp";
+import CharacterIcon8 from "./4stars/lynx/Character_Lynx_Icon.webp";
+import CharacterIcon9 from "./4stars/march7th/Character_March_7th_Icon.webp";
+import CharacterIcon10 from "./4stars/natasha/Character_Natasha_Icon.webp";
+import CharacterIcon11 from "./4stars/pela/Character_Pela_Icon.webp";
+import CharacterIcon12 from "./4stars/qingque/Character_Qingque_Icon.webp";
+import CharacterIcon13 from "./4stars/sampo/Character_Sampo_Icon.webp";
+import CharacterIcon14 from "./4stars/serval/Character_Serval_Icon.webp";
+import CharacterIcon15 from "./4stars/sushang/Character_Sushang_Icon.webp";
+import CharacterIcon16 from "./4stars/tingyun/Character_Tingyun_Icon.webp";
+import CharacterIcon17 from "./4stars/yukong/Character_Yukong_Icon.webp";
 
 // 5-star character icons
 
-import CharacterIcon18 from "./characters/5stars/bailu/Character_Bailu_Icon.webp";
-import CharacterIcon19 from "./characters/5stars/blade/Character_Blade_Icon.webp";
-import CharacterIcon20 from "./characters/5stars/bronya/Character_Bronya_Icon.webp";
-import CharacterIcon21 from "./characters/5stars/clara/Character_Clara_Icon.webp";
-import CharacterIcon22 from "./characters/5stars/fuxuan/Character_Fu_Xuan_Icon.webp";
-import CharacterIcon23 from "./characters/5stars/gepard/Character_Gepard_Icon.webp";
-import CharacterIcon24 from "./characters/5stars/himeko/Character_Himeko_Icon.webp";
-import CharacterIcon25 from "./characters/5stars/imbibitorlunae/Character_Imbibitor_Lunae_Icon.webp";
-import CharacterIcon26 from "./characters/5stars/jingliu/Character_Jingliu_Icon.webp";
-import CharacterIcon27 from "./characters/5stars/jingyuan/Character_Jing_Yuan_Icon.webp";
-import CharacterIcon28 from "./characters/5stars/kafka/Character_Kafka_Icon.webp";
-import CharacterIcon29 from "./characters/5stars/luocha/Character_Luocha_Icon.webp";
-import CharacterIcon30 from "./characters/5stars/seele/Character_Seele_Icon.webp";
-import CharacterIcon31 from "./characters/5stars/silverwolf/Character_Silver_Wolf_Icon.webp";
-import CharacterIcon32 from "./characters/5stars/topaz/Character_Topaz_Icon.webp";
-import CharacterIcon33 from "./characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Icon.webp";
-import CharacterIcon34 from "./characters/5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Icon.webp";
-import CharacterIcon35 from "./characters/5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Icon.webp";
-import CharacterIcon36 from "./characters/5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Icon.webp";
-import CharacterIcon37 from "./characters/5stars/welt/Character_Welt_Icon.webp";
-import CharacterIcon38 from "./characters/5stars/yanqing/Character_Yanqing_Icon.webp";
+import CharacterIcon18 from "./5stars/bailu/Character_Bailu_Icon.webp";
+import CharacterIcon19 from "./5stars/blade/Character_Blade_Icon.webp";
+import CharacterIcon20 from "./5stars/bronya/Character_Bronya_Icon.webp";
+import CharacterIcon21 from "./5stars/clara/Character_Clara_Icon.webp";
+import CharacterIcon22 from "./5stars/fuxuan/Character_Fu_Xuan_Icon.webp";
+import CharacterIcon23 from "./5stars/gepard/Character_Gepard_Icon.webp";
+import CharacterIcon24 from "./5stars/himeko/Character_Himeko_Icon.webp";
+import CharacterIcon25 from "./5stars/imbibitorlunae/Character_Imbibitor_Lunae_Icon.webp";
+import CharacterIcon26 from "./5stars/jingliu/Character_Jingliu_Icon.webp";
+import CharacterIcon27 from "./5stars/jingyuan/Character_Jing_Yuan_Icon.webp";
+import CharacterIcon28 from "./5stars/kafka/Character_Kafka_Icon.webp";
+import CharacterIcon29 from "./5stars/luocha/Character_Luocha_Icon.webp";
+import CharacterIcon30 from "./5stars/seele/Character_Seele_Icon.webp";
+import CharacterIcon31 from "./5stars/silverwolf/Character_Silver_Wolf_Icon.webp";
+import CharacterIcon32 from "./5stars/topaz/Character_Topaz_Icon.webp";
+import CharacterIcon33 from "./5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Icon.webp";
+import CharacterIcon34 from "./5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Icon.webp";
+import CharacterIcon35 from "./5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Icon.webp";
+import CharacterIcon36 from "./5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Icon.webp";
+import CharacterIcon37 from "./5stars/welt/Character_Welt_Icon.webp";
+import CharacterIcon38 from "./5stars/yanqing/Character_Yanqing_Icon.webp";
 
 // character type icons
 
-import Fire from "./types/Class_Type_Fire.webp";
-import Ice from "./types/Class_Type_Ice.webp";
-import Imaginary from "./types/Class_Type_Imaginary.webp";
-import Lightning from "./types/Class_Type_Lightning.webp";
-import Physical from "./types/Class_Type_Physical.webp";
-import Quantum from "./types/Class_Type_Quantum.webp";
-import Wind from "./types/Class_Type_Wind.webp";
+import Fire from "../types/Class_Type_Fire.webp";
+import Ice from "../types/Class_Type_Ice.webp";
+import Imaginary from "../types/Class_Type_Imaginary.webp";
+import Lightning from "../types/Class_Type_Lightning.webp";
+import Physical from "../types/Class_Type_Physical.webp";
+import Quantum from "../types/Class_Type_Quantum.webp";
+import Wind from "../types/Class_Type_Wind.webp";
 
-export const characters = [
+export const characterIcons = [
   {
     name: "Arlan",
     rarity: 4,
@@ -364,7 +364,7 @@ export const characters = [
     typeAlt: "Class_Type_Quantum",
   },
   {
-    name: "Topaz & Numby",
+    name: "Topaz and Numby",
     rarity: 5,
     id: 32,
     src: CharacterIcon32,
