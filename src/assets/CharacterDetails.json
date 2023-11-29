@@ -9,10 +9,26 @@
     "imageSplash": "/src/assets/characters/4stars/arlan/Character_Arlan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_1.webp",
+      "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_2.webp",
+      "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_3.webp",
+      "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_4.webp",
+      "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_5.webp",
+      "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Arlan_Portrait",
     "altSplash": "Character_Arlan_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Lightning"
+    "altType": "Class_Type_Lightning",
+    "altEidolons": [
+      "Character_Arlan_Eidolon_1",
+      "Character_Arlan_Eidolon_2",
+      "Character_Arlan_Eidolon_3",
+      "Character_Arlan_Eidolon_4",
+      "Character_Arlan_Eidolon_5",
+      "Character_Arlan_Eidolon_6"
+    ]
   },
   {
     "name": "Asta",
@@ -24,10 +40,26 @@
     "imageSplash": "/src/assets/characters/4stars/asta/Character_Asta_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_1.webp",
+      "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_2.webp",
+      "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_3.webp",
+      "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_4.webp",
+      "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_5.webp",
+      "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Asta_Portrait",
     "altSplash": "Character_Asta_Splash_Art",
     "altPath": "Class_Path_Harmony",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Asta_Eidolon_1",
+      "Character_Asta_Eidolon_2",
+      "Character_Asta_Eidolon_3",
+      "Character_Asta_Eidolon_4",
+      "Character_Asta_Eidolon_5",
+      "Character_Asta_Eidolon_6"
+    ]
   },
   {
     "name": "Dan Heng",
@@ -39,10 +71,27 @@
     "imageSplash": "/src/assets/characters/4stars/danheng/Character_Dan_Heng_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_1.webp",
+      "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_2.webp",
+      "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_3.webp",
+      "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_4.webp",
+      "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_5.webp",
+      "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Dan_Heng_Portrait",
     "altSplash": "Character_Dan_Heng_Splash_Art",
     "altPath": "Class_Path_Hunt",
-    "altType": "Class_Type_Wind"
+    "altType": "Class_Type_Wind",
+    "altEidolons": [
+      "Character_Dan_Heng_Eidolon_1",
+      "Character_Dan_Heng_Eidolon_2",
+      "Character_Dan_Heng_Eidolon_3",
+      "Character_Dan_Heng_Eidolon_4",
+      "Character_Dan_Heng_Eidolon_5",
+      "Character_Dan_Heng_Eidolon_6"
+    ]
   },
   {
     "name": "Guinaifen",
@@ -54,10 +103,26 @@
     "imageSplash": "/src/assets/characters/4stars/guinaifen/Character_Guinaifen_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_1.webp",
+      "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_2.webp",
+      "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_3.webp",
+      "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_4.webp",
+      "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_5.webp",
+      "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Guinafen_Portrait",
     "altSplash": "Character_Guinafen_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Guinaifen_Eidolon_1",
+      "Character_Guinaifen_Eidolon_2",
+      "Character_Guinaifen_Eidolon_3",
+      "Character_Guinaifen_Eidolon_4",
+      "Character_Guinaifen_Eidolon_5",
+      "Character_Guinaifen_Eidolon_6"
+    ]
   },
   {
     "name": "Herta",
@@ -69,10 +134,26 @@
     "imageSplash": "/src/assets/characters/4stars/herta/Character_Herta_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_1.webp",
+      "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_2.webp",
+      "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_3.webp",
+      "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_4.webp",
+      "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_5.webp",
+      "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Herta_Portrait",
     "altSplash": "Character_Herta_Splash_Art",
     "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Ice"
+    "altType": "Class_Type_Ice",
+    "altEidolons": [
+      "Character_Herta_Eidolon_1",
+      "Character_Herta_Eidolon_2",
+      "Character_Herta_Eidolon_3",
+      "Character_Herta_Eidolon_4",
+      "Character_Herta_Eidolon_5",
+      "Character_Herta_Eidolon_6"
+    ]
   },
   {
     "name": "Hook",
@@ -84,10 +165,26 @@
     "imageSplash": "/src/assets/characters/4stars/hook/Character_Hook_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_1.webp",
+      "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_2.webp",
+      "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_3.webp",
+      "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_4.webp",
+      "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_5.webp",
+      "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Hook_Portrait",
     "altSplash": "Character_Hook_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Hook_Eidolon_1",
+      "Character_Hook_Eidolon_2",
+      "Character_Hook_Eidolon_3",
+      "Character_Hook_Eidolon_4",
+      "Character_Hook_Eidolon_5",
+      "Character_Hook_Eidolon_6"
+    ]
   },
   {
     "name": "Luka",
@@ -99,10 +196,26 @@
     "imageSplash": "/src/assets/characters/4stars/luka/Character_Luka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_1.webp",
+      "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_2.webp",
+      "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_3.webp",
+      "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_4.webp",
+      "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_5.webp",
+      "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Luka_Portrait",
     "altSplash": "Character_Luka_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Physical"
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Luka_Eidolon_1",
+      "Character_Luka_Eidolon_2",
+      "Character_Luka_Eidolon_3",
+      "Character_Luka_Eidolon_4",
+      "Character_Luka_Eidolon_5",
+      "Character_Luka_Eidolon_6"
+    ]
   },
   {
     "name": "Lynx",
@@ -114,10 +227,27 @@
     "imageSplash": "/src/assets/characters/4stars/lynx/Character_Lynx_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_1.webp",
+      "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_2.webp",
+      "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_3.webp",
+      "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_4.webp",
+      "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_5.webp",
+      "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Lynx_Portrait",
     "altSplash": "Character_Lynx_Splash_Art",
     "altPath": "Class_Path_Abundance",
-    "altType": "Class_Type_Quantum"
+    "altType": "Class_Type_Quantum",
+    "altEidolons": [
+      "Character_Lynx_Eidolon_1",
+      "Character_Lynx_Eidolon_2",
+      "Character_Lynx_Eidolon_3",
+      "Character_Lynx_Eidolon_4",
+      "Character_Lynx_Eidolon_5",
+      "Character_Lynx_Eidolon_6"
+    ]
   },
   {
     "name": "March 7th",
@@ -129,10 +259,26 @@
     "imageSplash": "/src/assets/characters/4stars/march7th/Character_March_7th_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_1.webp",
+      "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_2.webp",
+      "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_3.webp",
+      "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_4.webp",
+      "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_5.webp",
+      "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_March_7th_Portrait",
     "altSplash": "Character_March_7th_Splash_Art",
     "altPath": "Class_Path_Preservation",
-    "altType": "Class_Type_Ice"
+    "altType": "Class_Type_Ice",
+    "altEidolons": [
+      "Character_March_7th_Eidolon_1",
+      "Character_March_7th_Eidolon_2",
+      "Character_March_7th_Eidolon_3",
+      "Character_March_7th_Eidolon_4",
+      "Character_March_7th_Eidolon_5",
+      "Character_March_7th_Eidolon_6"
+    ]
   },
   {
     "name": "Natasha",
@@ -144,10 +290,26 @@
     "imageSplash": "/src/assets/characters/4stars/natasha/Character_Natasha_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_1.webp",
+      "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_2.webp",
+      "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_3.webp",
+      "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_4.webp",
+      "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_5.webp",
+      "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Natasha_Portrait",
     "altSplash": "Character_Natasha_Splash_Art",
     "altPath": "Class_Path_Abundance",
-    "altType": "Class_Type_Physical"
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Natasha_Eidolon_1",
+      "Character_Natasha_Eidolon_2",
+      "Character_Natasha_Eidolon_3",
+      "Character_Natasha_Eidolon_4",
+      "Character_Natasha_Eidolon_5",
+      "Character_Natasha_Eidolon_6"
+    ]
   },
   {
     "name": "Pela",
@@ -159,10 +321,26 @@
     "imageSplash": "/src/assets/characters/4stars/pela/Character_Pela_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_1.webp",
+      "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_2.webp",
+      "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_3.webp",
+      "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_4.webp",
+      "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_5.webp",
+      "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Pela_Portrait",
     "altSplash": "Character_Pela_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Ice"
+    "altType": "Class_Type_Ice",
+    "altEidolons": [
+      "Character_Pela_Eidolon_1",
+      "Character_Pela_Eidolon_2",
+      "Character_Pela_Eidolon_3",
+      "Character_Pela_Eidolon_4",
+      "Character_Pela_Eidolon_5",
+      "Character_Pela_Eidolon_6"
+    ]
   },
   {
     "name": "Qingque",
@@ -174,10 +352,26 @@
     "imageSplash": "/src/assets/characters/4stars/qingque/Character_Qinque_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_1.webp",
+      "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_2.webp",
+      "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_3.webp",
+      "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_4.webp",
+      "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_5.webp",
+      "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Qingque_Portrait",
     "altSplash": "Character_Qingque_Splash_Art",
     "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Quantum"
+    "altType": "Class_Type_Quantum",
+    "altEidolons": [
+      "Character_Qingque_Eidolon_1",
+      "Character_Qingque_Eidolon_2",
+      "Character_Qingque_Eidolon_3",
+      "Character_Qingque_Eidolon_4",
+      "Character_Qingque_Eidolon_5",
+      "Character_Qingque_Eidolon_6"
+    ]
   },
   {
     "name": "Sampo",
@@ -189,10 +383,26 @@
     "imageSplash": "/src/assets/characters/4stars/sampo/Character_Sampo_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_1.webp",
+      "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_2.webp",
+      "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_3.webp",
+      "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_4.webp",
+      "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_5.webp",
+      "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Sampo_Portrait",
     "altSplash": "Character_Sampo_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Wind"
+    "altType": "Class_Type_Wind",
+    "altEidolons": [
+      "Character_Sampo_Eidolon_1",
+      "Character_Sampo_Eidolon_2",
+      "Character_Sampo_Eidolon_3",
+      "Character_Sampo_Eidolon_4",
+      "Character_Sampo_Eidolon_5",
+      "Character_Sampo_Eidolon_6"
+    ]
   },
   {
     "name": "Serval",
@@ -204,10 +414,26 @@
     "imageSplash": "/src/assets/characters/4stars/serval/Character_Serval_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_1.webp",
+      "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_2.webp",
+      "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_3.webp",
+      "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_4.webp",
+      "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_5.webp",
+      "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Erudition_Portrait",
     "altSplash": "Character_Erudition_Splash_Art",
     "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Lightning"
+    "altType": "Class_Type_Lightning",
+    "altEidolons": [
+      "Character_Serval_Eidolon_1",
+      "Character_Serval_Eidolon_2",
+      "Character_Serval_Eidolon_3",
+      "Character_Serval_Eidolon_4",
+      "Character_Serval_Eidolon_5",
+      "Character_Serval_Eidolon_6"
+    ]
   },
   {
     "name": "Sushang",
@@ -219,10 +445,26 @@
     "imageSplash": "/src/assets/characters/4stars/sushang/Character_Sushang_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_1.webp",
+      "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_2.webp",
+      "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_3.webp",
+      "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_4.webp",
+      "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_5.webp",
+      "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Sushang_Portrait",
     "altSplash": "Character_Sushang_Splash_Art",
     "altPath": "Class_Path_Hunt",
-    "altType": "Class_Type_Physical"
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Sushang_Eidolon_1",
+      "Character_Sushang_Eidolon_2",
+      "Character_Sushang_Eidolon_3",
+      "Character_Sushang_Eidolon_4",
+      "Character_Sushang_Eidolon_5",
+      "Character_Sushang_Eidolon_6"
+    ]
   },
   {
     "name": "Tingyun",
@@ -234,10 +476,26 @@
     "imageSplash": "/src/assets/characters/4stars/tingyun/Character_Tingyun_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_1.webp",
+      "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_2.webp",
+      "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_3.webp",
+      "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_4.webp",
+      "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_5.webp",
+      "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Tingyun_Portrait",
     "altSplash": "Character_Tingyun_Splash_Art",
     "altPath": "Class_Path_Harmony",
-    "altType": "Class_Type_Lightning"
+    "altType": "Class_Type_Lightning",
+    "altEidolons": [
+      "Character_Tingyun_Eidolon_1",
+      "Character_Tingyun_Eidolon_2",
+      "Character_Tingyun_Eidolon_3",
+      "Character_Tingyun_Eidolon_4",
+      "Character_Tingyun_Eidolon_5",
+      "Character_Tingyun_Eidolon_6"
+    ]
   },
   {
     "name": "Yukong",
@@ -249,10 +507,27 @@
     "imageSplash": "/src/assets/characters/4stars/yukong/Character_Yukong_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_1.webp",
+      "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_2.webp",
+      "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_3.webp",
+      "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_4.webp",
+      "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_5.webp",
+      "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Yukong_Portrait",
     "altSplash": "Character_Yukong_Splash_Art",
     "altPath": "Class_Path_Harmony",
-    "altType": "Class_Type_Imaginary"
+    "altType": "Class_Type_Imaginary",
+    "altEidolons": [
+      "Character_Yukong_Eidolon_1",
+      "Character_Yukong_Eidolon_2",
+      "Character_Yukong_Eidolon_3",
+      "Character_Yukong_Eidolon_4",
+      "Character_Yukong_Eidolon_5",
+      "Character_Yukong_Eidolon_6"
+    ]
   },
   {
     "name": "Bailu",
@@ -264,10 +539,27 @@
     "imageSplash": "/src/assets/characters/5stars/bailu/Character_Bailu_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_1.webp",
+      "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_2.webp",
+      "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_3.webp",
+      "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_4.webp",
+      "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_5.webp",
+      "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Bailu_Portrait",
     "altSplash": "Character_Bailu_Splash_Art",
     "altPath": "Class_Path_Abundance",
-    "altType": "Class_Type_Lightning"
+    "altType": "Class_Type_Lightning",
+    "altEidolons": [
+      "Character_Bailu_Eidolon_1",
+      "Character_Bailu_Eidolon_2",
+      "Character_Bailu_Eidolon_3",
+      "Character_Bailu_Eidolon_4",
+      "Character_Bailu_Eidolon_5",
+      "Character_Bailu_Eidolon_6"
+    ]
   },
   {
     "name": "Blade",
@@ -279,10 +571,26 @@
     "imageSplash": "/src/assets/characters/5stars/blade/Character_Blade_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_1.webp",
+      "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_2.webp",
+      "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_3.webp",
+      "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_4.webp",
+      "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_5.webp",
+      "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Blade_Portrait",
     "altSplash": "Character_Blade_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Wind"
+    "altType": "Class_Type_Wind",
+    "altEidolons": [
+      "Character_Blade_Eidolon_1",
+      "Character_Blade_Eidolon_2",
+      "Character_Blade_Eidolon_3",
+      "Character_Blade_Eidolon_4",
+      "Character_Blade_Eidolon_5",
+      "Character_Blade_Eidolon_6"
+    ]
   },
   {
     "name": "Bronya",
@@ -294,10 +602,26 @@
     "imageSplash": "/src/assets/characters/5stars/bronya/Character_Bronya_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_1.webp",
+      "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_2.webp",
+      "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_3.webp",
+      "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_4.webp",
+      "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_5.webp",
+      "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Bronya_Portrait",
     "altSplash": "Character_Bronya_Splash_Art",
     "altPath": "Class_Path_Harmony",
-    "altType": "Class_Type_Wind"
+    "altType": "Class_Type_Wind",
+    "altEidolons": [
+      "Character_Bronya_Eidolon_1",
+      "Character_Bronya_Eidolon_2",
+      "Character_Bronya_Eidolon_3",
+      "Character_Bronya_Eidolon_4",
+      "Character_Bronya_Eidolon_5",
+      "Character_Bronya_Eidolon_6"
+    ]
   },
   {
     "name": "Clara",
@@ -309,10 +633,26 @@
     "imageSplash": "/src/assets/characters/5stars/clara/Character_Clara_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_1.webp",
+      "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_2.webp",
+      "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_3.webp",
+      "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_4.webp",
+      "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_5.webp",
+      "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Clara_Portrait",
     "altSplash": "Character_Clara_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Physical"
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Clara_Eidolon_1",
+      "Character_Clara_Eidolon_2",
+      "Character_Clara_Eidolon_3",
+      "Character_Clara_Eidolon_4",
+      "Character_Clara_Eidolon_5",
+      "Character_Clara_Eidolon_6"
+    ]
   },
   {
     "name": "Fu Xuan",
@@ -324,10 +664,26 @@
     "imageSplash": "/src/assets/characters/5stars/fuxuan/Character_Fu_Xuan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_1.webp",
+      "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_2.webp",
+      "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_3.webp",
+      "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_4.webp",
+      "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_5.webp",
+      "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Fu_Xuan_Portrait",
     "altSplash": "Character_Fu_Xuan_Splash_Art",
     "altPath": "Class_Path_Preservation",
-    "altType": "Class_Type_Quantum"
+    "altType": "Class_Type_Quantum",
+    "altEidolons": [
+      "Character_Fu_Xuan_Eidolon_1",
+      "Character_Fu_Xuan_Eidolon_2",
+      "Character_Fu_Xuan_Eidolon_3",
+      "Character_Fu_Xuan_Eidolon_4",
+      "Character_Fu_Xuan_Eidolon_5",
+      "Character_Fu_Xuan_Eidolon_6"
+    ]
   },
   {
     "name": "Gepard",
@@ -339,10 +695,26 @@
     "imageSplash": "/src/assets/characters/5stars/gepard/Character_Gepard_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_1.webp",
+      "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_2.webp",
+      "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_3.webp",
+      "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_4.webp",
+      "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_5.webp",
+      "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Gepard_Portrait",
     "altSplash": "Character_Gepard_Splash_Art",
     "altPath": "Class_Path_Preservation",
-    "altType": "Class_Type_Ice"
+    "altType": "Class_Type_Ice",
+    "altEidolons": [
+      "Character_Gepard_Eidolon_1",
+      "Character_Gepard_Eidolon_2",
+      "Character_Gepard_Eidolon_3",
+      "Character_Gepard_Eidolon_4",
+      "Character_Gepard_Eidolon_5",
+      "Character_Gepard_Eidolon_6"
+    ]
   },
   {
     "name": "Himeko",
@@ -354,10 +726,26 @@
     "imageSplash": "/src/assets/characters/5stars/himeko/Character_Himeko_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_1.webp",
+      "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_2.webp",
+      "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_3.webp",
+      "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_4.webp",
+      "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_5.webp",
+      "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Himeko_Portrait",
     "altSplash": "Character_Himeko_Splash_Art",
     "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Himeko_Eidolon_1",
+      "Character_Himeko_Eidolon_2",
+      "Character_Himeko_Eidolon_3",
+      "Character_Himeko_Eidolon_4",
+      "Character_Himeko_Eidolon_5",
+      "Character_Himeko_Eidolon_6"
+    ]
   },
   {
     "name": "Imbibitor Lunae",
@@ -369,10 +757,27 @@
     "imageSplash": "/src/assets/characters/5stars/imbibitorlunae/Character_Imbibitor_Lunae_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_1.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_2.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_3.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_4.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_5.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Imbibitor_Lunae_Portrait",
     "altSplash": "Character_Imbibitor_Lunae_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Imaginary"
+    "altType": "Class_Type_Imaginary",
+    "altEidolons": [
+      "Character_Imbibitor_Lunae_Eidolon_1",
+      "Character_Imbibitor_Lunae_Eidolon_2",
+      "Character_Imbibitor_Lunae_Eidolon_3",
+      "Character_Imbibitor_Lunae_Eidolon_4",
+      "Character_Imbibitor_Lunae_Eidolon_5",
+      "Character_Imbibitor_Lunae_Eidolon_6"
+    ]
   },
   {
     "name": "Jingliu",
@@ -384,10 +789,26 @@
     "imageSplash": "/src/assets/characters/5stars/jingliu/Character_Jingliu_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_1.webp",
+      "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_2.webp",
+      "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_3.webp",
+      "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_4.webp",
+      "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_5.webp",
+      "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Jingliu_Portrait",
     "altSplash": "Character_Jingliu_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Ice"
+    "altType": "Class_Type_Ice",
+    "altEidolons": [
+      "Character_Jingliu_Eidolon_1",
+      "Character_Jingliu_Eidolon_2",
+      "Character_Jingliu_Eidolon_3",
+      "Character_Jingliu_Eidolon_4",
+      "Character_Jingliu_Eidolon_5",
+      "Character_Jingliu_Eidolon_6"
+    ]
   },
   {
     "name": "Jing Yuan",
@@ -399,10 +820,26 @@
     "imageSplash": "/src/assets/characters/5stars/jingyuan/Character_Jing_Yuan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_1.webp",
+      "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_2.webp",
+      "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_3.webp",
+      "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_4.webp",
+      "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_5.webp",
+      "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Jing_Yuan_Portrait",
     "altSplash": "Character_Jing_Yuan_Splash_Art",
     "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Lightning"
+    "altType": "Class_Type_Lightning",
+    "altEidolons": [
+      "Character_Jing_Yuan_Eidolon_1",
+      "Character_Jing_Yuan_Eidolon_2",
+      "Character_Jing_Yuan_Eidolon_3",
+      "Character_Jing_Yuan_Eidolon_4",
+      "Character_Jing_Yuan_Eidolon_5",
+      "Character_Jing_Yuan_Eidolon_6"
+    ]
   },
   {
     "name": "Kafka",
@@ -414,10 +851,26 @@
     "imageSplash": "/src/assets/characters/5stars/kafka/Character_Kafka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_1.webp",
+      "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_2.webp",
+      "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_3.webp",
+      "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_4.webp",
+      "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_5.webp",
+      "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Kafka_Portrait",
     "altSplash": "Character_Kafka_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Lightning"
+    "altType": "Class_Type_Lightning",
+    "altEidolons": [
+      "Character_Kafka_Eidolon_1",
+      "Character_Kafka_Eidolon_2",
+      "Character_Kafka_Eidolon_3",
+      "Character_Kafka_Eidolon_4",
+      "Character_Kafka_Eidolon_5",
+      "Character_Kafka_Eidolon_6"
+    ]
   },
   {
     "name": "Luocha",
@@ -429,10 +882,26 @@
     "imageSplash": "/src/assets/characters/5stars/luocha/Character_Luocha_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_1.webp",
+      "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_2.webp",
+      "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_3.webp",
+      "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_4.webp",
+      "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_5.webp",
+      "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Luocha_Portrait",
     "altSplash": "Character_Luocha_Splash_Art",
     "altPath": "Class_Path_Abundance",
-    "altType": "Class_Type_Imaginary"
+    "altType": "Class_Type_Imaginary",
+    "altEidolons": [
+      "Character_Luocha_Eidolon_1",
+      "Character_Luocha_Eidolon_2",
+      "Character_Luocha_Eidolon_3",
+      "Character_Luocha_Eidolon_4",
+      "Character_Luocha_Eidolon_5",
+      "Character_Luocha_Eidolon_6"
+    ]
   },
   {
     "name": "Seele",
@@ -444,10 +913,27 @@
     "imageSplash": "/src/assets/characters/5stars/seele/Character_Seele_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_1.webp",
+      "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_2.webp",
+      "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_3.webp",
+      "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_4.webp",
+      "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_5.webp",
+      "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Seele_Portrait",
     "altSplash": "Character_Seele_Splash_Art",
     "altPath": "Class_Path_Hunt",
-    "altType": "Class_Type_Quantum"
+    "altType": "Class_Type_Quantum",
+    "altEidolons": [
+      "Character_Seele_Eidolon_1",
+      "Character_Seele_Eidolon_2",
+      "Character_Seele_Eidolon_3",
+      "Character_Seele_Eidolon_4",
+      "Character_Seele_Eidolon_5",
+      "Character_Seele_Eidolon_6"
+    ]
   },
   {
     "name": "Silver Wolf",
@@ -459,10 +945,27 @@
     "imageSplash": "/src/assets/characters/5stars/silverwolf/Character_Silver_Wolf_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_1.webp",
+      "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_2.webp",
+      "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_3.webp",
+      "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_4.webp",
+      "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_5.webp",
+      "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_6.webp"
+    ],
+
     "altPortrait": "Character_Silver_Wolf_Portrait",
     "altSplash": "Character_Silver_Wolf_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Quantum"
+    "altType": "Class_Type_Quantum",
+    "altEidolons": [
+      "Character_Silver_Wolf_Eidolon_1",
+      "Character_Silver_Wolf_Eidolon_2",
+      "Character_Silver_Wolf_Eidolon_3",
+      "Character_Silver_Wolf_Eidolon_4",
+      "Character_Silver_Wolf_Eidolon_5",
+      "Character_Silver_Wolf_Eidolon_6"
+    ]
   },
   {
     "name": "Topaz and Numby",
@@ -474,10 +977,26 @@
     "imageSplash": "/src/assets/characters/5stars/topaz/Character_Topaz_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_1.webp",
+      "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_2.webp",
+      "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_3.webp",
+      "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_4.webp",
+      "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_5.webp",
+      "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Topaz_Portrait",
     "altSplash": "Character_Topaz_Splash_Art",
     "altPath": "Class_Path_Hunt",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Topaz_Eidolon_1",
+      "Character_Topaz_Eidolon_2",
+      "Character_Topaz_Eidolon_3",
+      "Character_Topaz_Eidolon_4",
+      "Character_Topaz_Eidolon_5",
+      "Character_Topaz_Eidolon_6"
+    ]
   },
   {
     "name": "Trailblazer Destruction (F)",
@@ -489,10 +1008,26 @@
     "imageSplash": "/src/assets/characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Portrait.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_1.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_2.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_3.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_4.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_5.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Character_Trailblazer_Female_Destruction_Portrait",
     "altSplash": "Character_Character_Trailblazer_Female_Destruction_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Physical"
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Trailblazer_Female_Destruction_Eidolon_1",
+      "Character_Trailblazer_Female_Destruction_Eidolon_2",
+      "Character_Trailblazer_Female_Destruction_Eidolon_3",
+      "Character_Trailblazer_Female_Destruction_Eidolon_4",
+      "Character_Trailblazer_Female_Destruction_Eidolon_5",
+      "Character_Trailblazer_Female_Destruction_Eidolon_6"
+    ]
   },
   {
     "name": "Trailblazer Preservation (F)",
@@ -504,10 +1039,26 @@
     "imageSplash": "/src/assets/characters/5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_1.webp",
+      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_2.webp",
+      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_3.webp",
+      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_4.webp",
+      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_5.webp",
+      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Trailblazer_Female_Preservation_Portrait",
     "altSplash": "Character_Trailblazer_Female_Preservation_Splash_Art",
     "altPath": "Class_Path_Preservation",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Trailblazer_Female_Preservation_Eidolon_1",
+      "Character_Trailblazer_Female_Preservation_Eidolon_2",
+      "Character_Trailblazer_Female_Preservation_Eidolon_3",
+      "Character_Trailblazer_Female_Preservation_Eidolon_4",
+      "Character_Trailblazer_Female_Preservation_Eidolon_5",
+      "Character_Trailblazer_Female_Preservation_Eidolon_6"
+    ]
   },
   {
     "name": "Trailblazer Destruction (M)",
@@ -519,10 +1070,26 @@
     "imageSplash": "/src/assets/characters/5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_1.webp",
+      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_2.webp",
+      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_3.webp",
+      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_4.webp",
+      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_5.webp",
+      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Trailblazer_Male_Destruction_Portrait",
     "altSplash": "Character_Character_Trailblazer_Male_Destruction_Splash_Art",
     "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Physical"
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Trailblazer_Male_Destruction_Eidolon_1",
+      "Character_Trailblazer_Male_Destruction_Eidolon_2",
+      "Character_Trailblazer_Male_Destruction_Eidolon_3",
+      "Character_Trailblazer_Male_Destruction_Eidolon_4",
+      "Character_Trailblazer_Male_Destruction_Eidolon_5",
+      "Character_Trailblazer_Male_Destruction_Eidolon_6"
+    ]
   },
   {
     "name": "Trailblazer Preservation (M)",
@@ -534,10 +1101,26 @@
     "imageSplash": "/src/assets/characters/5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_1.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_2.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_3.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_4.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_5.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Trailblazer_Male_Preservation_Portrait",
     "altSplash": "Character_Trailblazer_Male_Preservation_Splash_Art",
     "altPath": "Class_Path_Preservation",
-    "altType": "Class_Type_Fire"
+    "altType": "Class_Type_Fire",
+    "altEidolons": [
+      "Character_Trailblazer_Male_Preservation_Eidolon_1",
+      "Character_Trailblazer_Male_Preservation_Eidolon_2",
+      "Character_Trailblazer_Male_Preservation_Eidolon_3",
+      "Character_Trailblazer_Male_Preservation_Eidolon_4",
+      "Character_Trailblazer_Male_Preservation_Eidolon_5",
+      "Character_Trailblazer_Male_Preservation_Eidolon_6"
+    ]
   },
   {
     "name": "Welt",
@@ -549,10 +1132,26 @@
     "imageSplash": "/src/assets/characters/5stars/welt/Character_Welt_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_1.webp",
+      "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_2.webp",
+      "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_3.webp",
+      "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_4.webp",
+      "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_5.webp",
+      "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Welt_Portrait",
     "altSplash": "Character_Welt_Splash_Art",
     "altPath": "Class_Path_Nihility",
-    "altType": "Class_Type_Imaginary"
+    "altType": "Class_Type_Imaginary",
+    "altEidolons": [
+      "Character_Welt_Eidolon_1",
+      "Character_Welt_Eidolon_2",
+      "Character_Welt_Eidolon_3",
+      "Character_Welt_Eidolon_4",
+      "Character_Welt_Eidolon_5",
+      "Character_Welt_Eidolon_6"
+    ]
   },
   {
     "name": "Yanqing",
@@ -564,9 +1163,25 @@
     "imageSplash": "/src/assets/characters/5stars/yanqing/Character_Yanqing_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_1.webp",
+      "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_2.webp",
+      "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_3.webp",
+      "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_4.webp",
+      "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_5.webp",
+      "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_6.webp"
+    ],
     "altPortrait": "Character_Yanqing_Portrait",
     "altSplash": "Character_Yanqing_Splash_Art",
     "altPath": "Class_Path_Hunt",
-    "altType": "Class_Type_Ice"
+    "altType": "Class_Type_Ice",
+    "altEidolons": [
+      "Character_Yanqing_Eidolon_1",
+      "Character_Yanqing_Eidolon_2",
+      "Character_Yanqing_Eidolon_3",
+      "Character_Yanqing_Eidolon_4",
+      "Character_Yanqing_Eidolon_5",
+      "Character_Yanqing_Eidolon_6"
+    ]
   }
 ]

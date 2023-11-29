@@ -10,7 +10,7 @@ const Root = () => {
       <div className="relative bg-[url('./assets/Background_Stars.webp')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-screen-xl">
           <div className="rounded-md border-x border-x-violet-dark text-skin-tone-light">
-            <div className="relative min-h-[480px] dark:bg-almost-black">
+            <div className="relative min-h-[100dvh] dark:bg-almost-black">
               <div className="overflow-x-hidden text-base">
                 <div className="grid min-w-fit grid-cols-1 gap-2 p-4 sm:grid-cols-3 lg:grid-cols-5">
                   {characterIcons.map((character) => {
