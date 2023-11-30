@@ -65,6 +65,7 @@ const CharacterDetails = () => {
                           {character.name}
                         </span>
                       </div>
+                      <span>{character.introduction}</span>
                       <div className="max-w-xs object-cover object-center p-4">
                         <img
                           type="image/webp"
@@ -77,6 +78,49 @@ const CharacterDetails = () => {
                           className="min-h-full object-cover object-center"
                         />
                       </div>
+                      <div>
+                        <div>
+                          <h1>{character.abilityTitle[0]}</h1>
+                          <b>{character.abilityTree[0]}</b>
+                        </div>
+                        <div>
+                          <h1>{character.abilityTitle[1]}</h1>
+                          <b>{character.abilityTree[1]}</b>
+                        </div>
+                        <div>
+                          <h1>{character.abilityTitle[2]}</h1>
+                          <b>{character.abilityTree[2]}</b>
+                        </div>
+                        <div>
+                          <h1>{character.abilityTitle[3]}</h1>
+                          <b>{character.abilityTree[3]}</b>
+                        </div>
+                        <div>
+                          <h1>{character.abilityTitle[4]}</h1>
+                          <b>{character.abilityTree[4]}</b>
+                        </div>
+                      </div>
+                      <div>
+                        <div>
+                          <b>{character.tracesTitle[0]}</b>
+                          <p>{character.tracesDesc[0]}</p>
+                        </div>
+                        <div>
+                          <b>{character.tracesTitle[1]}</b>
+                          <p>{character.tracesDesc[1]}</p>
+                        </div>
+                        <div>
+                          <b>{character.tracesTitle[2]}</b>
+                          <p>{character.tracesDesc[2]}</p>
+                        </div>
+                      </div>
+                      <div>
+                        <div>
+                          <span>{character.tracesAttr[0]}</span>
+                          <span>{character.tracesAttr[1]}</span>
+                          <span>{character.tracesAttr[2]}</span>
+                        </div>
+                      </div>
                       <div className="min-h-full max-w-[150px] object-cover object-center p-2">
                         <img
                           src={character.imageEidolons[0]}
@@ -88,6 +132,10 @@ const CharacterDetails = () => {
                           decoding="async"
                           className="min-h-full min-w-full object-cover object-center"
                         />
+                        <span>
+                          <b>{character.eidolonsTitle[0]}</b>
+                          <p>{character.eidolonsDesc[0]}</p>
+                        </span>
                       </div>
                       <div className="min-h-full max-w-[150px] object-cover object-center p-2">
                         <img
@@ -100,6 +148,10 @@ const CharacterDetails = () => {
                           decoding="async"
                           className="min-h-full min-w-full object-cover object-center"
                         />
+                        <span>
+                          <b>{character.eidolonsTitle[1]}</b>
+                          <p>{character.eidolonsDesc[1]}</p>
+                        </span>
                       </div>
                       <div className="min-h-full max-w-[150px] object-cover object-center p-2">
                         <img
@@ -112,6 +164,10 @@ const CharacterDetails = () => {
                           decoding="async"
                           className="min-h-full min-w-full object-cover object-center"
                         />
+                        <span>
+                          <b>{character.eidolonsTitle[2]}</b>
+                          <p>{character.eidolonsDesc[2]}</p>
+                        </span>
                       </div>
                       <div className="min-h-full max-w-[150px] object-cover object-center p-2">
                         <img
@@ -124,6 +180,10 @@ const CharacterDetails = () => {
                           decoding="async"
                           className="min-h-full min-w-full object-cover object-center"
                         />
+                        <span>
+                          <b>{character.eidolonsTitle[3]}</b>
+                          <p>{character.eidolonsDesc[3]}</p>
+                        </span>
                       </div>
                       <div className="min-h-full max-w-[150px] object-cover object-center p-2">
                         <img
@@ -136,6 +196,10 @@ const CharacterDetails = () => {
                           decoding="async"
                           className="min-h-full min-w-full object-cover object-center"
                         />
+                        <span>
+                          <b>{character.eidolonsTitle[4]}</b>
+                          <p>{character.eidolonsDesc[4]}</p>
+                        </span>
                       </div>
                       <div className="min-h-full max-w-[150px] object-cover object-center p-2">
                         <img
@@ -148,6 +212,10 @@ const CharacterDetails = () => {
                           decoding="async"
                           className="min-h-full min-w-full object-cover object-center"
                         />
+                        <span>
+                          <b>{character.eidolonsTitle[5]}</b>
+                          <p>{character.eidolonsDesc[5]}</p>
+                        </span>
                       </div>
                     </div>
                   );

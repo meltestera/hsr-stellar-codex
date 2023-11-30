@@ -5,6 +5,45 @@
     "rarity": 4,
     "path": "Destruction",
     "type": "Lightning",
+    "introduction": "The head of Herta Space Station's Security Department is a reserved and determined individual with a sincere desire to safeguard the researchers and their valuable pursuit of knowledge. Despite a quiet demeanor, this person is dedicated to ensuring the safety of the station's occupants and facilitating the successful completion of their research projects.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Lightning Rush",
+      "Shackle Breaker",
+      "Frenzied Punishment",
+      "Pain and Anger",
+      "Swift Harvest"
+    ],
+    "abilityDesc": [
+      "Deals Lightning DMG equal to 100% of Arlan's ATK to a single enemy.",
+      "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 240% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+      "Deals Lightning DMG equal to 256% of Arlan's ATK to a single enemy and Lightning DMG equal to 128% of Arlan's ATK to enemies adjacent to it.",
+      "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 72% more DMG.",
+      "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."
+    ],
+    "tracesTitle": ["Revival", "Endurance", "Repel"],
+    "tracesDesc": [
+      "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP.",
+      "The chance to resist DoT Debuffs increases by 50%.",
+      "Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received except for DoTs until he is attacked."
+    ],
+    "tracesAttr": ["ATK +28%", "Effect RES +18%", "HP +10%"],
+    "eidolonsTitle": [
+      "To the Bitter End",
+      "Breaking Free",
+      "Power Through",
+      "Turn the Tables",
+      "Hammer and Tongs",
+      "Self-Sacrifice"
+    ],
+    "eidolonsDesc": [
+      "When HP is lower than or equal to 50% of Max HP, icreases Skill's DMG by 10%.",
+      "Using Skill or Ultimate removes 1 debuff from oneself.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10",
+      "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/arlan/Character_Arlan_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/arlan/Character_Arlan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -36,6 +75,45 @@
     "rarity": 4,
     "path": "Harmony",
     "type": "Fire",
+    "introduction": "The lead researcher of Herta Space Station is a highly inquisitive and accomplished astronomer. She comes from a prestigious family and is particularly skilled at effectively overseeing and coordinating the diverse team of professionals at the space station.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Spectrum Beam",
+      "Meteor Storm",
+      "Astral Blessing",
+      "Astrometry",
+      "Miracle Flash"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of Asta's ATK to a single enemy.",
+      "Deals Fire DMG equal to 50% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 50% of Asta's ATK to a random enemy.",
+      "Increases SPD of all allies by 50 for 2 turn(s).",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every stack of Charging Asta has, all allies' ATK increases by 14%, up to 5 time(s). Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."
+    ],
+    "tracesTitle": ["Sparks", "Ignite", "Constellation"],
+    "tracesDesc": [
+      "Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s), making the enemy take Fire DoT equal to 50% of Asta's Basic ATK DMG at the start of each turn.",
+      "When Asta is on the field, all allies' Fire DMG increases by 18%.",
+      "Asta's DEF increases by 6% for every current Charging stack she possesses."
+    ],
+    "tracesAttr": ["Fire DMG +22.4%", "DEF +22.5%", "Crit Rate +6.7%"],
+    "eidolonsTitle": [
+      "Star Sings Sans Verses or Vocals",
+      "Moon Speaks in Wax and Wane",
+      "Meteor Showers for Wish and Want",
+      "Aurora Basks in Beauty and Bliss",
+      "Nebula Secludes in Cold Cosmos",
+      "Galaxy Dreams in Calm and Comfort"
+    ],
+    "eidolonsDesc": [
+      "When using Skill, deals DMG for 1 extra time to a random enemy.",
+      "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Charging stack(s) lost in each turn is reduced by 1."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/asta/Character_Asta_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/asta/Character_Asta_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
@@ -67,6 +145,45 @@
     "rarity": 4,
     "path": "Hunt",
     "type": "Wind",
+    "introduction": "A reserved and secretive young man, reluctant to discuss his past, chooses to travel aboard the Astral Express to distance himself from his family.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Cloudlancer Art: North Wind",
+      "Cloudlancer Art: Torrent",
+      "Ethereal Dream",
+      "Superiority of Reach",
+      "Splitting Spearhead"
+    ],
+    "abilityDesc": [
+      "Deals Wind DMG equal to 100% of Dan Heng's ATK to a single enemy.",
+      "Deals Wind DMG equal to 260% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s).",
+      "Deals Wind DMG equal to 400% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by 120%.",
+      "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by 36%. This effect can be triggered again after 2 turn(s).",
+      "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
+    ],
+    "tracesTitle": ["Hidden Dragon", "Faster Than Light", "High Gale"],
+    "tracesDesc": [
+      "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+      "After launching an attack, there is a 50% fixed chance to increase own SPD by 20% for 2 turn(s).",
+      "Basic ATK deals 40% more damage to Slowed enemies."
+    ],
+    "tracesAttr": ["Wind DMG +22.4%", "ATK +18%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "The Higher You Fly, the Harder You Fall",
+      "Quell the Venom Octet, Quench the Vice O'Flame",
+      "Seen and Unseen",
+      "Roaring Dragon and Soaring Sun",
+      "A Drop of Rain Feeds a Torrent",
+      "The Troubled Soul Lies in Wait"
+    ],
+    "eidolonsDesc": [
+      "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%.",
+      "Reduces Talent cooldown by 1 turn.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by 100%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Slow triggered by Skill reduces the enemy’s SPD by an additional 10%."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/danheng/Character_Dan_Heng_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/danheng/Character_Dan_Heng_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
@@ -99,6 +216,49 @@
     "rarity": 4,
     "path": "Nihility",
     "type": "Fire",
+    "introduction": "A performance artist is exploring Xianzhou Luofu as a street performer, seeking a fresh start and prioritizing sustenance and shelter along her journey.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Standing Ovation",
+      "Blazing Welcome",
+      "Watch This Showstopper",
+      "PatrAeon Benefits",
+      "Skill Showcase"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of Guinaifen's ATK to a single enemy.",
+      "Deals Fire DMG equal to 120% of Guinaifen's ATK to a single enemy and deals Fire DMG equal to 40% of Guinaifen's ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 218.2% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 120% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 92% of their original DMG.",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 7% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "Immediately attacks the enemy. After entering battle, deals DMG for 4 time(s), dealing Fire DMG equal to 50% of Guinaifen's ATK to a random single enemy target each time, with a 100% base chance of inflicting Firekiss on them."
+    ],
+    "tracesTitle": ["High Poles", "Bladed Hoop", "Walking on Knives"],
+    "tracesDesc": [
+      "Basic ATK has a 80% base chance of inflicting an enemy with a Burn, equivalent to that of Skill.",
+      "When the battle begins, Guinaifen's action is advanced forward by 25%.",
+      "Deals 20% more DMG to Burned enemies."
+    ],
+    "tracesAttr": [
+      "Fire DMG +22.4%",
+      "Effect HIT Rate +10%",
+      "Break Effect +24%"
+    ],
+    "eidolonsTitle": [
+      "Slurping Noodles During Handstand",
+      "Brushing Teeth While Whistling",
+      "Smashing Boulder on Chest",
+      "Blocking Pike with Neck",
+      "Swallowing Sword to Stomach",
+      "Catching Bullet with Hands"
+    ],
+    "eidolonsDesc": [
+      "When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s).",
+      "When an enemy target is Burned, Guinaifen's Basic ATK and Skill can increase the DMG multiplier of their Burn status by 40%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates 2 Energy.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Increases the stackable Firekiss count by 1."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/guinaifen/Character_Guinaifen_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/guinaifen/Character_Guinaifen_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -130,6 +290,45 @@
     "rarity": 4,
     "path": "Erudition",
     "type": "Ice",
+    "introduction": "Member 83 of the Genius Society serves as the true mastermind behind the space station, possessing extraordinary intelligence but lacking empathy as an unsympathetic scientist.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "What Are You Looking At?",
+      "One-Time Offer",
+      "It's Magic, I Added Some Magic",
+      "Fine, I'll Do It Myself",
+      "It Can Still Be Optimized"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of Herta's ATK to a single enemy.",
+      "Deals Ice DMG equal to 100% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 200% of Herta's ATK to all enemies.",
+      "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 40% of Herta's ATK to all enemies.",
+      "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle."
+    ],
+    "tracesTitle": ["Efficiency", "Puppet", "Icing"],
+    "tracesDesc": [
+      "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+      "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "When Ultimate is used, deals 20% more DMG to Frozen enemies."
+    ],
+    "tracesAttr": ["Ice DMG +22.4%", "DEF +22.5%", "CRIT Rate +6.7%"],
+    "eidolonsTitle": [
+      "Kick You When You're Down",
+      "Keep the Ball Rolling",
+      "That's the Kind of Girl I Am",
+      "Hit Where it Hurts",
+      "Cuss Big or Cuss Nothing",
+      "No One Can Betray Me"
+    ],
+    "eidolonsDesc": [
+      "If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK.",
+      "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When Talent is triggered, DMG increases by 10%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/herta/Character_Herta_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/herta/Character_Herta_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
@@ -161,6 +360,45 @@
     "rarity": 4,
     "path": "Destruction",
     "type": "Fire",
+    "introduction": "The self-proclaimed leader of The Moles, an Underworld adventure squad, embraces a love for freedom and views life as a succession of thrilling adventures.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Hehe! Don't Get Burned!",
+      "Hey! Remember Hook?",
+      "Boom! Here Comes the Fire!",
+      "Ha! Oil to the Flames!",
+      "Ack! Look at This Mess!"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of Hook's ATK to a single enemy.",
+      "Deals Fire DMG equal to 240% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 65% of Hook's ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 400% of Hook's ATK to a single enemy. After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 100% of Hook's ATK and regenerates 5 extra Energy.",
+      "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn."
+    ],
+    "tracesTitle": ["Innocence", "Naivete", "Playing With Fire"],
+    "tracesDesc": [
+      "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+      "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy."
+    ],
+    "tracesAttr": ["ATK +28%", "HP +18%", "CRIT DMG +13.3%"],
+    "eidolonsTitle": [
+      "Early to Bed. Early to Rise",
+      "Happy Tummy. Happy Body",
+      "Don’t Be Picky. Nothing’s Icky",
+      "It's Okay to Not Know",
+      "Let the Moles' Deeds Be Known",
+      "Always Ready to Punch and Kick"
+    ],
+    "eidolonsDesc": [
+      "Enhanced Skill deals 20% increased DMG.",
+      "Extends the duration of Burn caused by Skill by 1 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Hook deals 20% more DMG to enemies inflicted with Burn."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/hook/Character_Hook_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/hook/Character_Hook_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -192,6 +430,38 @@
     "rarity": 4,
     "path": "Nihility",
     "type": "Physical",
+    "introduction": "The reigning boxing champion within Belobog's Underworld and a formidable member of Wildfire's skilled fighters. This consecutive champion of the Fight Club serves as an inspirational figure, igniting the dreams of children in the Underworld with his enthusiastic presence.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Direct Punch",
+      "Lacerating Fist",
+      "Coup de Grâce",
+      "Flying Sparks",
+      "Anticipator"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Luka's ATK to a single enemy.",
+      "Deals Physical DMG equal to 120% of Luka's ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 338% of Luka's ATK.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target's DMG received by 20% for 3 turn(s). Then, deals Physical DMG equal to 330% of Luka's ATK to the target.",
+      "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist\", he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist\". After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 85% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will."
+    ],
+    "tracesTitle": ["Kinetic Overload", "Cycle Braking", "Crush Fighting Will"],
+    "tracesDesc": [
+      "When the Skill is used, immediately dispels 1 buff from the enemy target.",
+      "For every stack of Fighting Will obtained, additionally regenerates 3 Energy.",
+      "When using Enhanced Basic ATK, every hit Direct Punch deals has a 50% fixed chance for Luka to use 1 additional hit. This effect does not apply to additional hits generated in this way."
+    ],
+    "tracesAttr": ["ATK +28%", "Effect HIT Rate +18%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "Fighting Endlessly",
+      "The Enemy is Weak, I am Strong",
+      "Born for the Ring",
+      "Never Turning Back",
+      "The Spirit of Wildfire",
+      "A Champion's Applause"
+    ],
+    "eidolonsDesc": [],
     "imagePortrait": "/src/assets/characters/4stars/luka/Character_Luka_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/luka/Character_Luka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -223,6 +493,49 @@
     "rarity": 4,
     "path": "Abundance",
     "type": "Quantum",
+    "introduction": "The youngest among the Landau siblings, this explorer specializes in navigating the Belobogian Snow Plains. Possessing a calm and collected demeanor, they are driven by a strong desire for action. Frequently embarking on solo adventures, they delve into the icy wilderness to explore its mysteries.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Ice Crampon Technique",
+      "Salted Camping Cans",
+      "Snowfield First Aid",
+      "Outdoor Survival Experience",
+      "Chocolate Energy Bar"
+    ],
+    "abilityDesc": [
+      "Deals Quantum DMG equal to 50% of this character's Max HP to a single enemy.",
+      "Applies \"Survival Response\" to a single target ally and increases their Max HP by 7.5% of Lynx's Max HP plus 200. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for 2 turn(s). Restores the target's HP by 12% of Lynx's Max HP plus 320.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to 13.5% of Lynx's Max HP plus 360.",
+      "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to 3.6% of Lynx's Max HP plus 96 at the start of each their turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to 4.5% of Lynx's Max HP plus 120.",
+      "After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s)."
+    ],
+    "tracesTitle": [
+      "Advance Surveying",
+      "Exploration Techniques",
+      "Survival in the Extreme"
+    ],
+    "tracesDesc": [
+      "After a target with Survival Response is hit, Lynx regenerates 2 Energy immediately.",
+      "Increases the chance to resist Crowd Control debuffs by 35%.",
+      "Extends the duration of the continuous healing effect granted by Talent for 1 turn(s)."
+    ],
+    "tracesAttr": ["DEF +22.5%", "HP +28%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Morning of Snow Hike",
+      "Noon of Portable Furnace",
+      "Afternoon of Avalanche Beacon",
+      "Dusk of Warm Campfire",
+      "Night of Aurora Tea",
+      "Dawn of Explorers' Chart"
+    ],
+    "eidolonsDesc": [
+      "When healing allies with HP equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing.",
+      "A target with \"Survival Response\" can resist debuff application for 1 time(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/lynx/Character_Lynx_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/lynx/Character_Lynx_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
@@ -255,6 +568,45 @@
     "rarity": 4,
     "path": "Preservation",
     "type": "Ice",
+    "introduction": "A girl, once trapped in eternal ice and devoid of knowledge about her past, boards the Astral Express in pursuit of the truth about her origins. With an enigmatic history, she has crafted 67 different versions of her life story as she endeavors to uncover the reality of her existence.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Frigid Cold Arrow",
+      "The Power of Cuteness",
+      "Glacial Cascade",
+      "Girl Power",
+      "Freezing Beauty"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of March 7th's ATK to a single enemy.",
+      "Provides a single ally with a Shield that can absorb DMG equal to 57% of March 7th's DEF plus 760 for 3 turn(s). If the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+      "Deals Ice DMG equal to 150% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, enemies cannot take action and will receive Additional Ice DMG equal to 60% of March 7th's ATK at the beginning of each turn.",
+      "After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 100% of her ATK. This effect can be triggered 2 time(s) each turn.",
+      "Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
+    ],
+    "tracesTitle": ["Purify", "Reinforce", "Ice Spell"],
+    "tracesDesc": [
+      "Skill removes 1 debuff from an ally.",
+      "The duration of the Shield generated from her Skill is extended for 1 turn(s).",
+      "Increases Ultimate's base chance to Freeze enemies by 15%."
+    ],
+    "tracesAttr": ["Ice DMG +22.4%", "DEF +22.5%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Memory of You",
+      "Memory of It",
+      "Memory of Everything",
+      "Never Forfeit Again",
+      "Never Forget Again",
+      "Just Like This, Always..."
+    ],
+    "eidolonsDesc": [
+      "Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy.",
+      "Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/march7th/Character_March_7th_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/march7th/Character_March_7th_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
@@ -286,6 +638,45 @@
     "rarity": 4,
     "path": "Abundance",
     "type": "Physical",
+    "introduction": "A compassionate doctor in the Underworld, dedicated to caring for children, harbors a hidden dangerous side alongside her kindness and nurturing demeanor.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Behind the Kindness",
+      "Love, Heal, and Choose",
+      "Gift of Rebirth",
+      "Innervation",
+      "Hypnosis Research"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Natasha's ATK to a single enemy.",
+      "Restores a single ally for 10.5% of Natasha's Max HP plus 280. Restores the ally for another 7.2% of Natasha's Max HP plus 192 at the beginning of each turn for 2 turn(s).",
+      "Heals all allies for 13.8% of Natasha's Max HP plus 368.",
+      "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 50%. This effect also works on continuous healing.",
+      "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies. While Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."
+    ],
+    "tracesTitle": ["Soothe", "Healer", "Recuperation"],
+    "tracesDesc": [
+      "The Skill removes 1 debuff(s) from a target ally.",
+      "Natasha's Outgoing Healing increases by 10%.",
+      "Increases the duration of her Skill's continuous healing effect for 1 turn(s)."
+    ],
+    "tracesAttr": ["HP +28%", "DEF +12.5%", "Effect RES +18%"],
+    "eidolonsTitle": [
+      "Pharmacology Expertise",
+      "Clinical Research",
+      "The Right Cure",
+      "Miracle Cure",
+      "Preventive Treatment",
+      "Doctor’s Grace"
+    ],
+    "eidolonsDesc": [
+      "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle.",
+      "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "After being attacked, regenerates 5 extra Energy.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/natasha/Character_Natasha_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/natasha/Character_Natasha_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
@@ -317,6 +708,45 @@
     "rarity": 4,
     "path": "Nihility",
     "type": "Ice",
+    "introduction": "An intelligence officer for the Silvermane Guards, she is characterized by a serious personality and commands respect from her peers within the organization.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Frost Shot",
+      "Frostbite",
+      "Zone Suppression",
+      "Data Collecting",
+      "Preemptive Strike"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of Pela's ATK to a single target enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 210% of Pela's ATK to a single target enemy.",
+      "Deals Ice DMG equal to 100% of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies. When Exposed, enemies' DEF is reduced by 40% for 2 turn(s).",
+      "If the enemy is debuffed after Pela's attack, Pela will restore 10 additional Energy. This effect can only be triggered 1 time per attack.",
+      "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s)."
+    ],
+    "tracesTitle": ["Bash", "The Secret Strategy", "Wipe Out"],
+    "tracesDesc": [
+      "Deals 20% more DMG to debuffed enemies.",
+      "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.",
+      "Using Skill to remove buff(s) increases the DMG of Pela's next attack by 20%."
+    ],
+    "tracesAttr": ["Ice DMG +22.4%", "ATK +18%", "Effect HIT Rate +10%"],
+    "eidolonsTitle": [
+      "Victory Report",
+      "Adamant Charge",
+      "Suppressive Force",
+      "Full Analysis",
+      "Absolute Jeopardy",
+      "Feeble Pursuit"
+    ],
+    "eidolonsDesc": [
+      "When an enemy is defeated, Pela regenerates 5 Energy.",
+      "Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/pela/Character_Pela_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/pela/Character_Pela_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -348,6 +778,47 @@
     "rarity": 4,
     "path": "Erudition",
     "type": "Quantum",
+    "introduction": "A Diviner affiliated with the Divination Commission on Xianzhou Luofu, doubling as a librarian. Despite possessing the role, she consistently slacks off, leading to the imminent risk of being demoted to the position of a \"door guardian\".",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Flower Pick",
+      "Cherry on Top!",
+      "A Scoop of Moon",
+      "A Quartet? Woo-hoo!",
+      "Celestial Jade",
+      "Game Solitaire"
+    ],
+    "abilityDesc": [
+      "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 100% of Qingque's ATK to a single enemy.",
+      "Deals Quantum DMG equal to 240% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 100% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points.",
+      "Immediately draws 2 jade tile(s) and increases DMG by 28% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+      "Deals Quantum DMG equal to 200% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
+      "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 72%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+      "After using Technique, Qingque draws 2 jade tile(s) when the battle starts."
+    ],
+    "tracesTitle": ["Tile Battle", "Bide Time", "Winning Hand"],
+    "tracesDesc": [
+      "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+      "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+      "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK."
+    ],
+    "tracesAttr": ["ATK +28%", "Quantum DMG +14.4%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "Rise Through the Tiles",
+      "Sleep on the Tiles",
+      "Read Between the Tiles",
+      "Right on the Tiles",
+      "Gambit for the Tiles",
+      "Prevail Beyond the Tiles"
+    ],
+    "eidolonsDesc": [
+      "Ultimate deals 10% more DMG.",
+      "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "After this character's Skill is used, there is a 24% fixed chance to gain Autarky, which lasts until the end of the current turn. With Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to 100% of the previous Basic ATK (or Enhanced Basic ATK)'s DMG.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Recovers 1 Skill Point after using Enhanced Basic ATK."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/qingque/Character_Qingque_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/qingque/Character_Qinque_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
@@ -379,6 +850,45 @@
     "rarity": 4,
     "path": "Nihility",
     "type": "Wind",
+    "introduction": "A merchant with the unique ability to traverse freely between the Overworld and the Underworld. Possessing a sociable demeanor, he portrays himself as everyone's friend, exuding enthusiastic humor and adeptness in bantering.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Dazzling Blades",
+      "Ricochet Love",
+      "Surprise Present",
+      "Windtorn Dagger",
+      "Shining Bright"
+    ],
+    "abilityDesc": [
+      "Deals Wind DMG equal to 100% of Sampo's ATK to a single enemy.",
+      "Deals Wind DMG equal to 56% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 56% of Sampo's ATK to a random enemy.",
+      "Deals Wind DMG equal to 160% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 30% for 2 turn(s).",
+      "Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 52% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team. When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%."
+    ],
+    "tracesTitle": ["Trap", "Defensive Position", "Spice Up"],
+    "tracesDesc": [
+      "Extends the duration of Wind Shear caused by Talent by 1 turn.",
+      "Using Ultimate additionally regenerates 10 Energy.",
+      "Enemies with Wind Shear effect deal 15% less damage to Sampo."
+    ],
+    "tracesAttr": ["ATK +28%", "Effect HIT Rate +18%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Rising Love",
+      "Infectious Enthusiasm",
+      "Big Money!",
+      "The Deeper the Love, the Stronger the Hate",
+      "Huuuuge Money!",
+      "Increased Spending"
+    ],
+    "eidolonsDesc": [
+      "When using Skill, deals DMG for 1 extra time(s) to a random enemy.",
+      "When an enemy with Wind Shear is defeated, there is a 100% base chance to inflict 1 stack(s) of Wind Shear, equivalent to the Talent's Wind Shear.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Talent's Wind Shear DMG multiplier increases by 15%."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/sampo/Character_Sampo_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/sampo/Character_Sampo_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -410,6 +920,49 @@
     "rarity": 4,
     "path": "Erudition",
     "type": "Lightning",
+    "introduction": "A former researcher for the Technology Division of the Architects turned Belobog mechanic, she is the elder sister of Gepard Landau. In contrast to her brother's personality, she exhibits a distinctive character. She harbors a passion for the ancient musical genre \"rock 'n' roll\", which was popular before the era of the Eternal Freeze.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Roaring Thunderclap",
+      "Lightning Flash",
+      "Here Comes the Mechanical Fever",
+      "Galvanic Chords",
+      "Good Night, Belobog"
+    ],
+    "abilityDesc": [
+      "Deals Lightning DMG equal to 100% of Serval's ATK to a single enemy.",
+      "Deals Lightning DMG equal to 140% of Serval's ATK to a single enemy and Lightning DMG equal to 60% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies take Lightning DoT equal to 104% of Serval's ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 180% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "After Serval attacks, deals Additional Lightning DMG equal to 72% of Serval's ATK to all Shocked enemies.",
+      "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% base chance for all enemies to become Shocked for 3 turn(s). While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn."
+    ],
+    "tracesTitle": ["Rock 'n' Roll", "String Vibration", "Mania"],
+    "tracesDesc": [
+      "Skill has a 20% increased base chance to Shock enemies.",
+      "At the start of the battle, immediately regenerates 15 Energy.",
+      "Upon defeating an enemy, ATK increases by 20% for 2 turn(s)."
+    ],
+    "tracesAttr": [
+      "Effect HIT Rate +18%",
+      "CRIT Rate +18.7%",
+      "Effect RES +10%"
+    ],
+    "eidolonsTitle": [
+      "Echo Chamber",
+      "Encore!",
+      "Listen, the Heartbeat of the Gears",
+      "Make Some Noise!",
+      "Belobog’s Loudest Roar!",
+      "This Song Rocks to Heaven!"
+    ],
+    "eidolonsDesc": [
+      "Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK.",
+      "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Serval deals 30% more DMG to Shocked enemies."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/serval/Character_Serval_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/serval/Character_Serval_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
@@ -441,6 +994,45 @@
     "rarity": 4,
     "path": "Hunt",
     "type": "Physical",
+    "introduction": "Born on the Xianzhou Yaoqing, she was sent to the Cloud Knights of the Luofu for military training. Armed with her family sword, a cherished gift from her mother, she yearns for the future that she is destined to shape and write.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Cloudfencer Art: Starshine",
+      "Cloudfencer Art: Mountainfall",
+      "Shape of Taixu: Dawn Herald",
+      "Dancing Blade",
+      "Cloudfencer Art: Warcry"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Sushang's ATK to a single enemy.",
+      "Deals Physical DMG equal to 210% of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 100% of Sushang's ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 320% of Sushang's ATK to a single enemy target, and she immediately takes action again. In addition, Sushang's ATK increases by 30% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 20% for 2 turn(s).",
+      "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."
+    ],
+    "tracesTitle": ["Guileless", "Riposte", "Vanquisher"],
+    "tracesDesc": [
+      "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+      "For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).",
+      "After using Basic ATK or Skill, if there are enemies on the field with Weakness Break, Sushang's action is Advanced Forward by 15%."
+    ],
+    "tracesAttr": ["ATK +28%", "HP +18%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "Cut With Ease",
+      "Refine in Toil",
+      "Rise From Fame",
+      "Cleave With Heart",
+      "Prevail via Taixu",
+      "Dwell Like Water"
+    ],
+    "eidolonsDesc": [
+      "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.",
+      "After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Sushang's Break Effect increases by 40%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/sushang/Character_Sushang_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/sushang/Character_Sushang_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
@@ -472,6 +1064,45 @@
     "rarity": 4,
     "path": "Harmony",
     "type": "Lightning",
+    "introduction": "The Amicassador of the Sky-Faring Commission in Xianzhou Luofu, she plays a crucial role in diplomatic endeavors. Accompanied by business delegates, her responsibilities include establishing trade relationships and alliances with numerous worlds.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Dislodged",
+      "Soothing Melody",
+      "Amidst the Rejoicing Clouds",
+      "Violet Sparknado",
+      "Gentle Breeze"
+    ],
+    "abilityDesc": [
+      "Tingyun deals Lightning DMG equal to 100% of her ATK to a single enemy.",
+      "Grants a single ally with Benediction to increase their ATK by 50%, up to 25% of Tingyun's current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 40% of that ally's ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Ski",
+      "Regenerates 50 Energy for a single ally and increases the target's DMG by 50% for 2 turn(s).",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 60% of that ally's ATK to the same enemy.",
+      "Tingyun immediately regenerates 50 Energy upon using her Technique."
+    ],
+    "tracesTitle": ["Nourished Joviality", "Knell Subdual", "Jubilant Passage"],
+    "tracesDesc": [
+      "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+      "Basic ATK DMG increases by 40%.",
+      "Tingyun immediately regenerates 5 Energy at the start of her turn."
+    ],
+    "tracesAttr": ["ATK +28%", "DEF +22.5%", "Lightning DMG +8%"],
+    "eidolonsTitle": [
+      "Windfall of Lucky Springs",
+      "Gainfully Gives, Givingly Gains",
+      "Halcyon Bequest",
+      "Jovial Versatility",
+      "Sauntering Coquette",
+      "Peace Brings Wealth to All"
+    ],
+    "eidolonsDesc": [
+      "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.",
+      "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The DMG multiplier provided by Benediction increases by 20%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Ultimate regenerates 10 more Energy for the target ally."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/tingyun/Character_Tingyun_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/tingyun/Character_Tingyun_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
@@ -503,6 +1134,46 @@
     "rarity": 4,
     "path": "Harmony",
     "type": "Imaginary",
+    "introduction": "Yukong serves as the Head of the Sky-Faring Commission on the Xianzhou Luofu. A seasoned pilot and sharpshooter, she now finds herself buried under heaps of paperwork since taking on the leadership role in the commission.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Arrowslinger",
+      "Emboldening Salvo",
+      "Diving Kestrel",
+      "Seven Layers, One Arrow",
+      "Chasing the Wind"
+    ],
+    "abilityDesc": [
+      "Deals 100% of Yukong's ATK as Imaginary DMG to a target enemy.",
+      "Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 80%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of \"Roaring Bowstrings\". When it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
+      "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 28% and CRIT DMG by 65%. At the same time, deals Imaginary DMG equal to 380% of Yukong's ATK to a single enemy.",
+      "Basic ATK additionally deals Imaginary DMG equal to 80% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again after 1 turn(s).",
+      "After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies.",
+      "After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies."
+    ],
+    "tracesTitle": ["Archerion", "Bowmaster", "Majestas"],
+    "tracesDesc": [
+      "Yukong can resist 1 debuff application for 1 time. This effect can be triggered again in 2 turn(s).",
+      "When Yukong is on the field, Imaginary DMG dealt by all allies increases by 12%.",
+      "When Roaring Bowstrings is active, Yukong regenerates 2 additional Energy every time an ally takes action."
+    ],
+    "tracesAttr": ["ATK +10%", "Imaginary DMG +22.4%", "HP +18%"],
+    "eidolonsTitle": [
+      "Aerial Marshal",
+      "Skyward Command",
+      "Torrential Fusillade",
+      "Zephyrean Echoes",
+      "August Deadshot",
+      "Bowstring Thunderclap"
+    ],
+    "eidolonsDesc": [
+      "At the start of battle, increases the SPD of all allies by 10% for 2 turn(s).",
+      "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong casts her Ultimate.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When \"Roaring Bowstrings\" is active, Yukong deals 30% more DMG to enemies.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings\"."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/yukong/Character_Yukong_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/yukong/Character_Yukong_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
@@ -535,6 +1206,49 @@
     "rarity": 5,
     "path": "Abundance",
     "type": "Lightning",
+    "introduction": "The High Elder of the Vidyadhara, affectionately referred to as the \"Healer Lady\" on the Luofu, employs her distinctive medical expertise and the exclusive healing capabilities of the Vidyadhara dragon race to save lives through advanced medical science and treatments.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Diagnostic Kick",
+      "Singing Among Clouds",
+      "Felicitous Thunderleap",
+      "Gourdful of Elixir",
+      "Saunter in the Rain"
+    ],
+    "abilityDesc": [
+      "Deals Lightning DMG equal to 100% of Bailu's ATK to a single enemy.",
+      "Heals a single ally for 11.7% of Bailu's Max HP plus 312. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
+      "Heals all allies for 13.5% of Bailu's Max HP plus 360. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+      "After an ally with Invigoration is hit, restores the ally's HP for 5.4% of Bailu's Max HP plus 144. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 18% of Bailu's Max HP plus 480 HP. This effect can be triggered 1 time per battle.",
+      "After Technique is used, at the start of the next battle, all allies are granted Invigoration for 2 turn(s)."
+    ],
+    "tracesTitle": [
+      "Qihuang Analects",
+      "Vidyadhara Ichor Lines",
+      "Aquatic Benediction"
+    ],
+    "tracesDesc": [
+      "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+      "Invigoration can trigger 1 more time(s).",
+      "Characters with Invigoration receive 10% less DMG."
+    ],
+    "tracesAttr": ["HP +28%", "DEF +22.5%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Ambrosial Aqua",
+      "Sylphic Slumber",
+      "Omniscient Opulence",
+      "Evil Excision",
+      "Waning Worries",
+      "Drooling Drop of Draconic Divinity"
+    ],
+    "eidolonsDesc": [
+      "If the target ally's current HP is equal to their Max HP when Invigoration ends, Bailu additionally regenerates 8 Energy for this targe",
+      "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Every healing provided by Bailu's Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/bailu/Character_Bailu_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/bailu/Character_Bailu_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
@@ -567,6 +1281,49 @@
     "rarity": 5,
     "path": "Destruction",
     "type": "Wind",
+    "introduction": "A Stellaron Hunter and former swordsman who transcended physical form to become a blade. Devoted to \"Destiny's Slave\", he boasts a formidable self-healing ability, making him a formidable and resilient member of the Stellaron Hunters.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Shard Sword",
+      "Hellscape",
+      "Death Sentence",
+      "Shuhu's Gift",
+      "Karma Wind"
+    ],
+    "abilityDesc": [
+      "Deals 100% of Blade's ATK as Wind DMG to a target enemy",
+      "Consumes HP equal to 30% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 40%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+      "Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to a single enemy equal to the sum of 40% of his ATK, 100% of his Max HP, and 100% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of 16% of his ATK, 40% of his Max HP, and 40% of the tally of his HP loss in the current battle. The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+      "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked. When Charge stack reaches maximum, immediately launches a follow-up attack on all enemies, dealing Wind DMG equal to 44% of Blade's ATK plus 110% of his Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the follow-up attack, all Charges are consumed.",
+      "Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies. If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used."
+    ],
+    "tracesTitle": [
+      "Vita Infinita",
+      "Neverending Deaths",
+      "Cyclone of Destruction"
+    ],
+    "tracesDesc": [
+      "When Blade's current HP is at 50% of Max HP or lower, Incoming Healing increases by 20%",
+      "If Blade hits a Weakness Broken enemy after using Forest of Swords, he will restore HP equal to 5% of his Max HP plus 100.",
+      "DMG dealt by Talent's follow-up attack increases by 20%."
+    ],
+    "tracesAttr": ["CRIT Rate +12%", "HP +28%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Blade Cuts the Deepest in Hell",
+      "Ten Thousand Sorrows From One Broken Dream",
+      "Hardened Blade Bleeds Coldest Shade",
+      "Rejected by Death, Infected With Life",
+      "Death By Ten Lords' Gaze",
+      "Reborn Into an Empty Husk"
+    ],
+    "eidolonsDesc": [
+      "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to 150% of Blade's total HP loss in the current battle. The total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
+      "When Blade is in the Hellscape state, his CRIT Rate increases by 15%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When Blade's current HP drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/blade/Character_Blade_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/blade/Character_Blade_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -598,6 +1355,45 @@
     "rarity": 5,
     "path": "Harmony",
     "type": "Wind",
+    "introduction": "The heir apparent to the Supreme Guardian of Belobog, she exudes the pride befitting a princess while embodying the determination and integrity of a seasoned soldier.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Windrider Bullet",
+      "Combat Redeployment",
+      "The Belobog March",
+      "Leading the Way",
+      "Banner of Command"
+    ],
+    "abilityDesc": [
+      "Deals Wind DMG equal to 100% of Bronya's ATK to a single enemy.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 66% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again",
+      "Increases the ATK of all allies by 55%, and increases their CRIT DMG equal to 16% of Bronya's CRIT DMG plus 20% for 2 turn(s).",
+      "After using her Basic ATK, Bronya's next action will be Advanced Forward by 30%.",
+      "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s)."
+    ],
+    "tracesTitle": ["Command", "Battlefield", "Military Might"],
+    "tracesDesc": [
+      "The CRIT Rate for Basic ATK increases to 100%.",
+      "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+      "When Bronya is on the field, all allies deal 10% more DMG."
+    ],
+    "tracesAttr": ["Wind DMG +22.4%", "CRIT DMG +24%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Hone Your Strength",
+      "Quick March",
+      "Bombardment",
+      "Take by Surprise",
+      "Unstoppable",
+      "Piercing Rainbow"
+    ],
+    "eidolonsDesc": [
+      "Using Bronya's Skill has a 50% fixed chance of recovering 1 Skill Point. This effect has a 1 turn cooldown.",
+      "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "After an ally uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/bronya/Character_Bronya_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/bronya/Character_Bronya_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
@@ -629,6 +1425,45 @@
     "rarity": 5,
     "path": "Destruction",
     "type": "Physical",
+    "introduction": "A vagrant girl residing among robots, she is introverted, gentle, and possesses a pure heart. Her earnest wish is for all Underworlders to unite as a family.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "I Want to Help",
+      "Svarog Watches Over You",
+      "Promise, Not Command",
+      "Because We're Family",
+      "A Small Price for Victory"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Clara's ATK to a single enemy.",
+      "Deals Physical DMG equal to 120% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 120% of Clara's ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after this Skill is used.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 25%, and she has greatly increased chances of being attacked by enemies for 2 turn(s). In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 160%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s).",
+      "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 160% of Clara's ATK.",
+      "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s)."
+    ],
+    "tracesTitle": ["Kinship", "Under Protection", "Revenge"],
+    "tracesDesc": [
+      "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
+      "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "Increase Svarog's Counter DMG by 30%."
+    ],
+    "tracesAttr": ["ATK +28%", "Physical DMG +14.4%", "HP +10%"],
+    "eidolonsTitle": [
+      "A Tall Figure",
+      "A Tight Embrace",
+      "Cold Steel Armor",
+      "Family’s Warmth",
+      "A Small Promise",
+      "Long Company"
+    ],
+    "eidolonsDesc": [
+      "Using Skill will not remove Marks of Counter on the enemy.",
+      "After using the Ultimate, ATK increases by 30% for 2 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/clara/Character_Clara_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/clara/Character_Clara_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -660,6 +1495,49 @@
     "rarity": 5,
     "path": "Preservation",
     "type": "Quantum",
+    "introduction": "The head of the Divination Commission on the Luofu, this individual utilizes the third eye and Matrix of Prescience to foresee the route of Xianzhou and predict the outcomes of various events with foresight.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Novaburst",
+      "Known by Stars, Shown by Hearts",
+      "Woes of Many Morphed to One",
+      "Bleak Breeds Bliss",
+      "Of Fortune Comes Fate"
+    ],
+    "abilityDesc": [
+      "Deals Quantum DMG equal to 50% of Fu Xuan's Max HP to a single enemy.",
+      "Activates Matrix of Prescience, via which other team members will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by 6% of Fu Xuan's Max HP, and increases CRIT Rate by 12%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Deals Quantum DMG equal to 100% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.",
+      "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take 18% less DMG. When Fu Xuan's current HP falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by 90% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.",
+      "After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter battle when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s)."
+    ],
+    "tracesTitle": [
+      "Taiyi, the Macrocosmic",
+      "Dunjia, the Metamystic",
+      "Liuren, the Sexagenary"
+    ],
+    "tracesDesc": [
+      "When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill.",
+      "When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to 5% of Fu Xuan's Max HP plus 133.",
+      "If a target enemy applies Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When Matrix of Prescience is activated again, the number of times this effect can be triggered will reset."
+    ],
+    "tracesAttr": ["Effect RES +10%", "CRIT Rate +18.7%", "HP +18%"],
+    "eidolonsTitle": [
+      "Dominus Pacis",
+      "Optimus Felix",
+      "Apex Nexus",
+      "Fortuna Stellaris",
+      "Arbiter Primus",
+      "Omnia Vita"
+    ],
+    "eidolonsDesc": [
+      "The Knowledge effect increases CRIT DMG by 30%.",
+      "If any team member is struck by a killing blow while Matrix of Prescience is active, then all allies who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. Fu Xuan's Ultimate DMG will increase by 200% of this tally of HP loss. This tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/fuxuan/Character_Fu_Xuan_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/fuxuan/Character_Fu_Xuan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
@@ -691,6 +1569,45 @@
     "rarity": 5,
     "path": "Preservation",
     "type": "Ice",
+    "introduction": "A captain in the Silvermane Guards and a formidable warrior of Betobog, known for his meticulous and unwavering vigilance. He maintains a steadfast commitment to staying true to himself in all situations.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Fist of Conviction",
+      "Daunting Smite",
+      "Enduring Bulwark",
+      "Unyielding Will",
+      "Comradery"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of Gepard's ATK to a single enemy.",
+      "Deals Ice DMG equal to 200% of Gepard's ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 60% of Gepard's ATK at the beginning of each turn.",
+      "Applies a Shield to all allies, absorbing DMG equal to 45% of Gepard's DEF plus 600 for 3 turn(s).",
+      "When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to 50% of his Max HP. This effect can only trigger once per battle.",
+      "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."
+    ],
+    "tracesTitle": ["Integrity", "Commander", "Fighting Spirit"],
+    "tracesDesc": [
+      "Gepard has a higher chance to be attacked by enemies.",
+      "When Unyielding Will is triggered, Gepard's Energy will be restored to 100%.",
+      "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn."
+    ],
+    "tracesAttr": ["Ice DMG +22.4%", "Effect RES +18%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "Due Diligence",
+      "Lingering Cold",
+      "Never Surrender",
+      "Faith Moves Mountains",
+      "Cold Iron Fist",
+      "Unyielding Determination"
+    ],
+    "eidolonsDesc": [
+      "Base chance for Gepard's Skill to Freeze enemies increases by 35%.",
+      "After an enemy Frozen by Gepard's Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When Gepard is in battle, all allies' Effect RES increases by 20%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/gepard/Character_Gepard_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/gepard/Character_Gepard_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
@@ -722,6 +1639,45 @@
     "rarity": 5,
     "path": "Erudition",
     "type": "Fire",
+    "introduction": "The skilled technician who restored the Astral Express to its former glory. Intrigued by the allure of the expansive starry sky, she chose to embark on a journey with the Astral Express. Outside of her technical pursuits, she indulges in the hobby of brewing hand-made coffee.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Sawblade Tuning",
+      "Molten Detonation",
+      "Heavenly Flare",
+      "Victory Rush",
+      "Incomplete Combustion"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of Himeko's ATK to a single enemy.",
+      "Deals Fire DMG equal to 200% of Himeko's ATK to a single enemy and Fire DMG equal to 80% of Himeko's ATK to enemies adjacent to it.",
+      "Deals Fire DMG equal to 230% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+      "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points). If Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to 140% of her ATK to all enemies, consuming all Charge points. At the start of the battle, Himeko gains 1 point of Charge.",
+      "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
+    ],
+    "tracesTitle": ["Starfire", "Magma", "Benchmark"],
+    "tracesDesc": [
+      "After using an attack, there is a 50% base chance to inflict Burn on enemies for 2 turn(s). When afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's ATK at the start of each turn.",
+      "Skill deals 20% more DMG to enemies currently afflicted with Burn.",
+      "When current HP percentage is 80% or higher, CRIT Rate increases by 15%."
+    ],
+    "tracesAttr": ["Fire DMG +22.4%", "ATK +18%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Childhood",
+      "Convergence",
+      "Poised",
+      "Dedication",
+      "Aspiration",
+      "Trailblaze"
+    ],
+    "eidolonsDesc": [
+      "After \"Victory Rush\" is triggered, Himeko's SPD increases by 20% for 2 turn(s).",
+      "Deals 15% more DMG to enemies whose HP percentage is 50% or less.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/himeko/Character_Himeko_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/himeko/Character_Himeko_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
@@ -753,6 +1709,45 @@
     "rarity": 5,
     "path": "Destruction",
     "type": "Imaginary",
+    "introduction": "Dan Heng's true form, rooted in his Vidyadhara lineage, inherits the residual power from his past incarnation, the Imbibitor Lunae. Embracing the majestic horns adorning his crown signifies an acceptance of both the merits and faults associated with the historical actions of that sinning predecessor.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Beneficent Lotus",
+      "Dracore Libre",
+      "Azure's Aqua Ablutes All",
+      "Righteous Heart",
+      "Heaven-Quelling Prismadrakon"
+    ],
+    "abilityDesc": [
+      "Uses a 2-hit attack and deals Imaginary DMG equal to 100% of Imbibitor Lunae's ATK to a single enemy target.",
+      "Uses a 3-hit attack and deals Imaginary DMG equal to 260% of Imbibitor Lunae's ATK to a single enemy target.",
+      "Uses a 3-hit attack and deals Imaginary DMG equal to 300% of Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to 140% of Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 Squama Sacrosancta. It's possible to hold up to 3 Squama Sacrosancta, which can be used to offset Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
+      "After each hit dealt during an attack, Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by 10%. This effect can stack up to 6 time(s), lasting until the end of his turn.",
+      "After using his Technique, Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta."
+    ],
+    "tracesTitle": ["Star Veil", "Aqua Reign", "Jolt Anew"],
+    "tracesDesc": [
+      "This character's CRIT DMG increases by 24% when dealing DMG to enemy targets with Imaginary Weakness.",
+      "Increases the chance to resist Crowd Control debuffs by 35%.",
+      "At the start of the battle, immediately regenerates 15 Energy."
+    ],
+    "tracesAttr": ["Imaginary DMG +22.4%", "CRIT Rate +12%", "HP +10%"],
+    "eidolonsTitle": [
+      "Tethered to Sky",
+      "Imperium On Cloud Nine",
+      "Clothed in Clouds",
+      "Zephyr's Bliss",
+      "Fall is the Pride",
+      "Reign, Returned"
+    ],
+    "eidolonsDesc": [
+      "Increase the number of stackable Righteous Heart stacks by 4, and 1 extra stack of Righteous Heart will be gained for each hit per attack.",
+      "After using his Ultimate, Imbibitor Lunae's action is Advanced Forward by 100% and gains 1 extra Squama Sacrosancta.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Buffs provided by Dominating Roar persists until the end of this character's next turn.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "After any other ally uses their Ultimate, the Imaginary RES PEN of Imbibitor Lunae's next Fulgurant Leap attack increases by 20%, up to 3 stacks."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/imbibitorlunae/Character_Imbibitor_Lunae_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/imbibitorlunae/Character_Imbibitor_Lunae_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -785,6 +1780,45 @@
     "rarity": 5,
     "path": "Destruction",
     "type": "Ice",
+    "introduction": "Once the esteemed Sword Champion of the Luofu, she crafted legends of undefeated might for the Cloud Knights. However, her name has been expunged from records, branding her a traitor of the Xianzhou. Now walking on the precarious line between sanity and being mara-struck, her fate hangs in the balance.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Lucent Moonglow",
+      "Transcendent Flash",
+      "Florephemeral Dreamflux",
+      "Crescent Transmigration",
+      "Shine of Truth"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of Jingliu's ATK to a single enemy.",
+      "Deals Ice DMG equal to 200% of Jingliu's ATK to a single enemy and obtains 1 stack(s) of Syzygy.",
+      "Deals Ice DMG equal to 300% of Jingliu's ATK to a single enemy, and deals Ice DMG equal to 150% of Jingliu's ATK to any adjacent enemies. Gains 1 stack(s) of Syzygy after attack ends.",
+      "When Jingliu has 2 stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by 50%. Then, Jingliu's Skill \"Transcendent Flash\" becomes enhanced and turns into \"Moon On Glacial River\", and becomes the only ability she can use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to 4% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by 540% of the total HP consumed from all allies in this attack, capped at 180% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
+      "After using this Technique, creates a dimension around Jingliu that lasts for 20 seconds, and all enemies in this dimension will become Frozen. After entering combat with enemies in the dimension, Jingliu immediately regenerates 15 Energy and obtains 1 stack(s) of Syzygy, with a 100% base chance of Freezing enemy targets for 1 turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to 80% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time."
+    ],
+    "tracesTitle": ["Deathrealm", "Sword Champion", "Sword Champion"],
+    "tracesDesc": [
+      "While in the Spectral Transmigration state, increases Effect RES by 35%",
+      "After using Transcendent Flash, the next action will be Advanced Forward by 10%.",
+      "While in the Spectral Transmigration state, increases Ultimate DMG by 20%."
+    ],
+    "tracesAttr": ["CRIT DMG +37.3%", "Speed +9", "HP +10%"],
+    "eidolonsTitle": [
+      "Moon Crashes Tianguan Gate",
+      "Crescent Shadows Qixing Dipper",
+      "Halfmoon Gapes Mercurial Haze",
+      "Lunarlance Shines Skyward Dome",
+      "Night Shades Astral Radiance",
+      "Eclipse Hollows Corporeal Husk"
+    ],
+    "eidolonsDesc": [
+      "When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK.",
+      "After using Ultimate, increases the DMG of the next Enhanced Skill by 80%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "During the Spectral Transmigration state, the ATK gained from consuming allies' HP is additionally increased by 90% of the total HP consumed from the entire team. The cap for ATK gained this way also increases by 30%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10",
+      "When Jingliu enters the Spectral Transmigration state, the Syzygy stack limit increases by 1, and Jingliu obtains 1 stack(s) of Syzygy. While she is in the Spectral Transmigration state, her CRIT DMG increases by 50%."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/jingliu/Character_Jingliu_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/jingliu/Character_Jingliu_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -816,6 +1850,45 @@
     "rarity": 5,
     "path": "Erudition",
     "type": "Lightning",
+    "introduction": "As the Divine Foresight and one of the Seven Arbiter-Generals of the Xianzhou Alliance, he commands the Cloud Knights of the Xianzhou Luofu. Although not renowned for martial prowess, he is a disciple of the Luofu's former Sword Champion, emphasizing strategic insight and leadership in his role.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Glistening Light",
+      "Rifting Zenith",
+      "Lightbringer",
+      "Prana Extirpated",
+      "Spirit Invocation"
+    ],
+    "abilityDesc": [
+      "Jing Yuan deals Lightning DMG equal to 100% of his ATK to a single enemy.",
+      "Deals Lightning DMG equal to 100% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 200% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to 66% of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy. The Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by 3 at the start of the next battle."
+    ],
+    "tracesTitle": ["Battalia Crush", "Savant Providence", "War Marshal"],
+    "tracesDesc": [
+      "If the Lightning-Lord's Hits Per Action is greater or equal to 6 in the next turn, its CRIT DMG increases by 25% for the next turn.",
+      "At the start of the battle, immediately regenerates 15 Energy.",
+      "After using Skill, CRIT Rate increases by 10% for 2 turn(s)."
+    ],
+    "tracesAttr": ["CRIT Rate +12%", "ATK +28%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "Slash, Seas Split",
+      "Swing, Skies Squashed",
+      "Strike, Suns Subdued",
+      "Spin, Stars Sieged",
+      "Stride, Spoils Seized",
+      "Sweep, Souls Slain"
+    ],
+    "eidolonsDesc": [
+      "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the target enemy.",
+      "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s)."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/jingyuan/Character_Jing_Yuan_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/jingyuan/Character_Jing_Yuan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
@@ -847,6 +1920,45 @@
     "rarity": 5,
     "path": "Nihility",
     "type": "Lightning",
+    "introduction": "A Stellaron Hunter, she is a captivating, composed, and professionally skilled beauty. Utilizing the enchantment of Spirit Whisper, she orchestrated the absorption of the Stellaron by the Trailblazer. Beyond her professional pursuits, she finds joy in shopping for and organizing her collection of coats as a hobby.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Midnight Tumult",
+      "Caressing Moonlight",
+      "Twilight Trill",
+      "Gentle but Cruel",
+      "Mercy Is Not Forgiveness"
+    ],
+    "abilityDesc": [
+      "Deals Lightning DMG equal to 100% of Kafka's ATK to a single enemy.",
+      "Deals Lightning DMG equal to 160% of Kafka's ATK to a target enemy and Lightning DMG equal to 60% of Kafka's ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 75% of their original DMG.",
+      "Deals Lightning DMG equal to 80% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG from their current Shock state, equal to 100% of its original DMG. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 290% of Kafka's ATK at the beginning of each turn.",
+      "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to 140% of her ATK to that target, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target, lasting for 2 turns. This effect can only be triggered 1 time per turn.",
+      "Immediately attacks all enemies within a set range. After entering battle, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate on every enemy target for 2 turn(s)."
+    ],
+    "tracesTitle": ["Torture", "Plunder", "Thorns"],
+    "tracesDesc": [
+      "When the Ultimate is used, enemy targets will now receive DMG immediately from all currently applied DoT sources instead of just receiving DMG immediately from the currently applied Shock state.",
+      "If an enemy is defeated while Shocked, Kafka additionally regenerates 5 Energy.",
+      "The base chance for Ultimate, Technique, or the follow-up attack triggered by the Talent to inflict Shock increases by 30%"
+    ],
+    "tracesAttr": ["ATK +28%", "Effect HIT Rate +18%", "HP +10%"],
+    "eidolonsTitle": [
+      "Da Capo",
+      "Fortississimo",
+      "Capriccio",
+      "Recitativo",
+      "Doloroso",
+      "Leggiero"
+    ],
+    "eidolonsDesc": [
+      "When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s).",
+      "While Kafka is on the field, DoT dealt by all allies increases by 25%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "The DMG multiplier for Shock DMG dealt by Ultimate, Technique, or the follow-up attack triggered by Talent increases by 156%, and extends the duration of Shock on the enemy target by 1 turn(s)."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/kafka/Character_Kafka_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/kafka/Character_Kafka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -878,6 +1990,45 @@
     "rarity": 5,
     "path": "Abundance",
     "type": "Imaginary",
+    "introduction": "A peculiar figure, this foreign trader from beyond the stellar seas carries a coffin wherever he goes. Despite the mysterious appearance, he possesses exceptional medical skills, adding an intriguing layer to his enigmatic persona.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Thorns of the Abyss",
+      "Prayer of Abyss Flower",
+      "Death Wish",
+      "Cycle of Life",
+      "Mercy of a Fool"
+    ],
+    "abilityDesc": [
+      "Deals Imaginary DMG equal to 100% of Luocha's ATK to a single enemy.",
+      "After using his Skill, Luocha immediately restores the target ally's HP equal to 60% of Luocha's ATK plus 800. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 200% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to 18% of Luocha's ATK plus 240. The Field's effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "After the Technique is used, the Talent will be immediately triggered at the start of the next battle."
+    ],
+    "tracesTitle": ["Cleansing Revival", "Sanctified", "Through the Valley"],
+    "tracesDesc": [
+      "When the Skill's effect is triggered, removes 1 debuff(s) from a target ally.",
+      "When any enemy in the Field is attacked by an ally, all allies (except the attacker) restore HP equal to 7% of Luocha's ATK plus 93.",
+      "The chance to resist Crowd Control debuffs increases by 70%."
+    ],
+    "tracesAttr": ["ATK +28%", "DEF +12.5%", "HP +18%"],
+    "eidolonsTitle": [
+      "Ablution of the Quick",
+      "Bestowal From the Pure",
+      "Surveyal by the Fool",
+      "Heavy Lies the Crown",
+      "Cicatrix 'Neath the Pain",
+      "Reunion With the Dust"
+    ],
+    "eidolonsDesc": [
+      "While the Field is active, ATK of all allies increases by 20%.",
+      "When his Skill is triggered, if the target ally's HP is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When Luocha's Field is active, enemies become Weakened and deal 12% less DMG.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s)."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/luocha/Character_Luocha_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/luocha/Character_Luocha_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
@@ -909,6 +2060,45 @@
     "rarity": 5,
     "path": "Hunt",
     "type": "Quantum",
+    "introduction": "A vital member of Wildfire and a resident of the Underworld, she operates under the alias \"Babochka\". Despite her frank exterior, she harbors a delicate and sensitive side deep within her heart, adding layers to her complex personality.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Thwack",
+      "Sheathed Blade",
+      "Butterfly Flurry",
+      "Resurgence",
+      "Phantom Illusion"
+    ],
+    "abilityDesc": [
+      "Deals Quantum DMG equal to 100% of Seele's ATK to a single enemy.",
+      "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 220% of Seele's ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 425% of her ATK to a single enemy.",
+      "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by 80% for 1 turn(s). Enemies defeated in the extra turn provided by \"Resurgence\" will not trigger another \"Resurgence\".",
+      "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state."
+    ],
+    "tracesTitle": ["Nightshade", "Lacerate", "Rippling Waves"],
+    "tracesDesc": [
+      "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+      "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
+      "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%."
+    ],
+    "tracesAttr": ["ATK +28%", "CRIT DMG +24%", "DEF +12.5%"],
+    "eidolonsTitle": [
+      "Extirpating Slash",
+      "Dancing Butterfly",
+      "Dazzled",
+      "A Glimpse",
+      "Keen and Sharp",
+      "Separation"
+    ],
+    "eidolonsDesc": [
+      "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%.",
+      "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Seele regenerates 15 Energy when she defeats an enemy.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered. When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/seele/Character_Seele_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/seele/Character_Seele_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
@@ -941,6 +2131,45 @@
     "rarity": 5,
     "path": "Nihility",
     "type": "Quantum",
+    "introduction": "A Stellaron Hunter with a penchant for hacking genius, she views the universe as an expansive immersive simulation game, finding enjoyment in manipulating its elements. Mastering the skill of \"aether editing\", she can tamper with the data of reality itself, showcasing unparalleled prowess in her unique expertise.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "System Warning",
+      "Allow Changes?",
+      "User Banned",
+      "Awaiting System Response...",
+      "Force Quit Program"
+    ],
+    "abilityDesc": [
+      "Deals Quantum DMG equal to 100% of Silver Wolf's ATK to a single enemy.",
+      "There is a 85% base chance to add 1 Weakness of an on-field character's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept. In addition, there is a 100% base chance to further reduce the All-Type RES of the enemy by 10% for 2 turn(s). Deals Quantum DMG equal to 196% of Silver Wolf's ATK to this enemy.",
+      "There's a 100% base chance to decrease the target enemy's DEF by 45% for 3 turn(s). And at the same time, deals Quantum DMG equal to 380% of Silver Wolf's ATK to the target enemy.",
+      "Silver Wolf can create three types of Bugs: reduce ATK by 10%, reduce DEF by 8%, and reduce SPD by 6%. Every time Silver Wolf attacks, she has a 72% base chance to implant a random Bug that lasts for 3 turn(s) in an enemy target.",
+      "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to 80% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect."
+    ],
+    "tracesTitle": ["Generate", "Inject", "Side Note"],
+    "tracesDesc": [
+      "Bug's duration is extended for 1 turn(s). Every time an enemy is inflicted with Weakness Break, Silver Wolf has a 65% base chance of implanting a random Bug in the enemy.",
+      "The duration of the Weakness implanted by Silver Wolf's Skill increases by 1 turn(s).",
+      "If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%."
+    ],
+    "tracesAttr": ["Effect HIT Rate +18%", "ATK +28%", "Quantum DMG +8%"],
+    "eidolonsTitle": [
+      "Social Engineering",
+      "Zombie Network",
+      "Payload",
+      "Bounce Attack",
+      "Brute Force Attack",
+      "Overlay Network"
+    ],
+    "eidolonsDesc": [
+      "After using her Ultimate to attack enemies, Silver Wolf regenerates 7 Energy for every debuff that the target enemy currently has. This effect can be triggered up to 5 time(s) in each use of her Ultimate.",
+      "When an enemy enters battle, reduces their Effect RES by 20%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/silverwolf/Character_Silver_Wolf_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/silverwolf/Character_Silver_Wolf_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -973,6 +2202,45 @@
     "rarity": 5,
     "path": "Hunt",
     "type": "Fire",
+    "introduction": "Topaz holds the position of Leader of the Special Debts Picket Team and is a high-level manager in the Strategic Investment Department at the Interastral Peace Corporation. Having achieved membership in the \"Ten Stonehearts\" at a young age, her core expertise lies in \"debt retrieval\". Partnered with the Warp Trotter \"Numby\", who possesses a keen sense for locating \"riches\", they effortlessly handle security, debt collection, and actuarial tasks. Currently, they traverse the cosmos together, addressing liability disputes that may impact the smooth operation of IPC's businesses.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Deficit...",
+      "Difficulty Paying?",
+      "Turn a Profit!",
+      "Trotter Market!?",
+      "Explicit Subsidy"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of Topaz's ATK to a single enemy.",
+      "Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from follow-up attacks by 50%. Proof of Debt only takes effect on the most recent target it is applied to. If there are no enemies inflicted with Proof of Debt on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with Proof of Debt. Numby deals Fire DMG equal to 150% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 150% and CRIT DMG increases by 25%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 150% of Topaz's ATK. When enemies afflicted with Proof of Debt receive an ally's follow-up attacks, Numby's action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby's own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius. Using her Technique will regenerate 60 Energy for Topaz after Numby's first attack in the next battle. If Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of 10000 bonus credits can be received per calendar day. After using her Technique and defeating enemies in Simulated Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio."
+    ],
+    "tracesTitle": ["Overdraft", "Financial Turmoil", "Stonks Market"],
+    "tracesDesc": [
+      "When Topaz uses Basic ATK to deal DMG, it will be considered as a follow-up attack.",
+      "Increases Topaz and Numby's DMG dealt to enemy targets with Fire Weakness by 15%.",
+      "After Numby uses an attack while in the Windfall Bonanza! state, Topaz additionally regenerates 10 Energy."
+    ],
+    "tracesAttr": ["Fire DMG +22.4%", "CRIT Rate +12%", "HP +10%"],
+    "eidolonsTitle": [
+      "Future Market",
+      "Bona Fide Acquisition",
+      "Seize the Big and Free the Small",
+      "Agile Operation",
+      "Inflationary Demand",
+      "Incentive Mechanism"
+    ],
+    "eidolonsDesc": [
+      "When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single action. The Debtor state increases the CRIT DMG of follow-up attacks inflicted on the target enemies by 25%, stacking up to 2 time(s). When Proof of Debt is removed, the Debtor state is also removed.",
+      "After Numby takes action and launches an attack, Topaz regenerates 5 Energy.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "After Numby's turn begins, Topaz's action is Advanced Forward by 20%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Numby's attack count during the Windfall Bonanza! state increases by 1, and its Fire RES PEN increases by 10% when it attacks."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/topaz/Character_Topaz_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/topaz/Character_Topaz_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
@@ -1004,6 +2272,45 @@
     "rarity": 5,
     "path": "Destruction",
     "type": "Physical",
+    "introduction": "A girl who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Farewell Hit",
+      "RIP Home Run",
+      "Stardust Ace",
+      "Perfect Pickoff",
+      "Immortal Third Strike"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of the Trailblazer's ATK to a single enemy.",
+      "Deals Physical DMG equal to 125% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+      "Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG equal to 450% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 270% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 162% of the Trailblazer's ATK to enemies adjacent to it.",
+      "Each time after this character inflicts Weakness Break on an enemy, ATK increases by 20%. This effect stacks up to 2 time(s).",
+      "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
+    ],
+    "tracesTitle": ["Ready for Battle", "Perseverance", "Fighting Will"],
+    "tracesDesc": [
+      "At the start of the battle, immediately regenerates 15 Energy.",
+      "Each stack of Talent increases the Trailblazer's DEF by 10%.",
+      "When using Skill or Ultimate Blowout: RIP Home Run, DMG dealt to the target enemy is increased by 25%."
+    ],
+    "tracesAttr": ["DEF +12.5%", "ATK +28%", "HP +18%"],
+    "eidolonsTitle": [
+      "A Falling Star",
+      "An Unwilling Host",
+      "A Leading Whisper",
+      "A Destructing Glance",
+      "A Surviving Hope",
+      "A Trailblazing Will"
+    ],
+    "eidolonsDesc": [
+      "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack.",
+      "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The Trailblazer's Talent is also triggered when they defeat an enemy."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Portrait.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -1035,6 +2342,49 @@
     "rarity": 5,
     "path": "Preservation",
     "type": "Fire",
+    "introduction": "A girl who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Ice-Breaking Light",
+      "Ever-Burning Amber",
+      "War-Flaming Lance",
+      "Treasure of the Architects",
+      "Call of the Guardian"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+      "Increases the Trailblazer's DMG Reduction by 50% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
+      "Deals Fire DMG equal to 100% of the Trailblazer's ATK plus 150% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 6% of the Trailblazer's DEF plus 80. The Shield lasts for 2 turn(s).",
+      "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."
+    ],
+    "tracesTitle": [
+      "The Strong Defend the Weak",
+      "Unwavering Gallantry",
+      "Action Beats Overthinking"
+    ],
+    "tracesDesc": [
+      "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
+      "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
+      "When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over."
+    ],
+    "tracesAttr": ["DEF +35%", "ATK +18%", "HP +10%"],
+    "eidolonsTitle": [
+      "Earth-Shaking Resonance",
+      "Time-Defying Tenacity",
+      "Trail-Blazing Blueprint",
+      "Nation-Building Oath",
+      "Spirit-Warming Flame",
+      "City-Forging Bulwarks"
+    ],
+    "eidolonsDesc": [
+      "When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Additional Fire DMG equal to 50% of the Trailblazer's DEF.",
+      "The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "At the start of the battle, immediately gains 4 stack(s) of Magma Will.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
@@ -1066,6 +2416,45 @@
     "rarity": 5,
     "path": "Destruction",
     "type": "Physical",
+    "introduction": "A boy who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Farewell Hit",
+      "RIP Home Run",
+      "Stardust Ace",
+      "Perfect Pickoff",
+      "Immortal Third Strike"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of the Trailblazer's ATK to a single enemy.",
+      "Deals Physical DMG equal to 125% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+      "Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG equal to 450% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 270% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 162% of the Trailblazer's ATK to enemies adjacent to it.",
+      "Each time after this character inflicts Weakness Break on an enemy, ATK increases by 20%. This effect stacks up to 2 time(s).",
+      "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
+    ],
+    "tracesTitle": ["Ready for Battle", "Perseverance", "Fighting Will"],
+    "tracesDesc": [
+      "At the start of the battle, immediately regenerates 15 Energy.",
+      "Each stack of Talent increases the Trailblazer's DEF by 10%.",
+      "When using Skill or Ultimate Blowout: RIP Home Run, DMG dealt to the target enemy is increased by 25%."
+    ],
+    "tracesAttr": ["DEF +12.5%", "ATK +28%", "HP +18%"],
+    "eidolonsTitle": [
+      "A Falling Star",
+      "An Unwilling Host",
+      "A Leading Whisper",
+      "A Destructing Glance",
+      "A Surviving Hope",
+      "A Trailblazing Will"
+    ],
+    "eidolonsDesc": [
+      "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack.",
+      "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The Trailblazer's Talent is also triggered when they defeat an enemy."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
@@ -1097,6 +2486,49 @@
     "rarity": 5,
     "path": "Preservation",
     "type": "Fire",
+    "introduction": "A boy who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Ice-Breaking Light",
+      "Ever-Burning Amber",
+      "War-Flaming Lance",
+      "Treasure of the Architects",
+      "Call of the Guardian"
+    ],
+    "abilityDesc": [
+      "Deals Fire DMG equal to 100% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+      "Increases the Trailblazer's DMG Reduction by 50% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
+      "Deals Fire DMG equal to 100% of the Trailblazer's ATK plus 150% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 6% of the Trailblazer's DEF plus 80. The Shield lasts for 2 turn(s).",
+      "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."
+    ],
+    "tracesTitle": [
+      "The Strong Defend the Weak",
+      "Unwavering Gallantry",
+      "Action Beats Overthinking"
+    ],
+    "tracesDesc": [
+      "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
+      "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
+      "When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over."
+    ],
+    "tracesAttr": ["DEF +35%", "ATK +18%", "HP +10%"],
+    "eidolonsTitle": [
+      "Earth-Shaking Resonance",
+      "Time-Defying Tenacity",
+      "Trail-Blazing Blueprint",
+      "Nation-Building Oath",
+      "Spirit-Warming Flame",
+      "City-Forging Bulwarks"
+    ],
+    "eidolonsDesc": [
+      "When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Additional Fire DMG equal to 50% of the Trailblazer's DEF.",
+      "The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "At the start of the battle, immediately gains 4 stack(s) of Magma Will.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
@@ -1128,6 +2560,45 @@
     "rarity": 5,
     "path": "Nihility",
     "type": "Imaginary",
+    "introduction": "A seasoned member of the Express Crew, he finds renewed passion in each fresh adventure. To capture these experiences, he occasionally sketches them in a notebook, allowing the flame of excitement to burn brightly in his heart.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Gravity Suppression",
+      "Edge of the Void",
+      "Synthetic Black Hole",
+      "Time Distortion",
+      "Gravitational Imprisonment"
+    ],
+    "abilityDesc": [
+      "Deals Imaginary DMG equal to 100% of Welt's ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 72% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to 72% of Welt's ATK to a random enemy. On hit, there is a 75% base chance to reduce the enemy's SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 150% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn. Imprisoned enemies have their actions delayed by 40% and SPD reduced by 10%.",
+      "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 60% of his ATK to the enemy.",
+      "After using Welt's Technique, create a dimension that lasts for 15 second(s). Enemies in this dimension have their Movement SPD reduced by 50%. After entering battle with enemies in the dimension, there is a 100% base chance to Imprison the enemies for 1 turn. Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 dimension created by allies can exist at the same time."
+    ],
+    "tracesTitle": ["Retribution", "Judgment", "Punishment"],
+    "tracesDesc": [
+      "When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).",
+      "Using Welt's Ultimate additionally regenerates 10 Energy.",
+      "Deals 20% more DMG to enemies inflicted with Weakness Break."
+    ],
+    "tracesAttr": ["Imaginary DMG +14.4%", "ATK +28%", "Effect RES +10%"],
+    "eidolonsTitle": [
+      "Legacy of Honor",
+      "Conflux of Stars",
+      "Prayer of Peace",
+      "Appellation of Justice",
+      "Power of Kindness",
+      "Prospect of Glory"
+    ],
+    "eidolonsDesc": [
+      "After Welt uses his Ultimate, his abilities are enhanced. The next 2 time(s) he uses his Basic ATK or Skill, deals Additional DMG to the target equal to 50% of his Basic ATK's DMG multiplier or 80% of his Skill's DMG multiplier respectively.",
+      "When his Talent is triggered, Welt regenerates 3 Energy.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1. up to a maximum of Lv. 10.",
+      "Base chance for Skill to inflict SPD Reduction increases by 35%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When using Skill, deals DMG for 1 extra time to a random enemy."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/welt/Character_Welt_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/welt/Character_Welt_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
@@ -1159,6 +2630,49 @@
     "rarity": 5,
     "path": "Hunt",
     "type": "Ice",
+    "introduction": "Yanqing, the retainer of General Jing Yuan, is a remarkably talented swordsman who has yet to come of age. Despite his youth, no one can surpass him when he wields a sword, showcasing exceptional skill and prowess on the battlefield.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Frost Thorn",
+      "Darting Ironthorn",
+      "Amidst the Raining Bliss",
+      "One With the Sword",
+      "The One True Sword"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of Yanqing's ATK to a single enemy.",
+      "Deals Ice DMG equal to 220% of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+      "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra 50%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 350% of Yanqing's ATK to a single enemy.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 20% and his CRIT DMG increases by 30%. After Yanqing attacks an enemy, there is a 60% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 50% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 50% of Yanqing's ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP is 50% or higher."
+    ],
+    "tracesTitle": [
+      "Icing on the Kick",
+      "Frost Favors the Brave",
+      "Gentle Blade"
+    ],
+    "tracesDesc": [
+      "When Yanqing attacks, deals additional Ice DMG equal to 30% of Yanqing's ATK to targets with Ice Weakness.",
+      "When Soulsteel Sync is active, Effect RES increases by 20%.",
+      "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s)."
+    ],
+    "tracesAttr": ["Ice DMG +14.4%", "ATK +28%", "HP +10%"],
+    "eidolonsTitle": [
+      "Svelte Saber",
+      "Supine Serenade",
+      "Sword Savant",
+      "Searing Sting",
+      "Surging Strife",
+      "Swift Swoop"
+    ],
+    "eidolonsDesc": [
+      "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK.",
+      "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
+    ],
     "imagePortrait": "/src/assets/characters/5stars/yanqing/Character_Yanqing_Portrait.webp",
     "imageSplash": "/src/assets/characters/5stars/yanqing/Character_Yanqing_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
