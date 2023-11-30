@@ -65,7 +65,7 @@ const CharacterDetails = () => {
                           {character.name}
                         </span>
                       </div>
-                      <span>{character.introduction}</span>
+                      <p>{character.introduction}</p>
                       <div className="max-w-xs object-cover object-center p-4">
                         <img
                           type="image/webp"
