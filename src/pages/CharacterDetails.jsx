@@ -1,5 +1,5 @@
 // import useParams
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 // import useState, useEffect
 import { useState, useEffect, useRef } from "react";
@@ -27,9 +27,7 @@ const CharacterDetails = () => {
       }
     };
 
-    if (scrollRef) {
-      window.scrollTo(0, scrollRef.current.offsetTop - 20);
-    }
+    if (scrollRef) window.scrollTo(0, scrollRef.current.offsetTop);
 
     fetchData();
   }, []);
@@ -40,17 +38,20 @@ const CharacterDetails = () => {
 
   return (
     <>
-      <div
-        ref={scrollRef}
-        className="relative bg-cover bg-center bg-no-repeat sm:bg-[url('./assets/Background_Stars.webp')]"
-      >
-        <div className="mx-auto max-w-screen-xl">
-          <div className="rounded-md border-x border-x-violet-dark text-skin-tone-light">
-            <div className="relative min-h-[100dvh] dark:bg-almost-black">
-              <div className="overflow-x-hidden text-base">
+      <div className="flex flex-col">
+        <div className="bg-almost-black py-40">
+          <div className="mx-auto max-w-screen-xl">
+            <div className="rounded-xl border-x-2 border-x-violet-dark text-skin-tone-light">
+              <div
+                ref={scrollRef}
+                className="relative min-h-[100dvh] border-b border-t-4 border-b-violet-dark border-t-violet-dark dark:bg-almost-black xl:rounded-xl xl:border-t-[12px] xl:border-t-skin-tone-light/80"
+              >
                 {selectedCharacter.map((character) => {
                   return (
-                    <div key={character.id}>
+                    <div
+                      className="overflow-x-hidden text-base"
+                      key={character.id}
+                    >
                       <CharacterProfile character={character} />
                       <CharacterAbility character={character} />
                       <CharacterTraces character={character} />
