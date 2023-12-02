@@ -1,8 +1,8 @@
 // import character list
-import { characterIcons } from "../assets/characters/characters";
+import { characters } from "../assets/characters/characters";
 
 // import components
-import CharacterIcon from "../components/CharacterIcon";
+import CharacterCard from "../components/CharacterCard";
 
 const Root = () => {
   return (
@@ -14,10 +14,10 @@ const Root = () => {
             <div className="rounded-xl border-x-2 border-x-violet-dark text-skin-tone-light">
               <div className="relative min-h-[100dvh] border-b border-t-4 border-b-violet-dark border-t-violet-dark dark:bg-almost-black xl:rounded-xl xl:border-t-[12px] xl:border-t-skin-tone-light/80">
                 <div className="overflow-x-hidden text-base">
-                  <div className="grid min-w-fit grid-cols-1 gap-2 p-16 sm:grid-cols-3 lg:grid-cols-5">
-                    {characterIcons.map((character) => {
+                  <div className="grid min-w-fit grid-cols-1 gap-2 p-6 sm:grid-cols-3 lg:grid-cols-5">
+                    {characters.map((character) => {
                       return (
-                        <CharacterIcon
+                        <CharacterCard
                           character={character}
                           key={character.name}
                         />
