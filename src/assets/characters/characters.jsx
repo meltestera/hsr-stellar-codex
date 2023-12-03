@@ -159,7 +159,7 @@ export const characters = [
     rarity: 4,
     id: 8,
     type: "Quantum",
-    path: "",
+    path: "Abundance",
     icon: Lynx,
     iconType: Quantum,
     iconPath: Abundance,

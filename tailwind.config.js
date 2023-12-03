@@ -8,7 +8,7 @@ export default {
         "violet-dark": "hsl(270, 8%, 15%)",
         "skin-tone-dark": "hsl(327, 7%, 30%)",
         "skin-tone": "hsl(10, 10%, 51%)",
-        "skin-tone-light": "hsl(16, 28%, 61%)",
+        "skin-tone-light": "hsl(6, 8%, 74%)",
 
         "orange-modified": "hsl(27, 98%, 54%)",
         "yellow-modified": "hsl(45, 100%, 51%)",
@@ -18,8 +18,14 @@ export default {
       },
 
       fontFamily: {
-        syne: "Syne",
-        inter: "Inter",
+        poppins: "Poppins",
+        ephesis: "Ephesis",
+        outfit: "Outfit",
+        oswald: "Oswald",
+      },
+
+      screens: {
+        xs: "383px",
       },
     },
   },

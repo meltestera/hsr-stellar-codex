@@ -11,16 +11,16 @@ const Hero = () => {
             width="2048"
             height="1024"
             fetchpriority="high"
-            className="absolute min-h-full min-w-full object-cover object-[70%_center] sm:object-center"
+            className="absolute min-h-full min-w-full object-cover object-[70%_center] lg:object-center"
           />
         </div>
-        <div className="relative z-10 mb-32 max-w-sm cursor-default space-y-1 lg:max-w-fit lg:pl-24">
-          <b className="font-syne bg-gradient-to-b from-skin-tone to-skin-tone-light bg-clip-text text-5xl text-transparent lg:text-7xl">
+        <div className="relative z-10 mb-20 max-w-sm cursor-default space-y-1 sm:mb-32 lg:max-w-fit lg:pl-24">
+          <b className="font-oswald bg-gradient-to-r from-skin-tone-dark via-skin-tone to-skin-tone-light bg-clip-text text-3xl uppercase text-skin-tone-light text-transparent sm:text-5xl xl:text-8xl">
             Stellar Codex
           </b>
-          <span className="font-inter block text-center text-lg tracking-wide text-skin-tone/90 lg:pl-1 lg:text-left lg:text-xl">
+          <p className="font-ephesis text-lg text-skin-tone-light/80 sm:text-2xl lg:text-left xl:text-4xl xl:text-skin-tone-light/60">
             yet another Honkai: Star Rail wiki...
-          </span>
+          </p>
         </div>
       </section>
     </>
