@@ -13,8 +13,8 @@ const Root = () => {
           <div className="mx-auto max-w-screen-2xl">
             <div className="rounded-xl border-x-2 border-x-violet-dark text-skin-tone-light">
               <div className="relative min-h-[100dvh] border-y-2 border-violet-dark dark:bg-almost-black xl:rounded-xl xl:border-t-[12px] xl:border-t-skin-tone-light/80">
-                <div className="overflow-x-hidden px-2 py-4 text-base sm:px-4 sm:py-8">
-                  <div className=" xs:max-w-md mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-3 sm:max-w-full sm:grid-cols-3 sm:gap-x-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
+                <div className="overflow-x-hidden px-2 py-4 text-base sm:px-4 sm:py-16">
+                  <div className=" mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-3 xs:max-w-md sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
                     {characters.map((character) => {
                       return (
                         <CharacterCard
