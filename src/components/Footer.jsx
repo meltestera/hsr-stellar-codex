@@ -9,7 +9,7 @@ import HoyoLogo from "../assets/Logo_Hoyoverse.webp";
 const Footer = () => {
   return (
     <>
-      <div className="w-full border-t border-t-violet-dark bg-almost-black">
+      <div className="border-t-skin-tone-darker w-full border-t bg-almost-black">
         <div className="mx-auto mt-10 flex w-full flex-col gap-y-1 space-y-10 px-4 py-2 text-skin-tone-light md:mt-20 md:w-3/4 md:space-y-12 xl:mt-32 xl:space-y-20">
           <div className="flex flex-row items-center gap-x-1">
             <span className="text-2xl md:text-4xl">
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mx-auto mt-10 space-y-10 md:w-[85%] lg:mt-20">
-          <hr className="border border-violet-dark" />
+          <hr className="border-skin-tone-darker border" />
           <div className="flex flex-row items-center justify-center gap-x-1 pb-6 text-center text-sm text-skin-tone-light/20 lg:text-lg">
             <span className="font-outfit">
               Made with love © 2023 meltestera

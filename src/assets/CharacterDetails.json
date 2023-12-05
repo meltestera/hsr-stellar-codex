@@ -2267,7 +2267,7 @@
     ]
   },
   {
-    "name": "Trailblazer Destruction (F)",
+    "name": "Trailblazer (F)",
     "id": 33,
     "rarity": 5,
     "path": "Destruction",
@@ -2337,7 +2337,7 @@
     ]
   },
   {
-    "name": "Trailblazer Preservation (F)",
+    "name": "Trailblazer (F)",
     "id": 34,
     "rarity": 5,
     "path": "Preservation",
@@ -2411,7 +2411,7 @@
     ]
   },
   {
-    "name": "Trailblazer Destruction (M)",
+    "name": "Trailblazer (M)",
     "id": 35,
     "rarity": 5,
     "path": "Destruction",
@@ -2481,7 +2481,7 @@
     ]
   },
   {
-    "name": "Trailblazer Preservation (M)",
+    "name": "Trailblazer (M)",
     "id": 36,
     "rarity": 5,
     "path": "Preservation",

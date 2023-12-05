@@ -15,6 +15,7 @@ const CharacterDetails = () => {
   const scrollRef = useRef(null);
 
   const [characterDetails, setCharacterDetails] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,12 +23,13 @@ const CharacterDetails = () => {
         const response = await fetch("/src/assets/CharacterDetails.json");
         const data = await response.json();
         setCharacterDetails(data);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
 
-    if (scrollRef) window.scrollTo(0, scrollRef.current.offsetTop);
+    if (scrollRef) window.scrollTo(0, scrollRef.current.offsetTop - 20);
 
     fetchData();
   }, []);
@@ -46,19 +48,25 @@ const CharacterDetails = () => {
                 ref={scrollRef}
                 className="relative min-h-[100dvh] border-b border-t-4 border-b-violet-dark border-t-violet-dark dark:bg-almost-black xl:rounded-xl xl:border-t-[12px] xl:border-t-skin-tone-light/80"
               >
-                {selectedCharacter.map((character) => {
-                  return (
-                    <div
-                      className="overflow-x-hidden text-base"
-                      key={character.id}
-                    >
-                      <CharacterProfile character={character} />
-                      <CharacterAbility character={character} />
-                      <CharacterTraces character={character} />
-                      <CharacterEidolons character={character} />
-                    </div>
-                  );
-                })}
+                {loading ? (
+                  "Please wait..."
+                ) : (
+                  <>
+                    {selectedCharacter.map((character) => {
+                      return (
+                        <div
+                          className="overflow-x-hidden text-base"
+                          key={character.id}
+                        >
+                          <CharacterProfile character={character} />
+                          <CharacterAbility character={character} />
+                          <CharacterTraces character={character} />
+                          <CharacterEidolons character={character} />
+                        </div>
+                      );
+                    })}
+                  </>
+                )}
               </div>
             </div>
           </div>
