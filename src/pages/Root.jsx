@@ -3,7 +3,7 @@ import { characters } from "../assets/characters/characters";
 
 // import components
 import CharacterCard from "../components/CharacterCard";
-import Hero from "../components/Hero";
+import CharacterFilterBar from "../components/CharacterFilterBar";
 
 const Root = () => {
   const sortedCharacters = characters.sort((a, b) =>
@@ -18,7 +18,11 @@ const Root = () => {
           <div className="mx-auto max-w-screen-2xl">
             <div className="border-x-skin-tone-darker rounded-xl border-x text-skin-tone-light">
               <div className="relative dark:bg-almost-black/60 sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]">
-                <div className="overflow-x-hidden px-2 py-10 text-base sm:px-4 sm:py-16 lg:px-16">
+                <div className="space-y-16 overflow-x-hidden px-2 py-10 text-base sm:space-y-32 sm:px-4 sm:py-16 lg:px-16">
+                  <CharacterFilterBar
+                    characters={characters}
+                    key={characters.id}
+                  />
                   <div className=" mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-8 xs:max-w-md sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 md:grid-cols-4 xl:grid-cols-6 xl:gap-x-12">
                     {sortedCharacters.map((character) => {
                       return (
