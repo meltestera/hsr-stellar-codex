@@ -15,8 +15,11 @@ import Harmony from "../assets/paths/Character_Path_Harmony.webp";
 import Hunt from "../assets/paths/Character_Path_Hunt.webp";
 import Nihility from "../assets/paths/Character_Path_Nihility.webp";
 import Preservation from "../assets/paths/Character_Path_Preservation.webp";
+import { useState } from "react";
 
 const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
+  const [activeFilter, setActiveFilter] = useState("all");
+
   const handleSearchFilter = (e) => {
     setQuery(e.target.value);
   };
@@ -24,6 +27,7 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
   const handleButtonFilter = (e) => {
     let val = e.currentTarget.value;
     setSelectedFilter(val);
+    setActiveFilter(val);
   };
 
   return (
@@ -42,7 +46,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
           <div className="relative inline-flex w-full align-top">
             <button
               onClick={handleButtonFilter}
-              className="flex w-full items-center justify-center px-1.5 py-2"
+              className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                activeFilter === "all" ? "bg-skin-tone/30" : ""
+              }`}
               value="all"
               type="button"
             >
@@ -83,7 +89,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             </button>
             <button
               onClick={handleButtonFilter}
-              className="inline-flex w-full items-center justify-center gap-x-1 border-x border-x-skin-tone-dark p-1.5"
+              className={`inline-flex w-full items-center justify-center gap-x-1 border-x border-x-skin-tone-dark p-1.5 ${
+                activeFilter === "4" ? "bg-skin-tone/30" : ""
+              }`}
               value="4"
               type="button"
             >
@@ -93,7 +101,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             </button>
             <button
               onClick={handleButtonFilter}
-              className="inline-flex w-full items-center justify-center gap-x-1 px-1.5 py-2"
+              className={`inline-flex w-full items-center justify-center gap-x-1 px-1.5 py-2 ${
+                activeFilter === "5" ? "bg-skin-tone/30" : ""
+              }`}
               value="5"
               type="button"
             >
@@ -107,7 +117,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
           <div className="relative inline-flex w-full align-top">
             <button
               onClick={handleButtonFilter}
-              className="flex w-12 grow-0 items-center justify-center px-1.5 py-2 sm:w-[70px]"
+              className={`flex w-12 grow-0 items-center justify-center px-1.5 py-2 sm:w-[70px] ${
+                activeFilter === "all" ? "bg-skin-tone/30" : ""
+              }`}
               type="button"
               value="all"
             >
@@ -149,7 +161,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow border-x border-x-skin-tone-dark">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Physical" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Physical"
               >
@@ -168,7 +182,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Fire" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Fire"
               >
@@ -187,7 +203,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow border-x border-x-skin-tone-dark">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Ice" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Ice"
               >
@@ -206,7 +224,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Lightning" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Lightning"
               >
@@ -225,7 +245,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow border-x border-x-skin-tone-dark">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Wind" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Wind"
               >
@@ -244,7 +266,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Quantum" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Quantum"
               >
@@ -263,7 +287,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
             <span className="w-[20%] grow border-l border-l-skin-tone-dark">
               <button
                 onClick={handleButtonFilter}
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Imaginary" ? "bg-skin-tone/30" : ""
+                }`}
                 type="button"
                 value="Imaginary"
               >
@@ -285,7 +311,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
           <div className="relative inline-flex w-full align-top">
             <button
               onClick={handleButtonFilter}
-              className="flex w-12 grow-0 items-center justify-center px-1.5 py-2 sm:w-[70px]"
+              className={`flex w-12 grow-0 items-center justify-center px-1.5 py-2 sm:w-[70px] ${
+                activeFilter === "all" ? "bg-skin-tone/30" : ""
+              }`}
               type="button"
               value="all"
             >
@@ -329,7 +357,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Abundance"
-                className="flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2"
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                  activeFilter === "Abundance" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
@@ -348,7 +378,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Destruction"
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Destruction" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
@@ -367,7 +399,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Erudition"
-                className="flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2"
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                  activeFilter === "Erudition" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
@@ -386,7 +420,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Harmony"
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Harmony" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
@@ -405,7 +441,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Hunt"
-                className="flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2"
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                  activeFilter === "Hunt" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
@@ -424,7 +462,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Nihility"
-                className="flex w-full items-center justify-center px-1.5 py-2"
+                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                  activeFilter === "Nihility" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
@@ -443,7 +483,9 @@ const CharacterFilterBar = ({ query, setQuery, setSelectedFilter }) => {
                 onClick={handleButtonFilter}
                 type="button"
                 value="Preservation"
-                className="flex w-full items-center justify-center border-l border-l-skin-tone-dark px-1.5 py-2"
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                  activeFilter === "Preservation" ? "bg-skin-tone/30" : ""
+                }`}
               >
                 <div className="flex w-fit flex-col items-center justify-center">
                   <img
