@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 // import character list
 import { characters } from "../assets/characters/characters";
 
@@ -10,28 +12,55 @@ const Root = () => {
     a.name.localeCompare(b.name),
   );
 
+  const [query, setQuery] = useState("");
+  const [selectedFilter, setSelectedFilter] = useState("all");
+  const [currentCharacterCard, setCurrentCharacterCard] =
+    useState(sortedCharacters);
+
+  useEffect(() => {
+    if (selectedFilter === "all") {
+      setCurrentCharacterCard(sortedCharacters);
+    } else {
+      const filteredCharacters = sortedCharacters.filter((character) => {
+        return (
+          character.rarity === parseInt(selectedFilter) ||
+          character.type === selectedFilter ||
+          character.path === selectedFilter
+        );
+      });
+      setCurrentCharacterCard(filteredCharacters);
+    }
+  }, [selectedFilter]);
+
   return (
     <>
       <div className="relative flex flex-col">
         <div className="h-full max-w-full bg-[url('/src/assets/Background_Stars.webp')] bg-cover bg-[35%_center] bg-no-repeat py-40">
-          <div className="via-skin-tone-darker/5 absolute inset-0 bg-gradient-to-t from-almost-black to-almost-black"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-almost-black via-skin-tone-darker/5 to-almost-black"></div>
           <div className="mx-auto max-w-screen-2xl">
-            <div className="border-x-skin-tone-darker rounded-xl border-x text-skin-tone-light">
-              <div className="relative dark:bg-almost-black/60 sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]">
+            <div className="rounded-xl border-x border-x-skin-tone-darker text-skin-tone-light">
+              <div className="relative min-h-[5001px] dark:bg-almost-black/60 xs:min-h-[6196px] sm:min-h-[5322px] sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] md:min-h-[4086px] xl:min-h-[2862px]">
                 <div className="space-y-16 overflow-x-hidden px-2 py-10 text-base sm:space-y-32 sm:px-4 sm:py-16 lg:px-16">
                   <CharacterFilterBar
                     characters={characters}
                     key={characters.id}
+                    query={query}
+                    setQuery={setQuery}
+                    setSelectedFilter={setSelectedFilter}
                   />
                   <div className=" mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-8 xs:max-w-md sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 md:grid-cols-4 xl:grid-cols-6 xl:gap-x-12">
-                    {sortedCharacters.map((character) => {
-                      return (
-                        <CharacterCard
-                          character={character}
-                          key={character.name}
-                        />
-                      );
-                    })}
+                    {currentCharacterCard
+                      .filter((character) =>
+                        character.name.toLowerCase().includes(query),
+                      )
+                      .map((character) => {
+                        return (
+                          <CharacterCard
+                            character={character}
+                            key={character.name}
+                          />
+                        );
+                      })}
                   </div>
                 </div>
               </div>
