@@ -13,24 +13,31 @@ const Root = () => {
   );
 
   const [query, setQuery] = useState("");
-  const [selectedFilter, setSelectedFilter] = useState("all");
+
+  const [selectedRarityFilter, setSelectedRarityFilter] = useState("all");
+  const [selectedTypeFilter, setSelectedTypeFilter] = useState("all");
+  const [selectedPathFilter, setSelectedPathFilter] = useState("all");
+
   const [currentCharacterCard, setCurrentCharacterCard] =
     useState(sortedCharacters);
 
   useEffect(() => {
-    if (selectedFilter === "all") {
-      setCurrentCharacterCard(sortedCharacters);
-    } else {
-      const filteredCharacters = sortedCharacters.filter((character) => {
-        return (
-          character.rarity === parseInt(selectedFilter) ||
-          character.type === selectedFilter ||
-          character.path === selectedFilter
-        );
-      });
-      setCurrentCharacterCard(filteredCharacters);
-    }
-  }, [selectedFilter]);
+    const filteredCharacters = sortedCharacters.filter((character) => {
+      const filterByRarity =
+        selectedRarityFilter === "all" ||
+        character.rarity === parseInt(selectedRarityFilter);
+
+      const filterByType =
+        selectedTypeFilter === "all" || character.type === selectedTypeFilter;
+
+      const filterByPath =
+        selectedPathFilter === "all" || character.path === selectedPathFilter;
+
+      return filterByRarity && filterByType && filterByPath;
+    });
+
+    setCurrentCharacterCard(filteredCharacters);
+  }, [selectedRarityFilter, selectedTypeFilter, selectedPathFilter]);
 
   return (
     <>
@@ -46,7 +53,9 @@ const Root = () => {
                     key={characters.id}
                     query={query}
                     setQuery={setQuery}
-                    setSelectedFilter={setSelectedFilter}
+                    setSelectedRarityFilter={setSelectedRarityFilter}
+                    setSelectedTypeFilter={setSelectedTypeFilter}
+                    setSelectedPathFilter={setSelectedPathFilter}
                   />
                   <div className=" mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-8 xs:max-w-md sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 md:grid-cols-4 xl:grid-cols-6 xl:gap-x-12">
                     {currentCharacterCard
