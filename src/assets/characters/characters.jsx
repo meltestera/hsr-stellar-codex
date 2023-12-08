@@ -12,6 +12,9 @@ import DanhengPortrait from "./4stars/danheng/Character_Dan_Heng_Portrait.webp";
 import Guinaifen from "./4stars/guinaifen/Character_Guinaifen_Icon.webp";
 import GuinaifenPortrait from "./4stars/guinaifen/Character_Guinaifen_Portrait.webp";
 
+import Hanya from "./4stars/hanya/Character_Hanya_Icon.webp";
+import HanyaPortrait from "./4stars/hanya/Character_Hanya_Portrait.webp";
+
 import Herta from "./4stars/herta/Character_Herta_Icon.webp";
 import HertaPortrait from "./4stars/herta/Character_Herta_Portrait.webp";
 
@@ -53,6 +56,9 @@ import YukongPortrait from "./4stars/yukong/Character_Yukong_Portrait.webp";
 
 // 5-star character icons
 
+import Argenti from "./5stars/argenti/Character_Argenti_Icon.webp";
+import ArgentiPortrait from "./5stars/argenti/Character_Argenti_Portrait.webp";
+
 import Bailu from "./5stars/bailu/Character_Bailu_Icon.webp";
 import BailuPortrait from "./5stars/bailu/Character_Bailu_Portrait.webp";
 
@@ -73,6 +79,9 @@ import GepardPortrait from "./5stars/gepard/Character_Gepard_Portrait.webp";
 
 import Himeko from "./5stars/himeko/Character_Himeko_Icon.webp";
 import HimekoPortrait from "./5stars/himeko/Character_Himeko_Portrait.webp";
+
+import Huohuo from "./5stars/huohuo/Character_Huo_Huo_Icon.webp";
+import HuohuoPortrait from "./5stars/huohuo/Character_Huo_Huo_Portrait.webp";
 
 import Imbibitorlunae from "./5stars/imbibitorlunae/Character_Imbibitor_Lunae_Icon.webp";
 import ImbibitorlunaePortrait from "./5stars/imbibitorlunae/Character_Imbibitor_Lunae_Portrait.webp";
@@ -101,11 +110,11 @@ import TopazPortrait from "./5stars/topaz/Character_Topaz_Portrait.webp";
 import Femaled from "./5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Icon.webp";
 import FemaledPortrait from "./5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Portrait.webp";
 
-import Femalep from "./5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Icon.webp";
-import FemalepPortrait from "./5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Portrait.webp";
+// import Femalep from "./5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Icon.webp";
+// import FemalepPortrait from "./5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Portrait.webp";
 
-import Maled from "./5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Icon.webp";
-import MaledPortrait from "./5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Portrait.webp";
+// import Maled from "./5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Icon.webp";
+// import MaledPortrait from "./5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Portrait.webp";
 
 import Malep from "./5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Icon.webp";
 import MalepPortrait from "./5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Portrait.webp";
@@ -194,9 +203,23 @@ export const characters = [
     altPath: "Character_Path_Nihility",
   },
   {
-    name: "Herta",
+    name: "Hanya",
     rarity: 4,
     id: 5,
+    type: "Physical",
+    path: "Harmony",
+    icon: Hanya,
+    iconType: Physical,
+    iconPath: Harmony,
+    portrait: HanyaPortrait,
+    alt: "Character_Hanya_Icon",
+    altType: "Class_Type_Physical",
+    altPath: "Character_Path_Harmony",
+  },
+  {
+    name: "Herta",
+    rarity: 4,
+    id: 6,
     type: "Ice",
     path: "Erudition",
     icon: Herta,
@@ -210,7 +233,7 @@ export const characters = [
   {
     name: "Hook",
     rarity: 4,
-    id: 6,
+    id: 7,
     type: "Fire",
     path: "Destruction",
     icon: Hook,
@@ -224,7 +247,7 @@ export const characters = [
   {
     name: "Luka",
     rarity: 4,
-    id: 7,
+    id: 8,
     type: "Physical",
     path: "Nihility",
     icon: Luka,
@@ -238,7 +261,7 @@ export const characters = [
   {
     name: "Lynx",
     rarity: 4,
-    id: 8,
+    id: 9,
     type: "Quantum",
     path: "Abundance",
     icon: Lynx,
@@ -252,7 +275,7 @@ export const characters = [
   {
     name: "March 7th",
     rarity: 4,
-    id: 9,
+    id: 10,
     type: "Ice",
     path: "Preservation",
     icon: March7th,
@@ -266,7 +289,7 @@ export const characters = [
   {
     name: "Natasha",
     rarity: 4,
-    id: 10,
+    id: 11,
     type: "Physical",
     path: "Abundance",
     icon: Natasha,
@@ -280,7 +303,7 @@ export const characters = [
   {
     name: "Pela",
     rarity: 4,
-    id: 11,
+    id: 12,
     type: "Ice",
     path: "Nihility",
     icon: Pela,
@@ -294,7 +317,7 @@ export const characters = [
   {
     name: "Qingque",
     rarity: 4,
-    id: 12,
+    id: 13,
     type: "Quantum",
     path: "Erudition",
     icon: Qingque,
@@ -308,7 +331,7 @@ export const characters = [
   {
     name: "Sampo",
     rarity: 4,
-    id: 13,
+    id: 14,
     type: "Wind",
     path: "Nihility",
     icon: Sampo,
@@ -322,7 +345,7 @@ export const characters = [
   {
     name: "Serval",
     rarity: 4,
-    id: 14,
+    id: 15,
     type: "Lightning",
     path: "Erudition",
     icon: Serval,
@@ -336,7 +359,7 @@ export const characters = [
   {
     name: "Sushang",
     rarity: 4,
-    id: 15,
+    id: 16,
     type: "Physical",
     path: "Hunt",
     icon: Sushang,
@@ -350,7 +373,7 @@ export const characters = [
   {
     name: "Tingyun",
     rarity: 4,
-    id: 16,
+    id: 17,
     type: "Lightning",
     path: "Harmony",
     icon: Tingyun,
@@ -364,7 +387,7 @@ export const characters = [
   {
     name: "Yukong",
     rarity: 4,
-    id: 17,
+    id: 18,
     type: "Imaginary",
     path: "Harmony",
     icon: Yukong,
@@ -378,7 +401,7 @@ export const characters = [
   {
     name: "Bailu",
     rarity: 5,
-    id: 18,
+    id: 19,
     type: "Lightning",
     path: "Abundance",
     icon: Bailu,
@@ -392,7 +415,7 @@ export const characters = [
   {
     name: "Blade",
     rarity: 5,
-    id: 19,
+    id: 20,
     type: "Wind",
     path: "Destruction",
     icon: Blade,
@@ -406,7 +429,7 @@ export const characters = [
   {
     name: "Bronya",
     rarity: 5,
-    id: 20,
+    id: 21,
     type: "Wind",
     path: "Harmony",
     icon: Bronya,
@@ -420,7 +443,7 @@ export const characters = [
   {
     name: "Clara",
     rarity: 5,
-    id: 21,
+    id: 22,
     type: "Physical",
     path: "Destruction",
     icon: Clara,
@@ -434,7 +457,7 @@ export const characters = [
   {
     name: "Fu Xuan",
     rarity: 5,
-    id: 22,
+    id: 23,
     type: "Quantum",
     path: "Preservation",
     icon: Fuxuan,
@@ -448,7 +471,7 @@ export const characters = [
   {
     name: "Gepard",
     rarity: 5,
-    id: 23,
+    id: 24,
     type: "Ice",
     path: "Preservation",
     icon: Gepard,
@@ -462,7 +485,7 @@ export const characters = [
   {
     name: "Himeko",
     rarity: 5,
-    id: 24,
+    id: 25,
     type: "Fire",
     path: "Erudition",
     icon: Himeko,
@@ -476,7 +499,7 @@ export const characters = [
   {
     name: "Imbibitor Lunae",
     rarity: 5,
-    id: 25,
+    id: 26,
     type: "Imaginary",
     path: "Destruction",
     icon: Imbibitorlunae,
@@ -490,7 +513,7 @@ export const characters = [
   {
     name: "Jingliu",
     rarity: 5,
-    id: 26,
+    id: 27,
     type: "Ice",
     path: "Destruction",
     icon: Jingliu,
@@ -504,7 +527,7 @@ export const characters = [
   {
     name: "Jing Yuan",
     rarity: 5,
-    id: 27,
+    id: 28,
     type: "Lightning",
     path: "Erudition",
     icon: Jingyuan,
@@ -518,7 +541,7 @@ export const characters = [
   {
     name: "Kafka",
     rarity: 5,
-    id: 28,
+    id: 29,
     type: "Lightning",
     path: "Nihility",
     icon: Kafka,
@@ -532,7 +555,7 @@ export const characters = [
   {
     name: "Luocha",
     rarity: 5,
-    id: 29,
+    id: 30,
     type: "Imaginary",
     path: "Abundance",
     icon: Luocha,
@@ -546,7 +569,7 @@ export const characters = [
   {
     name: "Seele",
     rarity: 5,
-    id: 30,
+    id: 31,
     type: "Quantum",
     path: "Hunt",
     icon: Seele,
@@ -560,7 +583,7 @@ export const characters = [
   {
     name: "Silver Wolf",
     rarity: 5,
-    id: 31,
+    id: 32,
     type: "Quantum",
     path: "Nihility",
     icon: Silverwolf,
@@ -574,7 +597,7 @@ export const characters = [
   {
     name: "Topaz and Numby",
     rarity: 5,
-    id: 32,
+    id: 33,
     type: "Fire",
     path: "Hunt",
     icon: Topaz,
@@ -588,7 +611,7 @@ export const characters = [
   {
     name: "Trailblazer (F)",
     rarity: 5,
-    id: 33,
+    id: 34,
     type: "Physical",
     path: "Destruction",
     icon: Femaled,
@@ -630,7 +653,7 @@ export const characters = [
   {
     name: "Trailblazer (M)",
     rarity: 5,
-    id: 36,
+    id: 35,
     type: "Fire",
     path: "Preservation",
     icon: Malep,
@@ -644,7 +667,7 @@ export const characters = [
   {
     name: "Welt",
     rarity: 5,
-    id: 37,
+    id: 36,
     type: "Imaginary",
     path: "Nihility",
     icon: Welt,
@@ -658,7 +681,7 @@ export const characters = [
   {
     name: "Yanqing",
     rarity: 5,
-    id: 38,
+    id: 37,
     type: "Ice",
     path: "Hunt",
     icon: Yanqing,
@@ -668,5 +691,33 @@ export const characters = [
     alt: "Character_Yanqing_Icon",
     altType: "Class_Type_Ice",
     altPath: "Character_Path_Hunt",
+  },
+  {
+    name: "Huo Huo",
+    rarity: 5,
+    id: 38,
+    type: "Wind",
+    path: "Abundance",
+    icon: Huohuo,
+    iconType: Wind,
+    iconPath: Abundance,
+    portrait: HuohuoPortrait,
+    alt: "Character_Huo_Huo_Icon",
+    altType: "Class_Type_Wind",
+    altPath: "Character_Path_Abundance",
+  },
+  {
+    name: "Argenti",
+    rarity: 5,
+    id: 39,
+    type: "Physical",
+    path: "Erudition",
+    icon: Argenti,
+    iconType: Physical,
+    iconPath: Erudition,
+    portrait: ArgentiPortrait,
+    alt: "Character_Argenti_Icon",
+    altType: "Class_Type_Physical",
+    altPath: "Character_Path_Erudition",
   },
 ];

@@ -2697,5 +2697,219 @@
       "Character_Yanqing_Eidolon_5",
       "Character_Yanqing_Eidolon_6"
     ]
+  },
+  {
+    "name": "Hanya",
+    "id": 39,
+    "rarity": 4,
+    "path": "Harmony",
+    "type": "Physical",
+    "introduction": "A judge in the Xianzhou Luofu's Ten-Lords Commission, ordained by the Ten-Lords and empowered with the Oracle Brush, she assesses human sins and transgressions, meting out punishments and karmic retribution based on her judgments.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Oracle Brush",
+      "Samsara, Locked",
+      "Ten-Lords' Decree, All Shall Obey",
+      "Sanction",
+      "Netherworld Judgment"
+    ],
+    "abilityDesc": [
+      "DDeals Physical DMG equal to 100% of Hanya's ATK to a single enemy.",
+      "Deals Physical DMG equal to 240% of Hanya's ATK to a single enemy, then applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.",
+      "Increases the SPD of a target ally by 20% of Hanya's SPD and increases the same target ally's ATK by 60%, lasting for 2 turn(s).",
+      "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 30% for 2 turn(s).",
+      "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy."
+    ],
+    "tracesTitle": ["Scrivener", "Netherworld", "Reanimated"],
+    "tracesDesc": [
+      "Allies triggering Burden's Skill Point recovery effect have their ATK increased by 10% for 1 turn(s).",
+      "If the trigger count for the Burden's Skill Point recovery effect is 1 or lower when an enemy with Burden is defeated, then additionally recovers 1 Skill Point(s).",
+      "When Burden's Skill Point recovery effect is triggered, this character regenerates 2 Energy."
+    ],
+    "tracesAttr": ["ATK +28%", "Speed +9", "HP +10%"],
+    "eidolonsTitle": [
+      "One Heart",
+      "Two Views",
+      "Three Temptations",
+      "Four Truths",
+      "Five Skandhas",
+      "Six Reverences"
+    ],
+    "eidolonsDesc": [
+      "When an ally with Hanya's Ultimate's effect defeats an enemy, Hanya's action is Advanced Forward by 15%. This effect can only be triggered 1 time(s) per turn.",
+      "After using the Skill, this character's SPD increases by 20% for 1 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The Ultimate's duration is additionally extended for 1 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Increase the DMG Boost effect of the Talent by an additional 10%."
+    ],
+    "imagePortrait": "/src/assets/characters/4stars/hanya/Character_Hanya_Portrait.webp",
+    "imageSplash": "/src/assets/characters/4stars/hanya/Character_Hanya_Splash_Art.webp",
+    "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
+    "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageEidolons": [
+      "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_1.webp",
+      "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_2.webp",
+      "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_3.webp",
+      "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_4.webp",
+      "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_5.webp",
+      "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_6.webp"
+    ],
+    "altPortrait": "Character_Hanya_Portrait",
+    "altSplash": "Character_Hanya_Splash_Art",
+    "altPath": "Class_Path_Harmony",
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Hanya_Eidolon_1",
+      "Character_Hanya_Eidolon_2",
+      "Character_Hanya_Eidolon_3",
+      "Character_Hanya_Eidolon_4",
+      "Character_Hanya_Eidolon_5",
+      "Character_Hanya_Eidolon_6"
+    ]
+  },
+  {
+    "name": "Huo Huo",
+    "id": 38,
+    "rarity": 5,
+    "path": "Hunt",
+    "type": "Ice",
+    "introduction": "A young Foxian girl and trainee Judge of the Xianzhou Luofu's Ten-Lords Commission, she is inhabited by a heliobus. Despite being timid and fearful of various things, she takes on the responsibility of attracting and subduing evil spirits.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Banner: Stormcaller",
+      "Talisman: Protection",
+      "Tail: Spiritual Domination",
+      "Possession: Ethereal Metaflow",
+      "Fiend: Impeachment of Evil"
+    ],
+    "abilityDesc": [
+      "Deals Wind DMG equal to 50% of Huohuo's Max HP to a target enemy.",
+      "Dispels 1 debuff(s) from a single target ally and immediately restores this ally's HP by an amount equal to 21% of Huohuo's Max HP plus 560. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to 16.8% of Huohuo's Max HP plus 448.",
+      "Regenerates Energy for all allies (excluding this character) by an amount equal to 20% of their respective Max Energy. At the same time, increases their ATK by 40% for 2 turn(s).",
+      "After using her Skill, Huohuo gains Divine Provision, lasting for 2 turn(s). This duration decreases by 1 turn at the start of each Huohuo's turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to 4.5% of Huohuo's Max HP plus 120. At the same time, every ally with 50% HP or lower receives healing once. When Divine Provision is triggered to heal an ally, dispel 1 debuff(s) from that ally. This effect can be triggered up to 6 time(s). Using the skill again resets the effect's trigger count.",
+      "Huohuo terrorizes surrounding enemies, afflicting Horror-Struck on them. Enemies in Horror-Struck will flee away from Huohuo for 10 second(s). When entering battle with enemies in Horror-Struck, there is a 100% base chance of reducing every single enemy's ATK by 25% for 2 turn(s)"
+    ],
+    "tracesTitle": [
+      "Fearful to Act",
+      "The Cursed One",
+      "Stress Reaction to Horror"
+    ],
+    "tracesDesc": [
+      "When battle starts, Huohuo gains Divine Provision, lasting for 1 turn(s).",
+      "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "When her Talent is triggered to heal allies, Huohuo regenerates 1 Energy."
+    ],
+    "tracesAttr": ["HP +28%", "Effect RES +12.5%", "Speed +5"],
+    "eidolonsTitle": [
+      "Anchored to Vessel, Specters Nestled",
+      "Sealed in Tail, Wraith Subdued",
+      "Cursed by Fate, Moths to Flame",
+      "Tied in Life, Bound to Strife",
+      "Mandated by Edict, Evils Evicted",
+      "Woven Together, Cohere Forever"
+    ],
+    "eidolonsDesc": [
+      "The duration of Divine Provision produced by the Talent is extended by 1 turn(s). When Huohuo possesses Divine Provision, all allies' SPD increases by 12%.",
+      "If Huohuo possesses Divine Provision when an ally is struck by a killing blow, the ally will not be knocked down, and their HP will immediately be restored by an amount equal to 50% of their Max HP. This reduces the duration of Divine Provision by 1 turn. This effect can only be triggered 2 time(s) per battle.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When healing a target ally via Skill or Talent, the less HP the target ally currently has, the higher the amount of healing they will receive. The maximum increase in healing provided by Huohuo is 80%.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turn(s)."
+    ],
+    "imagePortrait": "/src/assets/characters/5stars/huohuo/Character_Huo_Huo_Portrait.webp",
+    "imageSplash": "/src/assets/characters/5stars/huohuo/Character_Huo_Huo_Splash_Art.webp",
+    "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
+    "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_1.webp",
+      "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_2.webp",
+      "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_3.webp",
+      "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_4.webp",
+      "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_5.webp",
+      "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_6.webp"
+    ],
+    "altPortrait": "Character_Huo_Huo_Portrait",
+    "altSplash": "Character_Huo_Huo_Splash_Art",
+    "altPath": "Class_Path_Abundance",
+    "altType": "Class_Type_Wind",
+    "altEidolons": [
+      "Character_Huo_Huo_Eidolon_1",
+      "Character_Huo_Huo_Eidolon_2",
+      "Character_Huo_Huo_Eidolon_3",
+      "Character_Huo_Huo_Eidolon_4",
+      "Character_Huo_Huo_Eidolon_5",
+      "Character_Huo_Huo_Eidolon_6"
+    ]
+  },
+  {
+    "name": "Argenti",
+    "id": 38,
+    "rarity": 5,
+    "path": "Hunt",
+    "type": "Ice",
+    "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Fleeting Fragrance",
+      "Justice, Hereby Blooms",
+      "For In This Garden Supreme Beauty Bestows",
+      "Sublime Object",
+      "Manifesto of Purest Virtue"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Argenti's ATK to a single target enemy.",
+      "Deals Physical DMG equal to 120% of Argenti's ATK to all enemies.",
+      "Consumes 90 Energy and deals Physical DMG equal to 160% of Argenti's ATK to all enemies.",
+      "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Ascend, increasing his CRIT Rate by 2.5%. This effect can stack up to 10 time(s).",
+      "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team. When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15."
+    ],
+    "tracesTitle": ["Piety", "Generosity", "Courage"],
+    "tracesDesc": [
+      "At the start of a turn, immediately gains 1 stack(s) of Apotheosis.",
+      "When enemy targets enter battle, immediately regenerates 2 Energy for self.",
+      "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+    ],
+    "tracesAttr": ["ATK +28%", "Physical DMG +14.4%", "HP +10%"],
+    "eidolonsTitle": [
+      "A Lacuna in Kingdom of Aesthetics",
+      "Agate's Humility",
+      "Thorny Road's Glory",
+      "Trumpet's Dedication",
+      "\"Your\" Resplendence",
+      "Swift Swoop"
+    ],
+    "eidolonsDesc": [
+      "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
+      "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10,",
+      "When using Ultimate, ignores 30% of enemy targets' DEF."
+    ],
+    "imagePortrait": "/src/assets/characters/5stars/argenti/Character_Argenti_Portrait.webp",
+    "imageSplash": "/src/assets/characters/5stars/argenti/Character_Argenti_Splash_Art.webp",
+    "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
+    "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageEidolons": [
+      "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
+      "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
+      "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_3.webp",
+      "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_4.webp",
+      "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_5.webp",
+      "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_6.webp"
+    ],
+    "altPortrait": "Character_Argenti_Portrait",
+    "altSplash": "Character_Argenti_Splash_Art",
+    "altPath": "Class_Path_Erudition",
+    "altType": "Class_Type_Physical",
+    "altEidolons": [
+      "Character_Argenti_Eidolon_1",
+      "Character_Argenti_Eidolon_2",
+      "Character_Argenti_Eidolon_3",
+      "Character_Argenti_Eidolon_4",
+      "Character_Argenti_Eidolon_5",
+      "Character_Argenti_Eidolon_6"
+    ]
   }
 ]
