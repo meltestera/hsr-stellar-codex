@@ -609,7 +609,7 @@ export const characters = [
     altPath: "Character_Path_Hunt",
   },
   {
-    name: "Trailblazer (F)",
+    name: "Trailblazer",
     rarity: 5,
     id: 34,
     type: "Physical",
@@ -651,7 +651,7 @@ export const characters = [
   //   altPath: "Character_Path_Destruction",
   // },
   {
-    name: "Trailblazer (M)",
+    name: "Trailblazer",
     rarity: 5,
     id: 35,
     type: "Fire",

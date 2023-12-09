@@ -20,8 +20,8 @@ const CharacterDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/src/assets/CharacterDetails.json");
-        const data = await response.json();
+        const res = await fetch("/src/assets/CharacterDetails.json");
+        const data = await res.json();
         setCharacterDetails(data);
         setLoading(false);
       } catch (error) {
@@ -29,7 +29,12 @@ const CharacterDetails = () => {
       }
     };
 
-    if (scrollRef) window.scrollTo(0, scrollRef.current.offsetTop - 20);
+    if (scrollRef)
+      scrollRef.current.scrollIntoView({
+        behavior: "instant",
+        block: "start",
+        inline: "center",
+      });
 
     fetchData();
   }, []);
@@ -40,13 +45,14 @@ const CharacterDetails = () => {
 
   return (
     <>
-      <div className="flex flex-col">
-        <div className="bg-almost-black py-40">
-          <div className="mx-auto max-w-screen-xl">
-            <div className="rounded-xl border-x-2 border-x-violet-dark text-skin-tone-light">
+      <div className="relative flex flex-col">
+        <div className="h-full w-full bg-[url('/src/assets/Background_Stars.webp')] bg-cover bg-[35%_center] bg-no-repeat py-40">
+          <div className="absolute inset-0 bg-gradient-to-t from-almost-black via-skin-tone-darker/5 to-almost-black"></div>
+          <div className="mx-auto max-w-screen-2xl">
+            <div className="rounded-xl border-x border-x-skin-tone-darker text-skin-tone-light">
               <div
                 ref={scrollRef}
-                className="relative min-h-[100dvh] border-b border-t-4 border-b-violet-dark border-t-violet-dark dark:bg-almost-black xl:rounded-xl xl:border-t-[12px] xl:border-t-skin-tone-light/80"
+                className="relative min-h-[5535px] dark:bg-almost-black/60 xs:min-h-[6837px] sm:min-h-[6086px] sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] md:min-h-[4850px] lg:min-h-[4902px] xl:min-h-[3666px]"
               >
                 {loading ? (
                   "Please wait..."
@@ -55,10 +61,25 @@ const CharacterDetails = () => {
                     {selectedCharacter.map((character) => {
                       return (
                         <div
-                          className="overflow-x-hidden text-base"
+                          className="flex flex-col overflow-x-hidden px-2 py-10 text-base sm:px-4 sm:py-16 lg:px-16"
                           key={character.id}
                         >
-                          <CharacterProfile character={character} />
+                          <CharacterProfile
+                            characterName={character.name}
+                            characterType={character.type}
+                            characterPath={character.path}
+                            characterIntro={character.introduction}
+                            characterImagePortrait={character.imagePortrait}
+                            characterImageSplash={character.imageSplash}
+                            characterImageType={character.imageType}
+                            characterImagePath={character.imagePath}
+                            characterAltPortrait={
+                              character.characterAltPortrait
+                            }
+                            characterAltSplash={character.characterAltSplash}
+                            characterAltType={character.characterAltType}
+                            characterAltPath={character.characterAltPath}
+                          />
                           <CharacterAbility character={character} />
                           <CharacterTraces character={character} />
                           <CharacterEidolons character={character} />

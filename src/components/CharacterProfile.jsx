@@ -1,21 +1,74 @@
-const CharacterProfile = ({ character }) => {
+const CharacterProfile = ({
+  characterName,
+  characterType,
+  characterPath,
+  characterIntro,
+  characterImagePortrait,
+  characterImageSplash,
+  characterImageType,
+  characterImagePath,
+  characterAltPortrait,
+  characterAltSplash,
+  characterAltType,
+  characterAltPath,
+}) => {
   return (
     <>
-      <div className="text-center">
-        <span className="text-4xl font-bold"> {character.name}</span>
-      </div>
-      <p>{character.introduction}</p>
-      <div className="max-w-xs object-cover object-center p-4">
-        <img
-          type="image/webp"
-          src={character.imagePortrait}
-          alt={character.altPortrait}
-          width="400"
-          height="auto"
-          fetchpriority="high"
-          role="presentation"
-          className="min-h-full object-cover object-center"
-        />
+      <div className="profile flex flex-col gap-y-3 text-skin-tone-light">
+        <div className="mx-auto max-w-xs space-y-2 text-center md:max-w-xl md:space-y-3 xl:space-y-5">
+          <span className="font-poppins text-2xl font-bold md:text-3xl xl:text-4xl">
+            {characterName}
+          </span>
+          <div className="w-full">
+            <div className="flex flex-row items-center justify-center gap-x-3">
+              <div className="flex flex-col items-center justify-center">
+                <img
+                  src={characterImageType}
+                  alt={characterAltType}
+                  width={30}
+                  height={30}
+                  fetchpriority="high"
+                  role="presentation"
+                  className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <img
+                  src={characterImagePath}
+                  alt={characterAltPath}
+                  width={30}
+                  height={30}
+                  fetchpriority="high"
+                  role="presentation"
+                  className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center py-16">
+          <div className="h-[300px] overflow-hidden sm:h-[450px] lg:h-[550px] xl:h-[700px]">
+            <img
+              type="image/webp"
+              src={characterImageSplash}
+              alt={characterImageSplash}
+              width={180}
+              height={180}
+              fetchpriority="high"
+              role="presentation"
+              className="h-full w-full object-cover object-center"
+            />
+          </div>
+        </div>
+        <div className="w-full space-y-6 p-2 text-center">
+          <b className="font-poppins text-lg uppercase md:text-2xl">
+            Character Introduction
+          </b>
+          <hr className="mx-auto w-[85%] border border-skin-tone-dark" />
+          <p className="font-outfit text-sm font-light md:text-justify md:text-lg">
+            {characterIntro}
+          </p>
+        </div>
       </div>
     </>
   );
