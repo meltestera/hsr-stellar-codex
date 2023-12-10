@@ -46,12 +46,12 @@ const CharacterProfile = ({
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center py-16">
-          <div className="h-[300px] overflow-hidden sm:h-[450px] lg:h-[550px] xl:h-[700px]">
+        <div className="flex flex-col items-center justify-center pb-16">
+          <div className="h-[300px] overflow-hidden sm:h-[450px] md:h-[600px] lg:h-[700px] xl:h-[1000px]">
             <img
               type="image/webp"
               src={characterImageSplash}
-              alt={characterImageSplash}
+              alt={characterAltSplash}
               width={180}
               height={180}
               fetchpriority="high"
@@ -62,10 +62,10 @@ const CharacterProfile = ({
         </div>
         <div className="w-full space-y-6 p-2 text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">
-            Character Introduction
+            Introduction
           </b>
-          <hr className="mx-auto w-[85%] border border-skin-tone-dark" />
-          <p className="font-outfit text-sm font-light md:text-justify md:text-lg">
+          <hr className="mx-auto w-[60%] border border-skin-tone-dark lg:w-[35%]" />
+          <p className="mx-auto w-fit font-outfit text-sm font-light md:text-justify md:text-lg md:font-normal">
             {characterIntro}
           </p>
         </div>

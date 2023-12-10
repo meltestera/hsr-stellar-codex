@@ -6,10 +6,18 @@
     "path": "Destruction",
     "type": "Lightning",
     "introduction": "The head of Herta Space Station's Security Department is a reserved and determined individual with a sincere desire to safeguard the researchers and their valuable pursuit of knowledge. Despite a quiet demeanor, this person is dedicated to ensuring the safety of the station's occupants and facilitating the successful completion of their research projects.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Ultimate",
+      "Ultimate (Enhanced)",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Lightning Rush",
       "Shackle Breaker",
+      "Frenzied Punishment",
       "Frenzied Punishment",
       "Pain and Anger",
       "Swift Harvest"
@@ -48,6 +56,14 @@
     "imageSplash": "/src/assets/characters/4stars/arlan/Character_Arlan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageAbilities": [
+      "src/assets/characters/4stars/arlan/abilities/Ability_Lightning_Rush.webp",
+      "src/assets/characters/4stars/arlan/abilities/Ability_Shackle_Breaker.webp",
+      "src/assets/characters/4stars/arlan/abilities/Ability_Frenzied_Punishment.webp",
+      "src/assets/characters/4stars/arlan/abilities/Ability_Frenzied_Punishment.webp",
+      "src/assets/characters/4stars/arlan/abilities/Ability_Pain_and_Anger.webp",
+      "src/assets/characters/4stars/arlan/abilities/Ability_Swift_Harvest.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_1.webp",
       "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_2.webp",
@@ -60,6 +76,14 @@
     "altSplash": "Character_Arlan_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Lightning",
+    "altAbilities": [
+      "Ability_Lightning_Rush",
+      "Ability_Shackle_Breaker",
+      "Ability_Frenzied_Punishment",
+      "Ability_Frenzied_Punishment",
+      "Ability_Pain_and_Anger",
+      "Ability_Swift_Harvest"
+    ],
     "altEidolons": [
       "Character_Arlan_Eidolon_1",
       "Character_Arlan_Eidolon_2",
@@ -118,6 +142,13 @@
     "imageSplash": "/src/assets/characters/4stars/asta/Character_Asta_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageAbilities": [
+      "src/assets/characters/4stars/asta/abilities/Ability_Spectrum_Beam.webp",
+      "src/assets/characters/4stars/asta/abilities/Ability_Meteor_Storm.webp",
+      "src/assets/characters/4stars/asta/abilities/Ability_Astral_Blessing.webp",
+      "src/assets/characters/4stars/asta/abilities/Ability_Astrometry.webp",
+      "src/assets/characters/4stars/asta/abilities/Ability_Miracle_Flash.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_1.webp",
       "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_2.webp",
@@ -130,6 +161,13 @@
     "altSplash": "Character_Asta_Splash_Art",
     "altPath": "Class_Path_Harmony",
     "altType": "Class_Type_Fire",
+    "altAbilities": [
+      "Ability_Spectrum_Beam",
+      "Ability_Meteor_Storm",
+      "Ability_Astral_Blessing",
+      "Ability_Astrometry",
+      "Ability_Miracle_Flash"
+    ],
     "altEidolons": [
       "Character_Asta_Eidolon_1",
       "Character_Asta_Eidolon_2",
@@ -188,6 +226,13 @@
     "imageSplash": "/src/assets/characters/4stars/danheng/Character_Dan_Heng_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageAbilities": [
+      "src/assets/characters/4stars/danheng/abilities/Ability_Cloudlancer_Art_North_Wind.webp",
+      "src/assets/characters/4stars/danheng/abilities/Ability_Cloudlancer_Art_Torrent.webp",
+      "src/assets/characters/4stars/danheng/abilities/Ability_Ethereal_Dream.webp",
+      "src/assets/characters/4stars/danheng/abilities/Ability_Superiority_of_Reach.webp",
+      "src/assets/characters/4stars/danheng/abilities/Ability_Splitting_Spearhead.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_1.webp",
       "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_2.webp",
@@ -201,6 +246,13 @@
     "altSplash": "Character_Dan_Heng_Splash_Art",
     "altPath": "Class_Path_Hunt",
     "altType": "Class_Type_Wind",
+    "altAbilities": [
+      "Ability_Cloudlancer_Art_North_Wind",
+      "Ability_Cloudlancer_Art_Torrent",
+      "Ability_Ethereal_Dream",
+      "Ability_Superiority_of_Reach",
+      "Ability_Splitting_Spearhead"
+    ],
     "altEidolons": [
       "Character_Dan_Heng_Eidolon_1",
       "Character_Dan_Heng_Eidolon_2",
@@ -263,6 +315,13 @@
     "imageSplash": "/src/assets/characters/4stars/guinaifen/Character_Guinaifen_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/guinaifen/abilities/Ability_Standing_Ovation.webp",
+      "/src/assets/characters/4stars/guinaifen/abilities/Ability_Blazing_Welcome.webp",
+      "/src/assets/characters/4stars/guinaifen/abilities/Ability_Watch_This_Showstopper.webp",
+      "/src/assets/characters/4stars/guinaifen/abilities/Ability_PatrAeon_Benefits.webp",
+      "/src/assets/characters/4stars/guinaifen/abilities/Ability_Skill_Showcase.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_1.webp",
       "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_2.webp",
@@ -275,6 +334,13 @@
     "altSplash": "Character_Guinafen_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Fire",
+    "altAbilities": [
+      "Ability_Standing_Ovation",
+      "Ability_Blazing_Welcome",
+      "Ability_Watch_This_Showstopper",
+      "Ability_PatrAeon_Benefits",
+      "Ability_Skill_Showcase"
+    ],
     "altEidolons": [
       "Character_Guinaifen_Eidolon_1",
       "Character_Guinaifen_Eidolon_2",
@@ -333,6 +399,13 @@
     "imageSplash": "/src/assets/characters/4stars/herta/Character_Herta_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/herta/abilities/Ability_What_Are_You_Looking_At.webp",
+      "/src/assets/characters/4stars/herta/abilities/Ability_One-Time_Offer.webp",
+      "/src/assets/characters/4stars/herta/abilities/Ability_It's_Magic_I_Added_Some_Magic.webp",
+      "/src/assets/characters/4stars/herta/abilities/Ability_Fine!_l'll_Do_It_Myself.webp",
+      "/src/assets/characters/4stars/herta/abilities/Ability_It_Can_Still_Be_Optimized.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_1.webp",
       "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_2.webp",
@@ -345,6 +418,13 @@
     "altSplash": "Character_Herta_Splash_Art",
     "altPath": "Class_Path_Erudition",
     "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_What_Are_You_Looking_At?",
+      "Ability_One-Time_Offer",
+      "Ability_It's_Magic_I_Added_Some_Magic",
+      "Ability_Fine!_l'll_Do_It_Myself",
+      "Ability_It_Can_Still_Be_Optimized"
+    ],
     "altEidolons": [
       "Character_Herta_Eidolon_1",
       "Character_Herta_Eidolon_2",
@@ -361,9 +441,17 @@
     "path": "Destruction",
     "type": "Fire",
     "introduction": "The self-proclaimed leader of The Moles, an Underworld adventure squad, embraces a love for freedom and views life as a succession of thrilling adventures.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Skill (Enhanced)",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Hehe! Don't Get Burned!",
+      "Hey! Remember Hook?",
       "Hey! Remember Hook?",
       "Boom! Here Comes the Fire!",
       "Ha! Oil to the Flames!",
@@ -372,6 +460,7 @@
     "abilityDesc": [
       "Deals Fire DMG equal to 100% of Hook's ATK to a single enemy.",
       "Deals Fire DMG equal to 240% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 65% of Hook's ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 280% of Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to 80% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will take Fire DoT equal to 65% of Hook's ATK at the beginning of each turn.",
       "Deals Fire DMG equal to 400% of Hook's ATK to a single enemy. After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
       "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 100% of Hook's ATK and regenerates 5 extra Energy.",
       "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn."
@@ -403,6 +492,14 @@
     "imageSplash": "/src/assets/characters/4stars/hook/Character_Hook_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/hook/abilities/Ability_Hehe!_Get_Burned!.webp",
+      "/src/assets/characters/4stars/hook/abilities/Ability_Hey!_Remember_Hook.webp",
+      "/src/assets/characters/4stars/hook/abilities/Ability_Hey!_Remember_Hook.webp",
+      "/src/assets/characters/4stars/hook/abilities/Ability_Boom!_Here_Comes_The_Fire!.webp",
+      "/src/assets/characters/4stars/hook/abilities/Ability_Ha!_Oil_To_The_Flames!.webp",
+      "/src/assets/characters/4stars/hook/abilities/Ability_Ack!_Look_At_This_Mess!.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_1.webp",
       "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_2.webp",
@@ -415,6 +512,14 @@
     "altSplash": "Character_Hook_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Fire",
+    "altAbilities": [
+      "Ability_Hehe!_Get_Burned!",
+      "Ability_Hey!_Remember_Hook",
+      "Ability_Hey!_Remember_Hook",
+      "Ability_Boom!_Here_Comes_The_Fire!",
+      "Ability_Ha!_Oil_To_The_Flames!",
+      "Ability_Ack!_Look_At_This_Mess!"
+    ],
     "altEidolons": [
       "Character_Hook_Eidolon_1",
       "Character_Hook_Eidolon_2",
@@ -431,16 +536,25 @@
     "path": "Nihility",
     "type": "Physical",
     "introduction": "The reigning boxing champion within Belobog's Underworld and a formidable member of Wildfire's skilled fighters. This consecutive champion of the Fight Club serves as an inspirational figure, igniting the dreams of children in the Underworld with his enthusiastic presence.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Basic ATK (Enhanced)",
+      "Skill",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Direct Punch",
       "Lacerating Fist",
+      "Sky-Shatter Fist",
       "Coup de Grâce",
       "Flying Sparks",
       "Anticipator"
     ],
     "abilityDesc": [
       "Deals Physical DMG equal to 100% of Luka's ATK to a single enemy.",
+      "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to 20% of Luka's ATK to a single enemy target. Then, uses Rising Uppercut to deal 1 hit, dealing Physical DMG equal to 80% of Luka's ATK to the single enemy target.",
       "Deals Physical DMG equal to 120% of Luka's ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 338% of Luka's ATK.",
       "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target's DMG received by 20% for 3 turn(s). Then, deals Physical DMG equal to 330% of Luka's ATK to the target.",
       "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist\", he receives 1 stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist\". After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 85% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
@@ -466,6 +580,14 @@
     "imageSplash": "/src/assets/characters/4stars/luka/Character_Luka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/luka/abilities/Ability_Direct_Punch.webp",
+      "/src/assets/characters/4stars/luka/abilities/Ability_Sky-Shatter_Fist.webp",
+      "/src/assets/characters/4stars/luka/abilities/Ability_Lacerating_Fist.webp",
+      "/src/assets/characters/4stars/luka/abilities/Ability_Coup_de_Grâce.webp",
+      "/src/assets/characters/4stars/luka/abilities/Ability_Flying_Sparks.webp",
+      "/src/assets/characters/4stars/luka/abilities/Ability_Anticipator.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_1.webp",
       "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_2.webp",
@@ -478,6 +600,15 @@
     "altSplash": "Character_Luka_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "ability_name",
+      "Ability_Direct_Punch",
+      "Ability_Sky-Shatter_Fist",
+      "Ability_Lacerating_Fist",
+      "Ability_Coup_de_Grâce",
+      "Ability_Flying_Sparks",
+      "Ability_Anticipator"
+    ],
     "altEidolons": [
       "Character_Luka_Eidolon_1",
       "Character_Luka_Eidolon_2",
@@ -540,6 +671,13 @@
     "imageSplash": "/src/assets/characters/4stars/lynx/Character_Lynx_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/lynx/abilities/Ability_Ice_Crampon_Technique.webp",
+      "/src/assets/characters/4stars/lynx/abilities/Ability_Salted_Camping_Cans.webp",
+      "/src/assets/characters/4stars/lynx/abilities/Ability_Snowfield_First_Aid.webp",
+      "/src/assets/characters/4stars/lynx/abilities/Ability_Outdoor_Survival_Experience.webp",
+      "/src/assets/characters/4stars/lynx/abilities/Ability_Chocolate_Energy_Bar.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_1.webp",
       "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_2.webp",
@@ -553,6 +691,13 @@
     "altSplash": "Character_Lynx_Splash_Art",
     "altPath": "Class_Path_Abundance",
     "altType": "Class_Type_Quantum",
+    "altAbilities": [
+      "Ability_Ice_Crampon_Technique",
+      "Ability_Salted_Camping_Cans",
+      "Ability_Snowfield_First_Aid",
+      "Ability_Outdoor_Survival_Experience",
+      "Ability_Chocolate_Energy_Bar"
+    ],
     "altEidolons": [
       "Character_Lynx_Eidolon_1",
       "Character_Lynx_Eidolon_2",
@@ -611,6 +756,13 @@
     "imageSplash": "/src/assets/characters/4stars/march7th/Character_March_7th_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/march7th/abilities/Ability_Frigid_Cold_Arrow.webp",
+      "/src/assets/characters/4stars/march7th/abilities/Ability_The_Power_of_Cuteness.webp",
+      "/src/assets/characters/4stars/march7th/abilities/Ability_Glacial_Cascade.webp",
+      "/src/assets/characters/4stars/march7th/abilities/Ability_Girl_Power.webp",
+      "/src/assets/characters/4stars/march7th/abilities/Ability_Freezing_Beauty.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_1.webp",
       "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_2.webp",
@@ -623,6 +775,13 @@
     "altSplash": "Character_March_7th_Splash_Art",
     "altPath": "Class_Path_Preservation",
     "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_Frigid_Cold_Arrow",
+      "Ability_The_Power_of_Cuteness",
+      "Ability_Glacial_Cascade",
+      "Ability_Girl_Power",
+      "Ability_Freezing_Beauty"
+    ],
     "altEidolons": [
       "Character_March_7th_Eidolon_1",
       "Character_March_7th_Eidolon_2",
@@ -681,6 +840,13 @@
     "imageSplash": "/src/assets/characters/4stars/natasha/Character_Natasha_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/natasha/abilities/Ability_Behind_the_Kindness.webp",
+      "/src/assets/characters/4stars/natasha/abilities/Ability_Hypnosis_Research.webp",
+      "/src/assets/characters/4stars/natasha/abilities/Ability_Gift_of_Rebirth.webp",
+      "/src/assets/characters/4stars/natasha/abilities/Ability_Innervation.webp",
+      "/src/assets/characters/4stars/natasha/abilities/Ability_Hypnosis_Research.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_1.webp",
       "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_2.webp",
@@ -693,6 +859,13 @@
     "altSplash": "Character_Natasha_Splash_Art",
     "altPath": "Class_Path_Abundance",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Behind_the_Kindness",
+      "Ability_Hypnosis_Research",
+      "Ability_Gift_of_Rebirth",
+      "Ability_Innervation",
+      "Ability_Hypnosis_Research"
+    ],
     "altEidolons": [
       "Character_Natasha_Eidolon_1",
       "Character_Natasha_Eidolon_2",
@@ -751,6 +924,13 @@
     "imageSplash": "/src/assets/characters/4stars/pela/Character_Pela_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/pela/abilities/Ability_Frost_Shot.webp",
+      "/src/assets/characters/4stars/pela/abilities/Ability_Frostbite.webp",
+      "/src/assets/characters/4stars/pela/abilities/Ability_Zone_Suppression.webp",
+      "/src/assets/characters/4stars/pela/abilities/Ability_Data_Collecting.webp",
+      "/src/assets/characters/4stars/pela/abilities/Ability_Preemptive_Strike.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_1.webp",
       "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_2.webp",
@@ -763,6 +943,13 @@
     "altSplash": "Character_Pela_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_Frost_Shot",
+      "Ability_Frostbite",
+      "Ability_Zone_Suppression",
+      "Ability_Data_Collecting",
+      "Ability_Preemptive_Strike"
+    ],
     "altEidolons": [
       "Character_Pela_Eidolon_1",
       "Character_Pela_Eidolon_2",
@@ -779,7 +966,14 @@
     "path": "Erudition",
     "type": "Quantum",
     "introduction": "A Diviner affiliated with the Divination Commission on Xianzhou Luofu, doubling as a librarian. Despite possessing the role, she consistently slacks off, leading to the imminent risk of being demoted to the position of a \"door guardian\".",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Basic ATK (Enhanced)",
+      "Skill",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Flower Pick",
       "Cherry on Top!",
@@ -792,6 +986,7 @@
       "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 100% of Qingque's ATK to a single enemy.",
       "Deals Quantum DMG equal to 240% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 100% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points.",
       "Immediately draws 2 jade tile(s) and increases DMG by 28% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+      "Deals Quantum DMG equal to 240% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 100% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points.",
       "Deals Quantum DMG equal to 200% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
       "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 72%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
       "After using Technique, Qingque draws 2 jade tile(s) when the battle starts."
@@ -820,9 +1015,17 @@
       "Recovers 1 Skill Point after using Enhanced Basic ATK."
     ],
     "imagePortrait": "/src/assets/characters/4stars/qingque/Character_Qingque_Portrait.webp",
-    "imageSplash": "/src/assets/characters/4stars/qingque/Character_Qinque_Splash_Art.webp",
+    "imageSplash": "/src/assets/characters/4stars/qingque/Character_Qingque_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/qingque/abilities/Ability_Flower_Pick.webp",
+      "/src/assets/characters/4stars/qingque/abilities/Ability_Cherry_on_Top!.webp",
+      "/src/assets/characters/4stars/qingque/abilities/Ability_A_Scoop_of_Moon.webp",
+      "/src/assets/characters/4stars/qingque/abilities/Ability_A_Quartet_Woo_Hoo!.webp",
+      "/src/assets/characters/4stars/qingque/abilities/Ability_Celestial_Jade.webp",
+      "/src/assets/characters/4stars/qingque/abilities/Ability_Game_Solitaire.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_1.webp",
       "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_2.webp",
@@ -835,6 +1038,14 @@
     "altSplash": "Character_Qingque_Splash_Art",
     "altPath": "Class_Path_Erudition",
     "altType": "Class_Type_Quantum",
+    "altAbilities": [
+      "Ability_Flower_Pick",
+      "Ability_Cherry_on_Top!",
+      "Ability_A_Scoop_of_Moon",
+      "Ability_A_Quartet_Woo_Hoo!",
+      "Ability_Celestial_Jade",
+      "Ability_Game_Solitaire"
+    ],
     "altEidolons": [
       "Character_Qingque_Eidolon_1",
       "Character_Qingque_Eidolon_2",
@@ -893,6 +1104,13 @@
     "imageSplash": "/src/assets/characters/4stars/sampo/Character_Sampo_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/sampo/abilities/Ability_Dazzling_Blades.webp",
+      "/src/assets/characters/4stars/sampo/abilities/Ability_Ricochet_Love.webp",
+      "/src/assets/characters/4stars/sampo/abilities/Ability_Surprise_Present.webp",
+      "/src/assets/characters/4stars/sampo/abilities/Ability_Windtorn_Dagger.webp",
+      "/src/assets/characters/4stars/sampo/abilities/Ability_Shining_Bright.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_1.webp",
       "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_2.webp",
@@ -905,6 +1123,13 @@
     "altSplash": "Character_Sampo_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Wind",
+    "altAbilities": [
+      "Ability_Dazzling_Blades",
+      "Ability_Ricochet_Love",
+      "Ability_Surprise_Present",
+      "Ability_Windtorn_Dagger",
+      "Ability_Shining_Bright"
+    ],
     "altEidolons": [
       "Character_Sampo_Eidolon_1",
       "Character_Sampo_Eidolon_2",
@@ -967,6 +1192,13 @@
     "imageSplash": "/src/assets/characters/4stars/serval/Character_Serval_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/serval/abilities/Ability_Roaring_Thunderclap.webp",
+      "/src/assets/characters/4stars/serval/abilities/Ability_Lightning_Flash.webp",
+      "/src/assets/characters/4stars/serval/abilities/Ability_Here_Comes_the_Mechanical_Fever.webp",
+      "/src/assets/characters/4stars/serval/abilities/Ability_Galvanic_Chords.webp",
+      "/src/assets/characters/4stars/serval/abilities/Ability_Good_Night_Belobog.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_1.webp",
       "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_2.webp",
@@ -979,6 +1211,13 @@
     "altSplash": "Character_Erudition_Splash_Art",
     "altPath": "Class_Path_Erudition",
     "altType": "Class_Type_Lightning",
+    "altAbilities": [
+      "Ability_Roaring_Thunderclap",
+      "Ability_Lightning_Flash",
+      "Ability_Here_Comes_the_Mechanical_Fever",
+      "Ability_Galvanic_Chords",
+      "Ability_Good_Night_Belobog"
+    ],
     "altEidolons": [
       "Character_Serval_Eidolon_1",
       "Character_Serval_Eidolon_2",
@@ -1037,6 +1276,13 @@
     "imageSplash": "/src/assets/characters/4stars/sushang/Character_Sushang_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/sushang/abilities/Ability_Cloudfencer_Art_Starshine.webp",
+      "/src/assets/characters/4stars/sushang/abilities/Ability_Cloudfencer_Art_Mountainfall.webp",
+      "/src/assets/characters/4stars/sushang/abilities/Ability_Shape_of_Taixu_Dawn_Herald.webp",
+      "/src/assets/characters/4stars/sushang/abilities/Ability_Dancing_Blade.webp",
+      "/src/assets/characters/4stars/sushang/abilities/Ability_Cloudfencer_Art_Warcry.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_1.webp",
       "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_2.webp",
@@ -1049,6 +1295,13 @@
     "altSplash": "Character_Sushang_Splash_Art",
     "altPath": "Class_Path_Hunt",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Cloudfencer_Art_Starshine",
+      "Ability_Cloudfencer_Art_Mountainfall",
+      "Ability_Shape_of_Taixu_Dawn_Herald",
+      "Ability_Dancing_Blade",
+      "Ability_Cloudfencer_Art_Warcry"
+    ],
     "altEidolons": [
       "Character_Sushang_Eidolon_1",
       "Character_Sushang_Eidolon_2",
@@ -1107,6 +1360,13 @@
     "imageSplash": "/src/assets/characters/4stars/tingyun/Character_Tingyun_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/tingyun/abilities/Ability_Dislodged.webp",
+      "/src/assets/characters/4stars/tingyun/abilities/Ability_Soothing_Melody.webp",
+      "/src/assets/characters/4stars/tingyun/abilities/Ability_Amidst_the_Rejoicing_Clouds.webp",
+      "/src/assets/characters/4stars/tingyun/abilities/Ability_Violet_Sparknado.webp",
+      "/src/assets/characters/4stars/tingyun/abilities/Ability_Gentle_Breeze.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_1.webp",
       "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_2.webp",
@@ -1119,6 +1379,13 @@
     "altSplash": "Character_Tingyun_Splash_Art",
     "altPath": "Class_Path_Harmony",
     "altType": "Class_Type_Lightning",
+    "altAbilities": [
+      "Ability_Dislodged",
+      "Ability_Soothing_Melody",
+      "Ability_Amidst_the_Rejoicing_Clouds",
+      "Ability_Violet_Sparknado",
+      "Ability_Gentle_Breeze"
+    ],
     "altEidolons": [
       "Character_Tingyun_Eidolon_1",
       "Character_Tingyun_Eidolon_2",
@@ -1178,6 +1445,13 @@
     "imageSplash": "/src/assets/characters/4stars/yukong/Character_Yukong_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/yukong/abilities/Ability_Arrowslinger.webp",
+      "/src/assets/characters/4stars/yukong/abilities/Ability_Emboldening_Salvo.webp",
+      "/src/assets/characters/4stars/yukong/abilities/Ability_Diving_Kestrel.webp",
+      "/src/assets/characters/4stars/yukong/abilities/Ability_Seven_Layers_One_Arrow.webp",
+      "/src/assets/characters/4stars/yukong/abilities/Ability_Chasing_the_Wind.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_1.webp",
       "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_2.webp",
@@ -1191,6 +1465,13 @@
     "altSplash": "Character_Yukong_Splash_Art",
     "altPath": "Class_Path_Harmony",
     "altType": "Class_Type_Imaginary",
+    "altAbilities": [
+      "Ability_Arrowslinger",
+      "Ability_Emboldening_Salvo",
+      "Ability_Diving_Kestrel",
+      "Ability_Seven_Layers_One_Arrow",
+      "Ability_Chasing_the_Wind"
+    ],
     "altEidolons": [
       "Character_Yukong_Eidolon_1",
       "Character_Yukong_Eidolon_2",
@@ -1253,6 +1534,13 @@
     "imageSplash": "/src/assets/characters/5stars/bailu/Character_Bailu_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/bailu/abilities/Ability_Diagnostic_Kick.webp",
+      "/src/assets/characters/5stars/bailu/abilities/Ability_Singing_Among_Clouds.webp",
+      "/src/assets/characters/5stars/bailu/abilities/Ability_Felicitous_Thunderleap.webp",
+      "/src/assets/characters/5stars/bailu/abilities/Ability_Gourdful_of_Elixir.webp",
+      "/src/assets/characters/5stars/bailu/abilities/Ability_Saunter_in_the_Rain.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_1.webp",
       "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_2.webp",
@@ -1266,6 +1554,13 @@
     "altSplash": "Character_Bailu_Splash_Art",
     "altPath": "Class_Path_Abundance",
     "altType": "Class_Type_Lightning",
+    "altAbilities": [
+      "Ability_Diagnostic_Kick",
+      "Ability_Singing_Among_Clouds",
+      "Ability_Felicitous_Thunderleap",
+      "Ability_Gourdful_of_Elixir",
+      "Ability_Saunter_in_the_Rain"
+    ],
     "altEidolons": [
       "Character_Bailu_Eidolon_1",
       "Character_Bailu_Eidolon_2",
@@ -1282,10 +1577,18 @@
     "path": "Destruction",
     "type": "Wind",
     "introduction": "A Stellaron Hunter and former swordsman who transcended physical form to become a blade. Devoted to \"Destiny's Slave\", he boasts a formidable self-healing ability, making him a formidable and resilient member of the Stellaron Hunters.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Basic ATK (Enhanced)",
+      "Skill",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Shard Sword",
       "Hellscape",
+      "Forest of Swords",
       "Death Sentence",
       "Shuhu's Gift",
       "Karma Wind"
@@ -1293,6 +1596,7 @@
     "abilityDesc": [
       "Deals 100% of Blade's ATK as Wind DMG to a target enemy",
       "Consumes HP equal to 30% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 40%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn.",
+      "Consumes HP equal to 10% of Blade's Max HP and deals Wind DMG equal to the sum of 40% of his ATK and 100% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of 16% of Blade's ATK and 40% of his Max HP to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords. Forest of Swords cannot regenerate Skill Points.",
       "Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to a single enemy equal to the sum of 40% of his ATK, 100% of his Max HP, and 100% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of 16% of his ATK, 40% of his Max HP, and 40% of the tally of his HP loss in the current battle. The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used.",
       "When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked. When Charge stack reaches maximum, immediately launches a follow-up attack on all enemies, dealing Wind DMG equal to 44% of Blade's ATK plus 110% of his Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the follow-up attack, all Charges are consumed.",
       "Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies. If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used."
@@ -1328,6 +1632,14 @@
     "imageSplash": "/src/assets/characters/5stars/blade/Character_Blade_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/blade/abilities/Ability_Shard_Sword.webp",
+      "/src/assets/characters/5stars/blade/abilities/Ability_Forest_of_Swords.webp",
+      "/src/assets/characters/5stars/blade/abilities/Ability_Hellscape.webp",
+      "/src/assets/characters/5stars/blade/abilities/Ability_Death_Sentence.webp",
+      "/src/assets/characters/5stars/blade/abilities/Ability_Shuhu's_Gift.webp",
+      "/src/assets/characters/5stars/blade/abilities/Ability_Karma_Wind.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_1.webp",
       "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_2.webp",
@@ -1340,6 +1652,14 @@
     "altSplash": "Character_Blade_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Wind",
+    "altAbilities": [
+      "Ability_Shard_Sword",
+      "Ability_Forest_of_Swords",
+      "Ability_Hellscape",
+      "Ability_Death_Sentence",
+      "Ability_Shuhu's_Gift",
+      "Ability_Karma_Wind"
+    ],
     "altEidolons": [
       "Character_Blade_Eidolon_1",
       "Character_Blade_Eidolon_2",
@@ -1398,6 +1718,13 @@
     "imageSplash": "/src/assets/characters/5stars/bronya/Character_Bronya_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/bronya/abilities/Ability_Windrider_Bullet.webp",
+      "/src/assets/characters/5stars/bronya/abilities/Ability_Combat_Redeployment.webp",
+      "/src/assets/characters/5stars/bronya/abilities/Ability_The_Belobog_March.webp",
+      "/src/assets/characters/5stars/bronya/abilities/Ability_Leading_the_Way.webp",
+      "/src/assets/characters/5stars/bronya/abilities/Ability_Banner_of_Command.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_1.webp",
       "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_2.webp",
@@ -1410,6 +1737,13 @@
     "altSplash": "Character_Bronya_Splash_Art",
     "altPath": "Class_Path_Harmony",
     "altType": "Class_Type_Wind",
+    "altAbilities": [
+      "Ability_Windrider_Bullet",
+      "Ability_Combat_Redeployment",
+      "Ability_The_Belobog_March",
+      "Ability_Leading_the_Way",
+      "Ability_Banner_of_Command"
+    ],
     "altEidolons": [
       "Character_Bronya_Eidolon_1",
       "Character_Bronya_Eidolon_2",
@@ -1468,6 +1802,13 @@
     "imageSplash": "/src/assets/characters/5stars/clara/Character_Clara_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/clara/abilities/Ability_I_Want_to_Help.webp",
+      "/src/assets/characters/5stars/clara/abilities/Ability_Svarog_Watches_Over_You.webp",
+      "/src/assets/characters/5stars/clara/abilities/Ability_Promise_Not_Command.webp",
+      "/src/assets/characters/5stars/clara/abilities/Ability_Because_We're_Family.webp",
+      "/src/assets/characters/5stars/clara/abilities/Ability_A_Small_Price_for_Victory.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_1.webp",
       "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_2.webp",
@@ -1480,6 +1821,13 @@
     "altSplash": "Character_Clara_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_I_Want_to_Help",
+      "Ability_Svarog_Watches_Over_You",
+      "Ability_Promise_Not_Command",
+      "Ability_Because_We're_Family",
+      "Ability_A_Small_Price_for_Victory"
+    ],
     "altEidolons": [
       "Character_Clara_Eidolon_1",
       "Character_Clara_Eidolon_2",
@@ -1542,6 +1890,13 @@
     "imageSplash": "/src/assets/characters/5stars/fuxuan/Character_Fu_Xuan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/fuxuan/abilities/Ability_Novaburst.webp",
+      "/src/assets/characters/5stars/fuxuan/abilities/Ability_Known_by_Stars_Shown_by_Hearts.webp",
+      "/src/assets/characters/5stars/fuxuan/abilities/Ability_Woes_of_Many_Morphed_to_One.webp",
+      "/src/assets/characters/5stars/fuxuan/abilities/Ability_Bleak_Breeds_Bliss.webp",
+      "/src/assets/characters/5stars/fuxuan/abilities/Ability_Of_Fortune_Comes_Fate.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_1.webp",
       "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_2.webp",
@@ -1554,6 +1909,13 @@
     "altSplash": "Character_Fu_Xuan_Splash_Art",
     "altPath": "Class_Path_Preservation",
     "altType": "Class_Type_Quantum",
+    "altAbilities": [
+      "Ability_Novaburst",
+      "Ability_Known_by_Stars_Shown_by_Hearts",
+      "Ability_Woes_of_Many_Morphed_to_One",
+      "Ability_Bleak_Breeds_Bliss",
+      "Ability_Of_Fortune_Comes_Fate"
+    ],
     "altEidolons": [
       "Character_Fu_Xuan_Eidolon_1",
       "Character_Fu_Xuan_Eidolon_2",
@@ -1612,6 +1974,13 @@
     "imageSplash": "/src/assets/characters/5stars/gepard/Character_Gepard_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/gepard/abilities/Ability_Daunting_Smite.webp",
+      "/src/assets/characters/5stars/gepard/abilities/Ability_Fist_of_Conviction.webp",
+      "/src/assets/characters/5stars/gepard/abilities/Ability_Enduring_Bulwark.webp",
+      "/src/assets/characters/5stars/gepard/abilities/Ability_Unyielding_Will.webp",
+      "/src/assets/characters/5stars/gepard/abilities/Ability_Comradery.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_1.webp",
       "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_2.webp",
@@ -1624,6 +1993,13 @@
     "altSplash": "Character_Gepard_Splash_Art",
     "altPath": "Class_Path_Preservation",
     "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_Daunting_Smite",
+      "Ability_Fist_of_Conviction",
+      "Ability_Enduring_Bulwark",
+      "Ability_Unyielding_Will",
+      "Ability_Comradery"
+    ],
     "altEidolons": [
       "Character_Gepard_Eidolon_1",
       "Character_Gepard_Eidolon_2",
@@ -1682,6 +2058,13 @@
     "imageSplash": "/src/assets/characters/5stars/himeko/Character_Himeko_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/himeko/abilities/Ability_Sawblade_Tuning.webp",
+      "/src/assets/characters/5stars/himeko/abilities/Ability_Molten_Detonation.webp",
+      "/src/assets/characters/5stars/himeko/abilities/Ability_Heavenly_Flare.webp",
+      "/src/assets/characters/5stars/himeko/abilities/Ability_Victory_Rush.webp",
+      "/src/assets/characters/5stars/himeko/abilities/Ability_Incomplete_Combustion.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_1.webp",
       "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_2.webp",
@@ -1694,6 +2077,13 @@
     "altSplash": "Character_Himeko_Splash_Art",
     "altPath": "Class_Path_Erudition",
     "altType": "Class_Type_Fire",
+    "altAbilities": [
+      "Ability_Sawblade_Tuning",
+      "Ability_Molten_Detonation",
+      "Ability_Heavenly_Flare",
+      "Ability_Victory_Rush",
+      "Ability_Incomplete_Combustion"
+    ],
     "altEidolons": [
       "Character_Himeko_Eidolon_1",
       "Character_Himeko_Eidolon_2",
@@ -1710,20 +2100,35 @@
     "path": "Destruction",
     "type": "Imaginary",
     "introduction": "Dan Heng's true form, rooted in his Vidyadhara lineage, inherits the residual power from his past incarnation, the Imbibitor Lunae. Embracing the majestic horns adorning his crown signifies an acceptance of both the merits and faults associated with the historical actions of that sinning predecessor.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Basic ATK (Enhanced)",
+      "Basic ATK (Enhanced)",
+      "Basic ATK (Enhanced)",
+      "Skill",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Beneficent Lotus",
+      "Transcendence",
+      "Divine Spear",
+      "Fulgurant Leap",
       "Dracore Libre",
       "Azure's Aqua Ablutes All",
       "Righteous Heart",
       "Heaven-Quelling Prismadrakon"
     ],
     "abilityDesc": [
-      "Uses a 2-hit attack and deals Imaginary DMG equal to 100% of Imbibitor Lunae's ATK to a single enemy target.",
-      "Uses a 3-hit attack and deals Imaginary DMG equal to 260% of Imbibitor Lunae's ATK to a single enemy target.",
-      "Uses a 3-hit attack and deals Imaginary DMG equal to 300% of Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to 140% of Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 Squama Sacrosancta. It's possible to hold up to 3 Squama Sacrosancta, which can be used to offset Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
-      "After each hit dealt during an attack, Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by 10%. This effect can stack up to 6 time(s), lasting until the end of his turn.",
-      "After using his Technique, Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta."
+      "Uses a 2-hit attack and deals Imaginary DMG equal to 100% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target.",
+      "Uses a 3-hit attack and deals Imaginary DMG equal to 260% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target.",
+      "Uses a 5-hit attack and deals Imaginary DMG equal to 380% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to 60% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
+      "Uses a 7-hit attack and deals Imaginary DMG equal to 500% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to 180% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
+      "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill. Enhanced once, Beneficent Lotus becomes Transcendence. Enhanced twice, Beneficent Lotus becomes Divine Spear. Enhanced thrice, Beneficent Lotus becomes Fulgurant Leap. When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by 12%, for a max of 4 stacks. These stacks last until the end of his turn.",
+      "Uses a 3-hit attack and deals Imaginary DMG equal to 300% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to 140% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 Squama Sacrosancta. It's possible to hold up to 3 Squama Sacrosancta, which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
+      "After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by 10%. This effect can stack up to 6 time(s), lasting until the end of his turn.",
+      "After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta."
     ],
     "tracesTitle": ["Star Veil", "Aqua Reign", "Jolt Anew"],
     "tracesDesc": [
@@ -1752,6 +2157,16 @@
     "imageSplash": "/src/assets/characters/5stars/imbibitorlunae/Character_Imbibitor_Lunae_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Beneficent_Lotus.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Transcendence.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Divine_Spear.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Fulgurant_Leap.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Dracore_Libre.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Azure's_Aqua_Ablutes_All.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Righteous_Heart.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Heaven-Quelling_Prismadrakon.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_1.webp",
       "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_2.webp",
@@ -1765,6 +2180,16 @@
     "altSplash": "Character_Imbibitor_Lunae_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Imaginary",
+    "altAbilities": [
+      "Ability_Beneficent_Lotus",
+      "Ability_Transcendence",
+      "Ability_Divine_Spear",
+      "Ability_Fulgurant_Leap ",
+      "Ability_Dracore_Libre",
+      "Ability_Azure's_Aqua_Ablutes_All",
+      "Ability_Righteous_Heart",
+      "Ability_Heaven-Quelling_Prismadrakon"
+    ],
     "altEidolons": [
       "Character_Imbibitor_Lunae_Eidolon_1",
       "Character_Imbibitor_Lunae_Eidolon_2",
@@ -1781,10 +2206,18 @@
     "path": "Destruction",
     "type": "Ice",
     "introduction": "Once the esteemed Sword Champion of the Luofu, she crafted legends of undefeated might for the Cloud Knights. However, her name has been expunged from records, branding her a traitor of the Xianzhou. Now walking on the precarious line between sanity and being mara-struck, her fate hangs in the balance.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Skill (Enhanced)",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Lucent Moonglow",
       "Transcendent Flash",
+      "Moon On Glacial River",
       "Florephemeral Dreamflux",
       "Crescent Transmigration",
       "Shine of Truth"
@@ -1792,6 +2225,7 @@
     "abilityDesc": [
       "Deals Ice DMG equal to 100% of Jingliu's ATK to a single enemy.",
       "Deals Ice DMG equal to 200% of Jingliu's ATK to a single enemy and obtains 1 stack(s) of Syzygy.",
+      "Deals Ice DMG equal to 250% of Jingliu's ATK to a single enemy, and deals Ice DMG equal to 125% of Jingliu's ATK to adjacent enemies. Consumes 1 stack(s) of Syzygy. Using this ability does not consume Skill Points.",
       "Deals Ice DMG equal to 300% of Jingliu's ATK to a single enemy, and deals Ice DMG equal to 150% of Jingliu's ATK to any adjacent enemies. Gains 1 stack(s) of Syzygy after attack ends.",
       "When Jingliu has 2 stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by 50%. Then, Jingliu's Skill \"Transcendent Flash\" becomes enhanced and turns into \"Moon On Glacial River\", and becomes the only ability she can use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to 4% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by 540% of the total HP consumed from all allies in this attack, capped at 180% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
       "After using this Technique, creates a dimension around Jingliu that lasts for 20 seconds, and all enemies in this dimension will become Frozen. After entering combat with enemies in the dimension, Jingliu immediately regenerates 15 Energy and obtains 1 stack(s) of Syzygy, with a 100% base chance of Freezing enemy targets for 1 turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to 80% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time."
@@ -1823,6 +2257,14 @@
     "imageSplash": "/src/assets/characters/5stars/jingliu/Character_Jingliu_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/jingliu/abilities/Ability_Lucent_Moonglow.webp",
+      "/src/assets/characters/5stars/jingliu/abilities/Ability_Transcendent_Flash.webp",
+      "/src/assets/characters/5stars/jingliu/abilities/Ability_Moon_On_Glacial_River.webp",
+      "/src/assets/characters/5stars/jingliu/abilities/Ability_Florephemeral_Dreamflux.webp",
+      "/src/assets/characters/5stars/jingliu/abilities/Ability_Crescent_Transmigration.webp",
+      "/src/assets/characters/5stars/jingliu/abilities/Ability_Shine_of_Truth.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_1.webp",
       "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_2.webp",
@@ -1835,6 +2277,14 @@
     "altSplash": "Character_Jingliu_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_Lucent_Moonglow",
+      "Ability_Transcendent_Flash",
+      "Ability_Moon_On_Glacial_River",
+      "Ability_Florephemeral_Dreamflux",
+      "Ability_Crescent_Transmigration",
+      "Ability_Shine_of_Truth"
+    ],
     "altEidolons": [
       "Character_Jingliu_Eidolon_1",
       "Character_Jingliu_Eidolon_2",
@@ -1893,6 +2343,13 @@
     "imageSplash": "/src/assets/characters/5stars/jingyuan/Character_Jing_Yuan_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/jingyuan/abilities/Ability_Glistening_Light.webp",
+      "/src/assets/characters/5stars/jingyuan/abilities/Ability_Rifting_Zenith.webp",
+      "/src/assets/characters/5stars/jingyuan/abilities/Ability_Lightbringer.webp",
+      "/src/assets/characters/5stars/jingyuan/abilities/Ability_Prana_Extirpated.webp",
+      "/src/assets/characters/5stars/jingyuan/abilities/Ability_Spirit_Invocation.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_1.webp",
       "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_2.webp",
@@ -1905,6 +2362,13 @@
     "altSplash": "Character_Jing_Yuan_Splash_Art",
     "altPath": "Class_Path_Erudition",
     "altType": "Class_Type_Lightning",
+    "altAbilities": [
+      "Ability_Glistening_Light",
+      "Ability_Rifting_Zenith",
+      "Ability_Lightbringer",
+      "Ability_Prana_Extirpated",
+      "Ability_Spirit_Invocation"
+    ],
     "altEidolons": [
       "Character_Jing_Yuan_Eidolon_1",
       "Character_Jing_Yuan_Eidolon_2",
@@ -1963,6 +2427,13 @@
     "imageSplash": "/src/assets/characters/5stars/kafka/Character_Kafka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/kafka/abilities/Ability_Midnight_Tumult.webp",
+      "/src/assets/characters/5stars/kafka/abilities/Ability_Caressing_Moonlight.webp",
+      "/src/assets/characters/5stars/kafka/abilities/Ability_Twilight_Trill.webp",
+      "/src/assets/characters/5stars/kafka/abilities/Ability_Gentle_but_Cruel.webp",
+      "/src/assets/characters/5stars/kafka/abilities/Ability_Mercy_Is_Not_Forgiveness.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_1.webp",
       "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_2.webp",
@@ -1975,6 +2446,13 @@
     "altSplash": "Character_Kafka_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Lightning",
+    "altAbilities": [
+      "Ability_Midnight_Tumult",
+      "Ability_Caressing_Moonlight",
+      "Ability_Twilight_Trill",
+      "Ability_Gentle_but_Cruel",
+      "Ability_Mercy_Is_Not_Forgiveness"
+    ],
     "altEidolons": [
       "Character_Kafka_Eidolon_1",
       "Character_Kafka_Eidolon_2",
@@ -2033,6 +2511,13 @@
     "imageSplash": "/src/assets/characters/5stars/luocha/Character_Luocha_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/luocha/abilities/Ability_Thorns_of_the_Abyss.webp",
+      "/src/assets/characters/5stars/luocha/abilities/Ability_Prayer_of_Abyss_Flower.webp",
+      "/src/assets/characters/5stars/luocha/abilities/Ability_Death_Wish.webp",
+      "/src/assets/characters/5stars/luocha/abilities/Ability_Cycle_of_Life.webp",
+      "/src/assets/characters/5stars/luocha/abilities/Ability_Mercy_of_a_Fool.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_1.webp",
       "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_2.webp",
@@ -2045,6 +2530,13 @@
     "altSplash": "Character_Luocha_Splash_Art",
     "altPath": "Class_Path_Abundance",
     "altType": "Class_Type_Imaginary",
+    "altAbilities": [
+      "Ability_Thorns_of_the_Abyss",
+      "Ability_Prayer_of_Abyss_Flower",
+      "Ability_Death_Wish",
+      "Ability_Cycle_of_Life",
+      "Ability_Mercy_of_a_Fool"
+    ],
     "altEidolons": [
       "Character_Luocha_Eidolon_1",
       "Character_Luocha_Eidolon_2",
@@ -2103,6 +2595,13 @@
     "imageSplash": "/src/assets/characters/5stars/seele/Character_Seele_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/seele/abilities/Ability_Thwack.webp",
+      "/src/assets/characters/5stars/seele/abilities/Ability_Sheathed_Blade.webp",
+      "/src/assets/characters/5stars/seele/abilities/Ability_Butterfly_Flurry.webp",
+      "/src/assets/characters/5stars/seele/abilities/Ability_Resurgence.webp",
+      "/src/assets/characters/5stars/seele/abilities/Ability_Phantom_Illusion.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_1.webp",
       "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_2.webp",
@@ -2116,6 +2615,13 @@
     "altSplash": "Character_Seele_Splash_Art",
     "altPath": "Class_Path_Hunt",
     "altType": "Class_Type_Quantum",
+    "altAbilities": [
+      "Ability_Thwack",
+      "Ability_Sheathed_Blade",
+      "Ability_Butterfly_Flurry",
+      "Ability_Resurgence",
+      "Ability_Phantom_Illusion"
+    ],
     "altEidolons": [
       "Character_Seele_Eidolon_1",
       "Character_Seele_Eidolon_2",
@@ -2174,6 +2680,13 @@
     "imageSplash": "/src/assets/characters/5stars/silverwolf/Character_Silver_Wolf_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Quantum.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/silverwolf/abilities/Ability_System_Warning.webp",
+      "/src/assets/characters/5stars/silverwolf/abilities/Ability_Allow_Changes.webp",
+      "/src/assets/characters/5stars/silverwolf/abilities/Ability_User_Banned.webp",
+      "/src/assets/characters/5stars/silverwolf/abilities/Ability_Awaiting_System_Response....webp",
+      "/src/assets/characters/5stars/silverwolf/abilities/Ability_Force_Quit_Program.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_1.webp",
       "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_2.webp",
@@ -2187,6 +2700,13 @@
     "altSplash": "Character_Silver_Wolf_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Quantum",
+    "altAbilities": [
+      "Ability_System_Warning",
+      "Ability_Allow_Changes?",
+      "Ability_User_Banned",
+      "Ability_Awaiting_System_Response...",
+      "Ability_Force_Quit_Program"
+    ],
     "altEidolons": [
       "Character_Silver_Wolf_Eidolon_1",
       "Character_Silver_Wolf_Eidolon_2",
@@ -2245,6 +2765,13 @@
     "imageSplash": "/src/assets/characters/5stars/topaz/Character_Topaz_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/topaz/abilities/Ability_Deficit....webp",
+      "/src/assets/characters/5stars/topaz/abilities/Ability_Difficulty_Paying.webp",
+      "/src/assets/characters/5stars/topaz/abilities/Ability_Turn_a_Profit!.webp",
+      "/src/assets/characters/5stars/topaz/abilities/Ability_Trotter_Market!.webp",
+      "/src/assets/characters/5stars/topaz/abilities/Ability_Explicit_Subsidy.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_1.webp",
       "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_2.webp",
@@ -2257,6 +2784,13 @@
     "altSplash": "Character_Topaz_Splash_Art",
     "altPath": "Class_Path_Hunt",
     "altType": "Class_Type_Fire",
+    "altAbilities": [
+      "Ability_Deficit...",
+      "Ability_Difficulty_Paying",
+      "Ability_Turn_a_Profit!",
+      "Ability_Trotter_Market!?",
+      "Ability_Explicit_Subsidy"
+    ],
     "altEidolons": [
       "Character_Topaz_Eidolon_1",
       "Character_Topaz_Eidolon_2",
@@ -2267,17 +2801,27 @@
     ]
   },
   {
-    "name": "Trailblazer",
+    "name": "Trailblazer (Physical)",
     "id": 33,
     "rarity": 5,
     "path": "Destruction",
     "type": "Physical",
     "introduction": "A girl who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Ultimate",
+      "Ultimate (Enhanced)",
+      "Ultimate (Enhanced)",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Farewell Hit",
       "RIP Home Run",
       "Stardust Ace",
+      "Blowout: Farewell Hit",
+      "Blowout: RIP Home Run",
       "Perfect Pickoff",
       "Immortal Third Strike"
     ],
@@ -2285,6 +2829,8 @@
       "Deals Physical DMG equal to 100% of the Trailblazer's ATK to a single enemy.",
       "Deals Physical DMG equal to 125% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
       "Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG equal to 450% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 270% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 162% of the Trailblazer's ATK to enemies adjacent to it.",
+      "Deals Physical DMG equal to 450% of the Trailblazer's ATK to a single enemy.",
+      "Deals Physical DMG equal to 270% of Trailblazer's ATK to a single enemy and Physical DMG equal to 162% of Trailblazer's ATK to enemies adjacent to it.",
       "Each time after this character inflicts Weakness Break on an enemy, ATK increases by 20%. This effect stacks up to 2 time(s).",
       "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
     ],
@@ -2312,9 +2858,18 @@
       "The Trailblazer's Talent is also triggered when they defeat an enemy."
     ],
     "imagePortrait": "/src/assets/characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Portrait.webp",
-    "imageSplash": "/src/assets/characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Portrait.webp",
+    "imageSplash": "/src/assets/characters/5stars/trailblazer/female/physical/Character_Trailblazer_Female_Destruction_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Farewell_Hit.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_RIP_Home_Run.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Stardust_Ace.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Stardust_Ace.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Stardust_Ace.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Perfect_Pickoff.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Immortal_Third_Strike.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_1.webp",
       "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_2.webp",
@@ -2327,6 +2882,15 @@
     "altSplash": "Character_Character_Trailblazer_Female_Destruction_Splash_Art",
     "altPath": "Class_Path_Destruction",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Farewell_Hit",
+      "Ability_RIP_Home_Run",
+      "Ability_Stardust_Ace",
+      "Ability_Stardust_Ace",
+      "Ability_Stardust_Ace",
+      "Ability_Perfect_Pickoff",
+      "Ability_Immortal_Third_Strike"
+    ],
     "altEidolons": [
       "Character_Trailblazer_Female_Destruction_Eidolon_1",
       "Character_Trailblazer_Female_Destruction_Eidolon_2",
@@ -2337,158 +2901,22 @@
     ]
   },
   {
-    "name": "Trailblazer",
-    "id": 34,
-    "rarity": 5,
-    "path": "Preservation",
-    "type": "Fire",
-    "introduction": "A girl who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
-    "abilityTitle": [
-      "Ice-Breaking Light",
-      "Ever-Burning Amber",
-      "War-Flaming Lance",
-      "Treasure of the Architects",
-      "Call of the Guardian"
-    ],
-    "abilityDesc": [
-      "Deals Fire DMG equal to 100% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
-      "Increases the Trailblazer's DMG Reduction by 50% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
-      "Deals Fire DMG equal to 100% of the Trailblazer's ATK plus 150% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
-      "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 6% of the Trailblazer's DEF plus 80. The Shield lasts for 2 turn(s).",
-      "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."
-    ],
-    "tracesTitle": [
-      "The Strong Defend the Weak",
-      "Unwavering Gallantry",
-      "Action Beats Overthinking"
-    ],
-    "tracesDesc": [
-      "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
-      "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
-      "When the Trailblazer is protected by a Shield at the beginning of the turn, increases ATK by 15% and regenerates 5 Energy until the action is over."
-    ],
-    "tracesAttr": ["DEF +35%", "ATK +18%", "HP +10%"],
-    "eidolonsTitle": [
-      "Earth-Shaking Resonance",
-      "Time-Defying Tenacity",
-      "Trail-Blazing Blueprint",
-      "Nation-Building Oath",
-      "Spirit-Warming Flame",
-      "City-Forging Bulwarks"
-    ],
-    "eidolonsDesc": [
-      "When the Trailblazer uses their Basic ATK, additionally deals Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deal Additional Fire DMG equal to 50% of the Trailblazer's DEF.",
-      "The Shield applied to all allies from the Trailblazer's Talent will block extra DMG equal to 2% of the Trailblazer's DEF plus 27.",
-      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-      "At the start of the battle, immediately gains 4 stack(s) of Magma Will.",
-      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-      "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
-    ],
-    "imagePortrait": "/src/assets/characters/5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Portrait.webp",
-    "imageSplash": "/src/assets/characters/5stars/trailblazer/female/fire/Character_Trailblazer_Female_Preservation_Splash_Art.webp",
-    "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
-    "imageType": "/src/assets/types/Class_Type_Fire.webp",
-    "imageEidolons": [
-      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_1.webp",
-      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_2.webp",
-      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_3.webp",
-      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_4.webp",
-      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_5.webp",
-      "/src/assets/characters/5stars/trailblazer/female/fire/eidolons/Character_Trailblazer_Female_Preservation_Eidolon_6.webp"
-    ],
-    "altPortrait": "Character_Trailblazer_Female_Preservation_Portrait",
-    "altSplash": "Character_Trailblazer_Female_Preservation_Splash_Art",
-    "altPath": "Class_Path_Preservation",
-    "altType": "Class_Type_Fire",
-    "altEidolons": [
-      "Character_Trailblazer_Female_Preservation_Eidolon_1",
-      "Character_Trailblazer_Female_Preservation_Eidolon_2",
-      "Character_Trailblazer_Female_Preservation_Eidolon_3",
-      "Character_Trailblazer_Female_Preservation_Eidolon_4",
-      "Character_Trailblazer_Female_Preservation_Eidolon_5",
-      "Character_Trailblazer_Female_Preservation_Eidolon_6"
-    ]
-  },
-  {
-    "name": "Trailblazer",
-    "id": 35,
-    "rarity": 5,
-    "path": "Destruction",
-    "type": "Physical",
-    "introduction": "A boy who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
-    "abilityTitle": [
-      "Farewell Hit",
-      "RIP Home Run",
-      "Stardust Ace",
-      "Perfect Pickoff",
-      "Immortal Third Strike"
-    ],
-    "abilityDesc": [
-      "Deals Physical DMG equal to 100% of the Trailblazer's ATK to a single enemy.",
-      "Deals Physical DMG equal to 125% of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
-      "Choose between two attack modes to deliver a full strike. Blowout: Farewell Hit deals Physical DMG equal to 450% of the Trailblazer's ATK to a single enemy. Blowout: RIP Home Run deals Physical DMG equal to 270% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 162% of the Trailblazer's ATK to enemies adjacent to it.",
-      "Each time after this character inflicts Weakness Break on an enemy, ATK increases by 20%. This effect stacks up to 2 time(s).",
-      "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
-    ],
-    "tracesTitle": ["Ready for Battle", "Perseverance", "Fighting Will"],
-    "tracesDesc": [
-      "At the start of the battle, immediately regenerates 15 Energy.",
-      "Each stack of Talent increases the Trailblazer's DEF by 10%.",
-      "When using Skill or Ultimate Blowout: RIP Home Run, DMG dealt to the target enemy is increased by 25%."
-    ],
-    "tracesAttr": ["DEF +12.5%", "ATK +28%", "HP +18%"],
-    "eidolonsTitle": [
-      "A Falling Star",
-      "An Unwilling Host",
-      "A Leading Whisper",
-      "A Destructing Glance",
-      "A Surviving Hope",
-      "A Trailblazing Will"
-    ],
-    "eidolonsDesc": [
-      "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack.",
-      "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK.",
-      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-      "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%.",
-      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-      "The Trailblazer's Talent is also triggered when they defeat an enemy."
-    ],
-    "imagePortrait": "/src/assets/characters/5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Portrait.webp",
-    "imageSplash": "/src/assets/characters/5stars/trailblazer/male/physical/Character_Trailblazer_Male_Destruction_Splash_Art.webp",
-    "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
-    "imageType": "/src/assets/types/Class_Type_Physical.webp",
-    "imageEidolons": [
-      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_1.webp",
-      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_2.webp",
-      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_3.webp",
-      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_4.webp",
-      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_5.webp",
-      "/src/assets/characters/5stars/trailblazer/male/physical/eidolons/Character_Trailblazer_Male_Destruction_Eidolon_6.webp"
-    ],
-    "altPortrait": "Character_Trailblazer_Male_Destruction_Portrait",
-    "altSplash": "Character_Character_Trailblazer_Male_Destruction_Splash_Art",
-    "altPath": "Class_Path_Destruction",
-    "altType": "Class_Type_Physical",
-    "altEidolons": [
-      "Character_Trailblazer_Male_Destruction_Eidolon_1",
-      "Character_Trailblazer_Male_Destruction_Eidolon_2",
-      "Character_Trailblazer_Male_Destruction_Eidolon_3",
-      "Character_Trailblazer_Male_Destruction_Eidolon_4",
-      "Character_Trailblazer_Male_Destruction_Eidolon_5",
-      "Character_Trailblazer_Male_Destruction_Eidolon_6"
-    ]
-  },
-  {
-    "name": "Trailblazer",
+    "name": "Trailblazer (Fire)",
     "id": 36,
     "rarity": 5,
     "path": "Preservation",
     "type": "Fire",
     "introduction": "A boy who opted to board the Astral Express, seeking to mitigate the threats posed by the Stellaron. The decision to travel with the Astral Express reflects a proactive approach to eliminating potential dangers.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Basic ATK (Enhanced)",
+      "Skill",
+      "Ultimate",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
+      "Ice-Breaking Light",
       "Ice-Breaking Light",
       "Ever-Burning Amber",
       "War-Flaming Lance",
@@ -2497,6 +2925,7 @@
     ],
     "abilityDesc": [
       "Deals Fire DMG equal to 100% of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+      "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90%–146.25% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36%–58.5% of the Trailblazer's ATK to enemies adjacent to it.",
       "Increases the Trailblazer's DMG Reduction by 50% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s).",
       "Deals Fire DMG equal to 100% of the Trailblazer's ATK plus 150% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
       "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 6% of the Trailblazer's DEF plus 80. The Shield lasts for 2 turn(s).",
@@ -2533,6 +2962,14 @@
     "imageSplash": "/src/assets/characters/5stars/trailblazer/male/fire/Character_Trailblazer_Male_Preservation_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Preservation.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Ice-Breaking_Light.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Ice-Breaking_Light.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Ever-Burning_Amber.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_War-Flaming_Lance.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Treasure_of_the_Architects.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Call_of_the_Guardian.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_1.webp",
       "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_2.webp",
@@ -2545,6 +2982,14 @@
     "altSplash": "Character_Trailblazer_Male_Preservation_Splash_Art",
     "altPath": "Class_Path_Preservation",
     "altType": "Class_Type_Fire",
+    "altAbilities": [
+      "Ability_Ice-Breaking_Light",
+      "Ability_Ice-Breaking_Light",
+      "Ability_Ever-Burning_Amber",
+      "Ability_War-Flaming_Lance",
+      "Ability_Treasure_of_the_Architects",
+      "Ability_Call_of_the_Guardian"
+    ],
     "altEidolons": [
       "Character_Trailblazer_Male_Preservation_Eidolon_1",
       "Character_Trailblazer_Male_Preservation_Eidolon_2",
@@ -2603,6 +3048,13 @@
     "imageSplash": "/src/assets/characters/5stars/welt/Character_Welt_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
     "imageType": "/src/assets/types/Class_Type_Imaginary.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/welt/abilities/Ability_Gravity_Suppression.webp",
+      "/src/assets/characters/5stars/welt/abilities/Ability_Edge_of_the_Void.webp",
+      "/src/assets/characters/5stars/welt/abilities/Ability_Synthetic_Black_Hole.webp",
+      "/src/assets/characters/5stars/welt/abilities/Ability_Time_Distortion.webp",
+      "/src/assets/characters/5stars/welt/abilities/Ability_Gravitational_Imprisonment.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_1.webp",
       "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_2.webp",
@@ -2615,6 +3067,13 @@
     "altSplash": "Character_Welt_Splash_Art",
     "altPath": "Class_Path_Nihility",
     "altType": "Class_Type_Imaginary",
+    "altAbilities": [
+      "Ability_Gravity_Suppression",
+      "Ability_Edge_of_the_Void",
+      "Ability_Synthetic_Black_Hole",
+      "Ability_Time_Distortion",
+      "Ability_Gravitational_Imprisonment"
+    ],
     "altEidolons": [
       "Character_Welt_Eidolon_1",
       "Character_Welt_Eidolon_2",
@@ -2677,6 +3136,13 @@
     "imageSplash": "/src/assets/characters/5stars/yanqing/Character_Yanqing_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/yanqing/abilities/Ability_Frost_Thorn.webp",
+      "/src/assets/characters/5stars/yanqing/abilities/Ability_Darting_Ironthorn.webp",
+      "/src/assets/characters/5stars/yanqing/abilities/Ability_Amidst_the_Raining_Bliss.webp",
+      "/src/assets/characters/5stars/yanqing/abilities/Ability_One_With_the_Sword.webp",
+      "/src/assets/characters/5stars/yanqing/abilities/Ability_The_One_True_Sword.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_1.webp",
       "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_2.webp",
@@ -2689,6 +3155,13 @@
     "altSplash": "Character_Yanqing_Splash_Art",
     "altPath": "Class_Path_Hunt",
     "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_Frost_Thorn",
+      "Ability_Darting_Ironthorn",
+      "Ability_Amidst_the_Raining_Bliss",
+      "Ability_One_With_the_Sword",
+      "Ability_The_One_True_Sword"
+    ],
     "altEidolons": [
       "Character_Yanqing_Eidolon_1",
       "Character_Yanqing_Eidolon_2",
@@ -2747,6 +3220,13 @@
     "imageSplash": "/src/assets/characters/4stars/hanya/Character_Hanya_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/src/assets/characters/4stars/hanya/abilities/Ability_Oracle_Brush.webp",
+      "/src/assets/characters/4stars/hanya/abilities/Ability_Samsara_Locked.webp",
+      "/src/assets/characters/4stars/hanya/abilities/Ability_Ten-Lords_All_Shall_Obey.webp",
+      "/src/assets/characters/4stars/hanya/abilities/Ability_Sanction.webp",
+      "/src/assets/characters/4stars/hanya/abilities/Ability_Netherworld_Judgment.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_1.webp",
       "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_2.webp",
@@ -2759,6 +3239,13 @@
     "altSplash": "Character_Hanya_Splash_Art",
     "altPath": "Class_Path_Harmony",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Oracle_Brush",
+      "Ability_Samsara_Locked",
+      "Ability_Ten-Lords_All_Shall_Obey",
+      "Ability_Sanction",
+      "Ability_Netherworld_Judgment"
+    ],
     "altEidolons": [
       "Character_Hanya_Eidolon_1",
       "Character_Hanya_Eidolon_2",
@@ -2821,6 +3308,13 @@
     "imageSplash": "/src/assets/characters/5stars/huohuo/Character_Huo_Huo_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Abundance.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/huohuo/abilities/Ability_Banner_Stormcaller.webp",
+      "/src/assets/characters/5stars/huohuo/abilities/Ability_Talisman_Protection.webp",
+      "/src/assets/characters/5stars/huohuo/abilities/Ability_Tail_Spiritual_Domination.webp",
+      "/src/assets/characters/5stars/huohuo/abilities/Ability_Possession_Ethereal_Metaflow.webp",
+      "/src/assets/characters/5stars/huohuo/abilities/Ability_Fiend_Impeachment_of_Evil.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_1.webp",
       "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_2.webp",
@@ -2833,6 +3327,13 @@
     "altSplash": "Character_Huo_Huo_Splash_Art",
     "altPath": "Class_Path_Abundance",
     "altType": "Class_Type_Wind",
+    "altAbilities": [
+      "Ability_Banner_Stormcaller",
+      "Ability_Talisman_Protection",
+      "Ability_Tail_Spiritual_Domination",
+      "Ability_Possession_Ethereal_Metaflow",
+      "Ability_Fiend_Impeachment_of_Evil"
+    ],
     "altEidolons": [
       "Character_Huo_Huo_Eidolon_1",
       "Character_Huo_Huo_Eidolon_2",
@@ -2849,11 +3350,19 @@
     "path": "Hunt",
     "type": "Ice",
     "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Ultimate",
+      "Ultimate (Enhanced)",
+      "Talent",
+      "Technique"
+    ],
     "abilityTitle": [
       "Fleeting Fragrance",
       "Justice, Hereby Blooms",
       "For In This Garden Supreme Beauty Bestows",
+      "Merit Bestowed in \"My\" Garden",
       "Sublime Object",
       "Manifesto of Purest Virtue"
     ],
@@ -2861,6 +3370,7 @@
       "Deals Physical DMG equal to 100% of Argenti's ATK to a single target enemy.",
       "Deals Physical DMG equal to 120% of Argenti's ATK to all enemies.",
       "Consumes 90 Energy and deals Physical DMG equal to 160% of Argenti's ATK to all enemies.",
+      "Consumes 180 Energy and deals Physical DMG equal to 280% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 95% of Argenti's ATK to a random enemy.",
       "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Ascend, increasing his CRIT Rate by 2.5%. This effect can stack up to 10 time(s).",
       "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team. When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15."
     ],
@@ -2891,6 +3401,14 @@
     "imageSplash": "/src/assets/characters/5stars/argenti/Character_Argenti_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Erudition.webp",
     "imageType": "/src/assets/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/src/assets/characters/5stars/argenti/abilities/Ability_Fleeting_Fragrance.webp",
+      "/src/assets/characters/5stars/argenti/abilities/Ability_Justice,_Hereby_Blooms.webp",
+      "/src/assets/characters/5stars/argenti/abilities/Ability_For_In_This_Garden_Supreme_Beauty_Bestows.webp",
+      "/src/assets/characters/5stars/argenti/abilities/Ability_Merit_Bestowed_in_My_Garden.webp",
+      "/src/assets/characters/5stars/argenti/abilities/Ability_Sublime_Object.webp",
+      "/src/assets/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
       "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
@@ -2903,6 +3421,14 @@
     "altSplash": "Character_Argenti_Splash_Art",
     "altPath": "Class_Path_Erudition",
     "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Fleeting_Fragrance",
+      "Ability_Justice,_Hereby_Blooms",
+      "Ability_For_In_This_Garden_Supreme_Beauty_Bestows",
+      "Ability_Merit_Bestowed_in_My_Garden",
+      "Ability_Sublime_Object",
+      "Ability_Manifesto_of_Purest_Virtue"
+    ],
     "altEidolons": [
       "Character_Argenti_Eidolon_1",
       "Character_Argenti_Eidolon_2",
