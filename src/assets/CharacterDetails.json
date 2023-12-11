@@ -64,6 +64,11 @@
       "src/assets/characters/4stars/arlan/abilities/Ability_Pain_and_Anger.webp",
       "src/assets/characters/4stars/arlan/abilities/Ability_Swift_Harvest.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/arlan/traces/Trace_Revival.webp",
+      "src/assets/characters/4stars/arlan/traces/Trace_Endurance.webp",
+      "src/assets/characters/4stars/arlan/traces/Trace_Repel.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_1.webp",
       "/src/assets/characters/4stars/arlan/eidolons/Character_Arlan_Eidolon_2.webp",
@@ -84,6 +89,7 @@
       "Ability_Pain_and_Anger",
       "Ability_Swift_Harvest"
     ],
+    "altTraces": ["Trace_Revival", "Trace_Endurance", "Trace_Repel"],
     "altEidolons": [
       "Character_Arlan_Eidolon_1",
       "Character_Arlan_Eidolon_2",
@@ -149,6 +155,11 @@
       "src/assets/characters/4stars/asta/abilities/Ability_Astrometry.webp",
       "src/assets/characters/4stars/asta/abilities/Ability_Miracle_Flash.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/asta/traces/Trace_Sparks.webp",
+      "src/assets/characters/4stars/asta/traces/Trace_Ignite.webp",
+      "src/assets/characters/4stars/asta/traces/Trace_Constellation.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_1.webp",
       "/src/assets/characters/4stars/asta/eidolons/Character_Asta_Eidolon_2.webp",
@@ -168,6 +179,7 @@
       "Ability_Astrometry",
       "Ability_Miracle_Flash"
     ],
+    "altTraces": ["Trace_Sparks", "Trace_Ignite", "Trace_Constellation"],
     "altEidolons": [
       "Character_Asta_Eidolon_1",
       "Character_Asta_Eidolon_2",
@@ -233,6 +245,11 @@
       "src/assets/characters/4stars/danheng/abilities/Ability_Superiority_of_Reach.webp",
       "src/assets/characters/4stars/danheng/abilities/Ability_Splitting_Spearhead.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/danheng/traces/Trace_Hidden_Dragon.webp",
+      "src/assets/characters/4stars/danheng/traces/Trace_Faster_Than_Light.webp",
+      "src/assets/characters/4stars/danheng/traces/Trace_High_Gale.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_1.webp",
       "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_2.webp",
@@ -252,6 +269,11 @@
       "Ability_Ethereal_Dream",
       "Ability_Superiority_of_Reach",
       "Ability_Splitting_Spearhead"
+    ],
+    "altTraces": [
+      "Trace_Hidden_Dragon",
+      "Trace_Faster_Than_Light",
+      "Trace_High_Gale"
     ],
     "altEidolons": [
       "Character_Dan_Heng_Eidolon_1",
@@ -322,6 +344,12 @@
       "/src/assets/characters/4stars/guinaifen/abilities/Ability_PatrAeon_Benefits.webp",
       "/src/assets/characters/4stars/guinaifen/abilities/Ability_Skill_Showcase.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/guinaifen/traces/Trace_High_Poles.webp",
+      "src/assets/characters/4stars/guinaifen/traces/Trace_Bladed_Hoop.webp",
+      "src/assets/characters/4stars/guinaifen/traces/Trace_Walking_on_Knives.webp"
+    ],
+
     "imageEidolons": [
       "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_1.webp",
       "/src/assets/characters/4stars/guinaifen/eidolons/Character_Guinaifen_Eidolon_2.webp",
@@ -340,6 +368,11 @@
       "Ability_Watch_This_Showstopper",
       "Ability_PatrAeon_Benefits",
       "Ability_Skill_Showcase"
+    ],
+    "altTraces": [
+      "Trace_High_Poles",
+      "Trace_Bladed_Hoop",
+      "Trace_Walking_on_Knives"
     ],
     "altEidolons": [
       "Character_Guinaifen_Eidolon_1",
@@ -406,6 +439,11 @@
       "/src/assets/characters/4stars/herta/abilities/Ability_Fine!_l'll_Do_It_Myself.webp",
       "/src/assets/characters/4stars/herta/abilities/Ability_It_Can_Still_Be_Optimized.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/herta/traces/Trace_Efficiency.webp",
+      "src/assets/characters/4stars/herta/traces/Trace_Puppet.webp",
+      "src/assets/characters/4stars/herta/traces/Trace_Icing.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_1.webp",
       "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_2.webp",
@@ -425,6 +463,7 @@
       "Ability_Fine!_l'll_Do_It_Myself",
       "Ability_It_Can_Still_Be_Optimized"
     ],
+    "altTraces": ["Trace_Efficiency", "Trace_Puppet", "Trace_Icing"],
     "altEidolons": [
       "Character_Herta_Eidolon_1",
       "Character_Herta_Eidolon_2",
@@ -500,6 +539,11 @@
       "/src/assets/characters/4stars/hook/abilities/Ability_Ha!_Oil_To_The_Flames!.webp",
       "/src/assets/characters/4stars/hook/abilities/Ability_Ack!_Look_At_This_Mess!.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/hook/traces/Trace_Innocence.webp",
+      "src/assets/characters/4stars/hook/traces/Trace_Naivete.webp",
+      "src/assets/characters/4stars/hook/traces/Trace_Playing_With_Fire.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_1.webp",
       "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_2.webp",
@@ -519,6 +563,11 @@
       "Ability_Boom!_Here_Comes_The_Fire!",
       "Ability_Ha!_Oil_To_The_Flames!",
       "Ability_Ack!_Look_At_This_Mess!"
+    ],
+    "altTraces": [
+      "Trace_Innocence",
+      "Trace_Naivete",
+      "Trace_Playing_With_Fire"
     ],
     "altEidolons": [
       "Character_Hook_Eidolon_1",
@@ -588,6 +637,11 @@
       "/src/assets/characters/4stars/luka/abilities/Ability_Flying_Sparks.webp",
       "/src/assets/characters/4stars/luka/abilities/Ability_Anticipator.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/luka/traces/Trace_Kinetic_Overload.webp",
+      "src/assets/characters/4stars/luka/traces/Trace_Cycle_Braking.webp",
+      "src/assets/characters/4stars/luka/traces/Trace_Crush_Fighting_Will.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_1.webp",
       "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_2.webp",
@@ -608,6 +662,11 @@
       "Ability_Coup_de_Grâce",
       "Ability_Flying_Sparks",
       "Ability_Anticipator"
+    ],
+    "altTraces": [
+      "Trace_Kinetic_Overload",
+      "Trace_Cycle_Braking",
+      "Trace_Crush_Fighting_Will"
     ],
     "altEidolons": [
       "Character_Luka_Eidolon_1",
@@ -678,6 +737,11 @@
       "/src/assets/characters/4stars/lynx/abilities/Ability_Outdoor_Survival_Experience.webp",
       "/src/assets/characters/4stars/lynx/abilities/Ability_Chocolate_Energy_Bar.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/lynx/traces/Trace_Advance_Surveying.webp",
+      "src/assets/characters/4stars/lynx/traces/Trace_Exploration_Techniques.webp",
+      "src/assets/characters/4stars/lynx/traces/Trace_Survival_in_the_Extreme.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_1.webp",
       "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_2.webp",
@@ -697,6 +761,11 @@
       "Ability_Snowfield_First_Aid",
       "Ability_Outdoor_Survival_Experience",
       "Ability_Chocolate_Energy_Bar"
+    ],
+    "altTraces": [
+      "Trace_Advance_Surveying",
+      "Trace_Exploration_Techniques",
+      "Trace_Survival_in_the_Extreme"
     ],
     "altEidolons": [
       "Character_Lynx_Eidolon_1",
@@ -763,6 +832,11 @@
       "/src/assets/characters/4stars/march7th/abilities/Ability_Girl_Power.webp",
       "/src/assets/characters/4stars/march7th/abilities/Ability_Freezing_Beauty.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/march7th/traces/Trace_Purify.webp",
+      "src/assets/characters/4stars/march7th/traces/Trace_Reinforce.webp",
+      "src/assets/characters/4stars/march7th/traces/Trace_Ice_Spell.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_1.webp",
       "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_2.webp",
@@ -782,6 +856,7 @@
       "Ability_Girl_Power",
       "Ability_Freezing_Beauty"
     ],
+    "altTraces": ["Trace_Purify", "Trace_Reinforce", "Trace_Ice_Spell"],
     "altEidolons": [
       "Character_March_7th_Eidolon_1",
       "Character_March_7th_Eidolon_2",
@@ -847,6 +922,11 @@
       "/src/assets/characters/4stars/natasha/abilities/Ability_Innervation.webp",
       "/src/assets/characters/4stars/natasha/abilities/Ability_Hypnosis_Research.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/natasha/traces/Trace_Soothe.webp",
+      "src/assets/characters/4stars/natasha/traces/Trace_Healer.webp",
+      "src/assets/characters/4stars/natasha/traces/Trace_Recuperation.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_1.webp",
       "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_2.webp",
@@ -866,6 +946,7 @@
       "Ability_Innervation",
       "Ability_Hypnosis_Research"
     ],
+    "altTraces": ["Trace_Soothe", "Trace_Healer", "Trace_Recuperation"],
     "altEidolons": [
       "Character_Natasha_Eidolon_1",
       "Character_Natasha_Eidolon_2",
@@ -931,6 +1012,11 @@
       "/src/assets/characters/4stars/pela/abilities/Ability_Data_Collecting.webp",
       "/src/assets/characters/4stars/pela/abilities/Ability_Preemptive_Strike.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/pela/traces/Trace_Bash.webp",
+      "src/assets/characters/4stars/pela/traces/Trace_The_Secret_Strategy.webp",
+      "src/assets/characters/4stars/pela/traces/Trace_Wipe_Out.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_1.webp",
       "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_2.webp",
@@ -950,6 +1036,7 @@
       "Ability_Data_Collecting",
       "Ability_Preemptive_Strike"
     ],
+    "altTraces": ["Trace_Bash", "Trace_The_Secret_Strategy", "Trace_Wipe_Out"],
     "altEidolons": [
       "Character_Pela_Eidolon_1",
       "Character_Pela_Eidolon_2",
@@ -986,7 +1073,6 @@
       "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 100% of Qingque's ATK to a single enemy.",
       "Deals Quantum DMG equal to 240% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 100% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points.",
       "Immediately draws 2 jade tile(s) and increases DMG by 28% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-      "Deals Quantum DMG equal to 240% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 100% of Qingque's ATK to enemies adjacent to it. \"Cherry on Top!\" cannot recover Skill Points.",
       "Deals Quantum DMG equal to 200% of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
       "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 72%, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
       "After using Technique, Qingque draws 2 jade tile(s) when the battle starts."
@@ -1026,6 +1112,11 @@
       "/src/assets/characters/4stars/qingque/abilities/Ability_Celestial_Jade.webp",
       "/src/assets/characters/4stars/qingque/abilities/Ability_Game_Solitaire.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/qingque/traces/Trace_Tile_Battle.webp",
+      "src/assets/characters/4stars/qingque/traces/Trace_Bide_Time.webp",
+      "src/assets/characters/4stars/qingque/traces/Trace_Winning_Hand.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_1.webp",
       "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_2.webp",
@@ -1046,6 +1137,7 @@
       "Ability_Celestial_Jade",
       "Ability_Game_Solitaire"
     ],
+    "altTraces": ["Trace_Tile_Battle", "Trace_Bide_Time", "Trace_Winning_Hand"],
     "altEidolons": [
       "Character_Qingque_Eidolon_1",
       "Character_Qingque_Eidolon_2",
@@ -1111,6 +1203,11 @@
       "/src/assets/characters/4stars/sampo/abilities/Ability_Windtorn_Dagger.webp",
       "/src/assets/characters/4stars/sampo/abilities/Ability_Shining_Bright.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/sampo/traces/Trace_Trap.webp",
+      "src/assets/characters/4stars/sampo/traces/Trace_Defensive_Position.webp",
+      "src/assets/characters/4stars/sampo/traces/Trace_Spice_Up.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_1.webp",
       "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_2.webp",
@@ -1130,6 +1227,7 @@
       "Ability_Windtorn_Dagger",
       "Ability_Shining_Bright"
     ],
+    "altTraces": ["Trace_Trap", "Trace_Defensive_Position", "Trace_Spice_Up"],
     "altEidolons": [
       "Character_Sampo_Eidolon_1",
       "Character_Sampo_Eidolon_2",
@@ -1199,6 +1297,11 @@
       "/src/assets/characters/4stars/serval/abilities/Ability_Galvanic_Chords.webp",
       "/src/assets/characters/4stars/serval/abilities/Ability_Good_Night_Belobog.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/serval/traces/Trace_Rock_27_Roll.webp",
+      "src/assets/characters/4stars/serval/traces/Trace_String_Vibration.webp",
+      "src/assets/characters/4stars/serval/traces/Trace_Mania.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_1.webp",
       "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_2.webp",
@@ -1217,6 +1320,11 @@
       "Ability_Here_Comes_the_Mechanical_Fever",
       "Ability_Galvanic_Chords",
       "Ability_Good_Night_Belobog"
+    ],
+    "altTraces": [
+      "Trace_Rock_27_Roll",
+      "Trace_String_Vibration",
+      "Trace_Mania"
     ],
     "altEidolons": [
       "Character_Serval_Eidolon_1",
@@ -1283,6 +1391,11 @@
       "/src/assets/characters/4stars/sushang/abilities/Ability_Dancing_Blade.webp",
       "/src/assets/characters/4stars/sushang/abilities/Ability_Cloudfencer_Art_Warcry.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/sushang/traces/Trace_Guileless.webp",
+      "src/assets/characters/4stars/sushang/traces/Trace_Riposte.webp",
+      "src/assets/characters/4stars/sushang/traces/Trace_Vanquisher.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_1.webp",
       "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_2.webp",
@@ -1302,6 +1415,7 @@
       "Ability_Dancing_Blade",
       "Ability_Cloudfencer_Art_Warcry"
     ],
+    "altTraces": ["Trace_Guileless", "Trace_Riposte", "Trace_Vanquisher"],
     "altEidolons": [
       "Character_Sushang_Eidolon_1",
       "Character_Sushang_Eidolon_2",
@@ -1367,6 +1481,11 @@
       "/src/assets/characters/4stars/tingyun/abilities/Ability_Violet_Sparknado.webp",
       "/src/assets/characters/4stars/tingyun/abilities/Ability_Gentle_Breeze.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/tingyun/traces/Trace_Nourished_Joviality.webp",
+      "src/assets/characters/4stars/tingyun/traces/Trace_Knell_Subdual.webp",
+      "src/assets/characters/4stars/tingyun/traces/Trace_Jubilant_Passage.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_1.webp",
       "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_2.webp",
@@ -1385,6 +1504,11 @@
       "Ability_Amidst_the_Rejoicing_Clouds",
       "Ability_Violet_Sparknado",
       "Ability_Gentle_Breeze"
+    ],
+    "altTraces": [
+      "Trace_Nourished_Joviality",
+      "Trace_Knell_Subdual",
+      "Trace_Jubilant_Passage"
     ],
     "altEidolons": [
       "Character_Tingyun_Eidolon_1",
@@ -1415,7 +1539,6 @@
       "Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 80%, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of \"Roaring Bowstrings\". When it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
       "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 28% and CRIT DMG by 65%. At the same time, deals Imaginary DMG equal to 380% of Yukong's ATK to a single enemy.",
       "Basic ATK additionally deals Imaginary DMG equal to 80% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again after 1 turn(s).",
-      "After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies.",
       "After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies."
     ],
     "tracesTitle": ["Archerion", "Bowmaster", "Majestas"],
@@ -1452,6 +1575,11 @@
       "/src/assets/characters/4stars/yukong/abilities/Ability_Seven_Layers_One_Arrow.webp",
       "/src/assets/characters/4stars/yukong/abilities/Ability_Chasing_the_Wind.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/yukong/traces/Trace_Archerion.webp",
+      "src/assets/characters/4stars/yukong/traces/Trace_Bowmaster.webp",
+      "src/assets/characters/4stars/yukong/traces/Trace_Majestas.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_1.webp",
       "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_2.webp",
@@ -1472,6 +1600,7 @@
       "Ability_Seven_Layers_One_Arrow",
       "Ability_Chasing_the_Wind"
     ],
+    "altTraces": ["Trace_Archerion", "Trace_Bowmaster", "Trace_Majestas"],
     "altEidolons": [
       "Character_Yukong_Eidolon_1",
       "Character_Yukong_Eidolon_2",
@@ -1541,6 +1670,11 @@
       "/src/assets/characters/5stars/bailu/abilities/Ability_Gourdful_of_Elixir.webp",
       "/src/assets/characters/5stars/bailu/abilities/Ability_Saunter_in_the_Rain.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/bailu/traces/Trace_Qihuang_Analects.webp",
+      "src/assets/characters/5stars/bailu/traces/Trace_Vidyadhara_Ichor_Lines.webp",
+      "src/assets/characters/5stars/bailu/traces/Trace_Aquatic_Benediction.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_1.webp",
       "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_2.webp",
@@ -1560,6 +1694,11 @@
       "Ability_Felicitous_Thunderleap",
       "Ability_Gourdful_of_Elixir",
       "Ability_Saunter_in_the_Rain"
+    ],
+    "altTraces": [
+      "Trace_Qihuang_Analects",
+      "Trace_Vidyadhara_Ichor_Lines",
+      "Trace_Aquatic_Benediction"
     ],
     "altEidolons": [
       "Character_Bailu_Eidolon_1",
@@ -1640,6 +1779,11 @@
       "/src/assets/characters/5stars/blade/abilities/Ability_Shuhu's_Gift.webp",
       "/src/assets/characters/5stars/blade/abilities/Ability_Karma_Wind.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/blade/traces/Trace_Vita_Infinita.webp",
+      "src/assets/characters/5stars/blade/traces/Trace_Neverending_Deaths.webp",
+      "src/assets/characters/5stars/blade/traces/Trace_Cyclone_of_Destruction.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_1.webp",
       "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_2.webp",
@@ -1659,6 +1803,11 @@
       "Ability_Death_Sentence",
       "Ability_Shuhu's_Gift",
       "Ability_Karma_Wind"
+    ],
+    "altTraces": [
+      "Trace_Vita_Infinita",
+      "Trace_Neverending_Deaths",
+      "Trace_Cyclone_of_Destruction"
     ],
     "altEidolons": [
       "Character_Blade_Eidolon_1",
@@ -1725,6 +1874,11 @@
       "/src/assets/characters/5stars/bronya/abilities/Ability_Leading_the_Way.webp",
       "/src/assets/characters/5stars/bronya/abilities/Ability_Banner_of_Command.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/bronya/traces/Trace_Command.webp",
+      "src/assets/characters/5stars/bronya/traces/Trace_Battlefield.webp",
+      "src/assets/characters/5stars/bronya/traces/Trace_Military_Might.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_1.webp",
       "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_2.webp",
@@ -1744,6 +1898,7 @@
       "Ability_Leading_the_Way",
       "Ability_Banner_of_Command"
     ],
+    "altTraces": ["Trace_Command", "Trace_Battlefield", "Trace_Military_Might"],
     "altEidolons": [
       "Character_Bronya_Eidolon_1",
       "Character_Bronya_Eidolon_2",
@@ -1809,6 +1964,11 @@
       "/src/assets/characters/5stars/clara/abilities/Ability_Because_We're_Family.webp",
       "/src/assets/characters/5stars/clara/abilities/Ability_A_Small_Price_for_Victory.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/clara/traces/Trace_Kinship.webp",
+      "src/assets/characters/5stars/clara/traces/Trace_Under_Protection.webp",
+      "src/assets/characters/5stars/clara/traces/Trace_Revenge.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_1.webp",
       "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_2.webp",
@@ -1828,6 +1988,7 @@
       "Ability_Because_We're_Family",
       "Ability_A_Small_Price_for_Victory"
     ],
+    "altTraces": ["Trace_Kinship", "Trace_Under_Protection", "Trace_Revenge"],
     "altEidolons": [
       "Character_Clara_Eidolon_1",
       "Character_Clara_Eidolon_2",
@@ -1897,6 +2058,11 @@
       "/src/assets/characters/5stars/fuxuan/abilities/Ability_Bleak_Breeds_Bliss.webp",
       "/src/assets/characters/5stars/fuxuan/abilities/Ability_Of_Fortune_Comes_Fate.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/fuxuan/traces/Trace_Taiyi_the_Macrocosmic.webp",
+      "src/assets/characters/5stars/fuxuan/traces/Trace_Dunjia_the_Metamystic.webp",
+      "src/assets/characters/5stars/fuxuan/traces/Trace_Liuren_the_Sexagenary.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_1.webp",
       "/src/assets/characters/5stars/fuxuan/eidolons/Character_Fu_Xuan_Eidolon_2.webp",
@@ -1915,6 +2081,11 @@
       "Ability_Woes_of_Many_Morphed_to_One",
       "Ability_Bleak_Breeds_Bliss",
       "Ability_Of_Fortune_Comes_Fate"
+    ],
+    "altTraces": [
+      "Trace_Taiyi_the_Macrocosmic",
+      "Trace_Dunjia_the_Metamystic",
+      "Trace_Liuren_the_Sexagenary"
     ],
     "altEidolons": [
       "Character_Fu_Xuan_Eidolon_1",
@@ -1981,6 +2152,11 @@
       "/src/assets/characters/5stars/gepard/abilities/Ability_Unyielding_Will.webp",
       "/src/assets/characters/5stars/gepard/abilities/Ability_Comradery.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/gepard/traces/Trace_Integrity.webp",
+      "src/assets/characters/5stars/gepard/traces/Trace_Commander.webp",
+      "src/assets/characters/5stars/gepard/traces/Trace_Fighting_Spirit.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_1.webp",
       "/src/assets/characters/5stars/gepard/eidolons/Character_Gepard_Eidolon_2.webp",
@@ -1999,6 +2175,11 @@
       "Ability_Enduring_Bulwark",
       "Ability_Unyielding_Will",
       "Ability_Comradery"
+    ],
+    "altTraces": [
+      "Trace_Integrity",
+      "Trace_Commander",
+      "Trace_Fighting_Spirit"
     ],
     "altEidolons": [
       "Character_Gepard_Eidolon_1",
@@ -2065,6 +2246,11 @@
       "/src/assets/characters/5stars/himeko/abilities/Ability_Victory_Rush.webp",
       "/src/assets/characters/5stars/himeko/abilities/Ability_Incomplete_Combustion.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/himeko/traces/Trace_Starfire.webp",
+      "src/assets/characters/5stars/himeko/traces/Trace_Magma.webp",
+      "src/assets/characters/5stars/himeko/traces/Trace_Benchmark.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_1.webp",
       "/src/assets/characters/5stars/himeko/eidolons/Character_Himeko_Eidolon_2.webp",
@@ -2084,6 +2270,7 @@
       "Ability_Victory_Rush",
       "Ability_Incomplete_Combustion"
     ],
+    "altTraces": ["Trace_Starfire", "Trace_Magma", "Trace_Benchmark"],
     "altEidolons": [
       "Character_Himeko_Eidolon_1",
       "Character_Himeko_Eidolon_2",
@@ -2167,6 +2354,11 @@
       "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Righteous_Heart.webp",
       "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Heaven-Quelling_Prismadrakon.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/imbibitorlunae/traces/Trace_Star_Veil.webp",
+      "src/assets/characters/5stars/imbibitorlunae/traces/Trace_Aqua_Reign.webp",
+      "src/assets/characters/5stars/imbibitorlunae/traces/Trace_Jolt_Anew.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_1.webp",
       "/src/assets/characters/5stars/imbibitorlunae/eidolons/Character_Imbibitor_Lunae_Eidolon_2.webp",
@@ -2190,6 +2382,7 @@
       "Ability_Righteous_Heart",
       "Ability_Heaven-Quelling_Prismadrakon"
     ],
+    "altTraces": ["Trace_Star_Veil", "Trace_Aqua_Reign", "Trace_Jolt_Anew"],
     "altEidolons": [
       "Character_Imbibitor_Lunae_Eidolon_1",
       "Character_Imbibitor_Lunae_Eidolon_2",
@@ -2230,7 +2423,7 @@
       "When Jingliu has 2 stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by 50%. Then, Jingliu's Skill \"Transcendent Flash\" becomes enhanced and turns into \"Moon On Glacial River\", and becomes the only ability she can use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to 4% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by 540% of the total HP consumed from all allies in this attack, capped at 180% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state.",
       "After using this Technique, creates a dimension around Jingliu that lasts for 20 seconds, and all enemies in this dimension will become Frozen. After entering combat with enemies in the dimension, Jingliu immediately regenerates 15 Energy and obtains 1 stack(s) of Syzygy, with a 100% base chance of Freezing enemy targets for 1 turn(s). While Frozen, enemy targets cannot take action, and receive Ice Additional DMG equal to 80% of Jingliu's ATK at the start of every turn. Only 1 dimension created by allies can exist at the same time."
     ],
-    "tracesTitle": ["Deathrealm", "Sword Champion", "Sword Champion"],
+    "tracesTitle": ["Deathrealm", "Sword Champion", "Frost Wraith"],
     "tracesDesc": [
       "While in the Spectral Transmigration state, increases Effect RES by 35%",
       "After using Transcendent Flash, the next action will be Advanced Forward by 10%.",
@@ -2265,6 +2458,11 @@
       "/src/assets/characters/5stars/jingliu/abilities/Ability_Crescent_Transmigration.webp",
       "/src/assets/characters/5stars/jingliu/abilities/Ability_Shine_of_Truth.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/jingliu/traces/Trace_Deathrealm.webp",
+      "src/assets/characters/5stars/jingliu/traces/Trace_Sword_Champion.webp",
+      "src/assets/characters/5stars/jingliu/traces/Trace_Frost_Wraith.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_1.webp",
       "/src/assets/characters/5stars/jingliu/eidolons/Character_Jingliu_Eidolon_2.webp",
@@ -2285,6 +2483,12 @@
       "Ability_Crescent_Transmigration",
       "Ability_Shine_of_Truth"
     ],
+    "altTraces": [
+      "Trace_Deathrealm",
+      "Trace_Sword_Champion",
+      "Trace_Frost_Wraith"
+    ],
+
     "altEidolons": [
       "Character_Jingliu_Eidolon_1",
       "Character_Jingliu_Eidolon_2",
@@ -2350,6 +2554,11 @@
       "/src/assets/characters/5stars/jingyuan/abilities/Ability_Prana_Extirpated.webp",
       "/src/assets/characters/5stars/jingyuan/abilities/Ability_Spirit_Invocation.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/jingyuan/traces/Trace_Battalia_Crush.webp",
+      "src/assets/characters/5stars/jingyuan/traces/Trace_Savant_Providence.webp",
+      "src/assets/characters/5stars/jingyuan/traces/Trace_War_Marshal.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_1.webp",
       "/src/assets/characters/5stars/jingyuan/eidolons/Character_Jing_Yuan_Eidolon_2.webp",
@@ -2368,6 +2577,11 @@
       "Ability_Lightbringer",
       "Ability_Prana_Extirpated",
       "Ability_Spirit_Invocation"
+    ],
+    "altTraces": [
+      "Trace_Battalia_Crush",
+      "Trace_Savant_Providence",
+      "Trace_War_Marshal"
     ],
     "altEidolons": [
       "Character_Jing_Yuan_Eidolon_1",
@@ -2434,6 +2648,11 @@
       "/src/assets/characters/5stars/kafka/abilities/Ability_Gentle_but_Cruel.webp",
       "/src/assets/characters/5stars/kafka/abilities/Ability_Mercy_Is_Not_Forgiveness.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/kafka/traces/Trace_Torture.webp",
+      "src/assets/characters/5stars/kafka/traces/Trace_Plunder.webp",
+      "src/assets/characters/5stars/kafka/traces/Trace_Thorns.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_1.webp",
       "/src/assets/characters/5stars/kafka/eidolons/Character_Kafka_Eidolon_2.webp",
@@ -2453,6 +2672,7 @@
       "Ability_Gentle_but_Cruel",
       "Ability_Mercy_Is_Not_Forgiveness"
     ],
+    "altTraces": ["Trace_Torture", "Trace_Plunder", "Trace_Thorns"],
     "altEidolons": [
       "Character_Kafka_Eidolon_1",
       "Character_Kafka_Eidolon_2",
@@ -2518,6 +2738,11 @@
       "/src/assets/characters/5stars/luocha/abilities/Ability_Cycle_of_Life.webp",
       "/src/assets/characters/5stars/luocha/abilities/Ability_Mercy_of_a_Fool.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/luocha/traces/Trace_Cleansing_Revival.webp",
+      "src/assets/characters/5stars/luocha/traces/Trace_Sanctified.webp",
+      "src/assets/characters/5stars/luocha/traces/Trace_Through_the_Valley.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_1.webp",
       "/src/assets/characters/5stars/luocha/eidolons/Character_Luocha_Eidolon_2.webp",
@@ -2536,6 +2761,11 @@
       "Ability_Death_Wish",
       "Ability_Cycle_of_Life",
       "Ability_Mercy_of_a_Fool"
+    ],
+    "altTraces": [
+      "Trace_Cleansing_Revival",
+      "Trace_Sanctified",
+      "Trace_Through_the_Valley"
     ],
     "altEidolons": [
       "Character_Luocha_Eidolon_1",
@@ -2602,6 +2832,11 @@
       "/src/assets/characters/5stars/seele/abilities/Ability_Resurgence.webp",
       "/src/assets/characters/5stars/seele/abilities/Ability_Phantom_Illusion.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/seele/traces/Trace_Nightshade.webp",
+      "src/assets/characters/5stars/seele/traces/Trace_Lacerate.webp",
+      "src/assets/characters/5stars/seele/traces/Trace_Rippling_Waves.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_1.webp",
       "/src/assets/characters/5stars/seele/eidolons/Character_Seele_Eidolon_2.webp",
@@ -2622,6 +2857,7 @@
       "Ability_Resurgence",
       "Ability_Phantom_Illusion"
     ],
+    "altTraces": ["Trace_Nightshade", "Trace_Lacerate", "Trace_Rippling_Waves"],
     "altEidolons": [
       "Character_Seele_Eidolon_1",
       "Character_Seele_Eidolon_2",
@@ -2687,6 +2923,11 @@
       "/src/assets/characters/5stars/silverwolf/abilities/Ability_Awaiting_System_Response....webp",
       "/src/assets/characters/5stars/silverwolf/abilities/Ability_Force_Quit_Program.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/silverwolf/traces/Trace_Generate.webp",
+      "src/assets/characters/5stars/silverwolf/traces/Trace_Inject.webp",
+      "src/assets/characters/5stars/silverwolf/traces/Trace_Side_Note.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_1.webp",
       "/src/assets/characters/5stars/silverwolf/eidolons/Character_Silver_Wolf_Eidolon_2.webp",
@@ -2707,6 +2948,7 @@
       "Ability_Awaiting_System_Response...",
       "Ability_Force_Quit_Program"
     ],
+    "altTraces": ["Trace_Generate", "Trace_Inject", "Trace_Side_Note"],
     "altEidolons": [
       "Character_Silver_Wolf_Eidolon_1",
       "Character_Silver_Wolf_Eidolon_2",
@@ -2772,6 +3014,11 @@
       "/src/assets/characters/5stars/topaz/abilities/Ability_Trotter_Market!.webp",
       "/src/assets/characters/5stars/topaz/abilities/Ability_Explicit_Subsidy.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/topaz/traces/Trace_Overdraft.webp",
+      "src/assets/characters/5stars/topaz/traces/Trace_Financial_Turmoil.webp",
+      "src/assets/characters/5stars/topaz/traces/Trace_Stonks_Market.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_1.webp",
       "/src/assets/characters/5stars/topaz/eidolons/Character_Topaz_Eidolon_2.webp",
@@ -2790,6 +3037,11 @@
       "Ability_Turn_a_Profit!",
       "Ability_Trotter_Market!?",
       "Ability_Explicit_Subsidy"
+    ],
+    "altTraces": [
+      "Trace_Overdraft",
+      "Trace_Financial_Turmoil",
+      "Trace_Stonks_Market"
     ],
     "altEidolons": [
       "Character_Topaz_Eidolon_1",
@@ -2870,6 +3122,11 @@
       "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Perfect_Pickoff.webp",
       "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Immortal_Third_Strike.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Ready_for_Battle.webp",
+      "src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Perseverance.webp",
+      "src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Fighting_Will.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_1.webp",
       "/src/assets/characters/5stars/trailblazer/female/physical/eidolons/Character_Trailblazer_Female_Destruction_Eidolon_2.webp",
@@ -2890,6 +3147,11 @@
       "Ability_Stardust_Ace",
       "Ability_Perfect_Pickoff",
       "Ability_Immortal_Third_Strike"
+    ],
+    "altTraces": [
+      "Trace_Ready_for_Battle",
+      "Trace_Perseverance",
+      "Trace_Fighting_Will"
     ],
     "altEidolons": [
       "Character_Trailblazer_Female_Destruction_Eidolon_1",
@@ -2970,6 +3232,11 @@
       "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Treasure_of_the_Architects.webp",
       "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Call_of_the_Guardian.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_The_Strong_Defend_the_Weak.webp",
+      "src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_Unwavering_Gallantry.webp",
+      "src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_Action_Beats_Overthinking.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_1.webp",
       "/src/assets/characters/5stars/trailblazer/male/fire/eidolons/Character_Trailblazer_Male_Preservation_Eidolon_2.webp",
@@ -2989,6 +3256,11 @@
       "Ability_War-Flaming_Lance",
       "Ability_Treasure_of_the_Architects",
       "Ability_Call_of_the_Guardian"
+    ],
+    "altTraces": [
+      "Trace_The_Strong_Defend_the_Weak",
+      "Trace_Unwavering_Gallantry",
+      "Trace_Action_Beats_Overthinking"
     ],
     "altEidolons": [
       "Character_Trailblazer_Male_Preservation_Eidolon_1",
@@ -3055,6 +3327,11 @@
       "/src/assets/characters/5stars/welt/abilities/Ability_Time_Distortion.webp",
       "/src/assets/characters/5stars/welt/abilities/Ability_Gravitational_Imprisonment.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/welt/traces/Trace_Retribution.webp",
+      "src/assets/characters/5stars/welt/traces/Trace_Judgment.webp",
+      "src/assets/characters/5stars/welt/traces/Trace_Punishment.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_1.webp",
       "/src/assets/characters/5stars/welt/eidolons/Character_Welt_Eidolon_2.webp",
@@ -3074,6 +3351,7 @@
       "Ability_Time_Distortion",
       "Ability_Gravitational_Imprisonment"
     ],
+    "altTraces": ["Trace_Retribution", "Trace_Judgment", "Trace_Punishment"],
     "altEidolons": [
       "Character_Welt_Eidolon_1",
       "Character_Welt_Eidolon_2",
@@ -3143,6 +3421,11 @@
       "/src/assets/characters/5stars/yanqing/abilities/Ability_One_With_the_Sword.webp",
       "/src/assets/characters/5stars/yanqing/abilities/Ability_The_One_True_Sword.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/yanqing/traces/Trace_Icing_on_the_Kick.webp",
+      "src/assets/characters/5stars/yanqing/traces/Trace_Frost_Favors_the_Brave.webp",
+      "src/assets/characters/5stars/yanqing/traces/Trace_Gentle_Blade.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_1.webp",
       "/src/assets/characters/5stars/yanqing/eidolons/Character_Yanqing_Eidolon_2.webp",
@@ -3161,6 +3444,11 @@
       "Ability_Amidst_the_Raining_Bliss",
       "Ability_One_With_the_Sword",
       "Ability_The_One_True_Sword"
+    ],
+    "altTraces": [
+      "Trace_Icing_on_the_Kick",
+      "Trace_Frost_Favors_the_Brave",
+      "Trace_Gentle_Blade"
     ],
     "altEidolons": [
       "Character_Yanqing_Eidolon_1",
@@ -3227,6 +3515,11 @@
       "/src/assets/characters/4stars/hanya/abilities/Ability_Sanction.webp",
       "/src/assets/characters/4stars/hanya/abilities/Ability_Netherworld_Judgment.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/4stars/hanya/traces/Trace_Scrivener.webp",
+      "src/assets/characters/4stars/hanya/traces/Trace_Netherworld.webp",
+      "src/assets/characters/4stars/hanya/traces/Trace_Reanimated.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_1.webp",
       "/src/assets/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_2.webp",
@@ -3246,6 +3539,7 @@
       "Ability_Sanction",
       "Ability_Netherworld_Judgment"
     ],
+    "altTraces": ["Trace_Scrivener", "Trace_Netherworld", "Trace_Reanimated"],
     "altEidolons": [
       "Character_Hanya_Eidolon_1",
       "Character_Hanya_Eidolon_2",
@@ -3315,6 +3609,11 @@
       "/src/assets/characters/5stars/huohuo/abilities/Ability_Possession_Ethereal_Metaflow.webp",
       "/src/assets/characters/5stars/huohuo/abilities/Ability_Fiend_Impeachment_of_Evil.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/huohuo/traces/Trace_Fearful_to_Act.webp",
+      "src/assets/characters/5stars/huohuo/traces/Trace_The_Cursed_One.webp",
+      "src/assets/characters/5stars/huohuo/traces/Trace_Stress_Reaction_to_Horror.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_1.webp",
       "/src/assets/characters/5stars/huohuo/eidolons/Character_Huo_Huo_Eidolon_2.webp",
@@ -3333,6 +3632,11 @@
       "Ability_Tail_Spiritual_Domination",
       "Ability_Possession_Ethereal_Metaflow",
       "Ability_Fiend_Impeachment_of_Evil"
+    ],
+    "altTraces": [
+      "Trace_Fearful_to_Act",
+      "Trace_The_Cursed_One",
+      "Trace_Stress_Reaction_to_Horror"
     ],
     "altEidolons": [
       "Character_Huo_Huo_Eidolon_1",
@@ -3409,6 +3713,11 @@
       "/src/assets/characters/5stars/argenti/abilities/Ability_Sublime_Object.webp",
       "/src/assets/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
     ],
+    "imageTraces": [
+      "src/assets/characters/5stars/argenti/traces/Trace_Piety.webp",
+      "src/assets/characters/5stars/argenti/traces/Trace_Generosity.webp",
+      "src/assets/characters/5stars/argenti/traces/Trace_Courage.webp"
+    ],
     "imageEidolons": [
       "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
       "/src/assets/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
@@ -3429,6 +3738,7 @@
       "Ability_Sublime_Object",
       "Ability_Manifesto_of_Purest_Virtue"
     ],
+    "altTraces": ["Trace_Piety", "Trace_Generosity", "Trace_Courage"],
     "altEidolons": [
       "Character_Argenti_Eidolon_1",
       "Character_Argenti_Eidolon_2",

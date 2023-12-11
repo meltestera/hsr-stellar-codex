@@ -89,7 +89,13 @@ const CharacterDetails = () => {
                             characterImageAbility={character.imageAbilities}
                             characterAltAbilities={character.altAbilities}
                           />
-                          <CharacterTraces character={character} />
+                          <CharacterTraces
+                            characterTracesTitle={character.tracesTitle}
+                            characterTracesDesc={character.tracesDesc}
+                            characterTracesAttr={character.tracesAttr}
+                            characterImageTraces={character.imageTraces}
+                            characterAltTraces={character.altTraces}
+                          />
                           <CharacterEidolons character={character} />
                         </div>
                       );
