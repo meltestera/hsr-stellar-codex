@@ -23,7 +23,8 @@ const CharacterAbility = ({
               <img
                 src={characterImageAbility[index]}
                 alt={characterAltAbilities[index]}
-                fetchpriority="high"
+                loading="lazy"
+                decoding="async"
                 height={75}
                 width={75}
                 className="h-auto object-cover object-center"

@@ -28,7 +28,6 @@ const CharacterProfile = ({
                   width={30}
                   height={30}
                   fetchpriority="high"
-                  role="presentation"
                   className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
                 />
               </div>
@@ -39,7 +38,6 @@ const CharacterProfile = ({
                   width={30}
                   height={30}
                   fetchpriority="high"
-                  role="presentation"
                   className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
                 />
               </div>
@@ -55,7 +53,6 @@ const CharacterProfile = ({
               width={180}
               height={180}
               fetchpriority="high"
-              role="presentation"
               className="h-full w-full object-cover object-center"
             />
           </div>
