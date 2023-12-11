@@ -666,7 +666,14 @@
       "The Spirit of Wildfire",
       "A Champion's Applause"
     ],
-    "eidolonsDesc": [],
+    "eidolonsDesc": [
+      "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s).",
+      "If the Skill hits an enemy target with Physical Weakness, gain 1 stack(s) of Fighting Will.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to 8% of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK."
+    ],
     "imagePortrait": "/src/assets/characters/4stars/luka/Character_Luka_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/luka/Character_Luka_Splash_Art.webp",
     "imagePath": "/src/assets/paths/Character_Path_Nihility.webp",
