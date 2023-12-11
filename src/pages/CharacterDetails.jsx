@@ -94,9 +94,18 @@ const CharacterDetails = () => {
                             characterTracesDesc={character.tracesDesc}
                             characterTracesAttr={character.tracesAttr}
                             characterImageTraces={character.imageTraces}
+                            characterImageTracesMinor={
+                              character.imageTracesMinor
+                            }
                             characterAltTraces={character.altTraces}
+                            characterAltTracesMinor={character.altTracesMinor}
                           />
-                          <CharacterEidolons character={character} />
+                          <CharacterEidolons
+                            characterImageEidolons={character.imageEidolons}
+                            characterAltEidolons={character.altEidolons}
+                            characterEidolonsTitle={character.eidolonsTitle}
+                            characterEidolonsDesc={character.eidolonsDesc}
+                          />
                         </div>
                       );
                     })}

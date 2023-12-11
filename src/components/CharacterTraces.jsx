@@ -1,8 +1,11 @@
 const CharacterTraces = ({
   characterTracesTitle,
   characterTracesDesc,
+  characterTracesAttr,
   characterImageTraces,
+  characterImageTracesMinor,
   characterAltTraces,
+  characterAltTracesMinor,
 }) => {
   return (
     <>
@@ -11,36 +14,54 @@ const CharacterTraces = ({
           <b className="font-poppins text-lg uppercase md:text-2xl">Traces</b>
           <hr className="mx-auto w-[60%] border border-skin-tone-dark lg:w-[35%]" />
         </div>
-        {characterTracesDesc.map((trace, index) => (
+        {characterTracesDesc.map((desc, index) => (
           <div
             className="space-y-3 sm:flex sm:flex-row sm:items-center sm:gap-x-12"
             key={index}
           >
             <div className="flex flex-col items-center justify-center">
               <img
-                src={characterImageTraces[index]}
-                alt={characterAltTraces[index]}
                 loading="lazy"
                 decoding="async"
                 height={75}
                 width={75}
                 className="h-auto object-cover object-center"
+                src={characterImageTraces[index]}
+                alt={characterAltTraces[index]}
               />
             </div>
             <div className="w-full space-y-1 text-justify text-inherit">
-              <div className="space-between flex flex-row items-center">
-                <b className="inline-block font-poppins text-sm sm:text-lg">
+              <div>
+                <b className="font poppins text-sm sm:text-lg">
                   {characterTracesTitle[index]}
                 </b>
-              </div>
-              <div>
                 <p className="font-outfit text-sm font-light sm:text-base sm:tracking-wide md:text-lg md:font-normal">
-                  {trace}
+                  {desc}
                 </p>
               </div>
             </div>
           </div>
         ))}
+        <div className="flex w-full flex-row justify-around">
+          {characterTracesAttr.map((attr, index) => (
+            <div className="flex flex-col justify-center space-y-1" key={index}>
+              <div className="flex flex-col items-center justify-center">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  height={35}
+                  width={35}
+                  className="h-auto object-cover object-center"
+                  src={characterImageTracesMinor[index]}
+                  alt={characterAltTracesMinor[index]}
+                />
+              </div>
+              <div className="p-1 text-center text-inherit">
+                <b className="font-poppins text-sm sm:text-lg">{attr}</b>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
