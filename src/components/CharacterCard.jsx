@@ -17,7 +17,7 @@ const CharacterCard = ({ character }) => {
           : "border-r-4 border-four-star-card-light sm:border-r-0 sm:hover:shadow-[0px_4px_16px,_0px_8px_24px,_0px_16px_56px] sm:hover:shadow-four-star-card-dark"
       }`}
       >
-        <Link to={`${character.name}`}>
+        <Link to={`/characters/${character.name}`}>
           <div className=" flex h-full w-full flex-row items-center justify-between gap-x-3 space-x-3 sm:min-h-[300px] sm:flex-col sm:gap-x-0 sm:gap-y-1 sm:space-x-0 sm:space-y-3">
             <div className="relative flex w-fit flex-col items-center justify-center sm:-translate-y-2/3 sm:rounded-[50%] sm:bg-almost-black sm:p-2">
               <img

@@ -9,30 +9,18 @@ import Footer from "./components/Footer";
 import Root from "./pages/Root";
 import CharacterDetails from "./pages/CharacterDetails";
 
-const Layout = () => {
-  return (
-    <>
-      <Hero />
-      <Outlet />
-      <Footer />
-    </>
-  );
-};
-
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Root />,
-      },
-      {
-        path: ":name",
-        element: <CharacterDetails />,
-      },
-    ],
+    element: <Hero />,
+  },
+  {
+    path: "/characters",
+    element: [<Root />, <Footer />],
+  },
+  {
+    path: "/characters/:name",
+    element: [<CharacterDetails />, <Footer />],
   },
 ]);
 

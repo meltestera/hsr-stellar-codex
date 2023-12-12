@@ -57,17 +57,17 @@
     "imagePath": "/src/assets/paths/Character_Path_Destruction.webp",
     "imageType": "/src/assets/types/Class_Type_Lightning.webp",
     "imageAbilities": [
-      "src/assets/characters/4stars/arlan/abilities/Ability_Lightning_Rush.webp",
-      "src/assets/characters/4stars/arlan/abilities/Ability_Shackle_Breaker.webp",
-      "src/assets/characters/4stars/arlan/abilities/Ability_Frenzied_Punishment.webp",
-      "src/assets/characters/4stars/arlan/abilities/Ability_Frenzied_Punishment.webp",
-      "src/assets/characters/4stars/arlan/abilities/Ability_Pain_and_Anger.webp",
-      "src/assets/characters/4stars/arlan/abilities/Ability_Swift_Harvest.webp"
+      "/src/assets/characters/4stars/arlan/abilities/Ability_Lightning_Rush.webp",
+      "/src/assets/characters/4stars/arlan/abilities/Ability_Shackle_Breaker.webp",
+      "/src/assets/characters/4stars/arlan/abilities/Ability_Frenzied_Punishment.webp",
+      "/src/assets/characters/4stars/arlan/abilities/Ability_Frenzied_Punishment.webp",
+      "/src/assets/characters/4stars/arlan/abilities/Ability_Pain_and_Anger.webp",
+      "/src/assets/characters/4stars/arlan/abilities/Ability_Swift_Harvest.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/arlan/traces/Trace_Revival.webp",
-      "src/assets/characters/4stars/arlan/traces/Trace_Endurance.webp",
-      "src/assets/characters/4stars/arlan/traces/Trace_Repel.webp"
+      "/src/assets/characters/4stars/arlan/traces/Trace_Revival.webp",
+      "/src/assets/characters/4stars/arlan/traces/Trace_Endurance.webp",
+      "/src/assets/characters/4stars/arlan/traces/Trace_Repel.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_ATK.webp",
@@ -155,17 +155,17 @@
     "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
     "imageType": "/src/assets/types/Class_Type_Fire.webp",
     "imageAbilities": [
-      "src/assets/characters/4stars/asta/abilities/Ability_Spectrum_Beam.webp",
-      "src/assets/characters/4stars/asta/abilities/Ability_Meteor_Storm.webp",
-      "src/assets/characters/4stars/asta/abilities/Ability_Astral_Blessing.webp",
-      "src/assets/characters/4stars/asta/abilities/Ability_Astrometry.webp",
-      "src/assets/characters/4stars/asta/abilities/Ability_Miracle_Flash.webp"
+      "/src/assets/characters/4stars/asta/abilities/Ability_Spectrum_Beam.webp",
+      "/src/assets/characters/4stars/asta/abilities/Ability_Meteor_Storm.webp",
+      "/src/assets/characters/4stars/asta/abilities/Ability_Astral_Blessing.webp",
+      "/src/assets/characters/4stars/asta/abilities/Ability_Astrometry.webp",
+      "/src/assets/characters/4stars/asta/abilities/Ability_Miracle_Flash.webp"
     ],
 
     "imageTraces": [
-      "src/assets/characters/4stars/asta/traces/Trace_Sparks.webp",
-      "src/assets/characters/4stars/asta/traces/Trace_Ignite.webp",
-      "src/assets/characters/4stars/asta/traces/Trace_Constellation.webp"
+      "/src/assets/characters/4stars/asta/traces/Trace_Sparks.webp",
+      "/src/assets/characters/4stars/asta/traces/Trace_Ignite.webp",
+      "/src/assets/characters/4stars/asta/traces/Trace_Constellation.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Fire_DMG_Boost.webp",
@@ -252,11 +252,11 @@
     "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
     "imageType": "/src/assets/types/Class_Type_Wind.webp",
     "imageAbilities": [
-      "src/assets/characters/4stars/danheng/abilities/Ability_Cloudlancer_Art_North_Wind.webp",
-      "src/assets/characters/4stars/danheng/abilities/Ability_Cloudlancer_Art_Torrent.webp",
-      "src/assets/characters/4stars/danheng/abilities/Ability_Ethereal_Dream.webp",
-      "src/assets/characters/4stars/danheng/abilities/Ability_Superiority_of_Reach.webp",
-      "src/assets/characters/4stars/danheng/abilities/Ability_Splitting_Spearhead.webp"
+      "/src/assets/characters/4stars/danheng/abilities/Ability_Cloudlancer_Art_North_Wind.webp",
+      "/src/assets/characters/4stars/danheng/abilities/Ability_Cloudlancer_Art_Torrent.webp",
+      "/src/assets/characters/4stars/danheng/abilities/Ability_Ethereal_Dream.webp",
+      "/src/assets/characters/4stars/danheng/abilities/Ability_Superiority_of_Reach.webp",
+      "/src/assets/characters/4stars/danheng/abilities/Ability_Splitting_Spearhead.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Wind_DMG_Boost.webp",
@@ -369,9 +369,9 @@
       "/src/assets/stats/Icon_Break_Effect.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/guinaifen/traces/Trace_High_Poles.webp",
-      "src/assets/characters/4stars/guinaifen/traces/Trace_Bladed_Hoop.webp",
-      "src/assets/characters/4stars/guinaifen/traces/Trace_Walking_on_Knives.webp"
+      "/src/assets/characters/4stars/guinaifen/traces/Trace_High_Poles.webp",
+      "/src/assets/characters/4stars/guinaifen/traces/Trace_Bladed_Hoop.webp",
+      "/src/assets/characters/4stars/guinaifen/traces/Trace_Walking_on_Knives.webp"
     ],
 
     "imageEidolons": [
@@ -475,9 +475,9 @@
       "/src/assets/stats/Icon_CRIT_Rate.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/herta/traces/Trace_Efficiency.webp",
-      "src/assets/characters/4stars/herta/traces/Trace_Puppet.webp",
-      "src/assets/characters/4stars/herta/traces/Trace_Icing.webp"
+      "/src/assets/characters/4stars/herta/traces/Trace_Efficiency.webp",
+      "/src/assets/characters/4stars/herta/traces/Trace_Puppet.webp",
+      "/src/assets/characters/4stars/herta/traces/Trace_Icing.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/herta/eidolons/Character_Herta_Eidolon_1.webp",
@@ -581,9 +581,9 @@
       "/src/assets/stats/Icon_CRIT_DMG.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/hook/traces/Trace_Innocence.webp",
-      "src/assets/characters/4stars/hook/traces/Trace_Naivete.webp",
-      "src/assets/characters/4stars/hook/traces/Trace_Playing_With_Fire.webp"
+      "/src/assets/characters/4stars/hook/traces/Trace_Innocence.webp",
+      "/src/assets/characters/4stars/hook/traces/Trace_Naivete.webp",
+      "/src/assets/characters/4stars/hook/traces/Trace_Playing_With_Fire.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/hook/eidolons/Character_Hook_Eidolon_1.webp",
@@ -692,9 +692,9 @@
       "/src/assets/stats/Icon_DEF.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/luka/traces/Trace_Kinetic_Overload.webp",
-      "src/assets/characters/4stars/luka/traces/Trace_Cycle_Braking.webp",
-      "src/assets/characters/4stars/luka/traces/Trace_Crush_Fighting_Will.webp"
+      "/src/assets/characters/4stars/luka/traces/Trace_Kinetic_Overload.webp",
+      "/src/assets/characters/4stars/luka/traces/Trace_Cycle_Braking.webp",
+      "/src/assets/characters/4stars/luka/traces/Trace_Crush_Fighting_Will.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/luka/eidolons/Character_Luka_Eidolon_1.webp",
@@ -798,9 +798,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/lynx/traces/Trace_Advance_Surveying.webp",
-      "src/assets/characters/4stars/lynx/traces/Trace_Exploration_Techniques.webp",
-      "src/assets/characters/4stars/lynx/traces/Trace_Survival_in_the_Extreme.webp"
+      "/src/assets/characters/4stars/lynx/traces/Trace_Advance_Surveying.webp",
+      "/src/assets/characters/4stars/lynx/traces/Trace_Exploration_Techniques.webp",
+      "/src/assets/characters/4stars/lynx/traces/Trace_Survival_in_the_Extreme.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/lynx/eidolons/Character_Lynx_Eidolon_1.webp",
@@ -899,9 +899,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/march7th/traces/Trace_Purify.webp",
-      "src/assets/characters/4stars/march7th/traces/Trace_Reinforce.webp",
-      "src/assets/characters/4stars/march7th/traces/Trace_Ice_Spell.webp"
+      "/src/assets/characters/4stars/march7th/traces/Trace_Purify.webp",
+      "/src/assets/characters/4stars/march7th/traces/Trace_Reinforce.webp",
+      "/src/assets/characters/4stars/march7th/traces/Trace_Ice_Spell.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/march7th/eidolons/Character_March_7th_Eidolon_1.webp",
@@ -995,9 +995,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/natasha/traces/Trace_Soothe.webp",
-      "src/assets/characters/4stars/natasha/traces/Trace_Healer.webp",
-      "src/assets/characters/4stars/natasha/traces/Trace_Recuperation.webp"
+      "/src/assets/characters/4stars/natasha/traces/Trace_Soothe.webp",
+      "/src/assets/characters/4stars/natasha/traces/Trace_Healer.webp",
+      "/src/assets/characters/4stars/natasha/traces/Trace_Recuperation.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/natasha/eidolons/Character_Natasha_Eidolon_1.webp",
@@ -1091,9 +1091,9 @@
       "/src/assets/stats/Icon_Effect_Hit_Rate.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/pela/traces/Trace_Bash.webp",
-      "src/assets/characters/4stars/pela/traces/Trace_The_Secret_Strategy.webp",
-      "src/assets/characters/4stars/pela/traces/Trace_Wipe_Out.webp"
+      "/src/assets/characters/4stars/pela/traces/Trace_Bash.webp",
+      "/src/assets/characters/4stars/pela/traces/Trace_The_Secret_Strategy.webp",
+      "/src/assets/characters/4stars/pela/traces/Trace_Wipe_Out.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/pela/eidolons/Character_Pela_Eidolon_1.webp",
@@ -1201,9 +1201,9 @@
       "/src/assets/stats/Icon_DEF.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/qingque/traces/Trace_Tile_Battle.webp",
-      "src/assets/characters/4stars/qingque/traces/Trace_Bide_Time.webp",
-      "src/assets/characters/4stars/qingque/traces/Trace_Winning_Hand.webp"
+      "/src/assets/characters/4stars/qingque/traces/Trace_Tile_Battle.webp",
+      "/src/assets/characters/4stars/qingque/traces/Trace_Bide_Time.webp",
+      "/src/assets/characters/4stars/qingque/traces/Trace_Winning_Hand.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/qingque/eidolons/Character_Qingque_Eidolon_1.webp",
@@ -1298,9 +1298,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/sampo/traces/Trace_Trap.webp",
-      "src/assets/characters/4stars/sampo/traces/Trace_Defensive_Position.webp",
-      "src/assets/characters/4stars/sampo/traces/Trace_Spice_Up.webp"
+      "/src/assets/characters/4stars/sampo/traces/Trace_Trap.webp",
+      "/src/assets/characters/4stars/sampo/traces/Trace_Defensive_Position.webp",
+      "/src/assets/characters/4stars/sampo/traces/Trace_Spice_Up.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/sampo/eidolons/Character_Sampo_Eidolon_1.webp",
@@ -1398,9 +1398,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/serval/traces/Trace_Rock_27_Roll.webp",
-      "src/assets/characters/4stars/serval/traces/Trace_String_Vibration.webp",
-      "src/assets/characters/4stars/serval/traces/Trace_Mania.webp"
+      "/src/assets/characters/4stars/serval/traces/Trace_Rock_27_Roll.webp",
+      "/src/assets/characters/4stars/serval/traces/Trace_String_Vibration.webp",
+      "/src/assets/characters/4stars/serval/traces/Trace_Mania.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/serval/eidolons/Character_Serval_Eidolon_1.webp",
@@ -1503,9 +1503,9 @@
       "/src/assets/stats/Icon_DEF.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/sushang/traces/Trace_Guileless.webp",
-      "src/assets/characters/4stars/sushang/traces/Trace_Riposte.webp",
-      "src/assets/characters/4stars/sushang/traces/Trace_Vanquisher.webp"
+      "/src/assets/characters/4stars/sushang/traces/Trace_Guileless.webp",
+      "/src/assets/characters/4stars/sushang/traces/Trace_Riposte.webp",
+      "/src/assets/characters/4stars/sushang/traces/Trace_Vanquisher.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/sushang/eidolons/Character_Sushang_Eidolon_1.webp",
@@ -1599,9 +1599,9 @@
       "/src/assets/stats/Icon_Lightning_DMG_Boost.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/tingyun/traces/Trace_Nourished_Joviality.webp",
-      "src/assets/characters/4stars/tingyun/traces/Trace_Knell_Subdual.webp",
-      "src/assets/characters/4stars/tingyun/traces/Trace_Jubilant_Passage.webp"
+      "/src/assets/characters/4stars/tingyun/traces/Trace_Nourished_Joviality.webp",
+      "/src/assets/characters/4stars/tingyun/traces/Trace_Knell_Subdual.webp",
+      "/src/assets/characters/4stars/tingyun/traces/Trace_Jubilant_Passage.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/tingyun/eidolons/Character_Tingyun_Eidolon_1.webp",
@@ -1699,9 +1699,9 @@
       "/src/assets/stats/Icon_HP.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/yukong/traces/Trace_Archerion.webp",
-      "src/assets/characters/4stars/yukong/traces/Trace_Bowmaster.webp",
-      "src/assets/characters/4stars/yukong/traces/Trace_Majestas.webp"
+      "/src/assets/characters/4stars/yukong/traces/Trace_Archerion.webp",
+      "/src/assets/characters/4stars/yukong/traces/Trace_Bowmaster.webp",
+      "/src/assets/characters/4stars/yukong/traces/Trace_Majestas.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/yukong/eidolons/Character_Yukong_Eidolon_1.webp",
@@ -1799,9 +1799,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/bailu/traces/Trace_Qihuang_Analects.webp",
-      "src/assets/characters/5stars/bailu/traces/Trace_Vidyadhara_Ichor_Lines.webp",
-      "src/assets/characters/5stars/bailu/traces/Trace_Aquatic_Benediction.webp"
+      "/src/assets/characters/5stars/bailu/traces/Trace_Qihuang_Analects.webp",
+      "/src/assets/characters/5stars/bailu/traces/Trace_Vidyadhara_Ichor_Lines.webp",
+      "/src/assets/characters/5stars/bailu/traces/Trace_Aquatic_Benediction.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/5stars/bailu/eidolons/Character_Bailu_Eidolon_1.webp",
@@ -1914,9 +1914,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/blade/traces/Trace_Vita_Infinita.webp",
-      "src/assets/characters/5stars/blade/traces/Trace_Neverending_Deaths.webp",
-      "src/assets/characters/5stars/blade/traces/Trace_Cyclone_of_Destruction.webp"
+      "/src/assets/characters/5stars/blade/traces/Trace_Vita_Infinita.webp",
+      "/src/assets/characters/5stars/blade/traces/Trace_Neverending_Deaths.webp",
+      "/src/assets/characters/5stars/blade/traces/Trace_Cyclone_of_Destruction.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/5stars/blade/eidolons/Character_Blade_Eidolon_1.webp",
@@ -2015,9 +2015,9 @@
       "/src/assets/stats/Icon_Effect_RES.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/bronya/traces/Trace_Command.webp",
-      "src/assets/characters/5stars/bronya/traces/Trace_Battlefield.webp",
-      "src/assets/characters/5stars/bronya/traces/Trace_Military_Might.webp"
+      "/src/assets/characters/5stars/bronya/traces/Trace_Command.webp",
+      "/src/assets/characters/5stars/bronya/traces/Trace_Battlefield.webp",
+      "/src/assets/characters/5stars/bronya/traces/Trace_Military_Might.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/5stars/bronya/eidolons/Character_Bronya_Eidolon_1.webp",
@@ -2115,9 +2115,9 @@
       "/src/assets/stats/Icon_HP.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/clara/traces/Trace_Kinship.webp",
-      "src/assets/characters/5stars/clara/traces/Trace_Under_Protection.webp",
-      "src/assets/characters/5stars/clara/traces/Trace_Revenge.webp"
+      "/src/assets/characters/5stars/clara/traces/Trace_Kinship.webp",
+      "/src/assets/characters/5stars/clara/traces/Trace_Under_Protection.webp",
+      "/src/assets/characters/5stars/clara/traces/Trace_Revenge.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/5stars/clara/eidolons/Character_Clara_Eidolon_1.webp",
@@ -2210,9 +2210,9 @@
       "/src/assets/characters/5stars/fuxuan/abilities/Ability_Of_Fortune_Comes_Fate.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/fuxuan/traces/Trace_Taiyi_the_Macrocosmic.webp",
-      "src/assets/characters/5stars/fuxuan/traces/Trace_Dunjia_the_Metamystic.webp",
-      "src/assets/characters/5stars/fuxuan/traces/Trace_Liuren_the_Sexagenary.webp"
+      "/src/assets/characters/5stars/fuxuan/traces/Trace_Taiyi_the_Macrocosmic.webp",
+      "/src/assets/characters/5stars/fuxuan/traces/Trace_Dunjia_the_Metamystic.webp",
+      "/src/assets/characters/5stars/fuxuan/traces/Trace_Liuren_the_Sexagenary.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Effect_RES.webp",
@@ -2310,9 +2310,9 @@
       "/src/assets/characters/5stars/gepard/abilities/Ability_Comradery.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/gepard/traces/Trace_Integrity.webp",
-      "src/assets/characters/5stars/gepard/traces/Trace_Commander.webp",
-      "src/assets/characters/5stars/gepard/traces/Trace_Fighting_Spirit.webp"
+      "/src/assets/characters/5stars/gepard/traces/Trace_Integrity.webp",
+      "/src/assets/characters/5stars/gepard/traces/Trace_Commander.webp",
+      "/src/assets/characters/5stars/gepard/traces/Trace_Fighting_Spirit.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Ice_DMG_Boost.webp",
@@ -2410,9 +2410,9 @@
       "/src/assets/characters/5stars/himeko/abilities/Ability_Incomplete_Combustion.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/himeko/traces/Trace_Starfire.webp",
-      "src/assets/characters/5stars/himeko/traces/Trace_Magma.webp",
-      "src/assets/characters/5stars/himeko/traces/Trace_Benchmark.webp"
+      "/src/assets/characters/5stars/himeko/traces/Trace_Starfire.webp",
+      "/src/assets/characters/5stars/himeko/traces/Trace_Magma.webp",
+      "/src/assets/characters/5stars/himeko/traces/Trace_Benchmark.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Fire_DMG_Boost.webp",
@@ -2524,9 +2524,9 @@
       "/src/assets/characters/5stars/imbibitorlunae/abilities/Ability_Heaven-Quelling_Prismadrakon.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/imbibitorlunae/traces/Trace_Star_Veil.webp",
-      "src/assets/characters/5stars/imbibitorlunae/traces/Trace_Aqua_Reign.webp",
-      "src/assets/characters/5stars/imbibitorlunae/traces/Trace_Jolt_Anew.webp"
+      "/src/assets/characters/5stars/imbibitorlunae/traces/Trace_Star_Veil.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/traces/Trace_Aqua_Reign.webp",
+      "/src/assets/characters/5stars/imbibitorlunae/traces/Trace_Jolt_Anew.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Imaginary_DMG_Boost.webp",
@@ -2634,9 +2634,9 @@
       "/src/assets/characters/5stars/jingliu/abilities/Ability_Shine_of_Truth.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/jingliu/traces/Trace_Deathrealm.webp",
-      "src/assets/characters/5stars/jingliu/traces/Trace_Sword_Champion.webp",
-      "src/assets/characters/5stars/jingliu/traces/Trace_Frost_Wraith.webp"
+      "/src/assets/characters/5stars/jingliu/traces/Trace_Deathrealm.webp",
+      "/src/assets/characters/5stars/jingliu/traces/Trace_Sword_Champion.webp",
+      "/src/assets/characters/5stars/jingliu/traces/Trace_Frost_Wraith.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_CRIT_DMG.webp",
@@ -2735,9 +2735,9 @@
       "/src/assets/characters/5stars/jingyuan/abilities/Ability_Spirit_Invocation.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/jingyuan/traces/Trace_Battalia_Crush.webp",
-      "src/assets/characters/5stars/jingyuan/traces/Trace_Savant_Providence.webp",
-      "src/assets/characters/5stars/jingyuan/traces/Trace_War_Marshal.webp"
+      "/src/assets/characters/5stars/jingyuan/traces/Trace_Battalia_Crush.webp",
+      "/src/assets/characters/5stars/jingyuan/traces/Trace_Savant_Providence.webp",
+      "/src/assets/characters/5stars/jingyuan/traces/Trace_War_Marshal.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_CRIT_Rate.webp",
@@ -2835,9 +2835,9 @@
       "/src/assets/characters/5stars/kafka/abilities/Ability_Mercy_Is_Not_Forgiveness.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/kafka/traces/Trace_Torture.webp",
-      "src/assets/characters/5stars/kafka/traces/Trace_Plunder.webp",
-      "src/assets/characters/5stars/kafka/traces/Trace_Thorns.webp"
+      "/src/assets/characters/5stars/kafka/traces/Trace_Torture.webp",
+      "/src/assets/characters/5stars/kafka/traces/Trace_Plunder.webp",
+      "/src/assets/characters/5stars/kafka/traces/Trace_Thorns.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_ATK.webp",
@@ -2931,9 +2931,9 @@
       "/src/assets/characters/5stars/luocha/abilities/Ability_Mercy_of_a_Fool.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/luocha/traces/Trace_Cleansing_Revival.webp",
-      "src/assets/characters/5stars/luocha/traces/Trace_Sanctified.webp",
-      "src/assets/characters/5stars/luocha/traces/Trace_Through_the_Valley.webp"
+      "/src/assets/characters/5stars/luocha/traces/Trace_Cleansing_Revival.webp",
+      "/src/assets/characters/5stars/luocha/traces/Trace_Sanctified.webp",
+      "/src/assets/characters/5stars/luocha/traces/Trace_Through_the_Valley.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_ATK.webp",
@@ -3031,9 +3031,9 @@
       "/src/assets/characters/5stars/seele/abilities/Ability_Phantom_Illusion.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/seele/traces/Trace_Nightshade.webp",
-      "src/assets/characters/5stars/seele/traces/Trace_Lacerate.webp",
-      "src/assets/characters/5stars/seele/traces/Trace_Rippling_Waves.webp"
+      "/src/assets/characters/5stars/seele/traces/Trace_Nightshade.webp",
+      "/src/assets/characters/5stars/seele/traces/Trace_Lacerate.webp",
+      "/src/assets/characters/5stars/seele/traces/Trace_Rippling_Waves.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_ATK.webp",
@@ -3128,9 +3128,9 @@
       "/src/assets/characters/5stars/silverwolf/abilities/Ability_Force_Quit_Program.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/silverwolf/traces/Trace_Generate.webp",
-      "src/assets/characters/5stars/silverwolf/traces/Trace_Inject.webp",
-      "src/assets/characters/5stars/silverwolf/traces/Trace_Side_Note.webp"
+      "/src/assets/characters/5stars/silverwolf/traces/Trace_Generate.webp",
+      "/src/assets/characters/5stars/silverwolf/traces/Trace_Inject.webp",
+      "/src/assets/characters/5stars/silverwolf/traces/Trace_Side_Note.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Effect_Hit_Rate.webp",
@@ -3229,9 +3229,9 @@
       "/src/assets/characters/5stars/topaz/abilities/Ability_Explicit_Subsidy.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/topaz/traces/Trace_Overdraft.webp",
-      "src/assets/characters/5stars/topaz/traces/Trace_Financial_Turmoil.webp",
-      "src/assets/characters/5stars/topaz/traces/Trace_Stonks_Market.webp"
+      "/src/assets/characters/5stars/topaz/traces/Trace_Overdraft.webp",
+      "/src/assets/characters/5stars/topaz/traces/Trace_Financial_Turmoil.webp",
+      "/src/assets/characters/5stars/topaz/traces/Trace_Stonks_Market.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Fire_DMG_Boost.webp",
@@ -3343,9 +3343,9 @@
       "/src/assets/characters/5stars/trailblazer/female/physical/abilities/Ability_Immortal_Third_Strike.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Ready_for_Battle.webp",
-      "src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Perseverance.webp",
-      "src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Fighting_Will.webp"
+      "/src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Ready_for_Battle.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Perseverance.webp",
+      "/src/assets/characters/5stars/trailblazer/female/physical/traces/Trace_Fighting_Will.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_DEF.webp",
@@ -3459,9 +3459,9 @@
       "/src/assets/characters/5stars/trailblazer/male/fire/abilities/Ability_Call_of_the_Guardian.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_The_Strong_Defend_the_Weak.webp",
-      "src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_Unwavering_Gallantry.webp",
-      "src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_Action_Beats_Overthinking.webp"
+      "/src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_The_Strong_Defend_the_Weak.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_Unwavering_Gallantry.webp",
+      "/src/assets/characters/5stars/trailblazer/male/fire/traces/Trace_Action_Beats_Overthinking.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_DEF.webp",
@@ -3560,9 +3560,9 @@
       "/src/assets/characters/5stars/welt/abilities/Ability_Gravitational_Imprisonment.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/welt/traces/Trace_Retribution.webp",
-      "src/assets/characters/5stars/welt/traces/Trace_Judgment.webp",
-      "src/assets/characters/5stars/welt/traces/Trace_Punishment.webp"
+      "/src/assets/characters/5stars/welt/traces/Trace_Retribution.webp",
+      "/src/assets/characters/5stars/welt/traces/Trace_Judgment.webp",
+      "/src/assets/characters/5stars/welt/traces/Trace_Punishment.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Imaginary_DMG_Boost.webp",
@@ -3664,9 +3664,9 @@
       "/src/assets/characters/5stars/yanqing/abilities/Ability_The_One_True_Sword.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/yanqing/traces/Trace_Icing_on_the_Kick.webp",
-      "src/assets/characters/5stars/yanqing/traces/Trace_Frost_Favors_the_Brave.webp",
-      "src/assets/characters/5stars/yanqing/traces/Trace_Gentle_Blade.webp"
+      "/src/assets/characters/5stars/yanqing/traces/Trace_Icing_on_the_Kick.webp",
+      "/src/assets/characters/5stars/yanqing/traces/Trace_Frost_Favors_the_Brave.webp",
+      "/src/assets/characters/5stars/yanqing/traces/Trace_Gentle_Blade.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_Ice_DMG_Boost.webp",
@@ -3764,9 +3764,9 @@
       "/src/assets/characters/4stars/hanya/abilities/Ability_Netherworld_Judgment.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/hanya/traces/Trace_Scrivener.webp",
-      "src/assets/characters/4stars/hanya/traces/Trace_Netherworld.webp",
-      "src/assets/characters/4stars/hanya/traces/Trace_Reanimated.webp"
+      "/src/assets/characters/4stars/hanya/traces/Trace_Scrivener.webp",
+      "/src/assets/characters/4stars/hanya/traces/Trace_Netherworld.webp",
+      "/src/assets/characters/4stars/hanya/traces/Trace_Reanimated.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_ATK.webp",
@@ -3864,9 +3864,9 @@
       "/src/assets/characters/5stars/huohuo/abilities/Ability_Fiend_Impeachment_of_Evil.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/huohuo/traces/Trace_Fearful_to_Act.webp",
-      "src/assets/characters/5stars/huohuo/traces/Trace_The_Cursed_One.webp",
-      "src/assets/characters/5stars/huohuo/traces/Trace_Stress_Reaction_to_Horror.webp"
+      "/src/assets/characters/5stars/huohuo/traces/Trace_Fearful_to_Act.webp",
+      "/src/assets/characters/5stars/huohuo/traces/Trace_The_Cursed_One.webp",
+      "/src/assets/characters/5stars/huohuo/traces/Trace_Stress_Reaction_to_Horror.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_HP.webp",
@@ -3974,9 +3974,9 @@
       "/src/assets/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/5stars/argenti/traces/Trace_Piety.webp",
-      "src/assets/characters/5stars/argenti/traces/Trace_Generosity.webp",
-      "src/assets/characters/5stars/argenti/traces/Trace_Courage.webp"
+      "/src/assets/characters/5stars/argenti/traces/Trace_Piety.webp",
+      "/src/assets/characters/5stars/argenti/traces/Trace_Generosity.webp",
+      "/src/assets/characters/5stars/argenti/traces/Trace_Courage.webp"
     ],
     "imageTracesMinor": [
       "/src/assets/stats/Icon_ATK.webp",
