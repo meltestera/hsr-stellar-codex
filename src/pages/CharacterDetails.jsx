@@ -63,7 +63,7 @@ const CharacterDetails = () => {
                     {selectedCharacter.map((character) => {
                       return (
                         <div
-                          className="flex flex-col overflow-x-hidden px-2 py-10 text-base sm:px-4 sm:py-16 lg:px-16"
+                          className="space-y-10 overflow-x-hidden px-3 text-base md:space-y-32 md:py-36 lg:px-16 xl:space-y-48"
                           key={character.id}
                         >
                           <CharacterProfile

@@ -497,7 +497,7 @@ export const characters = [
     altPath: "Character_Path_Erudition",
   },
   {
-    name: "Imbibitor Lunae",
+    name: "Dan Heng • Imbibitor Lunae",
     rarity: 5,
     id: 26,
     type: "Imaginary",

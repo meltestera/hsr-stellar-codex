@@ -2450,7 +2450,7 @@
     ]
   },
   {
-    "name": "Imbibitor Lunae",
+    "name": "Dan Heng • Imbibitor Lunae",
     "id": 25,
     "rarity": 5,
     "path": "Destruction",
@@ -2477,12 +2477,12 @@
       "Heaven-Quelling Prismadrakon"
     ],
     "abilityDesc": [
-      "Uses a 2-hit attack and deals Imaginary DMG equal to 100% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target.",
-      "Uses a 3-hit attack and deals Imaginary DMG equal to 260% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target.",
-      "Uses a 5-hit attack and deals Imaginary DMG equal to 380% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to 60% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
-      "Uses a 7-hit attack and deals Imaginary DMG equal to 500% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to 180% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
+      "Uses a 2-hit attack and deals Imaginary DMG equal to 100% of Imbibitor Lunae's ATK to a single enemy target.",
+      "Uses a 3-hit attack and deals Imaginary DMG equal to 260% of Imbibitor Lunae's ATK to a single enemy target.",
+      "Uses a 5-hit attack and deals Imaginary DMG equal to 380% of Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to 60% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
+      "Uses a 7-hit attack and deals Imaginary DMG equal to 500% of Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to 180% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
       "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill. Enhanced once, Beneficent Lotus becomes Transcendence. Enhanced twice, Beneficent Lotus becomes Divine Spear. Enhanced thrice, Beneficent Lotus becomes Fulgurant Leap. When using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by 12%, for a max of 4 stacks. These stacks last until the end of his turn.",
-      "Uses a 3-hit attack and deals Imaginary DMG equal to 300% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to 140% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 Squama Sacrosancta. It's possible to hold up to 3 Squama Sacrosancta, which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
+      "Uses a 3-hit attack and deals Imaginary DMG equal to 300% of Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to 140% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 Squama Sacrosancta. It's possible to hold up to 3 Squama Sacrosancta, which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
       "After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by 10%. This effect can stack up to 6 time(s), lasting until the end of his turn.",
       "After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta."
     ],
@@ -3754,8 +3754,8 @@
     ],
     "imagePortrait": "/src/assets/characters/4stars/hanya/Character_Hanya_Portrait.webp",
     "imageSplash": "/src/assets/characters/4stars/hanya/Character_Hanya_Splash_Art.webp",
-    "imagePath": "/src/assets/paths/Character_Path_Hunt.webp",
-    "imageType": "/src/assets/types/Class_Type_Ice.webp",
+    "imagePath": "/src/assets/paths/Character_Path_Harmony.webp",
+    "imageType": "/src/assets/types/Class_Type_Physical.webp",
     "imageAbilities": [
       "/src/assets/characters/4stars/hanya/abilities/Ability_Oracle_Brush.webp",
       "/src/assets/characters/4stars/hanya/abilities/Ability_Samsara_Locked.webp",
@@ -3807,8 +3807,8 @@
     "name": "Huo Huo",
     "id": 38,
     "rarity": 5,
-    "path": "Hunt",
-    "type": "Ice",
+    "path": "Abundance",
+    "type": "Wind",
     "introduction": "A young Foxian girl and trainee Judge of the Xianzhou Luofu's Ten-Lords Commission, she is inhabited by a heliobus. Despite being timid and fearful of various things, she takes on the responsibility of attracting and subduing evil spirits.",
     "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
     "abilityTitle": [
@@ -3911,8 +3911,8 @@
     "name": "Argenti",
     "id": 38,
     "rarity": 5,
-    "path": "Hunt",
-    "type": "Ice",
+    "path": "Eruditon",
+    "type": "Physical",
     "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
     "abilityTree": [
       "Basic ATK",

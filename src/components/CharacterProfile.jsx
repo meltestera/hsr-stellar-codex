@@ -14,32 +14,42 @@ const CharacterProfile = ({
 }) => {
   return (
     <>
-      <div className="profile flex flex-col gap-y-3 text-skin-tone-light">
-        <div className="mx-auto max-w-xs space-y-2 text-center md:max-w-xl md:space-y-3 xl:space-y-5">
+      <div className="profile flex flex-col gap-y-3">
+        <div className="mx-auto max-w-[256px] space-y-2 text-center xs:max-w-screen-sm md:max-w-xl md:space-y-3 xl:space-y-5">
           <span className="font-poppins text-2xl font-bold md:text-3xl xl:text-4xl">
             {characterName}
           </span>
-          <div className="w-full">
-            <div className="flex flex-row items-center justify-center gap-x-3">
-              <div className="flex flex-col items-center justify-center">
-                <img
-                  src={characterImageType}
-                  alt={characterAltType}
-                  width={30}
-                  height={30}
-                  fetchpriority="high"
-                  className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
-                />
+          <div className="w-full text-sm md:text-base xl:text-lg">
+            <div className="flex flex-row items-center justify-center gap-x-8">
+              <div className="flex flex-row items-center">
+                <div className="flex flex-col items-center justify-center">
+                  <img
+                    src={characterImageType}
+                    alt={characterAltType}
+                    width={30}
+                    height={30}
+                    fetchpriority="high"
+                    className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
+                  />
+                </div>
+                <span className="pl-2 font-outfit font-bold tracking-wide">
+                  {characterType}
+                </span>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <img
-                  src={characterImagePath}
-                  alt={characterAltPath}
-                  width={30}
-                  height={30}
-                  fetchpriority="high"
-                  className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
-                />
+              <div className="flex flex-row items-center">
+                <div className="flex flex-col items-center justify-center">
+                  <img
+                    src={characterImagePath}
+                    alt={characterAltPath}
+                    width={30}
+                    height={30}
+                    fetchpriority="high"
+                    className="h-auto object-cover object-center md:w-[35px] xl:w-[40px]"
+                  />
+                </div>
+                <span className="pl-2 font-outfit font-bold tracking-wide">
+                  {characterPath}
+                </span>
               </div>
             </div>
           </div>
@@ -57,12 +67,12 @@ const CharacterProfile = ({
             />
           </div>
         </div>
-        <div className="w-full space-y-6 p-2 text-center">
+        <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">
             Introduction
           </b>
-          <hr className="mx-auto w-[60%] border border-skin-tone-dark lg:w-[35%]" />
-          <p className="mx-auto w-fit font-outfit text-sm font-light md:text-justify md:text-lg md:font-normal">
+          <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
+          <p className="mx-auto mt-8 w-fit font-outfit text-sm md:mt-[100px] md:w-[85%] md:text-lg xl:mt-44">
             {characterIntro}
           </p>
         </div>

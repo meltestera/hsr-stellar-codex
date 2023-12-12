@@ -7,16 +7,16 @@ const CharacterAbility = ({
 }) => {
   return (
     <>
-      <div className="abilities flex flex-col gap-y-5 space-y-5 p-2">
-        <div className="w-full space-y-6 p-2 text-center">
+      <div className="abilities flex flex-col gap-y-3">
+        <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">
             Abilities
           </b>
-          <hr className="mx-auto w-[60%] border border-skin-tone-dark lg:w-[35%]" />
+          <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
         </div>
         {characterAbilityDesc.map((desc, index) => (
           <div
-            className="space-y-3 sm:flex sm:flex-row sm:items-center sm:gap-x-12"
+            className="mx-auto mt-8 sm:flex sm:flex-row sm:items-center sm:gap-x-12 md:mt-[100px] md:w-[85%] xl:mt-44"
             key={index}
           >
             <div className="flex flex-col items-center justify-center">
@@ -30,16 +30,16 @@ const CharacterAbility = ({
                 className="h-auto object-cover object-center"
               />
             </div>
-            <div className="w-full space-y-1 text-justify text-inherit">
-              <div className="flex flex-row items-center justify-between">
-                <b className="inline-block font-poppins text-sm sm:text-lg">
+            <div className="mt-6 w-full text-justify text-inherit sm:mt-0">
+              <div className="flex flex-row items-end justify-between">
+                <b className="inline-block max-w-[250px] text-left font-poppins text-sm sm:max-w-fit sm:text-lg">
                   {characterAbilityTitle[index]}
                 </b>
                 <b className="inline-block font-poppins text-sm sm:text-lg">
                   {characterAbilityTree[index]}
                 </b>
               </div>
-              <p className="font-outfit text-sm font-light sm:text-base sm:tracking-wide md:text-lg md:font-normal">
+              <p className="mt-3 font-outfit text-sm sm:text-lg sm:tracking-wide">
                 {desc}
               </p>
             </div>
