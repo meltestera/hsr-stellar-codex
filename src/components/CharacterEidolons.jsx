@@ -1,3 +1,5 @@
+import TextHighlighter from "../components/TextHighlighter";
+
 const CharacterEidolons = ({
   characterImageEidolons,
   characterAltEidolons,
@@ -6,7 +8,7 @@ const CharacterEidolons = ({
 }) => {
   return (
     <>
-      <div className="eidolons mt-10 flex flex-col gap-y-3">
+      <div className="eidolons mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48">
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">Eidolons</b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
@@ -32,7 +34,7 @@ const CharacterEidolons = ({
                 {characterEidolonsTitle[index]}
               </b>
               <p className="font-outfit text-sm sm:text-base sm:tracking-wide md:text-lg">
-                {desc}
+                <TextHighlighter text={desc} />
               </p>
             </div>
           </div>

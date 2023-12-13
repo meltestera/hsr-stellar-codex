@@ -9,7 +9,7 @@ import HoyoLogo from "../assets/Logo_Hoyoverse.webp";
 const Footer = () => {
   return (
     <>
-      <div className="border-t-skin-tone-darker w-full border-t bg-almost-black">
+      <div className="w-full border-t border-t-skin-tone-darker bg-almost-black">
         <div className="mx-auto mt-10 flex w-full flex-col gap-y-1 space-y-10 px-4 py-2 text-skin-tone-light md:mt-20 md:w-3/4 md:space-y-12 xl:mt-32 xl:space-y-20">
           <div className="flex flex-row items-center gap-x-1">
             <span className="text-2xl md:text-4xl">
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="w-full text-justify text-base md:text-lg xl:text-xl">
             <p className="font-outfit font-light">
-              This wiki provides a comprehensive overview of characters,
+              This mini-wiki provides a comprehensive overview of characters,
               focusing on character index, light cones, and building strategies.
               We aim to guide readers on optimizing their favorite characters
               through effective builds. This wiki's context delves into the game
@@ -67,11 +67,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="mx-auto mt-10 space-y-10 md:w-[85%] lg:mt-20">
-          <hr className="border-skin-tone-darker border" />
-          <div className="flex flex-row items-center justify-center gap-x-1 pb-6 text-center text-sm text-skin-tone-light/20 lg:text-lg">
-            <span className="font-outfit">
-              Made with love © 2023 meltestera
-            </span>
+          <hr className="border border-skin-tone-darker" />
+          <div className="flex flex-row items-center justify-center gap-x-1 pb-6 text-center font-poppins text-sm text-skin-tone-light/20 lg:text-lg">
+            <span>Made with ♥ © 2023 meltestera</span>
             <div className="mb-2 inline pl-1">
               <Link
                 to="https://github.com/meltestera/hsr-stellar-codex"

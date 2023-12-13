@@ -3,11 +3,9 @@ const CharacterProfile = ({
   characterType,
   characterPath,
   characterIntro,
-  characterImagePortrait,
   characterImageSplash,
   characterImageType,
   characterImagePath,
-  characterAltPortrait,
   characterAltSplash,
   characterAltType,
   characterAltPath,
@@ -72,7 +70,7 @@ const CharacterProfile = ({
             Introduction
           </b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
-          <p className="mx-auto mt-8 w-fit font-outfit text-sm md:mt-[100px] md:w-[85%] md:text-lg xl:mt-44">
+          <p className="mx-auto mt-8 w-fit font-outfit text-sm md:mt-[100px] md:w-[85%] md:text-lg xl:mt-44 xl:text-xl">
             {characterIntro}
           </p>
         </div>
