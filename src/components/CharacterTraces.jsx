@@ -9,14 +9,14 @@ const CharacterTraces = ({
 }) => {
   return (
     <>
-      <div className="traces flex flex-col gap-y-3">
+      <div className="traces mt-16 flex flex-col gap-y-3">
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">Traces</b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
         </div>
         {characterTracesDesc.map((desc, index) => (
           <div
-            className="mx-auto mt-8 text-center sm:flex-row sm:items-center sm:gap-x-12 sm:text-left md:mt-16 md:w-[85%]"
+            className="mx-auto mt-8 w-full text-center sm:flex-row sm:items-center sm:gap-x-12 sm:text-left md:mt-16 md:w-[85%]"
             key={index}
           >
             <div className="flex flex-col items-center justify-center">

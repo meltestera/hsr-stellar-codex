@@ -6,14 +6,14 @@ const CharacterEidolons = ({
 }) => {
   return (
     <>
-      <div className="eidolons flex flex-col gap-y-3">
+      <div className="eidolons mt-10 flex flex-col gap-y-3">
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">Eidolons</b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
         </div>
         {characterEidolonsDesc.map((desc, index) => (
           <div
-            className="mx-auto mt-8 text-center md:mt-16 md:w-[85%] xl:mt-[100px]"
+            className="mx-auto mt-8 w-full text-center md:mt-16 md:w-[85%] xl:mt-[100px]"
             key={index}
           >
             <div className="flex flex-col items-center justify-center">

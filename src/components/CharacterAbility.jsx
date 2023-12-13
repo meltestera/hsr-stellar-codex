@@ -7,7 +7,7 @@ const CharacterAbility = ({
 }) => {
   return (
     <>
-      <div className="abilities flex flex-col gap-y-3">
+      <div className="abilities mt-10 flex flex-col gap-y-3">
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">
             Abilities
@@ -16,7 +16,7 @@ const CharacterAbility = ({
         </div>
         {characterAbilityDesc.map((desc, index) => (
           <div
-            className="mx-auto mt-8 sm:flex sm:flex-row sm:items-center sm:gap-x-12 md:mt-[100px] md:w-[85%] xl:mt-44"
+            className="mx-auto mt-8 w-full sm:flex sm:flex-row sm:items-center sm:gap-x-12 md:mt-[100px] md:w-[85%] xl:mt-44"
             key={index}
           >
             <div className="flex flex-col items-center justify-center">

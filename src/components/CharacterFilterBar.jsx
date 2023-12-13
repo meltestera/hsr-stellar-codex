@@ -52,21 +52,21 @@ const CharacterFilterBar = ({
 
   return (
     <>
-      <div className="flex flex-wrap justify-center gap-y-3">
+      <div className="mt-4 flex flex-wrap justify-center gap-y-3">
         <div className="relative flex-auto">
           <input
             onChange={handleSearchFilter}
             value={query}
             placeholder="Type character name here..."
             type="search"
-            className="w-full rounded border-l-8 border-skin-tone-darker bg-transparent px-2 py-3 text-sm shadow-lg shadow-black outline-none placeholder:text-sm placeholder:text-inherit placeholder:opacity-60 lg:text-lg lg:placeholder:text-lg"
+            className="focus:palceholder:opacity-100 w-full rounded border-l-8 border-skin-tone-darker bg-transparent px-3 py-4 shadow-lg shadow-black outline-none transition duration-500 placeholder:text-inherit placeholder:opacity-60 focus:border-skin-tone focus:placeholder:opacity-100 lg:border-l-[16px] lg:text-lg lg:placeholder:text-lg lg:focus:scale-105 xl:border-l-[24px]"
           />
         </div>
-        <div className="w-full border border-skin-tone-dark bg-skin-tone-darker">
-          <div className="relative inline-flex w-full align-top">
+        <div className="mt-4 w-full border border-skin-tone-dark bg-skin-tone-darker">
+          <div className="relative inline-flex w-full gap-x-[1px] align-top">
             <button
               onClick={handleRarityFilter}
-              className={`flex w-full items-center justify-center px-1.5 py-2 ${
+              className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                 isRarityFilterActive === "all" ? "bg-skin-tone/30" : ""
               }`}
               value="all"
@@ -109,7 +109,7 @@ const CharacterFilterBar = ({
             </button>
             <button
               onClick={handleRarityFilter}
-              className={`inline-flex w-full items-center justify-center gap-x-1 border-x border-x-skin-tone-dark p-1.5 ${
+              className={`inline-flex w-full items-center justify-center gap-x-1 border-x border-x-skin-tone-dark py-1.5 hover:bg-skin-tone-light/20 ${
                 isRarityFilterActive === "4" ? "bg-skin-tone/30" : ""
               }`}
               value="4"
@@ -121,7 +121,7 @@ const CharacterFilterBar = ({
             </button>
             <button
               onClick={handleRarityFilter}
-              className={`inline-flex w-full items-center justify-center gap-x-1 px-1.5 py-2 ${
+              className={`inline-flex w-full items-center justify-center gap-x-1 border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                 isRarityFilterActive === "5" ? "bg-skin-tone/30" : ""
               }`}
               value="5"
@@ -134,10 +134,10 @@ const CharacterFilterBar = ({
           </div>
         </div>
         <div className="grow border border-skin-tone-dark bg-skin-tone-darker">
-          <div className="relative inline-flex w-full align-top">
+          <div className="relative inline-flex w-full gap-x-[1px] align-top">
             <button
               onClick={handleTypeFilter}
-              className={`flex w-12 grow-0 items-center justify-center px-1.5 py-2 sm:w-[70px] ${
+              className={`flex w-12 grow-0 items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 sm:w-[70px] ${
                 isTypeFilterActive === "all" ? "bg-skin-tone/30" : ""
               }`}
               type="button"
@@ -178,10 +178,10 @@ const CharacterFilterBar = ({
                 ></path>
               </svg>
             </button>
-            <span className="w-[20%] grow border-x border-x-skin-tone-dark">
+            <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Physical" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -202,7 +202,7 @@ const CharacterFilterBar = ({
             <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Fire" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -220,10 +220,10 @@ const CharacterFilterBar = ({
                 </div>
               </button>
             </span>
-            <span className="w-[20%] grow border-x border-x-skin-tone-dark">
+            <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Ice" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -244,7 +244,7 @@ const CharacterFilterBar = ({
             <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Lightning" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -262,10 +262,10 @@ const CharacterFilterBar = ({
                 </div>
               </button>
             </span>
-            <span className="w-[20%] grow border-x border-x-skin-tone-dark">
+            <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Wind" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -286,7 +286,7 @@ const CharacterFilterBar = ({
             <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Quantum" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -304,10 +304,10 @@ const CharacterFilterBar = ({
                 </div>
               </button>
             </span>
-            <span className="w-[20%] grow border-l border-l-skin-tone-dark">
+            <span className="w-[20%] grow">
               <button
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isTypeFilterActive === "Imaginary" ? "bg-skin-tone/30" : ""
                 }`}
                 type="button"
@@ -328,10 +328,10 @@ const CharacterFilterBar = ({
           </div>
         </div>
         <div className="w-full grow border border-skin-tone-dark bg-skin-tone-darker align-top">
-          <div className="relative inline-flex w-full align-top">
+          <div className="relative inline-flex w-full gap-x-[1px] align-top">
             <button
               onClick={handlePathFilter}
-              className={`flex w-12 grow-0 items-center justify-center px-1.5 py-2 sm:w-[70px] ${
+              className={`flex w-12 grow-0 items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 sm:w-[70px] ${
                 isPathFilterActive === "all" ? "bg-skin-tone/30" : ""
               }`}
               type="button"
@@ -377,7 +377,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Abundance"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Abundance" ? "bg-skin-tone/30" : ""
                 }`}
               >
@@ -398,7 +398,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Destruction"
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Destruction" ? "bg-skin-tone/30" : ""
                 }`}
               >
@@ -419,7 +419,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Erudition"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Erudition" ? "bg-skin-tone/30" : ""
                 }`}
               >
@@ -440,7 +440,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Harmony"
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Harmony" ? "bg-skin-tone/30" : ""
                 }`}
               >
@@ -461,7 +461,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Hunt"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Hunt" ? "bg-skin-tone/30" : ""
                 }`}
               >
@@ -482,7 +482,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Nihility"
-                className={`flex w-full items-center justify-center px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Nihility" ? "bg-skin-tone/30" : ""
                 }`}
               >
@@ -503,7 +503,7 @@ const CharacterFilterBar = ({
                 onClick={handlePathFilter}
                 type="button"
                 value="Preservation"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 ${
+                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
                   isPathFilterActive === "Preservation" ? "bg-skin-tone/30" : ""
                 }`}
               >

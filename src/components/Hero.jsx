@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center lg:items-start">
-        <div className="absolute h-full w-full overflow-hidden after:absolute after:inset-0 after:z-10 after:h-full after:w-full after:bg-gradient-to-b after:from-almost-black/40 after:via-almost-black/80 after:to-almost-black/95 after:content-[''] lg:after:from-almost-black/10 lg:after:via-almost-black/40 lg:after:to-almost-black">
+        <div className="absolute h-full w-full overflow-hidden after:absolute after:inset-0 after:z-10 after:h-full after:w-full after:bg-gradient-to-b after:from-almost-black/40 after:via-almost-black/90 after:to-almost-black/40 after:content-[''] lg:after:bg-gradient-to-l lg:after:from-almost-black/5 lg:after:via-almost-black/40 lg:after:to-almost-black">
           <img
             src={HeroImg}
             alt="Hero_Astral_Express"

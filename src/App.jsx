@@ -1,12 +1,12 @@
 import "./App.css";
 
 // import router
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // import components
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import Root from "./pages/Root";
+import Characters from "./pages/Characters";
 import CharacterDetails from "./pages/CharacterDetails";
 
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/characters",
-    element: [<Root />, <Footer />],
+    element: [<Characters />, <Footer />],
   },
   {
     path: "/characters/:name",
