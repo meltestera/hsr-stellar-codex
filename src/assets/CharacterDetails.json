@@ -264,9 +264,9 @@
       "/src/assets/stats/Icon_DEF.webp"
     ],
     "imageTraces": [
-      "src/assets/characters/4stars/danheng/traces/Trace_Hidden_Dragon.webp",
-      "src/assets/characters/4stars/danheng/traces/Trace_Faster_Than_Light.webp",
-      "src/assets/characters/4stars/danheng/traces/Trace_High_Gale.webp"
+      "/src/assets/characters/4stars/danheng/traces/Trace_Hidden_Dragon.webp",
+      "/src/assets/characters/4stars/danheng/traces/Trace_Faster_Than_Light.webp",
+      "/src/assets/characters/4stars/danheng/traces/Trace_High_Gale.webp"
     ],
     "imageEidolons": [
       "/src/assets/characters/4stars/danheng/eidolons/Character_Dan_Heng_Eidolon_1.webp",

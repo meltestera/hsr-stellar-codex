@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 // types
 import Fire from "../assets/types/Class_Type_Fire.webp";
 import Ice from "../assets/types/Class_Type_Ice.webp";
@@ -15,7 +17,50 @@ import Harmony from "../assets/paths/Character_Path_Harmony.webp";
 import Hunt from "../assets/paths/Character_Path_Hunt.webp";
 import Nihility from "../assets/paths/Character_Path_Nihility.webp";
 import Preservation from "../assets/paths/Character_Path_Preservation.webp";
-import { useState } from "react";
+
+const typeImages = {
+  Fire: Fire,
+  Ice: Ice,
+  Imaginary: Imaginary,
+  Lightning: Lightning,
+  Physical: Physical,
+  Quantum: Quantum,
+  Wind: Wind,
+};
+
+const pathImages = {
+  Abundance: Abundance,
+  Destruction: Destruction,
+  Erudition: Erudition,
+  Harmony: Harmony,
+  Hunt: Hunt,
+  Nihility: Nihility,
+  Preservation: Preservation,
+};
+
+const CharacterFilterBtn = ({ onClick, value, isActive, image }) => (
+  <span className="w-[20%] grow">
+    <button
+      onClick={onClick}
+      type="button"
+      value={value}
+      className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
+        isActive ? "bg-skin-tone/30" : ""
+      }`}
+    >
+      <div className="flex w-fit flex-col items-center justify-center">
+        <img
+          src={image}
+          alt={`Class_Type_${value}`}
+          height="30"
+          width="30"
+          fetchpriority="high"
+          className="h-auto object-cover object-center"
+        />
+      </div>
+    </button>
+  </span>
+);
 
 const CharacterFilterBar = ({
   query,
@@ -47,6 +92,16 @@ const CharacterFilterBar = ({
   const handlePathFilter = (e) => {
     let val = e.currentTarget.value;
     setSelectedPathFilter(val);
+    setIsPathFilterActive(val);
+  };
+
+  const handleResetFilter = (e) => {
+    let val = e.currentTarget.value;
+    setSelectedRarityFilter(val);
+    setSelectedTypeFilter(val);
+    setSelectedPathFilter(val);
+    setIsRarityFilterActive(val);
+    setIsTypeFilterActive(val);
     setIsPathFilterActive(val);
   };
 
@@ -178,153 +233,15 @@ const CharacterFilterBar = ({
                 ></path>
               </svg>
             </button>
-            <span className="w-[20%] grow">
-              <button
+            {Object.keys(typeImages).map((type) => (
+              <CharacterFilterBtn
+                key={type}
                 onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Physical" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Physical"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Physical}
-                    alt="Class_Type_Physical"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Fire" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Fire"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Fire}
-                    alt="Class_Type_Fire"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Ice" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Ice"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Ice}
-                    alt="Class_Type_Ice"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Lightning" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Lightning"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Lightning}
-                    alt="Class_Type_Lightning"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Wind" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Wind"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Wind}
-                    alt="Class_Type_Wind"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Quantum" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Quantum"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Quantum}
-                    alt="Class_Type_Quantum"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handleTypeFilter}
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isTypeFilterActive === "Imaginary" ? "bg-skin-tone/30" : ""
-                }`}
-                type="button"
-                value="Imaginary"
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Imaginary}
-                    alt="Class_Type_Imaginary"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
+                value={type}
+                isActive={isTypeFilterActive === type}
+                image={typeImages[type]}
+              />
+            ))}
           </div>
         </div>
         <div className="w-full grow border border-skin-tone-dark bg-skin-tone-darker align-top">
@@ -372,157 +289,40 @@ const CharacterFilterBar = ({
                 ></path>
               </svg>
             </button>
-            <span className="w-[20%] grow">
-              <button
+            {Object.keys(pathImages).map((path) => (
+              <CharacterFilterBtn
+                key={path}
                 onClick={handlePathFilter}
-                type="button"
-                value="Abundance"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Abundance" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Abundance}
-                    alt="Character_Path_Abundance"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handlePathFilter}
-                type="button"
-                value="Destruction"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Destruction" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Destruction}
-                    alt="Character_Path_Destruction"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handlePathFilter}
-                type="button"
-                value="Erudition"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Erudition" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Erudition}
-                    alt="Character_Path_Erudition"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handlePathFilter}
-                type="button"
-                value="Harmony"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Harmony" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Harmony}
-                    alt="Character_Path_Harmony"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handlePathFilter}
-                type="button"
-                value="Hunt"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Hunt" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Hunt}
-                    alt="Character_Path_Hunt"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handlePathFilter}
-                type="button"
-                value="Nihility"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Nihility" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Nihility}
-                    alt="Character_Path_Nihility"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
-            <span className="w-[20%] grow">
-              <button
-                onClick={handlePathFilter}
-                type="button"
-                value="Preservation"
-                className={`flex w-full items-center justify-center border-x border-x-skin-tone-dark px-1.5 py-2 hover:bg-skin-tone-light/20 ${
-                  isPathFilterActive === "Preservation" ? "bg-skin-tone/30" : ""
-                }`}
-              >
-                <div className="flex w-fit flex-col items-center justify-center">
-                  <img
-                    src={Preservation}
-                    alt="Character_Path_Preservation"
-                    height="30"
-                    width="30"
-                    fetchpriority="high"
-                    className="h-auto object-cover object-center"
-                  />
-                </div>
-              </button>
-            </span>
+                value={path}
+                isActive={isPathFilterActive === path}
+                image={pathImages[path]}
+              />
+            ))}
           </div>
         </div>
-        <div className="reset">
-          <button></button>
+        <div className="reset w-full border border-skin-tone-dark bg-skin-tone-darker">
+          <button
+            onClick={handleResetFilter}
+            type="button"
+            value="all"
+            className="flex w-full items-center justify-center gap-x-1 border-x border-x-skin-tone-dark px-1.5 py-2 font-outfit text-lg tracking-wide hover:bg-skin-tone-light/20"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              ></path>
+            </svg>{" "}
+            Reset
+          </button>
         </div>
       </div>
     </>

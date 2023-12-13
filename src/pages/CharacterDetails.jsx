@@ -1,10 +1,6 @@
-// import useParams
-import { useParams, Link } from "react-router-dom";
-
-// import useState, useEffect
 import { useState, useEffect, useRef } from "react";
+import { useParams } from "react-router-dom";
 
-//import components
 import CharacterAbility from "../components/CharacterAbility";
 import CharacterTraces from "../components/CharacterTraces";
 import CharacterEidolons from "../components/CharacterEidolons";
@@ -17,8 +13,11 @@ const CharacterDetails = () => {
 
   const [characterDetails, setCharacterDetails] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
+    let isMounted = true;
+
     const fetchData = async () => {
       try {
         const res = await fetch("/src/assets/CharacterDetails.json");
@@ -27,6 +26,10 @@ const CharacterDetails = () => {
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
+
+        if (isMounted) {
+          setError("Error fetching data. Please try again.");
+        }
       }
     };
 
@@ -40,9 +43,13 @@ const CharacterDetails = () => {
     fetchData();
   }, []);
 
-  const selectedCharacter = characterDetails.filter(
+  const [selectedCharacter] = characterDetails.filter(
     (character) => character.name === params.name,
   );
+
+  {
+    error && <div className="text-red-500">{error}</div>;
+  }
 
   return (
     <>
@@ -60,59 +67,54 @@ const CharacterDetails = () => {
                     <b className="font-poppins text-lg">"Please wait..."</b>
                   </div>
                 ) : (
-                  <>
-                    {selectedCharacter.map((character) => {
-                      return (
-                        <div
-                          className="overflow-x-hidden px-3 py-6 text-base md:py-16 lg:px-16"
-                          key={character.id}
-                        >
-                          <Navigation params={params.name} />
-                          <CharacterProfile
-                            characterName={character.name}
-                            characterType={character.type}
-                            characterPath={character.path}
-                            characterIntro={character.introduction}
-                            characterImagePortrait={character.imagePortrait}
-                            characterImageSplash={character.imageSplash}
-                            characterImageType={character.imageType}
-                            characterImagePath={character.imagePath}
-                            characterAltPortrait={
-                              character.characterAltPortrait
-                            }
-                            characterAltSplash={character.characterAltSplash}
-                            characterAltType={character.characterAltType}
-                            characterAltPath={character.characterAltPath}
-                          />
-                          <CharacterAbility
-                            characterAbilityTitle={character.abilityTitle}
-                            characterAbilityTree={character.abilityTree}
-                            characterAbilityDesc={character.abilityDesc}
-                            characterImageAbility={character.imageAbilities}
-                            characterAltAbilities={character.altAbilities}
-                          />
-                          <CharacterTraces
-                            characterTracesTitle={character.tracesTitle}
-                            characterTracesDesc={character.tracesDesc}
-                            characterTracesAttr={character.tracesAttr}
-                            characterImageTraces={character.imageTraces}
-                            characterImageTracesMinor={
-                              character.imageTracesMinor
-                            }
-                            characterAltTraces={character.altTraces}
-                            characterAltTracesMinor={character.altTracesMinor}
-                          />
-                          <CharacterEidolons
-                            characterImageEidolons={character.imageEidolons}
-                            characterAltEidolons={character.altEidolons}
-                            characterEidolonsTitle={character.eidolonsTitle}
-                            characterEidolonsDesc={character.eidolonsDesc}
-                          />
-                        </div>
-                      );
-                    })}
-                  </>
+                  <div
+                    className="overflow-x-hidden px-3 py-6 text-base md:py-16 lg:px-16"
+                    key={selectedCharacter.id}
+                  >
+                    <Navigation params={params.name} />
+                    <CharacterProfile
+                      characterName={selectedCharacter.name}
+                      characterType={selectedCharacter.type}
+                      characterPath={selectedCharacter.path}
+                      characterIntro={selectedCharacter.introduction}
+                      characterImagePortrait={selectedCharacter.imagePortrait}
+                      characterImageSplash={selectedCharacter.imageSplash}
+                      characterImageType={selectedCharacter.imageType}
+                      characterImagePath={selectedCharacter.imagePath}
+                      characterAltPortrait={
+                        selectedCharacter.characterAltPortrait
+                      }
+                      characterAltSplash={selectedCharacter.characterAltSplash}
+                      characterAltType={selectedCharacter.characterAltType}
+                      characterAltPath={selectedCharacter.characterAltPath}
+                    />
+                    <CharacterAbility
+                      characterAbilityTitle={selectedCharacter.abilityTitle}
+                      characterAbilityTree={selectedCharacter.abilityTree}
+                      characterAbilityDesc={selectedCharacter.abilityDesc}
+                      characterImageAbility={selectedCharacter.imageAbilities}
+                      characterAltAbilities={selectedCharacter.altAbilities}
+                    />
+                    <CharacterTraces
+                      characterTracesTitle={selectedCharacter.tracesTitle}
+                      characterTracesDesc={selectedCharacter.tracesDesc}
+                      characterTracesAttr={selectedCharacter.tracesAttr}
+                      characterImageTraces={selectedCharacter.imageTraces}
+                      characterImageTracesMinor={
+                        selectedCharacter.imageTracesMinor
+                      }
+                      characterAltTraces={selectedCharacter.altTraces}
+                      characterAltTracesMinor={selectedCharacter.altTracesMinor}
+                    />
+                    <CharacterEidolons
+                      characterImageEidolons={selectedCharacter.imageEidolons}
+                      characterAltEidolons={selectedCharacter.altEidolons}
+                      characterEidolonsTitle={selectedCharacter.eidolonsTitle}
+                      characterEidolonsDesc={selectedCharacter.eidolonsDesc}
+                    />
+                  </div>
                 )}
+                ;
               </div>
             </div>
           </div>

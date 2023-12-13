@@ -7,15 +7,15 @@ const CharacterAbility = ({
   characterImageAbility,
   characterAltAbilities,
 }) => {
-  const renderAbility = (desc, index) => (
+  const renderAbilities = (desc, idx) => (
     <div
       className="mx-auto mt-8 w-full sm:flex sm:flex-row sm:items-center sm:gap-x-12 md:mt-[100px] md:w-[85%] xl:mt-44"
-      key={index}
+      key={idx}
     >
       <div className="flex flex-col items-center justify-center">
         <img
-          src={characterImageAbility[index]}
-          alt={characterAltAbilities[index]}
+          src={characterImageAbility[idx]}
+          alt={characterAltAbilities[idx]}
           loading="lazy"
           decoding="async"
           height={75}
@@ -26,10 +26,10 @@ const CharacterAbility = ({
       <div className="mt-6 w-full text-justify text-inherit sm:mt-0">
         <div className="flex flex-row items-end justify-between">
           <b className="inline-block max-w-[250px] text-left font-poppins text-sm sm:max-w-fit sm:text-lg xl:text-xl">
-            {characterAbilityTitle[index]}
+            {characterAbilityTitle[idx]}
           </b>
           <b className="inline-block font-poppins text-sm sm:text-lg xl:text-xl">
-            {characterAbilityTree[index]}
+            {characterAbilityTree[idx]}
           </b>
         </div>
         <p className="mt-3 font-outfit text-sm sm:text-lg sm:tracking-wide xl:text-xl">
@@ -48,7 +48,7 @@ const CharacterAbility = ({
           </b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
         </div>
-        {characterAbilityDesc.map(renderAbility)}
+        {characterAbilityDesc.map(renderAbilities)}
       </div>
     </>
   );

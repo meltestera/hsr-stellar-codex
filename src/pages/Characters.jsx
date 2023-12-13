@@ -1,29 +1,23 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
-// import character list
 import { characters } from "../assets/characters/characters";
 
-// import components
 import CharacterCard from "../components/CharacterCard";
 import CharacterFilterBar from "../components/CharacterFilterBar";
 import Navigation from "../components/Navigation";
 
 const Characters = () => {
-  const sortedCharacters = characters.sort((a, b) =>
-    a.name.localeCompare(b.name),
-  );
-
   const [query, setQuery] = useState("");
-
   const [selectedRarityFilter, setSelectedRarityFilter] = useState("all");
   const [selectedTypeFilter, setSelectedTypeFilter] = useState("all");
   const [selectedPathFilter, setSelectedPathFilter] = useState("all");
-
-  const [currentCharacterCard, setCurrentCharacterCard] =
-    useState(sortedCharacters);
+  const [currentCharacterCard, setCurrentCharacterCard] = useState(characters);
 
   useEffect(() => {
+    const sortedCharacters = [...characters].sort((a, b) =>
+      a.name.localeCompare(b.name),
+    );
+
     const filteredCharacters = sortedCharacters.filter((character) => {
       const filterByRarity =
         selectedRarityFilter === "all" ||
@@ -41,10 +35,15 @@ const Characters = () => {
     setCurrentCharacterCard(filteredCharacters);
   }, [selectedRarityFilter, selectedTypeFilter, selectedPathFilter]);
 
+  const backgroundImageUrl = "/src/assets/Background_Stars.webp";
+
   return (
     <>
       <div className="relative flex flex-col">
-        <div className="h-full w-full bg-[url('/src/assets/Background_Stars.webp')] bg-cover bg-no-repeat pb-40 sm:bg-[75%_center] lg:bg-[35%_center]">
+        <div
+          style={{ backgroundImage: `url(${backgroundImageUrl})` }}
+          className="h-full w-full bg-cover bg-no-repeat pb-40 sm:bg-[75%_center] lg:bg-[35%_center]"
+        >
           <div className="absolute inset-0 bg-gradient-to-t from-almost-black via-skin-tone-darker/5 to-almost-black"></div>
           <div className="mx-auto max-w-screen-2xl">
             <div className="rounded-xl border-x border-x-skin-tone-darker text-skin-tone-light">
@@ -57,13 +56,14 @@ const Characters = () => {
                     </h1>
                   </div>
                   <CharacterFilterBar
-                    characters={characters}
-                    key={characters.id}
-                    query={query}
-                    setQuery={setQuery}
-                    setSelectedRarityFilter={setSelectedRarityFilter}
-                    setSelectedTypeFilter={setSelectedTypeFilter}
-                    setSelectedPathFilter={setSelectedPathFilter}
+                    {...{
+                      characters,
+                      query,
+                      setQuery,
+                      setSelectedRarityFilter,
+                      setSelectedTypeFilter,
+                      setSelectedPathFilter,
+                    }}
                   />
                   <div className=" mx-auto mt-8 grid h-full w-full max-w-xs grid-cols-1 gap-y-8 xs:max-w-md sm:mt-24 sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 md:grid-cols-4 xl:mt-36 xl:grid-cols-6 xl:gap-x-12">
                     {currentCharacterCard
