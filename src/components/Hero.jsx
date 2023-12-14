@@ -1,8 +1,16 @@
 import HeroImg from "../assets/Hero_Astral_Express.webp";
 
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = "visible";
+    };
+  }, []);
   return (
     <>
       <div className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center lg:items-start">
