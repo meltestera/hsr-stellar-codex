@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import CharacterAbility from "../components/CharacterAbility";
@@ -9,15 +9,19 @@ import Navigation from "../components/Navigation";
 
 const CharacterDetails = () => {
   const params = useParams();
-  const scrollRef = useRef(null);
-
   const [characterDetails, setCharacterDetails] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const [selectedCharacter, setSelectedCharacter] = useState(null);
+
+  const sectionRefs = {
+    profile: useRef(null),
+    ability: useRef(null),
+    traces: useRef(null),
+    eidolons: useRef(null),
+  };
 
   useEffect(() => {
-    let isMounted = true;
-
     const fetchData = async () => {
       try {
         const res = await fetch("/src/assets/CharacterDetails.json");
@@ -26,42 +30,100 @@ const CharacterDetails = () => {
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
-
-        if (isMounted) {
-          setError("Error fetching data. Please try again.");
-        }
       }
     };
 
-    if (scrollRef)
-      scrollRef.current.scrollIntoView({
-        behavior: "instant",
-        block: "start",
-        inline: "center",
-      });
-
     fetchData();
-  }, []);
+  }, [params]);
 
-  const [selectedCharacter] = characterDetails.filter(
-    (character) => character.name === params.name,
-  );
+  useEffect(() => {
+    if (characterDetails.length > 0 && params.name) {
+      const foundCharacter = characterDetails.find(
+        (character) => character.name === params.name,
+      );
+      setSelectedCharacter(foundCharacter);
+    }
+  }, [characterDetails, params.name]);
 
-  {
-    error && <div className="text-red-500">{error}</div>;
-  }
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [selectedCharacter]);
+
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+    };
+
+    const handleIntersection = (entries, observer) => {
+      entries.forEach((entry) => {
+        const { target, isIntersecting } = entry;
+        if (isIntersecting) {
+          target.style.opacity = 1;
+          target.style.transform = "translateY(0)";
+          observer.unobserve(target);
+        }
+      });
+    };
+
+    const createObserver = (ref, callback) => {
+      const observer = new IntersectionObserver(callback, observerOptions);
+      if (ref.current) observer.observe(ref.current);
+      return observer;
+    };
+
+    const observers = {
+      profile: createObserver(sectionRefs.profile, handleIntersection),
+      ability: createObserver(sectionRefs.ability, handleIntersection),
+      traces: createObserver(sectionRefs.traces, handleIntersection),
+      eidolons: createObserver(sectionRefs.eidolons, handleIntersection),
+    };
+
+    const resetObservers = () => {
+      Object.values(observers).forEach((observer) => observer.disconnect());
+      observers.profile = createObserver(
+        sectionRefs.profile,
+        handleIntersection,
+      );
+      observers.ability = createObserver(
+        sectionRefs.ability,
+        handleIntersection,
+      );
+      observers.traces = createObserver(sectionRefs.traces, handleIntersection);
+      observers.eidolons = createObserver(
+        sectionRefs.eidolons,
+        handleIntersection,
+      );
+    };
+
+    if (selectedCharacter) {
+      resetObservers();
+    }
+
+    return () => {
+      Object.values(observers).forEach((observer) => observer.disconnect());
+    };
+  }, [selectedCharacter]);
+
+  const backgroundImageUrl = "/src/assets/Background_Stars.webp";
+
+  const slideUpStyles = {
+    opacity: isIntersecting ? 1 : 0,
+    transform: isIntersecting ? "translateY(0)" : "translateY(60px)",
+    transition: "opacity 1s ease-in, transform 0.5s ease-in",
+  };
 
   return (
     <>
       <div className="relative flex flex-col">
-        <div className="h-full w-full bg-[url('/src/assets/Background_Stars.webp')] bg-cover bg-[50%_25%] bg-no-repeat pb-40">
+        <div
+          style={{ backgroundImage: `url(${backgroundImageUrl})` }}
+          className="h-full w-full bg-cover bg-[50%_25%] bg-no-repeat pb-40"
+        >
           <div className="absolute inset-0 bg-gradient-to-t from-almost-black via-skin-tone-darker/5 to-almost-black"></div>
           <div className="mx-auto max-w-screen-2xl">
             <div className="rounded-xl border-x border-x-skin-tone-darker text-skin-tone-light">
-              <div
-                ref={scrollRef}
-                className="relative dark:bg-almost-black/10 sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]"
-              >
+              <div className="relative dark:bg-almost-black/10 sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]">
                 {loading ? (
                   <div className="flex min-h-[100dvh] w-full items-center justify-center">
                     <b className="font-poppins text-lg">"Please wait..."</b>
@@ -69,52 +131,115 @@ const CharacterDetails = () => {
                 ) : (
                   <div
                     className="overflow-x-hidden px-3 py-6 text-base md:py-16 lg:px-16"
-                    key={selectedCharacter.id}
+                    key={selectedCharacter?.id}
                   >
-                    <Navigation params={params.name} />
-                    <CharacterProfile
-                      characterName={selectedCharacter.name}
-                      characterType={selectedCharacter.type}
-                      characterPath={selectedCharacter.path}
-                      characterIntro={selectedCharacter.introduction}
-                      characterImagePortrait={selectedCharacter.imagePortrait}
-                      characterImageSplash={selectedCharacter.imageSplash}
-                      characterImageType={selectedCharacter.imageType}
-                      characterImagePath={selectedCharacter.imagePath}
-                      characterAltPortrait={
-                        selectedCharacter.characterAltPortrait
-                      }
-                      characterAltSplash={selectedCharacter.characterAltSplash}
-                      characterAltType={selectedCharacter.characterAltType}
-                      characterAltPath={selectedCharacter.characterAltPath}
-                    />
-                    <CharacterAbility
-                      characterAbilityTitle={selectedCharacter.abilityTitle}
-                      characterAbilityTree={selectedCharacter.abilityTree}
-                      characterAbilityDesc={selectedCharacter.abilityDesc}
-                      characterImageAbility={selectedCharacter.imageAbilities}
-                      characterAltAbilities={selectedCharacter.altAbilities}
-                    />
-                    <CharacterTraces
-                      characterTracesTitle={selectedCharacter.tracesTitle}
-                      characterTracesDesc={selectedCharacter.tracesDesc}
-                      characterTracesAttr={selectedCharacter.tracesAttr}
-                      characterImageTraces={selectedCharacter.imageTraces}
-                      characterImageTracesMinor={
-                        selectedCharacter.imageTracesMinor
-                      }
-                      characterAltTraces={selectedCharacter.altTraces}
-                      characterAltTracesMinor={selectedCharacter.altTracesMinor}
-                    />
-                    <CharacterEidolons
-                      characterImageEidolons={selectedCharacter.imageEidolons}
-                      characterAltEidolons={selectedCharacter.altEidolons}
-                      characterEidolonsTitle={selectedCharacter.eidolonsTitle}
-                      characterEidolonsDesc={selectedCharacter.eidolonsDesc}
-                    />
+                    <header>
+                      <Navigation params={params.name} />
+                    </header>
+                    <main>
+                      {selectedCharacter ? (
+                        <>
+                          <div
+                            ref={sectionRefs.profile}
+                            style={{ ...slideUpStyles }}
+                          >
+                            <CharacterProfile
+                              characterName={selectedCharacter.name}
+                              characterType={selectedCharacter.type}
+                              characterPath={selectedCharacter.path}
+                              characterIntro={selectedCharacter.introduction}
+                              characterImagePortrait={
+                                selectedCharacter.imagePortrait
+                              }
+                              characterImageSplash={
+                                selectedCharacter.imageSplash
+                              }
+                              characterImageType={selectedCharacter.imageType}
+                              characterImagePath={selectedCharacter.imagePath}
+                              characterAltPortrait={
+                                selectedCharacter.characterAltPortrait
+                              }
+                              characterAltSplash={
+                                selectedCharacter.characterAltSplash
+                              }
+                              characterAltType={
+                                selectedCharacter.characterAltType
+                              }
+                              characterAltPath={
+                                selectedCharacter.characterAltPath
+                              }
+                            />
+                          </div>
+                          <div
+                            ref={sectionRefs.ability}
+                            style={{ ...slideUpStyles }}
+                          >
+                            <CharacterAbility
+                              characterAbilityTitle={
+                                selectedCharacter.abilityTitle
+                              }
+                              characterAbilityTree={
+                                selectedCharacter.abilityTree
+                              }
+                              characterAbilityDesc={
+                                selectedCharacter.abilityDesc
+                              }
+                              characterImageAbility={
+                                selectedCharacter.imageAbilities
+                              }
+                              characterAltAbilities={
+                                selectedCharacter.altAbilities
+                              }
+                            />
+                          </div>
+                          <div
+                            ref={sectionRefs.traces}
+                            style={{ ...slideUpStyles }}
+                          >
+                            <CharacterTraces
+                              characterTracesTitle={
+                                selectedCharacter.tracesTitle
+                              }
+                              characterTracesDesc={selectedCharacter.tracesDesc}
+                              characterTracesAttr={selectedCharacter.tracesAttr}
+                              characterImageTraces={
+                                selectedCharacter.imageTraces
+                              }
+                              characterImageTracesMinor={
+                                selectedCharacter.imageTracesMinor
+                              }
+                              characterAltTraces={selectedCharacter.altTraces}
+                              characterAltTracesMinor={
+                                selectedCharacter.altTracesMinor
+                              }
+                            />
+                          </div>
+                          <div
+                            ref={sectionRefs.eidolons}
+                            style={{ ...slideUpStyles }}
+                          >
+                            <CharacterEidolons
+                              characterImageEidolons={
+                                selectedCharacter.imageEidolons
+                              }
+                              characterAltEidolons={
+                                selectedCharacter.altEidolons
+                              }
+                              characterEidolonsTitle={
+                                selectedCharacter.eidolonsTitle
+                              }
+                              characterEidolonsDesc={
+                                selectedCharacter.eidolonsDesc
+                              }
+                            />
+                          </div>
+                        </>
+                      ) : (
+                        <p>No character found</p>
+                      )}
+                    </main>
                   </div>
                 )}
-                ;
               </div>
             </div>
           </div>

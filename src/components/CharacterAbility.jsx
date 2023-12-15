@@ -6,6 +6,7 @@ const CharacterAbility = ({
   characterAbilityDesc,
   characterImageAbility,
   characterAltAbilities,
+  style,
 }) => {
   const renderAbilities = (desc, idx) => (
     <div
@@ -41,7 +42,10 @@ const CharacterAbility = ({
 
   return (
     <>
-      <div className="abilities mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48">
+      <div
+        className="abilities mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48"
+        style={style}
+      >
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">
             Abilities

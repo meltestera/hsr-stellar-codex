@@ -5,6 +5,7 @@ const CharacterEidolons = ({
   characterAltEidolons,
   characterEidolonsTitle,
   characterEidolonsDesc,
+  style,
 }) => {
   const renderEidolons = (desc, idx) => (
     <div
@@ -35,7 +36,10 @@ const CharacterEidolons = ({
 
   return (
     <>
-      <div className="eidolons mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48">
+      <div
+        className="eidolons mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48"
+        style={style}
+      >
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">Eidolons</b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />

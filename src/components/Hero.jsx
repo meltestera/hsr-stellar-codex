@@ -1,20 +1,40 @@
 import HeroImg from "../assets/Hero_Astral_Express.webp";
 
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  const [fadeImage, setFadeImage] = useState(false);
+  const [fadeText, setFadeText] = useState("");
+
+  const fadeImageStyle = {
+    opacity: fadeImage ? 1 : 0,
+    transition: "opacity 3s ease-in-out 2s",
+  };
+
+  const fadeTextStyle = {
+    opacity: fadeText ? 1 : 0,
+    transition: "opacity 1s ease-in-out 1s",
+  };
+
   useEffect(() => {
+    setFadeText(true);
+    setFadeImage(true);
+
     document.body.style.overflow = "hidden";
 
     return () => {
       document.body.style.overflow = "visible";
     };
   }, []);
+
   return (
     <>
       <div className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center lg:items-start">
-        <div className="absolute h-full w-full overflow-hidden after:absolute after:inset-0 after:z-10 after:h-full after:w-full after:bg-gradient-to-b after:from-almost-black/40 after:via-almost-black/90 after:to-almost-black/40 after:content-[''] lg:after:bg-gradient-to-l lg:after:from-almost-black/5 lg:after:via-almost-black/40 lg:after:to-almost-black">
+        <div
+          style={fadeImageStyle}
+          className="absolute h-full w-full overflow-hidden after:absolute after:inset-0 after:z-10 after:h-full after:w-full after:bg-gradient-to-b after:from-almost-black/40 after:via-almost-black/90 after:to-almost-black/40 after:content-[''] lg:after:bg-gradient-to-l lg:after:from-almost-black/5 lg:after:via-almost-black/40 lg:after:to-almost-black"
+        >
           <img
             src={HeroImg}
             alt="Hero_Astral_Express"
@@ -24,7 +44,10 @@ const Hero = () => {
             className="absolute min-h-full min-w-full object-cover object-[70%_center] lg:object-center"
           />
         </div>
-        <div className="relative z-10 mb-20 max-w-sm cursor-default sm:mb-24 lg:flex lg:max-w-fit lg:flex-col lg:justify-start lg:pl-24">
+        <div
+          style={fadeTextStyle}
+          className="relative z-10 mb-20 max-w-sm cursor-default sm:mb-24 lg:flex lg:max-w-fit lg:flex-col lg:justify-start lg:pl-24"
+        >
           <b className="bg-gradient-to-r from-skin-tone-dark via-skin-tone to-skin-tone-light bg-clip-text font-oswald text-5xl uppercase text-skin-tone-light text-transparent sm:text-6xl xl:text-8xl">
             Stellar Codex
           </b>
