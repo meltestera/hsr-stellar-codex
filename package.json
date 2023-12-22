@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://stellar-codex.netlify.app",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run deploy",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
