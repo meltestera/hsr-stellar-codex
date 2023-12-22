@@ -50,13 +50,13 @@ const CharacterProfile = ({
         </div>
       </div>
       <div className="my-16 flex flex-col items-center justify-center">
-        <div className="mx-auto">
+        <div className="mx-auto w-64 sm:w-80 md:w-96 lg:w-[496px] xl:w-[672px] 2xl:w-[974px]">
           <img
             type="image/webp"
             src={characterImageSplash}
             alt={characterAltSplash}
-            width={400}
-            height={400}
+            width={256}
+            height={256}
             fetchpriority="high"
             className="h-full w-full object-cover object-center"
           />
