@@ -273,7 +273,7 @@ const CharacterBuild = ({
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />
         </div>
         <div className="mx-auto mt-8 w-full md:w-[55%] lg:w-[75%]">
-          <div className="flex flex-col items-center gap-y-3">
+          <div className="flex flex-col items-center gap-y-3 md:gap-y-12 lg:gap-y-28 xl:gap-y-48">
             {characterConesDesc.map((desc, idx) => (
               <div key={idx} className="w-full p-3 md:mt-6">
                 <div className="flex flex-col items-center justify-center">

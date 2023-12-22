@@ -68,7 +68,7 @@ const Hero = () => {
           <p className="mt-2 font-ephesis text-2xl text-skin-tone-light/80 sm:text-3xl md:tracking-wide lg:mt-4 lg:text-left xl:text-4xl xl:text-skin-tone-light/60">
             yet another Honkai: Star Rail wiki...
           </p>
-          <button className="mt-4 w-44 rounded-md bg-gradient-to-tr from-transparent via-skin-tone to-transparent px-6 py-2 text-skin-tone-darker shadow shadow-almost-black backdrop-blur-lg transition-all duration-700 hover:-translate-y-2 hover:from-transparent hover:via-skin-tone-dark hover:to-transparent hover:text-skin-tone-light hover:shadow-skin-tone-light active:scale-90 md:w-64 lg:mt-6 lg:w-72 xl:w-[436px]">
+          <button className="mt-4 w-44 rounded-md bg-gradient-to-tr from-transparent via-skin-tone to-transparent px-6 py-2 text-skin-tone-darker shadow shadow-almost-black backdrop-blur-lg transition-all duration-700 md:w-64 lg:mt-6 lg:w-72 lg:hover:-translate-y-2 lg:hover:from-transparent lg:hover:via-skin-tone-dark lg:hover:to-transparent lg:hover:text-skin-tone-light lg:hover:shadow-skin-tone-light lg:active:scale-90 xl:w-[436px]">
             <Link to="/characters" className="inline-block w-full">
               <span className="font-outfit text-lg font-bold uppercase tracking-wide md:text-xl xl:text-2xl">
                 Characters

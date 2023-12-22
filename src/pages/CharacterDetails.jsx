@@ -6,7 +6,6 @@ import CharacterTraces from "../components/CharacterTraces";
 import CharacterEidolons from "../components/CharacterEidolons";
 import CharacterProfile from "../components/CharacterProfile";
 import CharacterBuild from "../components/CharacterBuild";
-import CharacterTeams from "../components/CharacterTeams";
 import Navigation from "../components/Navigation";
 
 import CharacterDetailsData from "../assets/CharacterDetails.json";
