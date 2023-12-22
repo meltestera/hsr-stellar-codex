@@ -141,12 +141,12 @@ const CharacterDetails = () => {
             <div className="rounded-xl border-x border-x-skin-tone-darker text-skin-tone-light">
               <div className="relative sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] dark:bg-almost-black/10">
                 {loading ? (
-                  <div className="flex min-h-[100dvh] w-full items-center justify-center">
+                  <div className="flex min-h-screen w-full items-center justify-center xl:min-h-[100dvh]">
                     <b className="font-poppins text-lg">"Please wait..."</b>
                   </div>
                 ) : (
                   <div
-                    className="overflow-x-hidden px-3 py-6 text-base md:py-16 lg:px-16"
+                    className="overflow-hidden px-3 py-6 text-base md:py-16 lg:px-16"
                     key={selectedCharacter?.id}
                   >
                     <header>
