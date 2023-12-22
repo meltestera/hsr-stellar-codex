@@ -16,47 +16,49 @@ const CharacterBuild = ({
   characterAltOrnaments,
   characterAltCones,
 }) => {
-  const [activateRelics, setActivateRelics] = useState(
-    Array(characterRelicsDesc.length).fill(false),
-  );
+  const [builds, setBuilds] = useState({
+    relics: Array(characterRelicsDesc.length).fill(false),
+    ornaments: Array(characterOrnamentsDesc.length).fill(false),
+    cones: Array(characterConesDesc.length).fill(false),
+  });
 
-  const [activateOrnaments, setActivateOrnaments] = useState(
-    Array(characterRelicsDesc.length).fill(false),
-  );
+  const handleState = (section, sectionIdx) => {
+    setBuilds((prevBuilds) => {
+      return {
+        ...prevBuilds,
+        [section]: prevBuilds[section].map((value, idx) =>
+          idx === sectionIdx ? !value : value,
+        ),
+      };
+    });
+  };
 
-  const [activateCones, setActiveCones] = useState(
-    Array(characterRelicsDesc.length).fill(false),
-  );
-
-  const handleState = (idx, section) => {
-    switch (section) {
-      case "relics":
-        setActivateRelics((prev) => {
-          const newActiveStates = [...prev];
-          newActiveStates[idx] = !newActiveStates[idx];
-          return newActiveStates;
-        });
-        break;
-
-      case "ornaments":
-        setActivateOrnaments((prev) => {
-          const newActiveStates = [...prev];
-          newActiveStates[idx] = !newActiveStates[idx];
-          return newActiveStates;
-        });
-        break;
-
-      case "cones":
-        setActiveCones((prev) => {
-          const newActiveStates = [...prev];
-          newActiveStates[idx] = !newActiveStates[idx];
-          return newActiveStates;
-        });
-        break;
-
-      default:
-        break;
-    }
+  const AccordionToggle = ({ isActive, onClick }) => {
+    return (
+      <button type="button" onClick={onClick}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className={`lucide lucide-${isActive ? "minus" : "plus"}`}
+        >
+          {isActive ? (
+            <path d="M5 12h14" />
+          ) : (
+            <>
+              <path d="M5 12h14" />
+              <path d="M12 5v14" />
+            </>
+          )}
+        </svg>
+      </button>
+    );
   };
 
   return (
@@ -90,54 +92,16 @@ const CharacterBuild = ({
                         {characterRelicsTitle[idx]}
                       </b>
                       <span>
-                        {activateRelics[idx] ? (
-                          <button
-                            onClick={() => handleState(idx, "relics")}
-                            type="button"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-minus"
-                            >
-                              <path d="M5 12h14" />
-                            </svg>
-                          </button>
-                        ) : (
-                          <button
-                            onClick={() => handleState(idx, "relics")}
-                            type="button"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-plus"
-                            >
-                              <path d="M5 12h14" />
-                              <path d="M12 5v14" />
-                            </svg>
-                          </button>
-                        )}
+                        <AccordionToggle
+                          isActive={builds.relics[idx]}
+                          onClick={() => handleState("relics", idx)}
+                        />
                       </span>
                     </div>
                     <div
                       className="mt-3 border-t border-t-skin-tone-light/30"
                       style={{
-                        maxHeight: activateRelics[idx] ? "300px" : "0",
+                        maxHeight: builds.relics[idx] ? "300px" : "0",
                         overflow: "hidden",
                         transition: "max-height 0.5s ease",
                       }}
@@ -192,54 +156,16 @@ const CharacterBuild = ({
                         {characterOrnamentsTitle[idx]}
                       </b>
                       <span>
-                        {activateOrnaments[idx] ? (
-                          <button
-                            onClick={() => handleState(idx, "ornaments")}
-                            type="button"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-minus"
-                            >
-                              <path d="M5 12h14" />
-                            </svg>
-                          </button>
-                        ) : (
-                          <button
-                            onClick={() => handleState(idx, "ornaments")}
-                            type="button"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-plus"
-                            >
-                              <path d="M5 12h14" />
-                              <path d="M12 5v14" />
-                            </svg>
-                          </button>
-                        )}
+                        <AccordionToggle
+                          isActive={builds.ornaments[idx]}
+                          onClick={() => handleState("ornaments", idx)}
+                        />
                       </span>
                     </div>
                     <div
                       className="mt-3 border-t border-t-skin-tone-light/30"
                       style={{
-                        maxHeight: activateOrnaments[idx] ? "300px" : "0",
+                        maxHeight: builds.ornaments[idx] ? "300px" : "0",
                         overflow: "hidden",
                         transition: "max-height 0.5s ease",
                       }}
@@ -294,54 +220,16 @@ const CharacterBuild = ({
                         {characterConesTitle[idx]}
                       </b>
                       <span>
-                        {activateCones[idx] ? (
-                          <button
-                            onClick={() => handleState(idx, "cones")}
-                            type="button"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-minus"
-                            >
-                              <path d="M5 12h14" />
-                            </svg>
-                          </button>
-                        ) : (
-                          <button
-                            onClick={() => handleState(idx, "cones")}
-                            type="button"
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-plus"
-                            >
-                              <path d="M5 12h14" />
-                              <path d="M12 5v14" />
-                            </svg>
-                          </button>
-                        )}
+                        <AccordionToggle
+                          isActive={builds.cones[idx]}
+                          onClick={() => handleState("cones", idx)}
+                        />
                       </span>
                     </div>
                     <div
                       className="mt-3 border-t border-t-skin-tone-light/30"
                       style={{
-                        maxHeight: activateCones[idx] ? "300px" : "0",
+                        maxHeight: builds.cones[idx] ? "300px" : "0",
                         overflow: "hidden",
                         transition: "max-height 0.5s ease",
                       }}
