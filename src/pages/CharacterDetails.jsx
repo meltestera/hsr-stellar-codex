@@ -1,11 +1,15 @@
-import { useState, useEffect, useRef, useLayoutEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 
 import CharacterAbility from "../components/CharacterAbility";
 import CharacterTraces from "../components/CharacterTraces";
 import CharacterEidolons from "../components/CharacterEidolons";
 import CharacterProfile from "../components/CharacterProfile";
+import CharacterBuild from "../components/CharacterBuild";
+import CharacterTeams from "../components/CharacterTeams";
 import Navigation from "../components/Navigation";
+
+import CharacterDetailsData from "../assets/CharacterDetails.json";
 
 const CharacterDetails = () => {
   const params = useParams();
@@ -19,14 +23,15 @@ const CharacterDetails = () => {
     ability: useRef(null),
     traces: useRef(null),
     eidolons: useRef(null),
+    builds: useRef(null),
   };
 
   useEffect(() => {
+    document.title = `${params.name} | Stellar Codex - yet another Honkai: Star Rail wiki`;
+
     const fetchData = async () => {
       try {
-        const res = await fetch("/src/assets/CharacterDetails.json");
-        const data = await res.json();
-        setCharacterDetails(data);
+        setCharacterDetails(CharacterDetailsData);
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -34,6 +39,7 @@ const CharacterDetails = () => {
     };
 
     fetchData();
+    window.scrollTo(0, 0);
   }, [params]);
 
   useEffect(() => {
@@ -44,10 +50,6 @@ const CharacterDetails = () => {
       setSelectedCharacter(foundCharacter);
     }
   }, [characterDetails, params.name]);
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [selectedCharacter]);
 
   useEffect(() => {
     const observerOptions = {
@@ -77,6 +79,7 @@ const CharacterDetails = () => {
       ability: createObserver(sectionRefs.ability, handleIntersection),
       traces: createObserver(sectionRefs.traces, handleIntersection),
       eidolons: createObserver(sectionRefs.eidolons, handleIntersection),
+      builds: createObserver(sectionRefs.builds, handleIntersection),
     };
 
     const resetObservers = () => {
@@ -94,6 +97,7 @@ const CharacterDetails = () => {
         sectionRefs.eidolons,
         handleIntersection,
       );
+      observers.builds = createObserver(sectionRefs.builds, handleIntersection);
     };
 
     if (selectedCharacter) {
@@ -105,13 +109,26 @@ const CharacterDetails = () => {
     };
   }, [selectedCharacter]);
 
-  const backgroundImageUrl = "/src/assets/Background_Stars.webp";
+  const backgroundImageUrl = "/images/Background_Stars.webp";
 
-  const slideUpStyles = {
+  const fadeInStyles = {
     opacity: isIntersecting ? 1 : 0,
-    transform: isIntersecting ? "translateY(0)" : "translateY(60px)",
-    transition: "opacity 1s ease-in, transform 0.5s ease-in",
+    transition: "opacity 1s ease-in 0.3s",
   };
+
+  let slideUpStyles = {
+    opacity: isIntersecting ? 1 : 0,
+    transform: isIntersecting ? "translateY(0)" : "translateY(5px)",
+    transition: "opacity 0.5s ease-in, transform 0.5s ease-in",
+  };
+
+  if (window.innerWidth >= 768) {
+    slideUpStyles = {
+      opacity: isIntersecting ? 1 : 0,
+      transform: isIntersecting ? "translateY(0)" : "translateY(60px)",
+      transition: "opacity 0.5s ease-in, transform 0.5s ease-in",
+    };
+  }
 
   return (
     <>
@@ -141,7 +158,7 @@ const CharacterDetails = () => {
                         <>
                           <div
                             ref={sectionRefs.profile}
-                            style={{ ...slideUpStyles }}
+                            style={{ ...fadeInStyles }}
                           >
                             <CharacterProfile
                               characterName={selectedCharacter.name}
@@ -231,6 +248,37 @@ const CharacterDetails = () => {
                               characterEidolonsDesc={
                                 selectedCharacter.eidolonsDesc
                               }
+                            />
+                          </div>
+                          <div
+                            ref={sectionRefs.builds}
+                            style={{ ...slideUpStyles }}
+                          >
+                            <CharacterBuild
+                              characterRelicsTitle={
+                                selectedCharacter.relicsTitle
+                              }
+                              characterRelicsDesc={selectedCharacter.relicsDesc}
+                              characterOrnamentsTitle={
+                                selectedCharacter.ornamentsTitle
+                              }
+                              characterOrnamentsDesc={
+                                selectedCharacter.ornamentsDesc
+                              }
+                              characterConesTitle={selectedCharacter.conesTitle}
+                              characterConesDesc={selectedCharacter.conesDesc}
+                              characterImageRelics={
+                                selectedCharacter.imageRelics
+                              }
+                              characterImageOrnaments={
+                                selectedCharacter.imageOrnaments
+                              }
+                              characterImageCones={selectedCharacter.imageCones}
+                              characterAltRelics={selectedCharacter.altRelics}
+                              characterAltOrnaments={
+                                selectedCharacter.altOrnaments
+                              }
+                              characterAltCones={selectedCharacter.altCones}
                             />
                           </div>
                         </>

@@ -4,15 +4,15 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // import components
-import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Characters from "./pages/Characters";
 import CharacterDetails from "./pages/CharacterDetails";
+import Root from "./pages/Root";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Hero />,
+    element: <Root />,
   },
   {
     path: "/characters",

@@ -52,13 +52,9 @@ const CharacterTraces = ({
   characterImageTracesMinor,
   characterAltTraces,
   characterAltTracesMinor,
-  style,
 }) => (
   <>
-    <div
-      className="traces mt-16 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48"
-      style={style}
-    >
+    <div className="traces mt-16 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48">
       <div className="w-full text-center">
         <b className="font-poppins text-lg uppercase md:text-2xl">Traces</b>
         <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />

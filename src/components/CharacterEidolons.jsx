@@ -5,7 +5,6 @@ const CharacterEidolons = ({
   characterAltEidolons,
   characterEidolonsTitle,
   characterEidolonsDesc,
-  style,
 }) => {
   const renderEidolons = (desc, idx) => (
     <div
@@ -24,10 +23,10 @@ const CharacterEidolons = ({
         />
       </div>
       <div className="mt-6 w-full text-center text-inherit md:mt-16">
-        <b className="w-full text-center font-poppins text-sm font-bold sm:text-lg">
+        <b className="w-full text-center font-poppins text-sm sm:text-lg lg:text-xl">
           {characterEidolonsTitle[idx]}
         </b>
-        <p className="mt-3 font-outfit text-sm sm:text-base sm:tracking-wide md:text-lg">
+        <p className="mt-3 font-outfit text-sm sm:text-base sm:tracking-wide md:text-lg lg:text-xl">
           <TextHighlighter text={desc} />
         </p>
       </div>
@@ -36,10 +35,7 @@ const CharacterEidolons = ({
 
   return (
     <>
-      <div
-        className="eidolons mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48"
-        style={style}
-      >
+      <div className="eidolons mt-10 flex flex-col gap-y-3 md:mt-28 lg:mt-36 xl:mt-48">
         <div className="w-full text-center">
           <b className="font-poppins text-lg uppercase md:text-2xl">Eidolons</b>
           <hr className="mx-auto mt-4 w-[55%] border border-skin-tone-dark lg:w-[35%]" />

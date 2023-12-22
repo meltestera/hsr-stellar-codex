@@ -21,16 +21,30 @@ const Hero = () => {
     setFadeText(true);
     setFadeImage(true);
 
+    const rootElement = document.getElementById("root");
+
+    if (rootElement) {
+      rootElement.style.height = "100%";
+    }
+
+    document.body.style.height = "100%";
+    document.documentElement.style.height = "100%";
     document.body.style.overflow = "hidden";
 
     return () => {
+      if (rootElement) {
+        rootElement.style.height = "";
+      }
+
+      document.body.style.height = "";
+      document.documentElement.style.height = "";
       document.body.style.overflow = "visible";
     };
   }, []);
 
   return (
     <>
-      <div className="relative flex min-h-[100dvh] flex-col items-center justify-center text-center lg:items-start">
+      <div className="relative flex h-full flex-col items-center justify-center text-center lg:min-h-[100dvh] lg:items-start">
         <div
           style={fadeImageStyle}
           className="absolute h-full w-full overflow-hidden after:absolute after:inset-0 after:z-10 after:h-full after:w-full after:bg-gradient-to-b after:from-almost-black/40 after:via-almost-black/90 after:to-almost-black/40 after:content-[''] lg:after:bg-gradient-to-l lg:after:from-almost-black/5 lg:after:via-almost-black/40 lg:after:to-almost-black"

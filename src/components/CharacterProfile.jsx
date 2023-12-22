@@ -32,11 +32,9 @@ const CharacterProfile = ({
 }) => {
   return (
     <div className="profile mt-16 flex flex-col gap-y-3">
-      {/* Character Name */}
       <span className="text-center font-poppins text-2xl font-bold md:text-3xl xl:text-4xl">
         {characterName}
       </span>
-      {/* Character Details */}
       <div className="mt-2 w-full text-sm md:mt-4 md:text-base xl:mt-5 xl:text-lg">
         <div className="flex flex-row items-center justify-center gap-x-8">
           <CharacterInfo
@@ -51,10 +49,8 @@ const CharacterProfile = ({
           />
         </div>
       </div>
-
-      {/* Character Image */}
-      <div className="flex flex-col items-center justify-center py-16">
-        <div className="h-[300px] overflow-hidden sm:h-[450px] md:h-[600px] lg:h-[700px] xl:h-[1000px]">
+      <div className="my-16 flex flex-col items-center justify-center py-4">
+        <div className="mx-auto h-[300px] sm:h-[450px] md:h-[600px] lg:h-[700px] xl:h-[1000px]">
           <img
             type="image/webp"
             src={characterImageSplash}
@@ -66,8 +62,6 @@ const CharacterProfile = ({
           />
         </div>
       </div>
-
-      {/* Introduction */}
       <div className="w-full text-center">
         <b className="font-poppins text-lg uppercase md:text-2xl">
           Introduction

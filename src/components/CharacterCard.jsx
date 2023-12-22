@@ -34,7 +34,7 @@ const CharacterCard = ({
   return (
     <>
       <div
-        className={`relative flex flex-col justify-center overflow-visible rounded bg-almost-black/75 px-1 py-6 shadow-md shadow-black/95 transition hover:-translate-y-4 hover:scale-105 xs:px-4 xs:py-8 sm:block sm:rounded-2xl sm:p-2
+        className={`relative flex flex-col justify-center overflow-visible rounded bg-almost-black/75 px-1 py-6 shadow-md shadow-black/95 transition xs:px-4 xs:py-8 sm:block sm:rounded-2xl sm:p-2 sm:hover:-translate-y-4 sm:hover:scale-105
       ${
         rarity === 5
           ? "border-r-4 border-five-star-card-light sm:border-r-0 sm:hover:shadow-[0px_4px_16px,_0px_8px_24px,_0px_16px_56px] sm:hover:shadow-five-star-card-dark"

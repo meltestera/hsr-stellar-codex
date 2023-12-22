@@ -15,28 +15,43 @@ const Characters = () => {
   const [selectedPathFilter, setSelectedPathFilter] = useState("all");
   const [currentCharacterCard, setCurrentCharacterCard] = useState(characters);
 
+  const hasVisitedBefore = sessionStorage.getItem("hasVisitedCharactersPage");
+
   const fadeHeaderStyle = {
-    opacity: animateHeader ? 1 : 0,
+    opacity: hasVisitedBefore ? 1 : animateHeader ? 1 : 0,
     transition: "opacity 0.5s ease-in 0.5s",
   };
 
   const fadeCardsStyle = {
-    opacity: animateCards ? 1 : 0,
-    transform: animateCards ? "translateY(0)" : "translateY(60px)",
+    opacity: hasVisitedBefore ? 1 : animateCards ? 1 : 0,
+    transform: hasVisitedBefore
+      ? "translateY(0)"
+      : animateCards
+        ? "translateY(0)"
+        : "translateY(60px)",
     transition: "opacity 1s ease-in 1.5s, transform 0.5s ease-in 1.5s",
   };
 
-  const backgroundImageUrl = "/src/assets/Background_Stars.webp";
+  const backgroundImageUrl = "/images/Background_Stars.webp";
 
   useEffect(() => {
-    setAnimateHeader(true);
-    setAnimateCards(true);
+    document.title =
+      "Characters | Stellar Codex - yet another Honkai: Star Rail wiki";
+
+    if (!hasVisitedBefore) {
+      setAnimateHeader(true);
+      setAnimateCards(true);
+      sessionStorage.setItem("hasVisitedCharactersPage", "true");
+    }
 
     const sortedCharacters = [...characters].sort((a, b) =>
       a.name.localeCompare(b.name),
     );
 
     const filteredCharacters = sortedCharacters.filter((character) => {
+      const filterByName =
+        character.name &&
+        character.name.toLowerCase().includes(query.toLowerCase());
       const filterByRarity =
         selectedRarityFilter === "all" ||
         character.rarity === parseInt(selectedRarityFilter);
@@ -47,11 +62,11 @@ const Characters = () => {
       const filterByPath =
         selectedPathFilter === "all" || character.path === selectedPathFilter;
 
-      return filterByRarity && filterByType && filterByPath;
+      return filterByName && filterByRarity && filterByType && filterByPath;
     });
 
     setCurrentCharacterCard(filteredCharacters);
-  }, [selectedRarityFilter, selectedTypeFilter, selectedPathFilter]);
+  }, [query, selectedRarityFilter, selectedTypeFilter, selectedPathFilter]);
 
   return (
     <>
@@ -87,18 +102,14 @@ const Characters = () => {
                     style={fadeCardsStyle}
                     className="mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-8 pt-8 xs:max-w-md sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 sm:pt-24 md:grid-cols-4 xl:grid-cols-6 xl:gap-x-12 xl:pt-36"
                   >
-                    {currentCharacterCard
-                      .filter((character) =>
-                        character.name.toLowerCase().includes(query),
-                      )
-                      .map((character) => {
-                        return (
-                          <CharacterCard
-                            character={character}
-                            key={character.name}
-                          />
-                        );
-                      })}
+                    {currentCharacterCard.map((character) => {
+                      return (
+                        <CharacterCard
+                          character={character}
+                          key={character.name}
+                        />
+                      );
+                    })}
                   </main>
                 </div>
               </div>
