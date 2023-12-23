@@ -5,6 +5,7 @@ import { characters } from "../assets/characters/characters";
 import CharacterCard from "../components/CharacterCard";
 import CharacterFilterBar from "../components/CharacterFilterBar";
 import Navigation from "../components/Navigation";
+import HiddenScrollToTopBtn from "../components/HiddenScrollToTopBtn";
 
 const Characters = () => {
   const [animateHeader, setAnimateHeader] = useState(false);
@@ -73,13 +74,13 @@ const Characters = () => {
       <div className="relative flex flex-col">
         <div
           style={{ backgroundImage: `url(${backgroundImageUrl})` }}
-          className="h-full w-full bg-cover bg-no-repeat pb-40 sm:bg-[75%_center] lg:bg-[35%_center]"
+          className="h-full w-full bg-cover bg-no-repeat sm:bg-[75%_center] lg:bg-[35%_center]"
         >
           <div className="absolute inset-0 bg-gradient-to-t from-almost-black via-skin-tone-darker/5 to-almost-black"></div>
           <div className="mx-auto max-w-screen-2xl">
             <div className="rounded-xl border-x border-x-skin-tone-darker text-skin-tone-light">
-              <div className="relative dark:bg-almost-black/60 sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]">
-                <div className="overflow-x-hidden px-2 py-6 text-base sm:px-4 md:py-16 lg:px-16">
+              <div className="relative sm:shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] dark:bg-almost-black/60">
+                <div className="flex flex-col overflow-hidden px-2 py-9 text-base sm:gap-y-9 sm:px-4 lg:px-16">
                   <header style={fadeHeaderStyle}>
                     <Navigation />
                     <div className="mt-4 max-w-[200px] py-2 text-left md:max-w-full xl:mt-8">
@@ -100,7 +101,7 @@ const Characters = () => {
                   </header>
                   <main
                     style={fadeCardsStyle}
-                    className="mx-auto grid h-full w-full max-w-xs grid-cols-1 gap-y-8 pt-8 xs:max-w-md sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 sm:pt-24 md:grid-cols-4 xl:grid-cols-6 xl:gap-x-12 xl:pt-36"
+                    className="mx-auto my-8 grid h-full w-full max-w-xs grid-cols-1 gap-y-8 xs:max-w-md sm:my-16 sm:max-w-full sm:grid-cols-3 sm:gap-x-3 sm:gap-y-24 md:grid-cols-4 xl:grid-cols-6 xl:gap-x-12"
                   >
                     {currentCharacterCard.map((character) => {
                       return (
@@ -111,6 +112,7 @@ const Characters = () => {
                       );
                     })}
                   </main>
+                  <HiddenScrollToTopBtn />
                 </div>
               </div>
             </div>

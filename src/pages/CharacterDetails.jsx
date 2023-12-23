@@ -7,6 +7,7 @@ import CharacterEidolons from "../components/CharacterEidolons";
 import CharacterProfile from "../components/CharacterProfile";
 import CharacterBuild from "../components/CharacterBuild";
 import Navigation from "../components/Navigation";
+import HiddenScrollToTopBtn from "../components/HiddenScrollToTopBtn";
 
 import CharacterDetailsData from "../assets/CharacterDetails.json";
 
@@ -145,147 +146,160 @@ const CharacterDetails = () => {
                     <b className="font-poppins text-lg">"Please wait..."</b>
                   </div>
                 ) : (
-                  <div
-                    className="overflow-hidden px-3 py-6 text-base md:py-16 lg:px-16"
-                    key={selectedCharacter?.id}
-                  >
-                    <header>
-                      <Navigation params={params.name} />
-                    </header>
-                    <main>
-                      {selectedCharacter ? (
-                        <>
-                          <div
-                            ref={sectionRefs.profile}
-                            style={{ ...fadeInStyles }}
-                          >
-                            <CharacterProfile
-                              characterName={selectedCharacter.name}
-                              characterType={selectedCharacter.type}
-                              characterPath={selectedCharacter.path}
-                              characterIntro={selectedCharacter.introduction}
-                              characterImagePortrait={
-                                selectedCharacter.imagePortrait
-                              }
-                              characterImageSplash={
-                                selectedCharacter.imageSplash
-                              }
-                              characterImageType={selectedCharacter.imageType}
-                              characterImagePath={selectedCharacter.imagePath}
-                              characterAltPortrait={
-                                selectedCharacter.characterAltPortrait
-                              }
-                              characterAltSplash={
-                                selectedCharacter.characterAltSplash
-                              }
-                              characterAltType={
-                                selectedCharacter.characterAltType
-                              }
-                              characterAltPath={
-                                selectedCharacter.characterAltPath
-                              }
-                            />
-                          </div>
-                          <div
-                            ref={sectionRefs.ability}
-                            style={{ ...slideUpStyles }}
-                          >
-                            <CharacterAbility
-                              characterAbilityTitle={
-                                selectedCharacter.abilityTitle
-                              }
-                              characterAbilityTree={
-                                selectedCharacter.abilityTree
-                              }
-                              characterAbilityDesc={
-                                selectedCharacter.abilityDesc
-                              }
-                              characterImageAbility={
-                                selectedCharacter.imageAbilities
-                              }
-                              characterAltAbilities={
-                                selectedCharacter.altAbilities
-                              }
-                            />
-                          </div>
-                          <div
-                            ref={sectionRefs.traces}
-                            style={{ ...slideUpStyles }}
-                          >
-                            <CharacterTraces
-                              characterTracesTitle={
-                                selectedCharacter.tracesTitle
-                              }
-                              characterTracesDesc={selectedCharacter.tracesDesc}
-                              characterTracesAttr={selectedCharacter.tracesAttr}
-                              characterImageTraces={
-                                selectedCharacter.imageTraces
-                              }
-                              characterImageTracesMinor={
-                                selectedCharacter.imageTracesMinor
-                              }
-                              characterAltTraces={selectedCharacter.altTraces}
-                              characterAltTracesMinor={
-                                selectedCharacter.altTracesMinor
-                              }
-                            />
-                          </div>
-                          <div
-                            ref={sectionRefs.eidolons}
-                            style={{ ...slideUpStyles }}
-                          >
-                            <CharacterEidolons
-                              characterImageEidolons={
-                                selectedCharacter.imageEidolons
-                              }
-                              characterAltEidolons={
-                                selectedCharacter.altEidolons
-                              }
-                              characterEidolonsTitle={
-                                selectedCharacter.eidolonsTitle
-                              }
-                              characterEidolonsDesc={
-                                selectedCharacter.eidolonsDesc
-                              }
-                            />
-                          </div>
-                          <div
-                            ref={sectionRefs.builds}
-                            style={{ ...slideUpStyles }}
-                          >
-                            <CharacterBuild
-                              characterRelicsTitle={
-                                selectedCharacter.relicsTitle
-                              }
-                              characterRelicsDesc={selectedCharacter.relicsDesc}
-                              characterOrnamentsTitle={
-                                selectedCharacter.ornamentsTitle
-                              }
-                              characterOrnamentsDesc={
-                                selectedCharacter.ornamentsDesc
-                              }
-                              characterConesTitle={selectedCharacter.conesTitle}
-                              characterConesDesc={selectedCharacter.conesDesc}
-                              characterImageRelics={
-                                selectedCharacter.imageRelics
-                              }
-                              characterImageOrnaments={
-                                selectedCharacter.imageOrnaments
-                              }
-                              characterImageCones={selectedCharacter.imageCones}
-                              characterAltRelics={selectedCharacter.altRelics}
-                              characterAltOrnaments={
-                                selectedCharacter.altOrnaments
-                              }
-                              characterAltCones={selectedCharacter.altCones}
-                            />
-                          </div>
-                        </>
-                      ) : (
-                        <p>No character found</p>
-                      )}
-                    </main>
-                  </div>
+                  <>
+                    <div
+                      className="overflow-hidden px-3 py-6 text-base md:py-16 lg:px-16"
+                      key={selectedCharacter?.id}
+                    >
+                      <header>
+                        <Navigation params={params.name} />
+                      </header>
+                      <main>
+                        {selectedCharacter ? (
+                          <>
+                            <div
+                              ref={sectionRefs.profile}
+                              style={{ ...fadeInStyles }}
+                            >
+                              <CharacterProfile
+                                characterName={selectedCharacter.name}
+                                characterType={selectedCharacter.type}
+                                characterPath={selectedCharacter.path}
+                                characterIntro={selectedCharacter.introduction}
+                                characterImagePortrait={
+                                  selectedCharacter.imagePortrait
+                                }
+                                characterImageSplash={
+                                  selectedCharacter.imageSplash
+                                }
+                                characterImageType={selectedCharacter.imageType}
+                                characterImagePath={selectedCharacter.imagePath}
+                                characterAltPortrait={
+                                  selectedCharacter.characterAltPortrait
+                                }
+                                characterAltSplash={
+                                  selectedCharacter.characterAltSplash
+                                }
+                                characterAltType={
+                                  selectedCharacter.characterAltType
+                                }
+                                characterAltPath={
+                                  selectedCharacter.characterAltPath
+                                }
+                              />
+                            </div>
+                            <div
+                              ref={sectionRefs.ability}
+                              style={{ ...slideUpStyles }}
+                            >
+                              <CharacterAbility
+                                characterAbilityTitle={
+                                  selectedCharacter.abilityTitle
+                                }
+                                characterAbilityTree={
+                                  selectedCharacter.abilityTree
+                                }
+                                characterAbilityDesc={
+                                  selectedCharacter.abilityDesc
+                                }
+                                characterImageAbility={
+                                  selectedCharacter.imageAbilities
+                                }
+                                characterAltAbilities={
+                                  selectedCharacter.altAbilities
+                                }
+                              />
+                            </div>
+                            <div
+                              ref={sectionRefs.traces}
+                              style={{ ...slideUpStyles }}
+                            >
+                              <CharacterTraces
+                                characterTracesTitle={
+                                  selectedCharacter.tracesTitle
+                                }
+                                characterTracesDesc={
+                                  selectedCharacter.tracesDesc
+                                }
+                                characterTracesAttr={
+                                  selectedCharacter.tracesAttr
+                                }
+                                characterImageTraces={
+                                  selectedCharacter.imageTraces
+                                }
+                                characterImageTracesMinor={
+                                  selectedCharacter.imageTracesMinor
+                                }
+                                characterAltTraces={selectedCharacter.altTraces}
+                                characterAltTracesMinor={
+                                  selectedCharacter.altTracesMinor
+                                }
+                              />
+                            </div>
+                            <div
+                              ref={sectionRefs.eidolons}
+                              style={{ ...slideUpStyles }}
+                            >
+                              <CharacterEidolons
+                                characterImageEidolons={
+                                  selectedCharacter.imageEidolons
+                                }
+                                characterAltEidolons={
+                                  selectedCharacter.altEidolons
+                                }
+                                characterEidolonsTitle={
+                                  selectedCharacter.eidolonsTitle
+                                }
+                                characterEidolonsDesc={
+                                  selectedCharacter.eidolonsDesc
+                                }
+                              />
+                            </div>
+                            <div
+                              ref={sectionRefs.builds}
+                              style={{ ...slideUpStyles }}
+                            >
+                              <CharacterBuild
+                                characterRelicsTitle={
+                                  selectedCharacter.relicsTitle
+                                }
+                                characterRelicsDesc={
+                                  selectedCharacter.relicsDesc
+                                }
+                                characterOrnamentsTitle={
+                                  selectedCharacter.ornamentsTitle
+                                }
+                                characterOrnamentsDesc={
+                                  selectedCharacter.ornamentsDesc
+                                }
+                                characterConesTitle={
+                                  selectedCharacter.conesTitle
+                                }
+                                characterConesDesc={selectedCharacter.conesDesc}
+                                characterImageRelics={
+                                  selectedCharacter.imageRelics
+                                }
+                                characterImageOrnaments={
+                                  selectedCharacter.imageOrnaments
+                                }
+                                characterImageCones={
+                                  selectedCharacter.imageCones
+                                }
+                                characterAltRelics={selectedCharacter.altRelics}
+                                characterAltOrnaments={
+                                  selectedCharacter.altOrnaments
+                                }
+                                characterAltCones={selectedCharacter.altCones}
+                              />
+                            </div>
+                          </>
+                        ) : (
+                          <p>No character found</p>
+                        )}
+                      </main>
+                    </div>
+                    <HiddenScrollToTopBtn />
+                  </>
                 )}
               </div>
             </div>
