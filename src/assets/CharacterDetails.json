@@ -6772,185 +6772,6 @@
     ]
   },
   {
-    "name": "Hanya",
-    "id": 39,
-    "rarity": 4,
-    "path": "Harmony",
-    "type": "Physical",
-    "introduction": "A judge in the Xianzhou Luofu's Ten-Lords Commission, ordained by the Ten-Lords and empowered with the Oracle Brush, she assesses human sins and transgressions, meting out punishments and karmic retribution based on her judgments.",
-    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
-    "abilityTitle": [
-      "Oracle Brush",
-      "Samsara, Locked",
-      "Ten-Lords' Decree, All Shall Obey",
-      "Sanction",
-      "Netherworld Judgment"
-    ],
-    "abilityDesc": [
-      "DDeals Physical DMG equal to 100% of Hanya's ATK to a single enemy.",
-      "Deals Physical DMG equal to 240% of Hanya's ATK to a single enemy, then applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.",
-      "Increases the SPD of a target ally by 20% of Hanya's SPD and increases the same target ally's ATK by 60%, lasting for 2 turn(s).",
-      "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 30% for 2 turn(s).",
-      "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy."
-    ],
-    "tracesTitle": ["Scrivener", "Netherworld", "Reanimated"],
-    "tracesDesc": [
-      "Allies triggering Burden's Skill Point recovery effect have their ATK increased by 10% for 1 turn(s).",
-      "If the trigger count for the Burden's Skill Point recovery effect is 1 or lower when an enemy with Burden is defeated, then additionally recovers 1 Skill Point(s).",
-      "When Burden's Skill Point recovery effect is triggered, this character regenerates 2 Energy."
-    ],
-    "tracesAttr": ["ATK +28%", "Speed +9", "HP +10%"],
-    "eidolonsTitle": [
-      "One Heart",
-      "Two Views",
-      "Three Temptations",
-      "Four Truths",
-      "Five Skandhas",
-      "Six Reverences"
-    ],
-    "eidolonsDesc": [
-      "When an ally with Hanya's Ultimate's effect defeats an enemy, Hanya's action is Advanced Forward by 15%. This effect can only be triggered 1 time(s) per turn.",
-      "After using the Skill, this character's SPD increases by 20% for 1 turn(s).",
-      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
-      "The Ultimate's duration is additionally extended for 1 turn(s).",
-      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-      "Increase the DMG Boost effect of the Talent by an additional 10%."
-    ],
-    "relicsTitle": [
-      "Messenger Traversing Hackerspace",
-      "Longevous Disciple",
-      "Guard of Wuthering Snow"
-    ],
-    "relicsDesc": [
-      {
-        "2-set": "Increases SPD by 6%.",
-        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
-      },
-      {
-        "2-set": "Increases Max HP by 12%.",
-        "4-set": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
-      },
-      {
-        "2-set": "Reduces DMG taken by 8%.",
-        "4-set": "At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
-      }
-    ],
-    "ornamentsTitle": [
-      "Broken Keel",
-      "Fleet of the Ageless",
-      "Penacony, Land of the Dreams"
-    ],
-    "ornamentsDesc": [
-      {
-        "2-set": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%."
-      },
-      {
-        "2-set": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
-      },
-      {
-        "2-set": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG for all other allies with the same DMG Type as the wearer by 10%."
-      }
-    ],
-    "conesTitle": [
-      "Memories of the Past",
-      "Meshing Cogs",
-      "Planetary Rendezvous",
-      "Dance! Dance! Dance!",
-      "Carve the Moon, Weave the Clouds"
-    ],
-    "conesDesc": [
-      "Increases the wearer's Break Effect by 28%/35%/42%/49%/56%. When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
-      "After the wearer uses attacks or gets hit, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
-      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%/15%/18%/21%/24%.",
-      "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%/18%/20%/22%/24%.",
-      "One of the following effects is applied randomly at the start of combat and whenever the wearer takes action: Increase all allies' ATK by 10%/12.5%/15%/17.5%/20%, increase all allies' CRIT DMG by 12%/15%/18%/21%/24%, or increase all allies' Energy Regeneration Rate by 6%/7.5%/9%/10.5%/12%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
-    ],
-    "imagePortrait": "/images/characters/4stars/hanya/Character_Hanya_Portrait.webp",
-    "imageSplash": "/images/characters/4stars/hanya/Character_Hanya_Splash_Art.webp",
-    "imagePath": "/images/paths/Character_Path_Harmony.webp",
-    "imageType": "/images/types/Class_Type_Physical.webp",
-    "imageAbilities": [
-      "/images/characters/4stars/hanya/abilities/Ability_Oracle_Brush.webp",
-      "/images/characters/4stars/hanya/abilities/Ability_Samsara_Locked.webp",
-      "/images/characters/4stars/hanya/abilities/Ability_Ten-Lords_All_Shall_Obey.webp",
-      "/images/characters/4stars/hanya/abilities/Ability_Sanction.webp",
-      "/images/characters/4stars/hanya/abilities/Ability_Netherworld_Judgment.webp"
-    ],
-    "imageTraces": [
-      "/images/characters/4stars/hanya/traces/Trace_Scrivener.webp",
-      "/images/characters/4stars/hanya/traces/Trace_Netherworld.webp",
-      "/images/characters/4stars/hanya/traces/Trace_Reanimated.webp"
-    ],
-    "imageTracesMinor": [
-      "/images/stats/Icon_ATK.webp",
-      "/images/stats/Icon_SPD.webp",
-      "/images/stats/Icon_HP.webp"
-    ],
-    "imageEidolons": [
-      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_1.webp",
-      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_2.webp",
-      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_3.webp",
-      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_4.webp",
-      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_5.webp",
-      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_6.webp"
-    ],
-    "imageRelics": [
-      "/images/characters/4stars/hanya/relics/Item_Messenger_Traversing_Hackerspace.webp",
-      "/images/characters/4stars/hanya/relics/Item_Longevous_Disciple.webp",
-      "/images/characters/4stars/hanya/relics/Item_Guard_of_Wuthering_Snow.webp"
-    ],
-    "imageOrnaments": [
-      "/images/characters/4stars/hanya/ornaments/Item_Broken_Keel.webp",
-      "/images/characters/4stars/hanya/ornaments/Item_Fleet_of_the_Ageless.webp",
-      "/images/characters/4stars/hanya/ornaments/Item_Penacony_Land_of_the_Dreams.webp"
-    ],
-    "imageCones": [
-      "/images/characters/4stars/hanya/cones/Light_Cone_Memories_of_the_Past_Artwork.webp",
-      "/images/characters/4stars/hanya/cones/Light_Cone_Meshing_Cogs_Artwork.webp",
-      "/images/characters/4stars/hanya/cones/Light_Cone_Planetary_Rendezvous_Artwork.webp",
-      "/images/characters/4stars/hanya/cones/Light_Cone_Dance_Dance_Dance.webp",
-      "/images/characters/4stars/hanya/cones/Light_Cone_Carve_the_Moon_Weave_the_Clouds_Artwork.webp"
-    ],
-    "altPortrait": "Character_Hanya_Portrait",
-    "altSplash": "Character_Hanya_Splash_Art",
-    "altPath": "Class_Path_Harmony",
-    "altType": "Class_Type_Physical",
-    "altAbilities": [
-      "Ability_Oracle_Brush",
-      "Ability_Samsara_Locked",
-      "Ability_Ten-Lords_All_Shall_Obey",
-      "Ability_Sanction",
-      "Ability_Netherworld_Judgment"
-    ],
-    "altTraces": ["Trace_Scrivener", "Trace_Netherworld", "Trace_Reanimated"],
-    "altTracesMinor": ["Icon_ATK", "Icon_SPD", "Icon_HP"],
-    "altEidolons": [
-      "Character_Hanya_Eidolon_1",
-      "Character_Hanya_Eidolon_2",
-      "Character_Hanya_Eidolon_3",
-      "Character_Hanya_Eidolon_4",
-      "Character_Hanya_Eidolon_5",
-      "Character_Hanya_Eidolon_6"
-    ],
-    "altRelics": [
-      "Item_Messenger_Traversing_Hackerspace",
-      "Item_Longevous_Disciple",
-      "Item_Guard_of_Wuthering_Snow"
-    ],
-    "altOrnaments": [
-      "Item_Broken_Keel",
-      "Item_Fleet_of_the_Ageless",
-      "Item_Penacony_Land_of_the_Dreams"
-    ],
-    "altCones": [
-      "Light_Cone_Memories_of_the_Past_Artwork",
-      "Light_Cone_Meshing_Cogs_Artwork",
-      "Light_Cone_Planetary_Rendezvous_Artwork",
-      "Light_Cone_Dance_Dance_Dance",
-      "Light_Cone_Carve_the_Moon_Weave_the_Clouds_Artwork"
-    ]
-  },
-  {
     "name": "Huo Huo",
     "id": 38,
     "rarity": 5,
@@ -7157,7 +6978,778 @@
   },
   {
     "name": "Argenti",
-    "id": 38,
+    "id": 39,
+    "rarity": 5,
+    "path": "Eruditon",
+    "type": "Physical",
+    "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Ultimate",
+      "Ultimate (Enhanced)",
+      "Talent",
+      "Technique"
+    ],
+    "abilityTitle": [
+      "Fleeting Fragrance",
+      "Justice, Hereby Blooms",
+      "For In This Garden Supreme Beauty Bestows",
+      "Merit Bestowed in \"My\" Garden",
+      "Sublime Object",
+      "Manifesto of Purest Virtue"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Argenti's ATK to a single target enemy.",
+      "Deals Physical DMG equal to 120% of Argenti's ATK to all enemies.",
+      "Consumes 90 Energy and deals Physical DMG equal to 160% of Argenti's ATK to all enemies.",
+      "Consumes 180 Energy and deals Physical DMG equal to 280% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 95% of Argenti's ATK to a random enemy.",
+      "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Ascend, increasing his CRIT Rate by 2.5%. This effect can stack up to 10 time(s).",
+      "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team. When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15."
+    ],
+    "tracesTitle": ["Piety", "Generosity", "Courage"],
+    "tracesDesc": [
+      "At the start of a turn, immediately gains 1 stack(s) of Apotheosis.",
+      "When enemy targets enter battle, immediately regenerates 2 Energy for self.",
+      "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+    ],
+    "tracesAttr": ["ATK +28%", "Physical DMG +14.4%", "HP +10%"],
+    "eidolonsTitle": [
+      "A Lacuna in Kingdom of Aesthetics",
+      "Agate's Humility",
+      "Thorny Road's Glory",
+      "Trumpet's Dedication",
+      "\"Your\" Resplendence",
+      "Swift Swoop"
+    ],
+    "eidolonsDesc": [
+      "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
+      "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10,",
+      "When using Ultimate, ignores 30% of enemy targets' DEF."
+    ],
+    "relicsTitle": [
+      "Champion of Streetwise Boxing",
+      "Musketeer of Wild Wheat",
+      "Messenger Traversing Hackerspace"
+    ],
+    "relicsDesc": [
+      {
+        "2-set": "Increases Physical DMG by 10%.",
+        "4-set": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+      },
+      {
+        "2-set": "ATK increases by 12%",
+        "4-set": "The wearer SPD increases by 6% and Basic ATK DMG increases by 10%"
+      },
+      {
+        "2-set": "Increases SPD by 6%.",
+        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+      }
+    ],
+    "ornamentsTitle": [
+      "Firmament Frontline: Glamoth",
+      "Rutilant Arena",
+      "Space Sealing Station",
+      "Inert Salosotto"
+    ],
+    "ornamentsDesc": [
+      {
+        "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+      },
+      {
+        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
+      },
+      {
+        "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
+      },
+      {
+        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
+      }
+    ],
+    "conesTitle": [
+      "An Instant Before A Gaze",
+      "Night on the Milky Way",
+      "Today Is Another Peaceful Day",
+      "Before Dawn",
+      "Geniuses' Repose",
+      "The Seriousness of Breakfast",
+      "Make the World Clamor"
+    ],
+    "conesDesc": [
+      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%/0.42%/0.48%/0.54%/0.60%, up to 180 points of Energy.",
+      "For every enemy on the field, increases the wearer's ATK by 9.0%/10.5%/12.0%/13.5%/15.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30%/35%/40%/45%/50% for 1 turn.",
+      "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.20%/0.25%/0.30%/0.35%/0.40% per point of Energy, up to 160 Energy.",
+      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. Increases the wearer's Skill and Ultimate DMG by 18%/21%/24%/27%/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%/56%/64%/72%/80%.",
+      "Increases the wearer's ATK by 16%/20%/24%/28%/32%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24%/30%/36%/42%/48% for 3 turn(s).",
+      "Increases the wearer's DMG by 12%/15%/18%/21%/24%. For every defeated enemy, the wearer's ATK increases by 4%/5%/6%/7%/8%, stacking up to 3 time(s).",
+      "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32%/40%/48%/56%/64%."
+    ],
+    "imagePortrait": "/images/characters/5stars/argenti/Character_Argenti_Portrait.webp",
+    "imageSplash": "/images/characters/5stars/argenti/Character_Argenti_Splash_Art.webp",
+    "imagePath": "/images/paths/Character_Path_Erudition.webp",
+    "imageType": "/images/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/images/characters/5stars/argenti/abilities/Ability_Fleeting_Fragrance.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Justice,_Hereby_Blooms.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_For_In_This_Garden_Supreme_Beauty_Bestows.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Merit_Bestowed_in_My_Garden.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Sublime_Object.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
+    ],
+    "imageTraces": [
+      "/images/characters/5stars/argenti/traces/Trace_Piety.webp",
+      "/images/characters/5stars/argenti/traces/Trace_Generosity.webp",
+      "/images/characters/5stars/argenti/traces/Trace_Courage.webp"
+    ],
+    "imageTracesMinor": [
+      "/images/stats/Icon_ATK.webp",
+      "/images/stats/Icon_Physical_DMG_Boost.webp",
+      "/images/stats/Icon_HP.webp"
+    ],
+    "imageEidolons": [
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_3.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_4.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_5.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_6.webp"
+    ],
+    "imageRelics": [
+      "/images/characters/5stars/argenti/relics/Item_Champion_of_Streetwise_Boxing.webp",
+      "/images/characters/5stars/argenti/relics/Item_Musketeer_of_Wild_Wheat.webp",
+      "/images/characters/5stars/argenti/relics/Item_Messenger_Traversing_Hackerspace.webp"
+    ],
+    "imageOrnaments": [
+      "/images/characters/5stars/argenti/ornaments/Item_Firmament_Frontline_Glamoth.webp",
+      "/images/characters/5stars/argenti/ornaments/Item_Rutilant_Arena.webp",
+      "/images/characters/5stars/argenti/ornaments/Item_Space_Sealing_Station.webp",
+      "/images/characters/5stars/argenti/ornaments/Item_Inert_Salsotto.webp"
+    ],
+    "imageCones": [
+      "/images/characters/5stars/argenti/cones/Light_Cone_An_Instant_Before_A_Gaze_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Night_on_the_Milky_Way_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Before_Dawn_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Geniuses_Repose_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_The_Seriousness_of_Breakfast_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Make_the_World_Clamor_Artwork.webp"
+    ],
+    "altPortrait": "Character_Argenti_Portrait",
+    "altSplash": "Character_Argenti_Splash_Art",
+    "altPath": "Class_Path_Erudition",
+    "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Fleeting_Fragrance",
+      "Ability_Justice,_Hereby_Blooms",
+      "Ability_For_In_This_Garden_Supreme_Beauty_Bestows",
+      "Ability_Merit_Bestowed_in_My_Garden",
+      "Ability_Sublime_Object",
+      "Ability_Manifesto_of_Purest_Virtue"
+    ],
+    "altTraces": ["Trace_Piety", "Trace_Generosity", "Trace_Courage"],
+    "altTracesMinor": ["Icon_ATK", "Icon_Physical_DMG_Boost", "Icon_HP"],
+    "altEidolons": [
+      "Character_Argenti_Eidolon_1",
+      "Character_Argenti_Eidolon_2",
+      "Character_Argenti_Eidolon_3",
+      "Character_Argenti_Eidolon_4",
+      "Character_Argenti_Eidolon_5",
+      "Character_Argenti_Eidolon_6"
+    ],
+    "altRelics": [
+      "Item_Champion_of_Streetwise_Boxing",
+      "Item_Musketeer_of_Wild_Wheat",
+      "Item_Messenger_Traversing_Hackerspace"
+    ],
+    "altOrnaments": [
+      "Item_Firmament_Frontline_Glamoth",
+      "Item_Rutilant_Arena",
+      "Item_Space_Sealing_Station",
+      "Item_Inert_Salsotto"
+    ],
+    "altCones": [
+      "Light_Cone_An_Instant_Before_A_Gaze_Artwork",
+      "Light_Cone_Night_on_the_Milky_Way_Artwork",
+      "Light_Cone_Today_Is_Another_Peaceful_Day_Artwork",
+      "Light_Cone_Before_Dawn_Artwork",
+      "Light_Cone_Geniuses_Repose_Artwork",
+      "Light_Cone_The_Seriousness_of_Breakfast_Artwork",
+      "Light_Cone_Make_the_World_Clamor_Artwork"
+    ]
+  },
+  {
+    "name": "Hanya",
+    "id": 40,
+    "rarity": 4,
+    "path": "Harmony",
+    "type": "Physical",
+    "introduction": "A judge in the Xianzhou Luofu's Ten-Lords Commission, ordained by the Ten-Lords and empowered with the Oracle Brush, she assesses human sins and transgressions, meting out punishments and karmic retribution based on her judgments.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Oracle Brush",
+      "Samsara, Locked",
+      "Ten-Lords' Decree, All Shall Obey",
+      "Sanction",
+      "Netherworld Judgment"
+    ],
+    "abilityDesc": [
+      "DDeals Physical DMG equal to 100% of Hanya's ATK to a single enemy.",
+      "Deals Physical DMG equal to 240% of Hanya's ATK to a single enemy, then applies Burden to them. For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times.",
+      "Increases the SPD of a target ally by 20% of Hanya's SPD and increases the same target ally's ATK by 60%, lasting for 2 turn(s).",
+      "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 30% for 2 turn(s).",
+      "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy."
+    ],
+    "tracesTitle": ["Scrivener", "Netherworld", "Reanimated"],
+    "tracesDesc": [
+      "Allies triggering Burden's Skill Point recovery effect have their ATK increased by 10% for 1 turn(s).",
+      "If the trigger count for the Burden's Skill Point recovery effect is 1 or lower when an enemy with Burden is defeated, then additionally recovers 1 Skill Point(s).",
+      "When Burden's Skill Point recovery effect is triggered, this character regenerates 2 Energy."
+    ],
+    "tracesAttr": ["ATK +28%", "Speed +9", "HP +10%"],
+    "eidolonsTitle": [
+      "One Heart",
+      "Two Views",
+      "Three Temptations",
+      "Four Truths",
+      "Five Skandhas",
+      "Six Reverences"
+    ],
+    "eidolonsDesc": [
+      "When an ally with Hanya's Ultimate's effect defeats an enemy, Hanya's action is Advanced Forward by 15%. This effect can only be triggered 1 time(s) per turn.",
+      "After using the Skill, this character's SPD increases by 20% for 1 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "The Ultimate's duration is additionally extended for 1 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "Increase the DMG Boost effect of the Talent by an additional 10%."
+    ],
+    "relicsTitle": [
+      "Messenger Traversing Hackerspace",
+      "Longevous Disciple",
+      "Guard of Wuthering Snow"
+    ],
+    "relicsDesc": [
+      {
+        "2-set": "Increases SPD by 6%.",
+        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+      },
+      {
+        "2-set": "Increases Max HP by 12%.",
+        "4-set": "When the wearer is hit or has their HP consumed by an ally or themselves, their CRIT Rate increases by 8% for 2 turn(s) and up to 2 stacks."
+      },
+      {
+        "2-set": "Reduces DMG taken by 8%.",
+        "4-set": "At the beginning of the turn, if the wearer's HP is equal to or less than 50%, restores HP equal to 8% of their Max HP and regenerates 5 Energy."
+      }
+    ],
+    "ornamentsTitle": [
+      "Broken Keel",
+      "Fleet of the Ageless",
+      "Penacony, Land of the Dreams"
+    ],
+    "ornamentsDesc": [
+      {
+        "2-set": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%."
+      },
+      {
+        "2-set": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+      },
+      {
+        "2-set": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG for all other allies with the same DMG Type as the wearer by 10%."
+      }
+    ],
+    "conesTitle": [
+      "Memories of the Past",
+      "Meshing Cogs",
+      "Planetary Rendezvous",
+      "Dance! Dance! Dance!",
+      "Carve the Moon, Weave the Clouds"
+    ],
+    "conesDesc": [
+      "Increases the wearer's Break Effect by 28%/35%/42%/49%/56%. When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%/15%/18%/21%/24%.",
+      "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16%/18%/20%/22%/24%.",
+      "One of the following effects is applied randomly at the start of combat and whenever the wearer takes action: Increase all allies' ATK by 10%/12.5%/15%/17.5%/20%, increase all allies' CRIT DMG by 12%/15%/18%/21%/24%, or increase all allies' Energy Regeneration Rate by 6%/7.5%/9%/10.5%/12%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
+    ],
+    "imagePortrait": "/images/characters/4stars/hanya/Character_Hanya_Portrait.webp",
+    "imageSplash": "/images/characters/4stars/hanya/Character_Hanya_Splash_Art.webp",
+    "imagePath": "/images/paths/Character_Path_Harmony.webp",
+    "imageType": "/images/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/images/characters/4stars/hanya/abilities/Ability_Oracle_Brush.webp",
+      "/images/characters/4stars/hanya/abilities/Ability_Samsara_Locked.webp",
+      "/images/characters/4stars/hanya/abilities/Ability_Ten-Lords_All_Shall_Obey.webp",
+      "/images/characters/4stars/hanya/abilities/Ability_Sanction.webp",
+      "/images/characters/4stars/hanya/abilities/Ability_Netherworld_Judgment.webp"
+    ],
+    "imageTraces": [
+      "/images/characters/4stars/hanya/traces/Trace_Scrivener.webp",
+      "/images/characters/4stars/hanya/traces/Trace_Netherworld.webp",
+      "/images/characters/4stars/hanya/traces/Trace_Reanimated.webp"
+    ],
+    "imageTracesMinor": [
+      "/images/stats/Icon_ATK.webp",
+      "/images/stats/Icon_SPD.webp",
+      "/images/stats/Icon_HP.webp"
+    ],
+    "imageEidolons": [
+      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_1.webp",
+      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_2.webp",
+      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_3.webp",
+      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_4.webp",
+      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_5.webp",
+      "/images/characters/4stars/hanya/eidolons/Character_Hanya_Eidolon_6.webp"
+    ],
+    "imageRelics": [
+      "/images/characters/4stars/hanya/relics/Item_Messenger_Traversing_Hackerspace.webp",
+      "/images/characters/4stars/hanya/relics/Item_Longevous_Disciple.webp",
+      "/images/characters/4stars/hanya/relics/Item_Guard_of_Wuthering_Snow.webp"
+    ],
+    "imageOrnaments": [
+      "/images/characters/4stars/hanya/ornaments/Item_Broken_Keel.webp",
+      "/images/characters/4stars/hanya/ornaments/Item_Fleet_of_the_Ageless.webp",
+      "/images/characters/4stars/hanya/ornaments/Item_Penacony_Land_of_the_Dreams.webp"
+    ],
+    "imageCones": [
+      "/images/characters/4stars/hanya/cones/Light_Cone_Memories_of_the_Past_Artwork.webp",
+      "/images/characters/4stars/hanya/cones/Light_Cone_Meshing_Cogs_Artwork.webp",
+      "/images/characters/4stars/hanya/cones/Light_Cone_Planetary_Rendezvous_Artwork.webp",
+      "/images/characters/4stars/hanya/cones/Light_Cone_Dance_Dance_Dance.webp",
+      "/images/characters/4stars/hanya/cones/Light_Cone_Carve_the_Moon_Weave_the_Clouds_Artwork.webp"
+    ],
+    "altPortrait": "Character_Hanya_Portrait",
+    "altSplash": "Character_Hanya_Splash_Art",
+    "altPath": "Class_Path_Harmony",
+    "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Oracle_Brush",
+      "Ability_Samsara_Locked",
+      "Ability_Ten-Lords_All_Shall_Obey",
+      "Ability_Sanction",
+      "Ability_Netherworld_Judgment"
+    ],
+    "altTraces": ["Trace_Scrivener", "Trace_Netherworld", "Trace_Reanimated"],
+    "altTracesMinor": ["Icon_ATK", "Icon_SPD", "Icon_HP"],
+    "altEidolons": [
+      "Character_Hanya_Eidolon_1",
+      "Character_Hanya_Eidolon_2",
+      "Character_Hanya_Eidolon_3",
+      "Character_Hanya_Eidolon_4",
+      "Character_Hanya_Eidolon_5",
+      "Character_Hanya_Eidolon_6"
+    ],
+    "altRelics": [
+      "Item_Messenger_Traversing_Hackerspace",
+      "Item_Longevous_Disciple",
+      "Item_Guard_of_Wuthering_Snow"
+    ],
+    "altOrnaments": [
+      "Item_Broken_Keel",
+      "Item_Fleet_of_the_Ageless",
+      "Item_Penacony_Land_of_the_Dreams"
+    ],
+    "altCones": [
+      "Light_Cone_Memories_of_the_Past_Artwork",
+      "Light_Cone_Meshing_Cogs_Artwork",
+      "Light_Cone_Planetary_Rendezvous_Artwork",
+      "Light_Cone_Dance_Dance_Dance",
+      "Light_Cone_Carve_the_Moon_Weave_the_Clouds_Artwork"
+    ]
+  },
+  {
+    "name": "Ruan Mei",
+    "id": 41,
+    "rarity": 5,
+    "path": "Harmony",
+    "type": "Ice",
+    "introduction": "A member of the Genius Society, skilled in life sciences, collaborated with Herta and others to create a Simulated Universe.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
+    "abilityTitle": [
+      "Threading Fragrance",
+      "String Sings Slow Swirls",
+      "Petals to Stream, Repose in Dream",
+      "Somatotypical Helix",
+      "Silken Serenade"
+    ],
+    "abilityDesc": [
+      "Deals Ice DMG equal to 100% of Ruan Mei's ATK to a single target enemy.",
+      "After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by 32% and Weakness Break Efficiency increases by 50%.",
+      "Ruan Mei deploys a field that lasts for 2 turns. The field's duration decreases by 1 at the start of her turn. While inside the field, all allies' All-Type RES PEN increases by 25% and their attacks apply Thanatoplum Rebloom to the enemies hit.When these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to 20% of Ruan Mei's Break Effect plus 10%, and dealing Break DMG equal to 50% of Ruan Mei's Ice Break DMG. Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.",
+      "Increases SPD by 10% for the team (excluding this character). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to 120% of her Ice Break DMG.",
+      "After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for 1 time(s) without consuming Skill Points. In Simulated Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter battle, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession up to 20 Blessing(s), additionally increases the Toughness-Reducing DMG of this attack by 100%. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to 100% of Ruan Mei's Ice Break DMG."
+    ],
+    "tracesTitle": [
+      "Inert Respiration",
+      "Days Wane, Thoughts Wax",
+      "Candle Lights on Still Waters"
+    ],
+    "tracesDesc": [
+      "Increases Break Effect by 20% for all allies.",
+      "Ruan Mei regenerates 5 Energy at the start of her turn.",
+      "In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6%, up to a maximum of 36%."
+    ],
+    "tracesAttr": ["DEF +22.5%", "Speed +5", "Break Effect +37.3%"],
+    "eidolonsTitle": [
+      "Neuronic Embroidery",
+      "Reedside Promenade",
+      "Viridescent Pirouette",
+      "Chatoyant Éclat",
+      "Languid Barrette",
+      "Sash Cascade"
+    ],
+    "eidolonsDesc": [
+      "While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.",
+      "With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "Extends the duration of the Ultimate's field by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200%."
+    ],
+    "relicsTitle": [
+      "Messenger Traversing Hackerspace",
+      "Thief of Shooting Meteor"
+    ],
+    "relicsDesc": [
+      {
+        "2-set": "Increases SPD by 6%.",
+        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+      },
+      {
+        "2-set": "Increases Break Effect by 16%.",
+        "4-set": "Increases the wearer's Break Effect by 16%. When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
+      }
+    ],
+    "ornamentsTitle": [
+      "Penacony, Land of the Dreams",
+      "Sprightly Vonwacq",
+      "Broken Keel",
+      "Fleet of the Ageless",
+      "Talia: Kingdom of Banditry"
+    ],
+    "ornamentsDesc": [
+      {
+        "2-set": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG for all other allies with the same DMG Type as the wearer by 10%."
+      },
+      {
+        "2-set": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle."
+      },
+      {
+        "2-set": "Increases the wearer's Effect RES by 10%. When the wearer's Effect RES is at 30% or higher, all allies' CRIT DMG increases by 10%."
+      },
+      {
+        "2-set": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+      },
+      {
+        "2-set": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break effect increases by an extra 20%."
+      }
+    ],
+    "conesTitle": [
+      "Past Self in Mirror",
+      "Memories of the Past",
+      "Meshing Cogs"
+    ],
+    "conesDesc": [
+      "Increases the wearer's Break Effect by 60%/70%/80%/90%/100%. When the wearer uses their Ultimate, increases all allies' DMG by 24%/28%/32%/36%/40%, lasting for 3 turns. Should the Break Effect exceed or equal 150%, 1 Skill Point will be recovered. During the start of every wave, all allies regenerate 10/12.5/15/17.5/20 Energy. Effects of the same type cannot stack.",
+      "Increases the wearer's Break Effect by 28%/35%/42%/49%/56%. When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn."
+    ],
+    "imagePortrait": "/images/characters/5stars/ruanmei/Character_Ruan_Mei_Portrait.webp",
+    "imageSplash": "/images/characters/5stars/ruanmei/Character_Ruan_Mei_Splash_Art.webp",
+    "imagePath": "/images/paths/Character_Path_Harmony.webp",
+    "imageType": "/images/types/Class_Type_Ice.webp",
+    "imageAbilities": [
+      "/images/characters/5stars/ruanmei/abilities/Ability_Threading_Fragrance.webp",
+      "/images/characters/5stars/ruanmei/abilities/Ability_Silken_Serenade.webp",
+      "/images/characters/5stars/ruanmei/abilities/Ability_Petals_to_Stream_Repose_in_Dream.webp",
+      "/images/characters/5stars/ruanmei/abilities/Ability_Somatotypical_Helix.webp",
+      "/images/characters/5stars/ruanmei/abilities/Ability_String_Sings_Slow_Swirls.webp"
+    ],
+    "imageTraces": [
+      "/images/characters/5stars/ruanmei/traces/Trace_Inert_Respiration.webp",
+      "/images/characters/5stars/ruanmei/traces/Trace_Days_Wane_Thoughts_Wax.webp",
+      "/images/characters/5stars/ruanmei/traces/Trace_Candle_Lights_on_Still_Waters.webp"
+    ],
+    "imageTracesMinor": [
+      "/images/stats/Icon_DEF.webp",
+      "/images/stats/Icon_SPD.webp",
+      "/images/stats/Icon_Break_Effect.webp"
+    ],
+    "imageEidolons": [
+      "/images/characters/5stars/ruanmei/eidolons/Character_Ruan_Mei_Eidolon_1.webp",
+      "/images/characters/5stars/ruanmei/eidolons/Character_Ruan_Mei_Eidolon_2.webp",
+      "/images/characters/5stars/ruanmei/eidolons/Character_Ruan_Mei_Eidolon_3.webp",
+      "/images/characters/5stars/ruanmei/eidolons/Character_Ruan_Mei_Eidolon_4.webp",
+      "/images/characters/5stars/ruanmei/eidolons/Character_Ruan_Mei_Eidolon_5.webp",
+      "/images/characters/5stars/ruanmei/eidolons/Character_Ruan_Mei_Eidolon_6.webp"
+    ],
+    "imageRelics": [
+      "/images/characters/5stars/ruanmei/relics/Item_Messenger_Traversing_Hackerspace.webp",
+      "/images/characters/5stars/ruanmei/relics/Item_Thief_of_Shooting_Meteor.webp"
+    ],
+    "imageOrnaments": [
+      "/images/characters/5stars/ruanmei/ornaments/Item_Penacony_Land_of_the_Dreams.webp",
+      "/images/characters/5stars/ruanmei/ornaments/Item_Sprightly_Vonwacq.webp",
+      "/images/characters/5stars/ruanmei/ornaments/Item_Broken_Keel.webp",
+      "/images/characters/5stars/ruanmei/ornaments/Item_Fleet_of_the_Ageless.webp",
+      "/images/characters/5stars/ruanmei/ornaments/Item_Talia_Kingdom_of_Banditry.webp"
+    ],
+    "imageCones": [
+      "/images/characters/5stars/ruanmei/cones/Light_Cone_Past_Self_in_Mirror_Artwork.webp",
+      "/images/characters/5stars/ruanmei/cones/Light_Cone_Memories_of_the_Past_Artwork.webp",
+      "/images/characters/5stars/ruanmei/cones/Light_Cone_Meshing_Cogs_Artwork.webp"
+    ],
+    "altPortrait": "Character_Ruan_Mei_Portrait",
+    "altSplash": "Character_Ruan_Mei_Splash_Art",
+    "altPath": "Class_Path_Harmony",
+    "altType": "Class_Type_Ice",
+    "altAbilities": [
+      "Ability_Threading_Fragrance",
+      "Ability_Silken_Serenade",
+      "Ability_Petals_to_Stream_Repose_in_Dream",
+      "Ability_Somatotypical_Helix",
+      "Ability_String_Sings_Slow_Swirls"
+    ],
+    "altTraces": [
+      "Trace_Inert_Respiration",
+      "Trace_Days_Wane_Thoughts_Wax",
+      "Trace_Candle_Lights_on_Still_Waters"
+    ],
+    "altTracesMinor": ["Icon_DEF", "Icon_SPD", "Icon_Break_Effect"],
+    "altEidolons": [
+      "Character_Ruan_Mei_Eidolon_1",
+      "Character_Ruan_Mei_Eidolon_2",
+      "Character_Ruan_Mei_Eidolon_3",
+      "Character_Ruan_Mei_Eidolon_4",
+      "Character_Ruan_Mei_Eidolon_5",
+      "Character_Ruan_Mei_Eidolon_6"
+    ],
+    "altRelics": [
+      "Item_Messenger_Traversing_Hackerspace",
+      "Item_Thief_of_Shooting_Meteor"
+    ],
+    "altOrnaments": [
+      "Item_Penacony_Land_of_the_Dreams",
+      "Item_Sprightly_Vonwacq",
+      "Item_Broken_Keel",
+      "Item_Fleet_of_the_Ageless",
+      "Item_Talia_Kingdom_of_Banditry"
+    ],
+    "altCones": [
+      "Light_Cone_Past_Self_in_Mirror_Artwork",
+      "Light_Cone_Memories_of_the_Past_Artwork",
+      "Light_Cone_Meshing_Cogs_Artwork"
+    ]
+  },
+  {
+    "name": "Dr. Ratio",
+    "id": 42,
+    "rarity": 5,
+    "path": "Eruditon",
+    "type": "Physical",
+    "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
+    "abilityTree": [
+      "Basic ATK",
+      "Skill",
+      "Ultimate",
+      "Ultimate (Enhanced)",
+      "Talent",
+      "Technique"
+    ],
+    "abilityTitle": [
+      "Fleeting Fragrance",
+      "Justice, Hereby Blooms",
+      "For In This Garden Supreme Beauty Bestows",
+      "Merit Bestowed in \"My\" Garden",
+      "Sublime Object",
+      "Manifesto of Purest Virtue"
+    ],
+    "abilityDesc": [
+      "Deals Physical DMG equal to 100% of Argenti's ATK to a single target enemy.",
+      "Deals Physical DMG equal to 120% of Argenti's ATK to all enemies.",
+      "Consumes 90 Energy and deals Physical DMG equal to 160% of Argenti's ATK to all enemies.",
+      "Consumes 180 Energy and deals Physical DMG equal to 280% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 95% of Argenti's ATK to a random enemy.",
+      "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Ascend, increasing his CRIT Rate by 2.5%. This effect can stack up to 10 time(s).",
+      "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team. When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15."
+    ],
+    "tracesTitle": ["Piety", "Generosity", "Courage"],
+    "tracesDesc": [
+      "At the start of a turn, immediately gains 1 stack(s) of Apotheosis.",
+      "When enemy targets enter battle, immediately regenerates 2 Energy for self.",
+      "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+    ],
+    "tracesAttr": ["ATK +28%", "Physical DMG +14.4%", "HP +10%"],
+    "eidolonsTitle": [
+      "A Lacuna in Kingdom of Aesthetics",
+      "Agate's Humility",
+      "Thorny Road's Glory",
+      "Trumpet's Dedication",
+      "\"Your\" Resplendence",
+      "Swift Swoop"
+    ],
+    "eidolonsDesc": [
+      "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
+      "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10,",
+      "When using Ultimate, ignores 30% of enemy targets' DEF."
+    ],
+    "relicsTitle": [
+      "Champion of Streetwise Boxing",
+      "Musketeer of Wild Wheat",
+      "Messenger Traversing Hackerspace"
+    ],
+    "relicsDesc": [
+      {
+        "2-set": "Increases Physical DMG by 10%.",
+        "4-set": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+      },
+      {
+        "2-set": "ATK increases by 12%",
+        "4-set": "The wearer SPD increases by 6% and Basic ATK DMG increases by 10%"
+      },
+      {
+        "2-set": "Increases SPD by 6%.",
+        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+      }
+    ],
+    "ornamentsTitle": [
+      "Firmament Frontline: Glamoth",
+      "Rutilant Arena",
+      "Space Sealing Station",
+      "Inert Salosotto"
+    ],
+    "ornamentsDesc": [
+      {
+        "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+      },
+      {
+        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
+      },
+      {
+        "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
+      },
+      {
+        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
+      }
+    ],
+    "conesTitle": [
+      "An Instant Before A Gaze",
+      "Night on the Milky Way",
+      "Today Is Another Peaceful Day",
+      "Before Dawn",
+      "Geniuses' Repose",
+      "The Seriousness of Breakfast",
+      "Make the World Clamor"
+    ],
+    "conesDesc": [
+      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%/0.42%/0.48%/0.54%/0.60%, up to 180 points of Energy.",
+      "For every enemy on the field, increases the wearer's ATK by 9.0%/10.5%/12.0%/13.5%/15.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30%/35%/40%/45%/50% for 1 turn.",
+      "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.20%/0.25%/0.30%/0.35%/0.40% per point of Energy, up to 160 Energy.",
+      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. Increases the wearer's Skill and Ultimate DMG by 18%/21%/24%/27%/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%/56%/64%/72%/80%.",
+      "Increases the wearer's ATK by 16%/20%/24%/28%/32%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24%/30%/36%/42%/48% for 3 turn(s).",
+      "Increases the wearer's DMG by 12%/15%/18%/21%/24%. For every defeated enemy, the wearer's ATK increases by 4%/5%/6%/7%/8%, stacking up to 3 time(s).",
+      "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32%/40%/48%/56%/64%."
+    ],
+    "imagePortrait": "/images/characters/5stars/argenti/Character_Argenti_Portrait.webp",
+    "imageSplash": "/images/characters/5stars/argenti/Character_Argenti_Splash_Art.webp",
+    "imagePath": "/images/paths/Character_Path_Erudition.webp",
+    "imageType": "/images/types/Class_Type_Physical.webp",
+    "imageAbilities": [
+      "/images/characters/5stars/argenti/abilities/Ability_Fleeting_Fragrance.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Justice,_Hereby_Blooms.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_For_In_This_Garden_Supreme_Beauty_Bestows.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Merit_Bestowed_in_My_Garden.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Sublime_Object.webp",
+      "/images/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
+    ],
+    "imageTraces": [
+      "/images/characters/5stars/argenti/traces/Trace_Piety.webp",
+      "/images/characters/5stars/argenti/traces/Trace_Generosity.webp",
+      "/images/characters/5stars/argenti/traces/Trace_Courage.webp"
+    ],
+    "imageTracesMinor": [
+      "/images/stats/Icon_ATK.webp",
+      "/images/stats/Icon_Physical_DMG_Boost.webp",
+      "/images/stats/Icon_HP.webp"
+    ],
+    "imageEidolons": [
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_3.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_4.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_5.webp",
+      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_6.webp"
+    ],
+    "imageRelics": [
+      "/images/characters/5stars/argenti/relics/Item_Champion_of_Streetwise_Boxing.webp",
+      "/images/characters/5stars/argenti/relics/Item_Musketeer_of_Wild_Wheat.webp",
+      "/images/characters/5stars/argenti/relics/Item_Messenger_Traversing_Hackerspace.webp"
+    ],
+    "imageOrnaments": [
+      "/images/characters/5stars/argenti/ornaments/Item_Firmament_Frontline_Glamoth.webp",
+      "/images/characters/5stars/argenti/ornaments/Item_Rutilant_Arena.webp",
+      "/images/characters/5stars/argenti/ornaments/Item_Space_Sealing_Station.webp",
+      "/images/characters/5stars/argenti/ornaments/Item_Inert_Salsotto.webp"
+    ],
+    "imageCones": [
+      "/images/characters/5stars/argenti/cones/Light_Cone_An_Instant_Before_A_Gaze_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Night_on_the_Milky_Way_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Before_Dawn_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Geniuses_Repose_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_The_Seriousness_of_Breakfast_Artwork.webp",
+      "/images/characters/5stars/argenti/cones/Light_Cone_Make_the_World_Clamor_Artwork.webp"
+    ],
+    "altPortrait": "Character_Argenti_Portrait",
+    "altSplash": "Character_Argenti_Splash_Art",
+    "altPath": "Class_Path_Erudition",
+    "altType": "Class_Type_Physical",
+    "altAbilities": [
+      "Ability_Fleeting_Fragrance",
+      "Ability_Justice,_Hereby_Blooms",
+      "Ability_For_In_This_Garden_Supreme_Beauty_Bestows",
+      "Ability_Merit_Bestowed_in_My_Garden",
+      "Ability_Sublime_Object",
+      "Ability_Manifesto_of_Purest_Virtue"
+    ],
+    "altTraces": ["Trace_Piety", "Trace_Generosity", "Trace_Courage"],
+    "altTracesMinor": ["Icon_ATK", "Icon_Physical_DMG_Boost", "Icon_HP"],
+    "altEidolons": [
+      "Character_Argenti_Eidolon_1",
+      "Character_Argenti_Eidolon_2",
+      "Character_Argenti_Eidolon_3",
+      "Character_Argenti_Eidolon_4",
+      "Character_Argenti_Eidolon_5",
+      "Character_Argenti_Eidolon_6"
+    ],
+    "altRelics": [
+      "Item_Champion_of_Streetwise_Boxing",
+      "Item_Musketeer_of_Wild_Wheat",
+      "Item_Messenger_Traversing_Hackerspace"
+    ],
+    "altOrnaments": [
+      "Item_Firmament_Frontline_Glamoth",
+      "Item_Rutilant_Arena",
+      "Item_Space_Sealing_Station",
+      "Item_Inert_Salsotto"
+    ],
+    "altCones": [
+      "Light_Cone_An_Instant_Before_A_Gaze_Artwork",
+      "Light_Cone_Night_on_the_Milky_Way_Artwork",
+      "Light_Cone_Today_Is_Another_Peaceful_Day_Artwork",
+      "Light_Cone_Before_Dawn_Artwork",
+      "Light_Cone_Geniuses_Repose_Artwork",
+      "Light_Cone_The_Seriousness_of_Breakfast_Artwork",
+      "Light_Cone_Make_the_World_Clamor_Artwork"
+    ]
+  },
+  {
+    "name": "Xueyi",
+    "id": 43,
     "rarity": 5,
     "path": "Eruditon",
     "type": "Physical",

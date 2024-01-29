@@ -17,6 +17,7 @@ import Sampo from "./4stars/sampo/Character_Sampo_Icon.webp";
 import Serval from "./4stars/serval/Character_Serval_Icon.webp";
 import Sushang from "./4stars/sushang/Character_Sushang_Icon.webp";
 import Tingyun from "./4stars/tingyun/Character_Tingyun_Icon.webp";
+import Xueyi from "./4stars/xueyi/Character_Xueyi_Icon.webp";
 import Yukong from "./4stars/yukong/Character_Yukong_Icon.webp";
 
 // 5-star character icons
@@ -35,6 +36,8 @@ import Jingliu from "./5stars/jingliu/Character_Jingliu_Icon.webp";
 import Jingyuan from "./5stars/jingyuan/Character_Jing_Yuan_Icon.webp";
 import Kafka from "./5stars/kafka/Character_Kafka_Icon.webp";
 import Luocha from "./5stars/luocha/Character_Luocha_Icon.webp";
+import Ratio from "./5stars/ratio/Character_Ratio_Icon.webp";
+import Ruanmei from "./5stars/ruanmei/Character_Ruan_Mei_Icon.webp";
 import Seele from "./5stars/seele/Character_Seele_Icon.webp";
 import Silverwolf from "./5stars/silverwolf/Character_Silver_Wolf_Icon.webp";
 import Topaz from "./5stars/topaz/Character_Topaz_Icon.webp";
@@ -570,5 +573,44 @@ export const characters = [
     alt: "Character_Argenti_Icon",
     altType: "Class_Type_Physical",
     altPath: "Character_Path_Erudition",
+  },
+  {
+    name: "Ruan Mei",
+    rarity: 5,
+    id: 40,
+    type: "Ice",
+    path: "Harmony",
+    icon: Ruanmei,
+    iconType: Ice,
+    iconPath: Harmony,
+    alt: "Character_Ruan_Mei_Icon",
+    altType: "Class_Type_Ice",
+    altPath: "Character_Path_Harmony",
+  },
+  {
+    name: "Dr. Ratio",
+    rarity: 5,
+    id: 41,
+    type: "Imaginary",
+    path: "Hunt",
+    icon: Ratio,
+    iconType: Imaginary,
+    iconPath: Hunt,
+    alt: "Character_Ratio_Icon",
+    altType: "Class_Type_Imaginary",
+    altPath: "Character_Path_Hunt",
+  },
+  {
+    name: "Xueyi",
+    rarity: 4,
+    id: 42,
+    type: "Quantum",
+    path: "Destruction",
+    icon: Xueyi,
+    iconType: Quantum,
+    iconPath: Destruction,
+    alt: "Character_Xueyi_Icon",
+    altType: "Class_Type_Quantum",
+    altPath: "Character_Path_Destruction",
   },
 ];
