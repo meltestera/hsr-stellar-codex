@@ -68,7 +68,7 @@ const Footer = () => {
       <div className="mx-auto mt-10 space-y-10 md:w-[85%] lg:mt-20">
         <hr className="border border-skin-tone-darker" />
         <div className="flex flex-row items-center justify-center gap-x-1 pb-6 text-center font-poppins text-sm text-skin-tone-light/20 lg:text-lg">
-          <span>Made with ♥ © 2023 meltestera</span>
+          <span>Made with ♥ © 2024 meltestera</span>
           <div className="mb-2 inline pl-1">
             <Link
               to="https://github.com/meltestera/hsr-stellar-codex"

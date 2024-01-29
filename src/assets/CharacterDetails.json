@@ -7547,291 +7547,256 @@
     "name": "Dr. Ratio",
     "id": 42,
     "rarity": 5,
-    "path": "Eruditon",
-    "type": "Physical",
-    "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
-    "abilityTree": [
-      "Basic ATK",
-      "Skill",
-      "Ultimate",
-      "Ultimate (Enhanced)",
-      "Talent",
-      "Technique"
-    ],
+    "path": "Hunt",
+    "type": "Imaginary",
+    "introduction": "A member of the Intelligentsia Guild known for an eccentric personality and sharp wit, yet elegant. Despite a peculiar plaster head sculpture, this person is surprisingly handsome underneath.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
     "abilityTitle": [
-      "Fleeting Fragrance",
-      "Justice, Hereby Blooms",
-      "For In This Garden Supreme Beauty Bestows",
-      "Merit Bestowed in \"My\" Garden",
-      "Sublime Object",
-      "Manifesto of Purest Virtue"
+      "Mind is Might",
+      "Intellectual Midwifery",
+      "Syllogistic Paradox",
+      "Cogito, Ergo Sum",
+      "Mold of Idolatry"
     ],
     "abilityDesc": [
-      "Deals Physical DMG equal to 100% of Argenti's ATK to a single target enemy.",
-      "Deals Physical DMG equal to 120% of Argenti's ATK to all enemies.",
-      "Consumes 90 Energy and deals Physical DMG equal to 160% of Argenti's ATK to all enemies.",
-      "Consumes 180 Energy and deals Physical DMG equal to 280% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 95% of Argenti's ATK to a random enemy.",
-      "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Ascend, increasing his CRIT Rate by 2.5%. This effect can stack up to 10 time(s).",
-      "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team. When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15."
+      "Deals Imaginary DMG equal to 100% of Dr. Ratio's ATK to a single target enemy.",
+      "Deals Imaginary DMG equal to 150% of Dr. Ratio's ATK to a single target enemy.",
+      "Deals Imaginary DMG equal to 240% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's allies attack a target afflicted with Wiseman's Folly, Dr. Ratio launches his Talent's follow-up attack for 1 time against this target. Wiseman's Folly can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
+      "When using his Skill, Dr. Ratio has a 40% fixed chance of launching a follow-up attack against his target for 1 time, dealing Imaginary DMG equal to 270% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching follow-up attack increases by 20%. If the target enemy is defeated before the follow-up attack triggers, the follow-up attack will be directed at a single random enemy instead.",
+      "After using Technique, creates a special dimension that Taunts nearby enemies, lasting for 10 second(s). After entering battle with enemies in this special dimension, there is a 100% base chance to reduce each single enemy target's SPD by 15% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
     ],
-    "tracesTitle": ["Piety", "Generosity", "Courage"],
+    "tracesTitle": ["Summation", "Inference", "Deduction"],
     "tracesDesc": [
-      "At the start of a turn, immediately gains 1 stack(s) of Apotheosis.",
-      "When enemy targets enter battle, immediately regenerates 2 Energy for self.",
-      "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+      "When Dr. Ratio uses his Skill, for every debuff on the target, his CRIT Rate increases by 2.5% and CRIT DMG by 5%. This effect can stack up to 6 time(s).",
+      "When Skill is used to attack an enemy target, there is a 100% base chance to reduce the attacked target's Effect RES by 10% for 2 turn(s).",
+      "When dealing DMG to a target that has 3 or more debuff(s), for each debuff the target has, the DMG dealt by Dr. Ratio to this target increases by 10%, up to a maximum increase of 50%."
     ],
-    "tracesAttr": ["ATK +28%", "Physical DMG +14.4%", "HP +10%"],
+    "tracesAttr": ["ATK +28%", "Crit Rate +12%", "DEF +12.5%"],
     "eidolonsTitle": [
-      "A Lacuna in Kingdom of Aesthetics",
-      "Agate's Humility",
-      "Thorny Road's Glory",
-      "Trumpet's Dedication",
-      "\"Your\" Resplendence",
-      "Swift Swoop"
+      "Pride Comes Before a Fall",
+      "The Divine Is in the Details",
+      "Know Thyself",
+      "Ignorance Is Blight",
+      "Sic Itur Ad Astra",
+      "Vincit Omnia Veritas"
     ],
     "eidolonsDesc": [
-      "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
-      "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
+      "The maximum stackable count for the Trace \"Summation\" increases by 4. When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first.",
+      "When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Additional Imaginary DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each follow-up attack.",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio.",
       "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-      "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
-      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10,",
-      "When using Ultimate, ignores 30% of enemy targets' DEF."
+      "Increases the trigger count for Wiseman's Folly by 1. The DMG dealt by the Talent's follow-up attack increases by 50%."
     ],
     "relicsTitle": [
-      "Champion of Streetwise Boxing",
-      "Musketeer of Wild Wheat",
-      "Messenger Traversing Hackerspace"
+      "Wastelander of Banditry Desert",
+      "The Ashblazing Grand Duke"
     ],
     "relicsDesc": [
       {
-        "2-set": "Increases Physical DMG by 10%.",
-        "4-set": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+        "2-set": "Increases Imaginary DMG by 10%.",
+        "4-set": "When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%, and their CRIT DMG increases by 20% against Imprisoned enemies."
       },
       {
-        "2-set": "ATK increases by 12%",
-        "4-set": "The wearer SPD increases by 6% and Basic ATK DMG increases by 10%"
-      },
-      {
-        "2-set": "Increases SPD by 6%.",
-        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+        "2-set": "Increases follow-up attack DMG by 20%.",
+        "4-set": " When the wearer uses follow-up attacks against the target enemy, increase the wearer's ATK by 6% for every time the follow-up attack deals DMG. This effect can stack for a maximum of 8 times and lasts for 3 turns. This effect is removed the next time the wearer uses a follow-up attack."
       }
     ],
     "ornamentsTitle": [
       "Firmament Frontline: Glamoth",
-      "Rutilant Arena",
+      "Inert Salosotto",
       "Space Sealing Station",
-      "Inert Salosotto"
+      "Rutilant Arena"
     ],
     "ornamentsDesc": [
       {
         "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
       },
       {
-        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
+        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
       },
       {
         "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
       },
       {
-        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
+        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
       }
     ],
     "conesTitle": [
-      "An Instant Before A Gaze",
-      "Night on the Milky Way",
-      "Today Is Another Peaceful Day",
-      "Before Dawn",
-      "Geniuses' Repose",
-      "The Seriousness of Breakfast",
-      "Make the World Clamor"
+      "Baptism of Pure Thought",
+      "Worrisome, Blissful",
+      "Cruising in the Stellar Sea",
+      "Only Silence Remains",
+      "In the Night",
+      "Return to Darkness"
     ],
     "conesDesc": [
-      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%/0.42%/0.48%/0.54%/0.60%, up to 180 points of Energy.",
-      "For every enemy on the field, increases the wearer's ATK by 9.0%/10.5%/12.0%/13.5%/15.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30%/35%/40%/45%/50% for 1 turn.",
-      "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.20%/0.25%/0.30%/0.35%/0.40% per point of Energy, up to 160 Energy.",
-      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. Increases the wearer's Skill and Ultimate DMG by 18%/21%/24%/27%/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%/56%/64%/72%/80%.",
-      "Increases the wearer's ATK by 16%/20%/24%/28%/32%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24%/30%/36%/42%/48% for 3 turn(s).",
-      "Increases the wearer's DMG by 12%/15%/18%/21%/24%. For every defeated enemy, the wearer's ATK increases by 4%/5%/6%/7%/8%, stacking up to 3 time(s).",
-      "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32%/40%/48%/56%/64%."
+      "Increases the wearer's CRIT DMG by 20%/23%/26%/29%/32%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by 8%/9%/10%/11%/12%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36%/42%/48%/54%/60% and enables their follow-up attacks to ignore 24%/28%/32%/36%/40% of the target's DEF. This effect lasts for 2 turns.",
+      "Increase the wearer's CRIT Rate by 18%/21%/24%/27%/30% and their follow-up attacks' DMG by 30%/35%/40%/45%/50%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 12%/14%/16%/18%/20%.",
+      "Increases the wearer's CRIT rate by 8%/10%/12%/14%/16%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 8%/10%/12%/14%/16%. When the wearer defeats an enemy, their ATK is increased by 20%/25%/30%/35%/40% for 2 turn(s).",
+      "Increases the wearer's ATK by 16%/20%/24%/28%/32%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12%/15%/18%/21%/24%.",
+      "Increases the wearer's CRIT Rate by 18%/21%/24%/27%/30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6%/7%/8%/9%/10% and the CRIT DMG of their Ultimate is increased by 12%/14%/16%/18%/20%. This effect can stack up to 6 time(s).",
+      "Increases the wearer's CRIT Rate by 12%/15%/18%/21%/24%. After a CRIT Hit, there is a 16%/20%/24%/28%/32% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack."
     ],
-    "imagePortrait": "/images/characters/5stars/argenti/Character_Argenti_Portrait.webp",
-    "imageSplash": "/images/characters/5stars/argenti/Character_Argenti_Splash_Art.webp",
-    "imagePath": "/images/paths/Character_Path_Erudition.webp",
-    "imageType": "/images/types/Class_Type_Physical.webp",
+    "imagePortrait": "/images/characters/5stars/ratio/Character_Ratio_Portrait.webp",
+    "imageSplash": "/images/characters/5stars/ratio/Character_Ratio_Splash_Art.webp",
+    "imagePath": "/images/paths/Character_Path_Hunt.webp",
+    "imageType": "/images/types/Class_Type_Imaginary.webp",
     "imageAbilities": [
-      "/images/characters/5stars/argenti/abilities/Ability_Fleeting_Fragrance.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Justice,_Hereby_Blooms.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_For_In_This_Garden_Supreme_Beauty_Bestows.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Merit_Bestowed_in_My_Garden.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Sublime_Object.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
+      "/images/characters/5stars/ratio/abilities/Ability_Mind_is_Might.webp",
+      "/images/characters/5stars/ratio/abilities/Ability_Intellectual_Midwifery.webp",
+      "/images/characters/5stars/ratio/abilities/Ability_Syllogistic_Paradox.webp",
+      "/images/characters/5stars/ratio/abilities/Ability_Cogito_Ergo_Sum.webp",
+      "/images/characters/5stars/ratio/abilities/Ability_Mold_of_Idolatry.webp"
     ],
     "imageTraces": [
-      "/images/characters/5stars/argenti/traces/Trace_Piety.webp",
-      "/images/characters/5stars/argenti/traces/Trace_Generosity.webp",
-      "/images/characters/5stars/argenti/traces/Trace_Courage.webp"
+      "/images/characters/5stars/ratio/traces/Trace_Summation.webp",
+      "/images/characters/5stars/ratio/traces/Trace_Inference.webp",
+      "/images/characters/5stars/ratio/traces/Trace_Deduction.webp"
     ],
     "imageTracesMinor": [
       "/images/stats/Icon_ATK.webp",
-      "/images/stats/Icon_Physical_DMG_Boost.webp",
-      "/images/stats/Icon_HP.webp"
+      "/images/stats/Icon_CRIT_Rate.webp",
+      "/images/stats/Icon_DEF.webp"
     ],
     "imageEidolons": [
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_3.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_4.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_5.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_6.webp"
+      "/images/characters/5stars/ratio/eidolons/Character_Ratio_Eidolon_1.webp",
+      "/images/characters/5stars/ratio/eidolons/Character_Ratio_Eidolon_2.webp",
+      "/images/characters/5stars/ratio/eidolons/Character_Ratio_Eidolon_3.webp",
+      "/images/characters/5stars/ratio/eidolons/Character_Ratio_Eidolon_4.webp",
+      "/images/characters/5stars/ratio/eidolons/Character_Ratio_Eidolon_5.webp",
+      "/images/characters/5stars/ratio/eidolons/Character_Ratio_Eidolon_6.webp"
     ],
     "imageRelics": [
-      "/images/characters/5stars/argenti/relics/Item_Champion_of_Streetwise_Boxing.webp",
-      "/images/characters/5stars/argenti/relics/Item_Musketeer_of_Wild_Wheat.webp",
-      "/images/characters/5stars/argenti/relics/Item_Messenger_Traversing_Hackerspace.webp"
+      "/images/characters/5stars/ratio/relics/Item_The_Ashblazing_Grand_Duke.webp",
+      "/images/characters/5stars/ratio/relics/Item_Wastelander_of_Banditry_Desert.webp"
     ],
     "imageOrnaments": [
-      "/images/characters/5stars/argenti/ornaments/Item_Firmament_Frontline_Glamoth.webp",
-      "/images/characters/5stars/argenti/ornaments/Item_Rutilant_Arena.webp",
-      "/images/characters/5stars/argenti/ornaments/Item_Space_Sealing_Station.webp",
-      "/images/characters/5stars/argenti/ornaments/Item_Inert_Salsotto.webp"
+      "/images/characters/5stars/ratio/ornaments/Item_Firmament_Frontline_Glamoth.webp",
+      "/images/characters/5stars/ratio/ornaments/Item_Inert_Salsotto.webp",
+      "/images/characters/5stars/ratio/ornaments/Item_Space_Sealing_Station.webp",
+      "/images/characters/5stars/ratio/ornaments/Item_Rutilant_Arena.webp"
     ],
     "imageCones": [
-      "/images/characters/5stars/argenti/cones/Light_Cone_An_Instant_Before_A_Gaze_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Night_on_the_Milky_Way_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Before_Dawn_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Geniuses_Repose_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_The_Seriousness_of_Breakfast_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Make_the_World_Clamor_Artwork.webp"
+      "/images/characters/5stars/ratio/cones/Light_Cone_Baptism_of_Pure_Thought_Artwork.webp",
+      "/images/characters/5stars/ratio/cones/Light_Cone_Worrisome_Blissful_Artwork.webp",
+      "/images/characters/5stars/ratio/cones/Light_Cone_Cruising_in_the_Stellar_Sea_Artwork.webp",
+      "/images/characters/5stars/ratio/cones/Light_Cone_Only_Silence_Remains_Artwork.webp",
+      "/images/characters/5stars/ratio/cones/Light_Cone_In_the_Night_Artwork.webp",
+      "/images/characters/5stars/ratio/cones/Light_Cone_Return_to_Darkness_Artwork.webp"
     ],
-    "altPortrait": "Character_Argenti_Portrait",
-    "altSplash": "Character_Argenti_Splash_Art",
-    "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Physical",
+    "altPortrait": "Character_Ratio_Portrait",
+    "altSplash": "Character_Ratio_Splash_Art",
+    "altPath": "Class_Path_Hunt",
+    "altType": "Class_Type_Imaginary",
     "altAbilities": [
-      "Ability_Fleeting_Fragrance",
-      "Ability_Justice,_Hereby_Blooms",
-      "Ability_For_In_This_Garden_Supreme_Beauty_Bestows",
-      "Ability_Merit_Bestowed_in_My_Garden",
-      "Ability_Sublime_Object",
-      "Ability_Manifesto_of_Purest_Virtue"
+      "Ability_Mind_is_Might",
+      "Ability_Intellectual_Midwifery",
+      "Ability_Syllogistic_Paradox",
+      "Ability_Cogito_Ergo_Sum",
+      "Ability_Mold_of_Idolatry"
     ],
-    "altTraces": ["Trace_Piety", "Trace_Generosity", "Trace_Courage"],
-    "altTracesMinor": ["Icon_ATK", "Icon_Physical_DMG_Boost", "Icon_HP"],
+    "altTraces": ["Trace_Summation", "Trace_Inference", "Trace_Deduction"],
+    "altTracesMinor": ["Icon_ATK", "Icon_CRIT_Rate", "Icon_DEF"],
     "altEidolons": [
-      "Character_Argenti_Eidolon_1",
-      "Character_Argenti_Eidolon_2",
-      "Character_Argenti_Eidolon_3",
-      "Character_Argenti_Eidolon_4",
-      "Character_Argenti_Eidolon_5",
-      "Character_Argenti_Eidolon_6"
+      "Character_Ratio_Eidolon_1",
+      "Character_Ratio_Eidolon_2",
+      "Character_Ratio_Eidolon_3",
+      "Character_Ratio_Eidolon_4",
+      "Character_Ratio_Eidolon_5",
+      "Character_Ratio_Eidolon_6"
     ],
     "altRelics": [
-      "Item_Champion_of_Streetwise_Boxing",
-      "Item_Musketeer_of_Wild_Wheat",
-      "Item_Messenger_Traversing_Hackerspace"
+      "Item_The_Ashblazing_Grand_Duke",
+      "Item_Wastelander_of_Banditry_Desert"
     ],
     "altOrnaments": [
       "Item_Firmament_Frontline_Glamoth",
-      "Item_Rutilant_Arena",
+      "Item_Inert_Salsotto",
       "Item_Space_Sealing_Station",
-      "Item_Inert_Salsotto"
+      "Item_Rutilant_Arena"
     ],
     "altCones": [
-      "Light_Cone_An_Instant_Before_A_Gaze_Artwork",
-      "Light_Cone_Night_on_the_Milky_Way_Artwork",
-      "Light_Cone_Today_Is_Another_Peaceful_Day_Artwork",
-      "Light_Cone_Before_Dawn_Artwork",
-      "Light_Cone_Geniuses_Repose_Artwork",
-      "Light_Cone_The_Seriousness_of_Breakfast_Artwork",
-      "Light_Cone_Make_the_World_Clamor_Artwork"
+      "Light_Cone_Baptism_of_Pure_Thought_Artwork",
+      "Light_Cone_Worrisome_Blissful_Artwork",
+      "Light_Cone_Cruising_in_the_Stellar_Sea_Artwork",
+      "Light_Cone_Only_Silence_Remains_Artwork",
+      "Light_Cone_In_the_Night_Artwork",
+      "Light_Cone_Return_to_Darkness_Artwork"
     ]
   },
   {
     "name": "Xueyi",
     "id": 43,
-    "rarity": 5,
-    "path": "Eruditon",
-    "type": "Physical",
-    "introduction": "A devoted knight from the \"Knights of Beauty\", earnestly searching for the missing Aeon Idrila, also known as the \"Beauty\". Honest and straightforward, he travels through the cosmos, passionately extolling the virtues of Idrila's good name.",
-    "abilityTree": [
-      "Basic ATK",
-      "Skill",
-      "Ultimate",
-      "Ultimate (Enhanced)",
-      "Talent",
-      "Technique"
-    ],
+    "rarity": 4,
+    "path": "Destruction",
+    "type": "Quantum",
+    "introduction": "A judge on the Ten-Lords Commission, which governs life and death in Luofu. Posthumously, she occupied a puppet body to complete her mission.",
+    "abilityTree": ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique"],
     "abilityTitle": [
-      "Fleeting Fragrance",
-      "Justice, Hereby Blooms",
-      "For In This Garden Supreme Beauty Bestows",
-      "Merit Bestowed in \"My\" Garden",
-      "Sublime Object",
-      "Manifesto of Purest Virtue"
+      "Mara-Sunder Awl",
+      "Iniquity Obliteration",
+      "Divine Castigation",
+      "Karmic Perpetuation",
+      "Summary Execution"
     ],
     "abilityDesc": [
-      "Deals Physical DMG equal to 100% of Argenti's ATK to a single target enemy.",
-      "Deals Physical DMG equal to 120% of Argenti's ATK to all enemies.",
-      "Consumes 90 Energy and deals Physical DMG equal to 160% of Argenti's ATK to all enemies.",
-      "Consumes 180 Energy and deals Physical DMG equal to 280% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 95% of Argenti's ATK to a random enemy.",
-      "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Ascend, increasing his CRIT Rate by 2.5%. This effect can stack up to 10 time(s).",
-      "After using the Technique, enemies in a set area are inflicted with Daze for 10 second(s). Dazed enemies will not actively attack the team. When attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to 80% of Argenti's ATK and regenerates his Energy by 15."
+      "Deals 100% of Xueyi's ATK as Quantum DMG to a single target enemy.",
+      "Deals Quantum DMG equal to 140% of Xueyi's ATK to a single enemy, and Quantum DMG equal to 70% of Xueyi's ATK to any adjacent enemies.",
+      "Deals Quantum DMG equal to 250% of Xueyi's ATK to a single target enemy. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered. In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of 60% increase.",
+      "When Xueyi reduces enemy Toughness with attacks, Karma will be stacked. The more Toughness is reduced, the more stacks of Karma are added, up to 8 stacks. When Xueyi's allies reduce enemy Toughness with attacks, Xueyi gains 1 stacks of Karma. When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to 90% of Xueyi's ATK to a single random enemy. This follow-up attack will not add Karma stacks.",
+      "Immediately attacks the enemy. After entering combat, deals 80% of Xueyi's ATK as Quantum DMG to all enemies."
     ],
-    "tracesTitle": ["Piety", "Generosity", "Courage"],
+    "tracesTitle": [
+      "Clairvoyant Loom",
+      "Intrepid Rollerbearings",
+      "Perspicacious Mainframe"
+    ],
     "tracesDesc": [
-      "At the start of a turn, immediately gains 1 stack(s) of Apotheosis.",
-      "When enemy targets enter battle, immediately regenerates 2 Energy for self.",
-      "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+      "Increases DMG dealt by this unit by an amount equal to 100% of Break Effect, up to a maximum DMG increase of 240%.",
+      "If the enemy target's Toughness is equal to or higher than 50% of their Max Toughness, deals 10% more DMG when using Ultimate.",
+      "Xueyi will keep a tally of the number of Karma stacks that exceed the max stack limit, up to 6 stacks in the tally. After Xueyi's Talent is triggered, she will gain a corresponding number of tallied Karma stacks."
     ],
-    "tracesAttr": ["ATK +28%", "Physical DMG +14.4%", "HP +10%"],
+    "tracesAttr": ["HP +18%", "Quantum DMG +8%", "Break Effect +37.3%"],
     "eidolonsTitle": [
-      "A Lacuna in Kingdom of Aesthetics",
-      "Agate's Humility",
-      "Thorny Road's Glory",
-      "Trumpet's Dedication",
-      "\"Your\" Resplendence",
-      "Swift Swoop"
+      "Dvesha, Inhibited",
+      "Klesha, Breached",
+      "Duḥkha, Ceased",
+      "Karma, Severed",
+      "Deva, Enthralled",
+      "Saṃsāra, Mastered"
     ],
     "eidolonsDesc": [
-      "Each stack of Apotheosis additionally increases CRIT DMG by 4%.",
-      "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40% for 1 turn(s).",
-      "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
-      "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2.",
-      "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10,",
-      "When using Ultimate, ignores 30% of enemy targets' DEF."
+      "Increases the DMG dealt by the Talent's follow-up attack by 40%.",
+      "Talent's follow-up attack reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect.",
+      "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+      "When using Ultimate, increases Break Effect by 40% for 2 turn(s).",
+      "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+      "The max stack limit for Karma decreases to 6."
     ],
-    "relicsTitle": [
-      "Champion of Streetwise Boxing",
-      "Musketeer of Wild Wheat",
-      "Messenger Traversing Hackerspace"
-    ],
+    "relicsTitle": ["Genius of Brilliant Stars", "Thief of Shooting Meteor"],
     "relicsDesc": [
       {
-        "2-set": "Increases Physical DMG by 10%.",
-        "4-set": "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s)."
+        "2-set": "Increases Quantum DMG by 10%.",
+        "4-set": "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF."
       },
       {
-        "2-set": "ATK increases by 12%",
-        "4-set": "The wearer SPD increases by 6% and Basic ATK DMG increases by 10%"
-      },
-      {
-        "2-set": "Increases SPD by 6%.",
-        "4-set": "When the wearer uses their Ultimate on an ally, SPD for all allies increases by 12% for 1 turn(s). This effect cannot be stacked."
+        "2-set": "Increases Break Effect by 16%.",
+        "4-set": "Increases the wearer's Break Effect by 16%. When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
       }
     ],
     "ornamentsTitle": [
+      "Talia: Kingdom of Banditry",
       "Firmament Frontline: Glamoth",
-      "Rutilant Arena",
       "Space Sealing Station",
       "Inert Salosotto"
     ],
     "ornamentsDesc": [
       {
-        "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
+        "2-set": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 20%."
       },
       {
-        "2-set": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 70% or higher, the wearer's Basic ATK and Skill DMG increase by 20%."
+        "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG."
       },
       {
         "2-set": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
@@ -7841,114 +7806,110 @@
       }
     ],
     "conesTitle": [
-      "An Instant Before A Gaze",
-      "Night on the Milky Way",
-      "Today Is Another Peaceful Day",
-      "Before Dawn",
-      "Geniuses' Repose",
-      "The Seriousness of Breakfast",
-      "Make the World Clamor"
+      "On the Fall of an Aeon",
+      "The Moles Welcome You",
+      "Under the Blue Sky",
+      "Nowhere to Run",
+      "Brighter Than the Sun"
     ],
     "conesDesc": [
-      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%/0.42%/0.48%/0.54%/0.60%, up to 180 points of Energy.",
-      "For every enemy on the field, increases the wearer's ATK by 9.0%/10.5%/12.0%/13.5%/15.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30%/35%/40%/45%/50% for 1 turn.",
-      "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.20%/0.25%/0.30%/0.35%/0.40% per point of Energy, up to 160 Energy.",
-      "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. Increases the wearer's Skill and Ultimate DMG by 18%/21%/24%/27%/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%/56%/64%/72%/80%.",
-      "Increases the wearer's ATK by 16%/20%/24%/28%/32%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24%/30%/36%/42%/48% for 3 turn(s).",
-      "Increases the wearer's DMG by 12%/15%/18%/21%/24%. For every defeated enemy, the wearer's ATK increases by 4%/5%/6%/7%/8%, stacking up to 3 time(s).",
-      "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32%/40%/48%/56%/64%."
+      "Whenever the wearer attacks, their ATK is increased by 8%/10%/12%/14%/16% in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by 12%/15%/18%/21%/24% for 2 turn(s).",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12%/15%/18%/21%/24%.",
+      "Increases the wearer's ATK by 16%/20%/24%/28%/32%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12/15%/18%/21%/24% for 3 turn(s).",
+      "Increases the wearer's ATK by 24%/30%/36%/42%/48%. Whenever the wearer defeats an enemy, they restore HP equal to 12%/15%/18%/21%/24% of their ATK.",
+      "Increases the wearer's CRIT Rate by 18%/21%/24%/27%/30%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon's Call, lasting for 2 turns. Each Stack of Dragon's Call increases the wearer's ATK by 18%/21%/24%/27%/30% and Energy Regeneration Rate by 6.0%/7.0%/8.0%/9.0%/10.0%. Dragon's Call may be stacked up to 2 times."
     ],
-    "imagePortrait": "/images/characters/5stars/argenti/Character_Argenti_Portrait.webp",
-    "imageSplash": "/images/characters/5stars/argenti/Character_Argenti_Splash_Art.webp",
-    "imagePath": "/images/paths/Character_Path_Erudition.webp",
-    "imageType": "/images/types/Class_Type_Physical.webp",
+    "imagePortrait": "/images/characters/4stars/xueyi/Character_Xueyi_Portrait.webp",
+    "imageSplash": "/images/characters/4stars/xueyi/Character_Xueyi_Splash_Art.webp",
+    "imagePath": "/images/paths/Character_Path_Destruction.webp",
+    "imageType": "/images/types/Class_Type_Quantum.webp",
     "imageAbilities": [
-      "/images/characters/5stars/argenti/abilities/Ability_Fleeting_Fragrance.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Justice,_Hereby_Blooms.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_For_In_This_Garden_Supreme_Beauty_Bestows.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Merit_Bestowed_in_My_Garden.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Sublime_Object.webp",
-      "/images/characters/5stars/argenti/abilities/Ability_Manifesto_of_Purest_Virtue.webp"
+      "/images/characters/4stars/xueyi/abilities/Ability_Mara-Sunder_Awl.webp",
+      "/images/characters/4stars/xueyi/abilities/Ability_Iniquity_Obliteration.webp",
+      "/images/characters/4stars/xueyi/abilities/Ability_Divine_Castigation.webp",
+      "/images/characters/4stars/xueyi/abilities/Ability_Karmic_Perpetuation.webp",
+      "/images/characters/4stars/xueyi/abilities/Ability_Summary_Execution.webp"
     ],
     "imageTraces": [
-      "/images/characters/5stars/argenti/traces/Trace_Piety.webp",
-      "/images/characters/5stars/argenti/traces/Trace_Generosity.webp",
-      "/images/characters/5stars/argenti/traces/Trace_Courage.webp"
+      "/images/characters/4stars/xueyi/traces/Trace_Clairvoyant_Loom.webp",
+      "/images/characters/4stars/xueyi/traces/Trace_Intrepid_Rollerbearings.webp",
+      "/images/characters/4stars/xueyi/traces/Trace_Perspicacious_Mainframe.webp"
     ],
     "imageTracesMinor": [
-      "/images/stats/Icon_ATK.webp",
-      "/images/stats/Icon_Physical_DMG_Boost.webp",
-      "/images/stats/Icon_HP.webp"
+      "/images/stats/Icon_HP.webp",
+      "/images/stats/Icon_Quantum_DMG_Boost.webp",
+      "/images/stats/Icon_Break_Effect.webp"
     ],
     "imageEidolons": [
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_1.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_2.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_3.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_4.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_5.webp",
-      "/images/characters/5stars/argenti/eidolons/Character_Argenti_Eidolon_6.webp"
+      "/images/characters/4stars/xueyi/eidolons/Character_Xueyi_Eidolon_1.webp",
+      "/images/characters/4stars/xueyi/eidolons/Character_Xueyi_Eidolon_2.webp",
+      "/images/characters/4stars/xueyi/eidolons/Character_Xueyi_Eidolon_3.webp",
+      "/images/characters/4stars/xueyi/eidolons/Character_Xueyi_Eidolon_4.webp",
+      "/images/characters/4stars/xueyi/eidolons/Character_Xueyi_Eidolon_5.webp",
+      "/images/characters/4stars/xueyi/eidolons/Character_Xueyi_Eidolon_6.webp"
     ],
     "imageRelics": [
-      "/images/characters/5stars/argenti/relics/Item_Champion_of_Streetwise_Boxing.webp",
-      "/images/characters/5stars/argenti/relics/Item_Musketeer_of_Wild_Wheat.webp",
-      "/images/characters/5stars/argenti/relics/Item_Messenger_Traversing_Hackerspace.webp"
+      "/images/characters/4stars/xueyi/relics/Item_Genius_of_Brilliant_Stars.webp",
+      "/images/characters/4stars/xueyi/relics/Item_Thief_of_Shooting_Meteor.webp"
     ],
     "imageOrnaments": [
-      "/images/characters/5stars/argenti/ornaments/Item_Firmament_Frontline_Glamoth.webp",
-      "/images/characters/5stars/argenti/ornaments/Item_Rutilant_Arena.webp",
-      "/images/characters/5stars/argenti/ornaments/Item_Space_Sealing_Station.webp",
-      "/images/characters/5stars/argenti/ornaments/Item_Inert_Salsotto.webp"
+      "/images/characters/4stars/xueyi/ornaments/Item_Talia_Kingdom_of_Banditry.webp",
+      "/images/characters/4stars/xueyi/ornaments/Item_Firmament_Frontline_Glamoth.webp",
+      "/images/characters/4stars/xueyi/ornaments/Item_Space_Sealing_Station.webp",
+      "/images/characters/4stars/xueyi/ornaments/Item_Inert_Salsotto.webp"
     ],
     "imageCones": [
-      "/images/characters/5stars/argenti/cones/Light_Cone_An_Instant_Before_A_Gaze_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Night_on_the_Milky_Way_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Before_Dawn_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Geniuses_Repose_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_The_Seriousness_of_Breakfast_Artwork.webp",
-      "/images/characters/5stars/argenti/cones/Light_Cone_Make_the_World_Clamor_Artwork.webp"
+      "/images/characters/4stars/xueyi/cones/Light_Cone_On_the_Fall_of_an_Aeon_Artwork.webp",
+      "/images/characters/4stars/xueyi/cones/Light_Cone_The_Moles_Welcome_You_Artwork.webp",
+      "/images/characters/4stars/xueyi/cones/Light_Cone_Under_the_Blue_Sky_Artwork.webp",
+      "/images/characters/4stars/xueyi/cones/Light_Cone_Nowhere_to_Run_Artwork.webp",
+      "/images/characters/4stars/xueyi/cones/Light_Cone_Brighter_Than_the_Sun_Artwork.webp"
     ],
-    "altPortrait": "Character_Argenti_Portrait",
-    "altSplash": "Character_Argenti_Splash_Art",
-    "altPath": "Class_Path_Erudition",
-    "altType": "Class_Type_Physical",
+    "altPortrait": "Character_Xueyi_Portrait",
+    "altSplash": "Character_Xueyi_Splash_Art",
+    "altPath": "Class_Path_Destruction",
+    "altType": "Class_Type_Quantum",
     "altAbilities": [
-      "Ability_Fleeting_Fragrance",
-      "Ability_Justice,_Hereby_Blooms",
-      "Ability_For_In_This_Garden_Supreme_Beauty_Bestows",
-      "Ability_Merit_Bestowed_in_My_Garden",
-      "Ability_Sublime_Object",
-      "Ability_Manifesto_of_Purest_Virtue"
+      "Ability_Mara-Sunder_Awl",
+      "Ability_Iniquity_Obliteration",
+      "Ability_Divine_Castigation",
+      "Ability_Karmic_Perpetuation",
+      "Ability_Sublime_Ability_Summary_Execution"
     ],
-    "altTraces": ["Trace_Piety", "Trace_Generosity", "Trace_Courage"],
-    "altTracesMinor": ["Icon_ATK", "Icon_Physical_DMG_Boost", "Icon_HP"],
+    "altTraces": [
+      "Trace_Clairvoyant_Loom",
+      "Trace_Intrepid_Rollerbearings",
+      "Trace_Perspicacious_Mainframe"
+    ],
+    "altTracesMinor": [
+      "Icon_HP",
+      "Icon_Quantum_DMG_Boost",
+      "Icon_Break_Effect"
+    ],
     "altEidolons": [
-      "Character_Argenti_Eidolon_1",
-      "Character_Argenti_Eidolon_2",
-      "Character_Argenti_Eidolon_3",
-      "Character_Argenti_Eidolon_4",
-      "Character_Argenti_Eidolon_5",
-      "Character_Argenti_Eidolon_6"
+      "Character_Xueyi_Eidolon_1",
+      "Character_Xueyi_Eidolon_2",
+      "Character_Xueyi_Eidolon_3",
+      "Character_Xueyi_Eidolon_4",
+      "Character_Xueyi_Eidolon_5",
+      "Character_Xueyi_Eidolon_6"
     ],
     "altRelics": [
-      "Item_Champion_of_Streetwise_Boxing",
-      "Item_Musketeer_of_Wild_Wheat",
-      "Item_Messenger_Traversing_Hackerspace"
+      "Item_Genius_of_Brilliant_Stars",
+      "Item_Thief_of_Shooting_Meteor"
     ],
     "altOrnaments": [
+      "Item_Talia_Kingdom_of_Banditry",
       "Item_Firmament_Frontline_Glamoth",
-      "Item_Rutilant_Arena",
       "Item_Space_Sealing_Station",
       "Item_Inert_Salsotto"
     ],
     "altCones": [
-      "Light_Cone_An_Instant_Before_A_Gaze_Artwork",
-      "Light_Cone_Night_on_the_Milky_Way_Artwork",
-      "Light_Cone_Today_Is_Another_Peaceful_Day_Artwork",
-      "Light_Cone_Before_Dawn_Artwork",
-      "Light_Cone_Geniuses_Repose_Artwork",
-      "Light_Cone_The_Seriousness_of_Breakfast_Artwork",
-      "Light_Cone_Make_the_World_Clamor_Artwork"
+      "Light_Cone_On_the_Fall_of_an_Aeon_Artwork",
+      "Light_Cone_The_Moles_Welcome_You_Artwork",
+      "Light_Cone_Under_the_Blue_Sky_Artwork",
+      "Light_Cone_Nowhere_to_Run_Artwork",
+      "Light_Cone_Brighter_Than_the_Sun_Artwork"
     ]
   }
 ]
